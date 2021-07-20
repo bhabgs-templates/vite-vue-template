@@ -20,6 +20,9 @@
     "vite": "^2.4.2",
     "vue-tsc": "^0.0.24"
   },
+  "commitlint": {
+    "extends": ["@commitlint/config-conventional"]
+  },
   "husky": {
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
