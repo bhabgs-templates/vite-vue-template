@@ -10,11 +10,11 @@
     "vue": "^3.0.5"
   },
   "devDependencies": {
-    "@commitlint/cli": "^12.1.4",
-    "@commitlint/config-conventional": "^12.1.4",
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "cz-customizable": "^6.2.0",
     "@vitejs/plugin-vue-jsx": "^1.1.6",
     "@vue/compiler-sfc": "^3.0.5",
-    "cz-customizable": "^6.3.0",
     "husky": "^7.0.1",
     "prettier": "^2.3.2",
     "typescript": "^4.3.2",
