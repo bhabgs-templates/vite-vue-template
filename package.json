@@ -4,7 +4,7 @@
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "serve": "vite preview",
-    "commit-lint": "npx --no-install commitlint --edit $1",
+    "commit:create-msg-lint": "npx husky add .husky/commit-msg 'npx --no-install commitlint --edit $1'",
     "commit": "cz"
   },
   "dependencies": {
