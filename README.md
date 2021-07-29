@@ -4,6 +4,10 @@
 
 ## 开始
 
+### vite 安装
+
+1. npx degit bhabgs-templates/vite-ts-template pn
+
 ### 第一步安装依赖
 
 > 1. `yarn` or `npm i`
