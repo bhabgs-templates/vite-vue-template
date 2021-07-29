@@ -1,7 +1,7 @@
-import { defineComponent, getCurrentInstance } from 'vue';
+import { defineComponent } from 'vue';
 
 export default defineComponent({
-  setup() {
+  setup(props, context) {
     return () => <div>aa</div>;
   },
 });
