@@ -1,22 +1,22 @@
 import { defineConfig } from 'vite';
-import vueJsx from '@vitejs/plugin-vue-jsx';
-import eslintPlugin from '@nabla/vite-plugin-eslint';
-import path from 'path';
+import plugins from './build/vite/plugins';
+import css from './build/vite/css';
+import proxy from './build/vite/proxy';
+import { pathResolve } from './build/utils';
 
-// https://vitejs.dev/config/
-export default defineConfig({
-  plugins: [
-    vueJsx(),
-    eslintPlugin({
-      eslintOptions: {
-        cache: false,
-      },
-    }),
-  ],
+export default defineConfig(() => ({
+  base: '/equipment/',
+  envDir: pathResolve('env'),
+  plugins: plugins(),
+  css: css(),
   resolve: {
     alias: {
-      // 配置别名
-      '@': path.resolve(__dirname, './src'),
+      '@': pathResolve('src'),
+      '-': pathResolve(''),
     },
   },
-});
+  server: {
+    host: '0.0.0.0',
+    proxy: proxy(),
+  },
+}));
