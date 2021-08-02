@@ -35,3 +35,13 @@
 ```json
 { "path": "cz-conventional-changelog" }
 ```
+
+## 说明
+
+-  `vite.config.ts` 配置项抽离到 `build` 文件夹下 
+-  `vite.config.ts` 以 `defineConfig` 接收函数的方式定义插件 方便不同mode设置不同配置
+-  抽离到 `build` 文件夹下的配置也须要以导出函数的形势
+-  `build` 下的plugins文件夹作用后台添加设置更多复杂或自定义vite插件使用
+-  `.env` 文件放到 `env` 文件夹下 解决文件过多 分类不明确
+-  运行 `npm commit` 来代替 `git commit` 提交之前首先验证 `eslint` 和 `stylelint` 代码检测 之后会验证commit格式是否复合所配置的标准 当全部验证通过后才会提交成功
+-  集成了单元测试 根据需求选择是否使用 支持 `.js` `.ts` `.jsx` `.tsx` `.vue` 文件的测试
