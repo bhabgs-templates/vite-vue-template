@@ -1,0 +1,51 @@
+.login_box {
+  display: flex;
+  flex-direction: column;
+  width: 25rem;
+  height: 29rem;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  background-color: #fff;
+
+  .ant-form {
+    padding: 0 1rem;
+  }
+
+  .ant-form-item {
+    margin-bottom: 0.5rem;
+
+    .ant-btn,
+    input {
+      height: 40px;
+      border-radius: 0.5rem;
+    }
+  }
+
+  h3 {
+    padding: 2rem 0;
+    text-align: center;
+    font-weight: normal;
+  }
+
+  .login_tab {
+    height: 3rem;
+    display: flex;
+
+    .item {
+      flex: 1;
+      text-align: center;
+      line-height: 2.8rem;
+      cursor: pointer;
+      background: #ebf8ff;
+      transition: all 0.3s ease;
+      opacity: 0.5;
+
+      &.active,
+      &:hover {
+        color: #fff;
+        opacity: 0.8;
+        background: linear-gradient(90deg, #2eb2ff, #6d71ff);
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+@import url('./loginBox.less');
+.login {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  .title {
+    height: 4.3rem;
+    display: flex;
+    align-items: center;
+    padding: 0 5rem;
+    img {
+      width: 42px;
+    }
+    span {
+      padding-left: 1rem;
+      font-size: 1.57rem;
+      font-weight: 400;
+    }
+  }
+  .content_login {
+    @media screen {
+      display: flex;
+      position: relative;
+      flex: 1;
+      align-items: center;
+      background-image: url(../img/loginBackground.png);
+      background-position: center 0;
+      background-size: cover;
+      .login_box {
+        right: 10rem;
+        position: absolute;
+      }
+      @media (max-width: 768px) {
+        justify-content: center;
+
+        .login_box {
+          right: 0;
+          position: initial;
+        }
+      }
+    }
+  }
+  .copyright-information {
+    margin: 0 10px;
+    padding: 0;
+    height: 30px;
+    line-height: 30px;
+    color: #666;
+    font-size: 14px;
+    text-align: center;
+    a {
+      color: #666;
+      text-decoration: none;
+    }
+  }
+}

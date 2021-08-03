@@ -46,6 +46,7 @@ module.exports = defineConfig({
     '@typescript-eslint/no-unused-vars-experimental': 'warn',
     'prefer-const': 'error',
     'no-plusplus': 'off',
+    'no-new': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
   },
 });
