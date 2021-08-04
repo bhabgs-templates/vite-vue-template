@@ -5,7 +5,7 @@ import proxy from './build/vite/proxy';
 import { pathResolve } from './build/utils';
 
 export default defineConfig(() => ({
-  base: '/self/',
+  base: '/',
   envDir: pathResolve('env'),
   plugins: plugins(),
   css: css(),

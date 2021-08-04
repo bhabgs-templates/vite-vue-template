@@ -1,7 +1,7 @@
-import { defineComponent, reactive, ref } from 'vue';
+import { defineComponent, reactive, ref, PropType } from 'vue';
 import { Form, message } from 'ant-design-vue';
-import code from '@/assets/img/code.png';
 import { phoneNumber } from '@/utils/validation';
+import code from '@/assets/img/code.png';
 
 type LoginType = 1 | 2;
 
@@ -12,13 +12,16 @@ export interface EventBySubmitParams {
   loginType: LoginType;
   msg?: string;
 }
+// loginTab 数据格式
+export type LoginTab<T = LoginType> = Array<{ name: string; id: T }>;
+
 const aForm = Form;
 const formItem = Form.Item;
 // props
 const props = {
   loginTab: {
-    type: Array,
-    default() {
+    type: Array as PropType<LoginTab>,
+    default(): LoginTab {
       return [
         {
           name: '扫码登录',

@@ -1,15 +1,15 @@
+/* eslint-disable global-require */
 module.exports = {
   plugins: [
-    // https://github.com/cuth/postcss-pxtorem
+    // eslint-disable-next-line @typescript-eslint/no-var-requires
     require('postcss-pxtorem')({
-      rootValue: 12,
+      rootValue: 14,
       unitPrecision: 5,
       propList: ['*', '!border*'],
       selectorBlackList: [],
       replace: true,
       mediaQuery: false,
       minPixelValue: 0,
-      // exclude: /node_modules/i,
     }),
     require('autoprefixer'),
   ],

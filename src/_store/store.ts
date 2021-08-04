@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import { ReactiveEffect } from 'vue';
 
 /* eslint-disable @typescript-eslint/no-empty-interface */

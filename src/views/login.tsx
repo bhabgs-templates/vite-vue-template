@@ -1,6 +1,6 @@
 import { Component, defineComponent } from 'vue';
 import logo from '@/assets/img/logo.png';
-import loginBox, { EventBySubmitParams } from '@/components/loginBox';
+import loginBox from '@/components/loginBox';
 
 const components: Component = {
   components: { loginBox },
