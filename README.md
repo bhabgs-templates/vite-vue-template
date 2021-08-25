@@ -1,6 +1,8 @@
 # Vue 3 + Typescript(tsx) + Vite
 
 > 以是工程描述，开发时请认真阅读
+> `cz-customizable` 默认AngularJS 规范
+> `commitlint-config-cz` 配合 ·`cz-customizable· 使用
 
 ## 开始
 

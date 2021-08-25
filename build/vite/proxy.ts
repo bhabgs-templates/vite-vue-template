@@ -2,15 +2,10 @@ import { ProxyOptions } from 'vite';
 
 export default (): Record<string, string | ProxyOptions> => {
   return {
-    // '/*/': {
-    //   target: ${otherIp},
-    //   ws: false,
-    //   changeOrigin: true,
-    // },
-    // '/api/': {
-    //   target: ip,
-    //   ws: false,
-    //   changeOrigin: true,
-    // },
+    '/ht_/': {
+      target: 'http://192.168.5.211/ht_/',
+      ws: false,
+      rewrite: (path) => path.replace(/^\/ht_/, ''),
+    },
   };
 };

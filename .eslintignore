@@ -7,7 +7,7 @@ dist-ssr
 .prettierignore
 .eslintignore
 .gitignore
-
+/types/ht/
 /bin
 /docs
 .husky

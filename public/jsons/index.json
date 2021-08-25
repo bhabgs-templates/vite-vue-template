@@ -1,0 +1,1560 @@
+{
+  "v": "7.2.4",
+  "p": {
+    "background": "000",
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "fitContent": true
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 1195,
+      "p": {
+        "displayName": "聚凝剂-添加装置-620",
+        "tag": "jnj_620",
+        "image": "symbols/工厂设备/门克庆/聚凝剂-添加装置.json",
+        "position": {
+          "x": 753.36031,
+          "y": -250.24648
+        }
+      },
+      "a": {
+        "pl.v": 20,
+        "fx": true,
+        "xh.v": false,
+        "gysc.v": 120,
+        "cyxyw.v": 30,
+        "jbtyw.v": 20,
+        "kzms.v": "自动",
+        "tjms.v": "智能",
+        "tjms.tc": "631",
+        "tjms.mc": "I_CONTRO",
+        "kzms.tc": "613",
+        "kzms.mc": "R_AUTO_B",
+        "pl.tc": "613_4",
+        "pl.mc": "SPEED",
+        "jbtyw.tc": "613",
+        "jbtyw.mc": "SLEVEL_STIR",
+        "cyxyw.tc": "613",
+        "cyxyw.mc": "LEVEL_STORAGE",
+        "gysc.tc": "613_2",
+        "gysc.mc": "TIME_SET_FLOC",
+        "xh.tc": "613",
+        "xh.mc": "RUNS"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1196,
+      "p": {
+        "displayName": "聚凝剂-添加装置-621",
+        "tag": "jnj_621",
+        "image": "symbols/工厂设备/门克庆/聚凝剂-添加装置.json",
+        "position": {
+          "x": 753.36031,
+          "y": 259.72583
+        },
+        "width": 280,
+        "height": 470,
+        "tall": 20
+      },
+      "a": {
+        "xh.mc": "RUNS",
+        "xh.tc": "614",
+        "tjms.v": "智能",
+        "kzms.v": "手动",
+        "pl.v": 36,
+        "jbtyw.v": 65,
+        "gysc.v": 75,
+        "cyxyw.v": 25,
+        "tjms.tc": "614",
+        "tjms.mc": "I_CONTROL",
+        "kzms.mc": "R_AUTO_B",
+        "kzms.tc": "614",
+        "pl.tc": "614_4",
+        "pl.mc": "SPEED",
+        "jbtyw.tc": "614",
+        "jbtyw.mc": "SLEVEL_STIR",
+        "cyxyw.tc": "614",
+        "cyxyw.mc": "LEVEL_STORAGE",
+        "gysc.tc": "614_2",
+        "gysc.mc": "TIME_SET_FLOC"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1197,
+      "p": {
+        "displayName": "分料箱",
+        "tag": "flx",
+        "image": "symbols/工厂设备/门克庆/分料箱.json",
+        "position": {
+          "x": 1097.74276,
+          "y": 49.72583
+        }
+      },
+      "a": {
+        "card.v": 0.6,
+        "card.tc": "601",
+        "card.mc": "CONCENTRATION"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1198,
+      "p": {
+        "displayName": "压滤机",
+        "image": "symbols/工厂设备/门克庆/压滤机.json",
+        "position": {
+          "x": 2328.92763,
+          "y": -243.24648
+        }
+      },
+      "a": {
+        "mc": "365"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1199,
+      "p": {
+        "displayName": "压滤机",
+        "image": "symbols/工厂设备/门克庆/压滤机.json",
+        "position": {
+          "x": 2328.92763,
+          "y": -25.58904
+        },
+        "width": 285,
+        "height": 130,
+        "tall": 20
+      },
+      "a": {
+        "mc": "365"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1200,
+      "p": {
+        "displayName": "406",
+        "image": "symbols/工厂设备/门克庆/406.json",
+        "position": {
+          "x": 2778.78236,
+          "y": -250.24648
+        },
+        "width": 140.13176,
+        "height": 60
+      },
+      "a": {
+        "mc": "366"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1201,
+      "p": {
+        "displayName": "406",
+        "image": "symbols/工厂设备/门克庆/406.json",
+        "position": {
+          "x": 2778.78236,
+          "y": -34.74648
+        },
+        "width": 140.13176,
+        "height": 60,
+        "tall": 20
+      },
+      "a": {
+        "mc": "367"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1202,
+      "p": {
+        "displayName": "406",
+        "image": "symbols/工厂设备/门克庆/406.json",
+        "position": {
+          "x": 2894.75733,
+          "y": 165.47583
+        },
+        "width": 220,
+        "height": 60,
+        "tall": 20
+      },
+      "a": {
+        "mc": "370"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1203,
+      "p": {
+        "displayName": "渣浆泵-c",
+        "image": "symbols/工厂设备/渣浆泵-c.json",
+        "position": {
+          "x": 2973.78242,
+          "y": 334.72583
+        }
+      },
+      "a": {
+        "tc": "360"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1204,
+      "p": {
+        "displayName": "水池",
+        "tag": "sc_359",
+        "image": "symbols/工厂设备/水池.json",
+        "position": {
+          "x": 2848.78236,
+          "y": 319.72583
+        }
+      },
+      "a": {
+        "val": 0,
+        "sc.tc": "359",
+        "sc.v": 1,
+        "sc.mc": "LEVELPROPORTION"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 1205,
+      "p": {
+        "displayName": "600水池",
+        "position": {
+          "x": 2848.78236,
+          "y": 459.72583
+        },
+        "anchor": {
+          "x": 0.18462,
+          "y": 0.5
+        },
+        "width": 379.15686,
+        "height": 120
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1206,
+      "p": {
+        "displayName": "水池",
+        "parent": {
+          "__i": 1205
+        },
+        "tag": "sc_600",
+        "image": "symbols/工厂设备/水池.json",
+        "position": {
+          "x": 2848.78236,
+          "y": 459.72583
+        },
+        "width": 140,
+        "height": 120,
+        "tall": 20
+      },
+      "a": {
+        "sc.mc": "LEVELPROPORTION",
+        "sc.tc": "600"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1207,
+      "p": {
+        "displayName": "渣浆泵-c",
+        "parent": {
+          "__i": 1205
+        },
+        "image": "symbols/工厂设备/渣浆泵-c.json",
+        "position": {
+          "x": 2998.78236,
+          "y": 456.22583
+        },
+        "width": 50,
+        "height": 77,
+        "tall": 20
+      },
+      "a": {
+        "tc": "607"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1208,
+      "p": {
+        "displayName": "渣浆泵-c",
+        "parent": {
+          "__i": 1205
+        },
+        "image": "symbols/工厂设备/渣浆泵-c.json",
+        "position": {
+          "x": 3065.86079,
+          "y": 456.22583
+        },
+        "width": 50,
+        "height": 77,
+        "tall": 20
+      },
+      "a": {
+        "tc": "608"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1209,
+      "p": {
+        "displayName": "渣浆泵-c",
+        "parent": {
+          "__i": 1205
+        },
+        "image": "symbols/工厂设备/渣浆泵-c.json",
+        "position": {
+          "x": 3132.93922,
+          "y": 456.22583
+        },
+        "width": 50,
+        "height": 77,
+        "tall": 20
+      },
+      "a": {
+        "tc": "609"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 1210,
+      "p": {
+        "displayName": "602",
+        "position": {
+          "x": 1460.44778,
+          "y": 284.72583
+        },
+        "width": 363,
+        "height": 370
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1211,
+      "p": {
+        "displayName": "浓缩机-component",
+        "parent": {
+          "__i": 1210
+        },
+        "tag": "nsj_602",
+        "image": "symbols/工厂设备/门克庆/浓缩机-component.json",
+        "position": {
+          "x": 1460.44778,
+          "y": 284.72583
+        },
+        "width": 363,
+        "height": 370,
+        "tall": 20
+      },
+      "a": {
+        "xh.tc": "602",
+        "by.v": 20,
+        "cqcgd.v": 1.2,
+        "by.tc": "602",
+        "by.mc": "RAKE_PRESSURE",
+        "cqcgd.tc": "602",
+        "cqcgd.mc": "WATER_LEVEL"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1212,
+      "p": {
+        "displayName": "渣浆泵-c",
+        "parent": {
+          "__i": 1210
+        },
+        "image": "symbols/工厂设备/渣浆泵-c.json",
+        "position": {
+          "x": 1407.84709,
+          "y": 266.22583
+        },
+        "width": 50,
+        "height": 77
+      },
+      "a": {
+        "tc": "605"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1213,
+      "p": {
+        "displayName": "渣浆泵-c",
+        "parent": {
+          "__i": 1210
+        },
+        "image": "symbols/工厂设备/渣浆泵-c.json",
+        "position": {
+          "x": 1537.34737,
+          "y": 268.22583
+        },
+        "width": 50,
+        "height": 77,
+        "tall": 20
+      },
+      "a": {
+        "tc": "606"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 1214,
+      "p": {
+        "displayName": "601",
+        "position": {
+          "x": 1460.44778,
+          "y": -230.24648
+        },
+        "width": 363,
+        "height": 370
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1215,
+      "p": {
+        "displayName": "浓缩机-component",
+        "parent": {
+          "__i": 1214
+        },
+        "tag": "nsj_601",
+        "image": "symbols/工厂设备/门克庆/浓缩机-component.json",
+        "position": {
+          "x": 1460.44778,
+          "y": -230.24648
+        },
+        "width": 363,
+        "height": 370,
+        "tall": 20
+      },
+      "a": {
+        "by.v": 25,
+        "xh.v": false,
+        "cqcgd.v": 0.8,
+        "by.tc": "601",
+        "by.mc": "RAKE_PRESSURE",
+        "cqcgd.tc": "601",
+        "cqcgd.mc": "WATER_LEVEL"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1216,
+      "p": {
+        "displayName": "渣浆泵-c",
+        "parent": {
+          "__i": 1214
+        },
+        "image": "symbols/工厂设备/渣浆泵-c.json",
+        "position": {
+          "x": 1407.84709,
+          "y": -248.74648
+        },
+        "width": 50,
+        "height": 77,
+        "tall": 20
+      },
+      "a": {
+        "tc": "603"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1217,
+      "p": {
+        "displayName": "渣浆泵-c",
+        "parent": {
+          "__i": 1214
+        },
+        "image": "symbols/工厂设备/渣浆泵-c.json",
+        "position": {
+          "x": 1537.34737,
+          "y": -246.74648
+        },
+        "width": 50,
+        "height": 77,
+        "tall": 20
+      },
+      "a": {
+        "tc": "604"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 1218,
+      "p": {
+        "displayName": "水桶1",
+        "position": {
+          "x": 1845.21128,
+          "y": -173.24648
+        },
+        "anchor": {
+          "x": 0.26533,
+          "y": 0.51236
+        },
+        "width": 207.2916,
+        "height": 222.5
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1219,
+      "p": {
+        "displayName": "水桶",
+        "parent": {
+          "__i": 1218
+        },
+        "tag": "shuitong_352",
+        "image": "symbols/工厂设备/门克庆/水桶.json",
+        "position": {
+          "x": 1845.21128,
+          "y": -173.24648
+        },
+        "width": 110,
+        "height": 140
+      },
+      "a": {
+        "tc": "352",
+        "v": 0.6,
+        "mc": "LEVELPROPORTION"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1220,
+      "p": {
+        "displayName": "渣浆泵-c",
+        "parent": {
+          "__i": 1218
+        },
+        "image": "symbols/工厂设备/渣浆泵-c.json",
+        "position": {
+          "x": 1972.50288,
+          "y": -248.74648
+        },
+        "width": 50,
+        "height": 77
+      },
+      "a": {
+        "tc": "362"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1221,
+      "p": {
+        "displayName": "渣浆泵-c",
+        "parent": {
+          "__i": 1218
+        },
+        "image": "symbols/工厂设备/渣浆泵-c.json",
+        "position": {
+          "x": 1972.50288,
+          "y": -103.24648
+        },
+        "width": 50,
+        "height": 77,
+        "tall": 20
+      },
+      "a": {
+        "tc": "354"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 1222,
+      "p": {
+        "displayName": "水桶2",
+        "position": {
+          "x": 1867.35965,
+          "y": 309.47583
+        },
+        "anchor": {
+          "x": 0.26533,
+          "y": 0.51236
+        },
+        "width": 207.2916,
+        "height": 222.5
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1223,
+      "p": {
+        "displayName": "水桶",
+        "parent": {
+          "__i": 1222
+        },
+        "tag": "shuitong_361",
+        "image": "symbols/工厂设备/门克庆/水桶.json",
+        "position": {
+          "x": 1867.35965,
+          "y": 309.47583
+        },
+        "width": 110,
+        "height": 140,
+        "tall": 20
+      },
+      "a": {
+        "tc": "361",
+        "v": 0.7,
+        "mc": "LEVELPROPORTION"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1224,
+      "p": {
+        "displayName": "渣浆泵-c",
+        "parent": {
+          "__i": 1222
+        },
+        "image": "symbols/工厂设备/渣浆泵-c.json",
+        "position": {
+          "x": 1994.65125,
+          "y": 233.97583
+        },
+        "width": 50,
+        "height": 77,
+        "tall": 20
+      },
+      "a": {
+        "tc": "362"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1225,
+      "p": {
+        "displayName": "渣浆泵-c",
+        "parent": {
+          "__i": 1222
+        },
+        "image": "symbols/工厂设备/渣浆泵-c.json",
+        "position": {
+          "x": 1994.65125,
+          "y": 379.47583
+        },
+        "width": 50,
+        "height": 77,
+        "tall": 20
+      },
+      "a": {
+        "tc": "363"
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1226,
+      "p": {
+        "source": {
+          "__i": 1195
+        },
+        "target": {
+          "__i": 1197
+        }
+      },
+      "s": {
+        "edge.color": "#EFF1F4",
+        "edge.width": 5,
+        "edge.dash": true,
+        "edge.dash.color": "#05D84B",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": [
+            {
+              "x": 938.54206,
+              "y": -224.02947
+            },
+            {
+              "x": 938.54206,
+              "y": 49.72583
+            }
+          ]
+        },
+        "edge.source.anchor.x": 1,
+        "edge.source.anchor.y": 0.55578,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.02454,
+        "edge.target.anchor.y": 0.5,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1227,
+      "p": {
+        "source": {
+          "__i": 1196
+        },
+        "target": {
+          "__i": 1226
+        }
+      },
+      "s": {
+        "edge.color": "#EFF1F4",
+        "edge.width": 5,
+        "edge.dash": true,
+        "edge.dash.color": "#05D84B",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": [
+            {
+              "x": 941.5192,
+              "y": 243.38085
+            },
+            {
+              "x": 941.5192,
+              "y": 49.72583
+            }
+          ]
+        },
+        "edge.source.anchor.x": 1,
+        "edge.source.anchor.y": 0.46522,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0,
+        "edge.target.index": 1
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1228,
+      "p": {
+        "source": {
+          "__i": 1197
+        },
+        "target": {
+          "__i": 1214
+        }
+      },
+      "s": {
+        "edge.color": "#EFF1F4",
+        "edge.width": 5,
+        "edge.dash": true,
+        "edge.dash.color": "#05D84B",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": [
+            {
+              "x": 1258.58416,
+              "y": 49.72583
+            },
+            {
+              "x": 1258.58416,
+              "y": -356.51201
+            }
+          ]
+        },
+        "edge.source.anchor.x": 1,
+        "edge.source.anchor.y": 0.5,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.14484,
+        "edge.target.anchor.y": 0.15874,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1229,
+      "p": {
+        "source": {
+          "__i": 1228
+        },
+        "target": {
+          "__i": 1210
+        }
+      },
+      "s": {
+        "edge.color": "#EFF1F4",
+        "edge.width": 5,
+        "edge.dash": true,
+        "edge.dash.color": "#05D84B",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": [
+            {
+              "x": 1258.58416,
+              "y": 49.72583
+            },
+            {
+              "x": 1258.58416,
+              "y": 159.27677
+            }
+          ]
+        },
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.08128,
+        "edge.target.anchor.y": 0.16095,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0,
+        "edge.source.index": 0
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1230,
+      "p": {
+        "source": {
+          "__i": 1214
+        },
+        "target": {
+          "__i": 1231
+        }
+      },
+      "s": {
+        "edge.color": "#EFF1F4",
+        "edge.width": 5,
+        "edge.dash": true,
+        "edge.dash.color": "#05D84B",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": [
+            {
+              "x": 1407.84709,
+              "y": -173.24648
+            },
+            {
+              "x": 1715.57451,
+              "y": -173.24648
+            },
+            {
+              "x": 1715.57451,
+              "y": -363.95485
+            },
+            {
+              "x": 1862.94273,
+              "y": -363.95485
+            }
+          ]
+        },
+        "edge.source.anchor.x": 0.35603,
+        "edge.source.anchor.y": 0.56106,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0,
+        "edge.target.index": 5
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1231,
+      "p": {
+        "source": {
+          "__i": 1214
+        },
+        "target": {
+          "__i": 1218
+        }
+      },
+      "s": {
+        "edge.color": "#EFF1F4",
+        "edge.width": 5,
+        "edge.dash": true,
+        "edge.dash.color": "#05D84B",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": [
+            {
+              "x": 1537.69064,
+              "y": -173.24648
+            },
+            {
+              "x": 1717.06308,
+              "y": -173.24648
+            },
+            {
+              "x": 1717.06308,
+              "y": -362.46628
+            },
+            {
+              "x": 1862.94273,
+              "y": -362.46628
+            }
+          ]
+        },
+        "edge.source.anchor.x": 0.71279,
+        "edge.source.anchor.y": 0.56307,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.35087,
+        "edge.target.anchor.y": 0.25,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1232,
+      "p": {
+        "source": {
+          "__i": 1210
+        },
+        "target": {
+          "__i": 1222
+        }
+      },
+      "s": {
+        "edge.color": "#EFF1F4",
+        "edge.width": 5,
+        "edge.dash": true,
+        "edge.dash.color": "#05D84B",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": [
+            {
+              "x": 1535.45779,
+              "y": 340.88205
+            },
+            {
+              "x": 1749.06729,
+              "y": 340.88205
+            },
+            {
+              "x": 1749.06729,
+              "y": 171.92959
+            },
+            {
+              "x": 1879.31698,
+              "y": 171.92959
+            }
+          ]
+        },
+        "edge.source.anchor.x": 0.70664,
+        "edge.source.anchor.y": 0.58338,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.32301,
+        "edge.target.anchor.y": 0.20527,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1233,
+      "p": {
+        "source": {
+          "__i": 1210
+        },
+        "target": {
+          "__i": 1232
+        }
+      },
+      "s": {
+        "edge.color": "#EFF1F4",
+        "edge.width": 5,
+        "edge.dash": true,
+        "edge.dash.color": "#05D84B",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": [
+            {
+              "x": 1407.44095,
+              "y": 340.88205
+            },
+            {
+              "x": 1746.09015,
+              "y": 340.88205
+            },
+            {
+              "x": 1746.09015,
+              "y": 173.41816
+            },
+            {
+              "x": 1878.57269,
+              "y": 173.41816
+            }
+          ]
+        },
+        "edge.source.anchor.x": 0.35398,
+        "edge.source.anchor.y": 0.56326,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0,
+        "edge.target.index": 5
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1234,
+      "p": {
+        "source": {
+          "__i": 1220
+        },
+        "target": {
+          "__i": 1198
+        }
+      },
+      "s": {
+        "edge.color": "#EFF1F4",
+        "edge.width": 5,
+        "edge.dash": true,
+        "edge.dash.color": "#05D84B",
+        "edge.type": "boundary"
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1235,
+      "p": {
+        "source": {
+          "__i": 1221
+        },
+        "target": {
+          "__i": 1199
+        }
+      },
+      "s": {
+        "edge.color": "#EFF1F4",
+        "edge.width": 5,
+        "edge.dash": true,
+        "edge.dash.color": "#05D84B",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": [
+            {
+              "x": 2072.55851,
+              "y": -95.83418
+            },
+            {
+              "x": 2072.55851,
+              "y": -25.58904
+            }
+          ]
+        },
+        "edge.source.anchor.x": 1.34648,
+        "edge.source.anchor.y": 0.59626,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": -0.02277,
+        "edge.target.anchor.y": 0.5,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1236,
+      "p": {
+        "source": {
+          "__i": 1199
+        },
+        "target": {
+          "__i": 1201
+        }
+      },
+      "s": {
+        "edge.color": "#EFF1F4",
+        "edge.width": 5,
+        "edge.dash": true,
+        "edge.dash.color": "#05D84B",
+        "edge.type": "boundary"
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1237,
+      "p": {
+        "source": {
+          "__i": 1198
+        },
+        "target": {
+          "__i": 1200
+        }
+      },
+      "s": {
+        "edge.color": "#EFF1F4",
+        "edge.width": 5,
+        "edge.dash": true,
+        "edge.dash.color": "#05D84B",
+        "edge.type": "boundary"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1238,
+      "p": {
+        "displayName": "碎碎机",
+        "image": "symbols/工厂设备/门克庆/碎碎机.json",
+        "position": {
+          "x": 2308.42428,
+          "y": 239.47583
+        }
+      },
+      "a": {
+        "tc": "355"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1239,
+      "p": {
+        "displayName": "碎碎机",
+        "image": "symbols/工厂设备/门克庆/碎碎机.json",
+        "position": {
+          "x": 2308.42428,
+          "y": 389.72583
+        }
+      },
+      "a": {
+        "tc": "356"
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1240,
+      "p": {
+        "source": {
+          "__i": 1222
+        },
+        "target": {
+          "__i": 1238
+        }
+      },
+      "s": {
+        "edge.color": "#EFF1F4",
+        "edge.width": 5,
+        "edge.dash": true,
+        "edge.dash.color": "#05D84B",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 1.03248,
+        "edge.source.anchor.y": 0.25,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": -0.02256,
+        "edge.target.anchor.y": 0.61808,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1241,
+      "p": {
+        "source": {
+          "__i": 1222
+        },
+        "target": {
+          "__i": 1239
+        }
+      },
+      "s": {
+        "edge.color": "#EFF1F4",
+        "edge.width": 5,
+        "edge.dash": true,
+        "edge.dash.color": "#05D84B",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 1.05034,
+        "edge.source.anchor.y": 0.89383,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": -0.04725,
+        "edge.target.anchor.y": 0.55399,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1242,
+      "p": {
+        "source": {
+          "__i": 1239
+        },
+        "target": {
+          "__i": 1202
+        }
+      },
+      "s": {
+        "edge.color": "#EFF1F4",
+        "edge.width": 5,
+        "edge.dash": true,
+        "edge.dash.color": "#05D84B",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": [
+            {
+              "x": 2641.30583,
+              "y": 378.6416
+            },
+            {
+              "x": 2641.30583,
+              "y": 80.82851
+            },
+            {
+              "x": 2996.43031,
+              "y": 80.82851
+            }
+          ]
+        },
+        "edge.source.anchor.x": 1.12027,
+        "edge.source.anchor.y": 0.44165,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.96215,
+        "edge.target.anchor.y": 0.36756,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1243,
+      "p": {
+        "source": {
+          "__i": 1238
+        },
+        "target": {
+          "__i": 1242
+        }
+      },
+      "s": {
+        "edge.color": "#EFF1F4",
+        "edge.width": 5,
+        "edge.dash": true,
+        "edge.dash.color": "#05D84B",
+        "edge.target.index": 1,
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": [
+            {
+              "x": 2641.30583,
+              "y": 239.47583
+            }
+          ]
+        },
+        "edge.source.anchor.x": 1.15429,
+        "edge.source.anchor.y": 0.5,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1244,
+      "p": {
+        "displayName": "破碎机",
+        "image": "symbols/工厂设备/门克庆/破碎机.json",
+        "position": {
+          "x": 2983.78236,
+          "y": -262.74648
+        }
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1245,
+      "p": {
+        "displayName": "破碎机",
+        "image": "symbols/工厂设备/门克庆/破碎机.json",
+        "position": {
+          "x": 2998.78236,
+          "y": -45.24648
+        },
+        "width": 130,
+        "height": 105,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1246,
+      "p": {
+        "source": {
+          "__i": 1200
+        },
+        "target": {
+          "__i": 1244
+        }
+      },
+      "s": {
+        "edge.color": "#EFF1F4",
+        "edge.width": 5,
+        "edge.dash": true,
+        "edge.dash.color": "#05D84B",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 1,
+        "edge.source.anchor.y": 0.62935,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": -0.0674,
+        "edge.target.anchor.y": 0.67391,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1247,
+      "p": {
+        "source": {
+          "__i": 1201
+        },
+        "target": {
+          "__i": 1245
+        }
+      },
+      "s": {
+        "edge.color": "#EFF1F4",
+        "edge.width": 5,
+        "edge.dash": true,
+        "edge.dash.color": "#05D84B",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 1,
+        "edge.source.anchor.y": 0.60082,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": -0.04039,
+        "edge.target.anchor.y": 0.66643,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1248,
+      "p": {
+        "source": {
+          "__i": 1244
+        },
+        "target": {
+          "__i": 1242
+        }
+      },
+      "s": {
+        "edge.color": "#EFF1F4",
+        "edge.width": 5,
+        "edge.dash": true,
+        "edge.dash.color": "#05D84B",
+        "edge.target.index": 4,
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": [
+            {
+              "x": 2983.78236,
+              "y": -140.7082
+            },
+            {
+              "x": 3126.12889,
+              "y": -140.7082
+            },
+            {
+              "x": 3126.12889,
+              "y": 43.50846
+            },
+            {
+              "x": 2996.43031,
+              "y": 43.50846
+            }
+          ]
+        },
+        "edge.source.anchor.x": 0.5,
+        "edge.source.anchor.y": 1.07016,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1249,
+      "p": {
+        "source": {
+          "__i": 1245
+        },
+        "target": {
+          "__i": 1248
+        }
+      },
+      "s": {
+        "edge.color": "#EFF1F4",
+        "edge.width": 5,
+        "edge.dash": true,
+        "edge.dash.color": "#05D84B",
+        "edge.target.index": 5,
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 0.5,
+        "edge.source.anchor.y": 1.0488,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0
+      }
+    }
+  ],
+  "modified": "Tue Aug 24 2021 11:04:03 GMT+0800 (中国标准时间)",
+  "contentRect": {
+    "x": 613.36031,
+    "y": -485.24648,
+    "width": 2544.57897,
+    "height": 1004.97231
+  }
+}
