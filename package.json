@@ -14,7 +14,7 @@
     "lint:prettier": "prettier --write --no-editorconfig --config-precedence file-override '**/*.{js,ts,json,jsonc,jsx,tsx,css,less,scss,vue,html,md}'",
     "lint:stylelint": "stylelint '**/*.{css,scss,less,styl,postcss,vue,html}'",
     "lint:lint-staged": "lint-staged",
-    "commit": "./node_modules/cz-customizable/standalone.js",
+    "commit": "node ./node_modules/cz-customizable/standalone.js",
     "test:unit": "jest"
   },
   "dependencies": {
