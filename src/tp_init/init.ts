@@ -25,7 +25,7 @@ export default (opt: TPINIT) => {
     graphView.deserialize(opt.json, (json, dm, gv, data) => {
       if (json.title) document.title = json.title;
       gv.setMovableFunc(() => false);
-      opt.callBack(json, dm, gv, data);
+      if (opt.callBack) opt.callBack(json, dm, gv, data);
       res({
         json,
         dm,
