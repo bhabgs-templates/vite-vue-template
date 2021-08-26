@@ -1,5 +1,6 @@
 import { defineComponent, reactive, onMounted, watch } from 'vue';
 import { RadioGroup, RadioButton } from 'ant-design-vue';
+import { useRoute } from 'vue-router';
 import init from '@/tp_init/init';
 import tpDataBase from '@/tp_init/base';
 
@@ -11,21 +12,22 @@ export default defineComponent({
       list: tpDataBase,
       index: 'a',
     });
+    const route = useRoute();
 
     onMounted(async () => {
+      const item = radio.list.find((n) => n.val === route.params.model);
       const { dm, gv, reload } = await init({
-        json: radio.list[0].json,
+        json: item?.json || '',
         dom: document.getElementById('tp'),
-        callBack: radio.list[0].callBack,
+        callBack: item?.callBack,
       });
 
       watch(
         () => radio.index,
         (e) => {
-          const item = radio.list.find((n) => n.val === e);
-
-          if (item) {
-            reload(item.json, item.callBack);
+          const nitem = radio.list.find((n) => n.val === e);
+          if (nitem) {
+            reload(nitem.json, nitem.callBack);
           }
         },
       );
@@ -33,7 +35,7 @@ export default defineComponent({
 
     return () => (
       <div class='tp_box'>
-        <aradio value={radio.index}>
+        {/* <aradio value={radio.index}>
           {radio.list.map((item) => (
             <aradioButton
               value={item.val}
@@ -44,7 +46,7 @@ export default defineComponent({
               {item.name}
             </aradioButton>
           ))}
-        </aradio>
+        </aradio> */}
         <div
           id='tp'
           style={{

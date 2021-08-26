@@ -2,7 +2,7 @@
 import { DataModel, graph, List, deserializeCallBack } from 'ht';
 
 interface TPINIT {
-  callBack: deserializeCallBack;
+  callBack: deserializeCallBack | undefined;
   json: string;
   dom?: unknown | HTMLDivElement;
 }
@@ -22,7 +22,7 @@ export default (opt: TPINIT) => {
     graphView.addToDOM(dom);
   }
   return new Promise<PROMISETP>((res, rej) => {
-    graphView.deserialize('jsons/index.json', (json, dm, gv, data) => {
+    graphView.deserialize(opt.json, (json, dm, gv, data) => {
       if (json.title) document.title = json.title;
       gv.setMovableFunc(() => false);
       opt.callBack(json, dm, gv, data);

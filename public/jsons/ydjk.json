@@ -1,0 +1,1778 @@
+{
+  "v": "7.2.4",
+  "p": {
+    "background": "rgb(219,219,219)",
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "fitContent": true
+  },
+  "d": [
+    {
+      "c": "ht.Block",
+      "i": 70695,
+      "p": {
+        "displayName": "s1",
+        "position": {
+          "x": 532.7225,
+          "y": 1154.86516
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "width": 800,
+        "height": 1400
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 70537,
+      "p": {
+        "parent": {
+          "__i": 70695
+        },
+        "position": {
+          "x": 532.7225,
+          "y": 1154.86516
+        },
+        "width": 800,
+        "height": 1400
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgb(255,255,255)",
+        "shape.border.width": 1,
+        "shape.border.color": "#979797",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 23701,
+      "p": {
+        "displayName": "皮带201",
+        "parent": {
+          "__i": 70695
+        },
+        "image": "symbols/项目定制类/门客庆/皮带.json",
+        "position": {
+          "x": 299.40635,
+          "y": 518.50112
+        },
+        "width": 200,
+        "height": 50
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 29820,
+      "p": {
+        "displayName": "破碎机206",
+        "parent": {
+          "__i": 70695
+        },
+        "image": "symbols/项目定制类/门客庆/破碎机.json",
+        "position": {
+          "x": 689.77182,
+          "y": 800.11395
+        },
+        "width": 200,
+        "height": 124
+      },
+      "a": {
+        "tc": "206"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 44429,
+      "p": {
+        "displayName": "煤仓-s",
+        "parent": {
+          "__i": 70695
+        },
+        "image": "symbols/素材库/建筑/煤仓-s.json",
+        "position": {
+          "x": 299.40635,
+          "y": 1057.36516
+        },
+        "width": 200,
+        "height": 195
+      },
+      "a": {
+        "l.v": 0.2,
+        "r.v": 0.5
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 68494,
+      "p": {
+        "displayName": "直线筛",
+        "parent": {
+          "__i": 70695
+        },
+        "image": "symbols/项目定制类/门客庆/直线筛.json",
+        "position": {
+          "x": 679.77182,
+          "y": 563.00112
+        },
+        "width": 200,
+        "height": 139
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 69094,
+      "p": {
+        "displayName": "刮板",
+        "parent": {
+          "__i": 70695
+        },
+        "image": "symbols/项目定制类/门客庆/刮板.json",
+        "position": {
+          "x": 689.77182,
+          "y": 1770.16904
+        },
+        "width": 220,
+        "height": 54
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 70530,
+      "p": {
+        "displayName": "皮带201",
+        "parent": {
+          "__i": 70695
+        },
+        "image": "symbols/项目定制类/门客庆/皮带.json",
+        "position": {
+          "x": 299.40635,
+          "y": 671.80754
+        },
+        "width": 200,
+        "height": 50,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 70531,
+      "p": {
+        "displayName": "皮带201",
+        "parent": {
+          "__i": 70695
+        },
+        "image": "symbols/项目定制类/门客庆/皮带.json",
+        "position": {
+          "x": 299.40635,
+          "y": 825.11395
+        },
+        "width": 200,
+        "height": 50,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 70532,
+      "p": {
+        "displayName": "皮带201",
+        "parent": {
+          "__i": 70695
+        },
+        "image": "symbols/项目定制类/门客庆/皮带.json",
+        "position": {
+          "x": 472.71995,
+          "y": 1253.76308
+        },
+        "width": 200,
+        "height": 50,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 70533,
+      "p": {
+        "displayName": "皮带201",
+        "parent": {
+          "__i": 70695
+        },
+        "image": "symbols/项目定制类/门客庆/皮带.json",
+        "position": {
+          "x": 472.71995,
+          "y": 1368.61841
+        },
+        "width": 200,
+        "height": 50,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 70534,
+      "p": {
+        "displayName": "皮带201",
+        "parent": {
+          "__i": 70695
+        },
+        "image": "symbols/项目定制类/门客庆/皮带.json",
+        "position": {
+          "x": 472.71995,
+          "y": 1483.47374
+        },
+        "width": 200,
+        "height": 50,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 70535,
+      "p": {
+        "displayName": "皮带201",
+        "parent": {
+          "__i": 70695
+        },
+        "image": "symbols/项目定制类/门客庆/皮带.json",
+        "position": {
+          "x": 679.77182,
+          "y": 1648.47374
+        },
+        "width": 200,
+        "height": 50,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 121522,
+      "p": {
+        "displayName": "s2",
+        "position": {
+          "x": 2741.06669,
+          "y": 1154.86516
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "width": 3570.91839,
+        "height": 1400
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 70850,
+      "p": {
+        "parent": {
+          "__i": 121522
+        },
+        "position": {
+          "x": 2741.06669,
+          "y": 1154.86516
+        },
+        "width": 3570.91839,
+        "height": 1400
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgb(255,255,255)",
+        "shape.border.width": 1,
+        "shape.border.color": "#979797",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 72439,
+      "p": {
+        "displayName": "直线筛",
+        "parent": {
+          "__i": 121522
+        },
+        "image": "symbols/项目定制类/门客庆/直线筛.json",
+        "position": {
+          "x": 1545.81262,
+          "y": 627.30754
+        },
+        "width": 200,
+        "height": 139,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 76872,
+      "p": {
+        "displayName": "直线筛-1",
+        "parent": {
+          "__i": 121522
+        },
+        "image": "symbols/项目定制类/门客庆/直线筛-1.json",
+        "position": {
+          "x": 1237.12358,
+          "y": 627.30754
+        },
+        "width": 200,
+        "height": 139
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 77201,
+      "p": {
+        "displayName": "直线筛-1",
+        "parent": {
+          "__i": 121522
+        },
+        "image": "symbols/项目定制类/门客庆/直线筛-1.json",
+        "position": {
+          "x": 1137.12358,
+          "y": 1126.86516
+        },
+        "width": 200,
+        "height": 139
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 77202,
+      "p": {
+        "displayName": "直线筛-1",
+        "parent": {
+          "__i": 121522
+        },
+        "image": "symbols/项目定制类/门客庆/直线筛-1.json",
+        "position": {
+          "x": 1437.12358,
+          "y": 1126.86516
+        },
+        "width": 200,
+        "height": 139,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 77203,
+      "p": {
+        "displayName": "直线筛-1",
+        "parent": {
+          "__i": 121522
+        },
+        "image": "symbols/项目定制类/门客庆/直线筛-1.json",
+        "position": {
+          "x": 1720.66339,
+          "y": 1126.86516
+        },
+        "width": 200,
+        "height": 139,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 81756,
+      "p": {
+        "displayName": "磁选机",
+        "parent": {
+          "__i": 121522
+        },
+        "image": "symbols/项目定制类/门客庆/磁选机.json",
+        "position": {
+          "x": 1137.12358,
+          "y": 1408.47374
+        },
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 81768,
+      "p": {
+        "displayName": "磁选机",
+        "parent": {
+          "__i": 121522
+        },
+        "image": "symbols/项目定制类/门客庆/磁选机.json",
+        "position": {
+          "x": 1437.12358,
+          "y": 1408.47374
+        },
+        "width": 200,
+        "height": 200,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 81769,
+      "p": {
+        "displayName": "磁选机",
+        "parent": {
+          "__i": 121522
+        },
+        "image": "symbols/项目定制类/门客庆/磁选机.json",
+        "position": {
+          "x": 1720.66339,
+          "y": 1408.47374
+        },
+        "width": 200,
+        "height": 200,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 89337,
+      "p": {
+        "displayName": "渣浆泵-1",
+        "parent": {
+          "__i": 121522
+        },
+        "image": "symbols/项目定制类/门客庆/渣浆泵-1.json",
+        "position": {
+          "x": 1018.62358,
+          "y": 1724.35004
+        },
+        "width": 80,
+        "height": 135
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 101961,
+      "p": {
+        "displayName": "水桶",
+        "parent": {
+          "__i": 121522
+        },
+        "image": "symbols/项目定制类/门客庆/水桶.json",
+        "position": {
+          "x": 1312.12358,
+          "y": 1724.35004
+        },
+        "width": 150,
+        "height": 170
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 102068,
+      "p": {
+        "displayName": "水桶-1",
+        "parent": {
+          "__i": 121522
+        },
+        "image": "symbols/项目定制类/门客庆/水桶-1.json",
+        "position": {
+          "x": 1620.81262,
+          "y": 1733.47374
+        },
+        "width": 150,
+        "height": 170
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 102244,
+      "p": {
+        "displayName": "渣浆泵",
+        "parent": {
+          "__i": 121522
+        },
+        "image": "symbols/项目定制类/门客庆/渣浆泵.json",
+        "position": {
+          "x": 1910.79113,
+          "y": 1740.97374
+        },
+        "width": 80,
+        "height": 135
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 102252,
+      "p": {
+        "displayName": "渣浆泵",
+        "parent": {
+          "__i": 121522
+        },
+        "image": "symbols/项目定制类/门客庆/渣浆泵.json",
+        "position": {
+          "x": 2047.25078,
+          "y": 1743.16904
+        },
+        "width": 80,
+        "height": 135,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 102253,
+      "p": {
+        "displayName": "水桶",
+        "parent": {
+          "__i": 121522
+        },
+        "image": "symbols/项目定制类/门客庆/水桶.json",
+        "position": {
+          "x": 2225.58612,
+          "y": 1725.66904
+        },
+        "width": 150,
+        "height": 170,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 106855,
+      "p": {
+        "displayName": "离心机",
+        "parent": {
+          "__i": 121522
+        },
+        "image": "symbols/项目定制类/门客庆/离心机.json",
+        "position": {
+          "x": 2249.17778,
+          "y": 1125.36516
+        },
+        "width": 150,
+        "height": 142
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 112954,
+      "p": {
+        "displayName": "旋流器组",
+        "parent": {
+          "__i": 121522
+        },
+        "image": "symbols/项目定制类/门客庆/旋流器组.json",
+        "position": {
+          "x": 2249.17778,
+          "y": 627.30754
+        },
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 118259,
+      "p": {
+        "displayName": "振动弧形筛",
+        "parent": {
+          "__i": 121522
+        },
+        "image": "symbols/项目定制类/门客庆/振动弧形筛.json",
+        "position": {
+          "x": 2249.17778,
+          "y": 862.11395
+        },
+        "width": 186,
+        "height": 200
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 118438,
+      "p": {
+        "displayName": "刮板",
+        "parent": {
+          "__i": 121522
+        },
+        "image": "symbols/项目定制类/门客庆/刮板.json",
+        "position": {
+          "x": 2670.01139,
+          "y": 789.11395
+        },
+        "width": 220,
+        "height": 54
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 118439,
+      "p": {
+        "displayName": "破碎机",
+        "parent": {
+          "__i": 121522
+        },
+        "image": "symbols/项目定制类/门客庆/破碎机.json",
+        "position": {
+          "x": 2670.01139,
+          "y": 959.86516
+        },
+        "width": 200,
+        "height": 124
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 118440,
+      "p": {
+        "displayName": "皮带",
+        "parent": {
+          "__i": 121522
+        },
+        "image": "symbols/项目定制类/门客庆/皮带.json",
+        "position": {
+          "x": 2680.01139,
+          "y": 1125.36516
+        },
+        "width": 200,
+        "height": 50
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 118441,
+      "p": {
+        "displayName": "刮板",
+        "parent": {
+          "__i": 121522
+        },
+        "image": "symbols/项目定制类/门客庆/刮板.json",
+        "position": {
+          "x": 2680.01139,
+          "y": 1335.47374
+        },
+        "width": 220,
+        "height": 54,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 118442,
+      "p": {
+        "displayName": "离心机",
+        "parent": {
+          "__i": 121522
+        },
+        "image": "symbols/项目定制类/门客庆/离心机.json",
+        "position": {
+          "x": 2552.51139,
+          "y": 1529.47374
+        },
+        "width": 150,
+        "height": 142,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 118443,
+      "p": {
+        "displayName": "离心机",
+        "parent": {
+          "__i": 121522
+        },
+        "image": "symbols/项目定制类/门客庆/离心机.json",
+        "position": {
+          "x": 2827.51139,
+          "y": 1535.61841
+        },
+        "width": 150,
+        "height": 142,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 118444,
+      "p": {
+        "displayName": "刮板",
+        "parent": {
+          "__i": 121522
+        },
+        "image": "symbols/项目定制类/门客庆/刮板.json",
+        "position": {
+          "x": 2690.01139,
+          "y": 1698.66904
+        },
+        "width": 220,
+        "height": 54,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 118445,
+      "p": {
+        "displayName": "皮带",
+        "parent": {
+          "__i": 121522
+        },
+        "image": "symbols/项目定制类/门客庆/皮带.json",
+        "position": {
+          "x": 2690.01139,
+          "y": 1797.16904
+        },
+        "width": 200,
+        "height": 50,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 119000,
+      "p": {
+        "displayName": "离心机",
+        "parent": {
+          "__i": 121522
+        },
+        "image": "symbols/项目定制类/门客庆/离心机.json",
+        "position": {
+          "x": 3056.51139,
+          "y": 1141.55874
+        },
+        "width": 150,
+        "height": 142,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 119001,
+      "p": {
+        "displayName": "旋流器组",
+        "parent": {
+          "__i": 121522
+        },
+        "image": "symbols/项目定制类/门客庆/旋流器组.json",
+        "position": {
+          "x": 3081.51139,
+          "y": 643.50112
+        },
+        "width": 200,
+        "height": 200,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 119002,
+      "p": {
+        "displayName": "振动弧形筛",
+        "parent": {
+          "__i": 121522
+        },
+        "image": "symbols/项目定制类/门客庆/振动弧形筛.json",
+        "position": {
+          "x": 3074.51139,
+          "y": 907.02993
+        },
+        "width": 186,
+        "height": 200,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 119003,
+      "p": {
+        "displayName": "刮板",
+        "parent": {
+          "__i": 121522
+        },
+        "image": "symbols/项目定制类/门客庆/刮板.json",
+        "position": {
+          "x": 3081.51139,
+          "y": 1335.47374
+        },
+        "width": 220,
+        "height": 54,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 119004,
+      "p": {
+        "displayName": "破碎机",
+        "parent": {
+          "__i": 121522
+        },
+        "image": "symbols/项目定制类/门客庆/破碎机.json",
+        "position": {
+          "x": 3091.51139,
+          "y": 1529.47374
+        },
+        "width": 200,
+        "height": 124,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 119005,
+      "p": {
+        "displayName": "水桶-1",
+        "parent": {
+          "__i": 121522
+        },
+        "image": "symbols/项目定制类/门客庆/水桶-1.json",
+        "position": {
+          "x": 3091.51139,
+          "y": 1743.16904
+        },
+        "width": 150,
+        "height": 170
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 119191,
+      "p": {
+        "displayName": "渣浆泵-1",
+        "parent": {
+          "__i": 121522
+        },
+        "image": "symbols/项目定制类/门客庆/渣浆泵-1.json",
+        "position": {
+          "x": 3333.2495,
+          "y": 1741.85004
+        },
+        "width": 80,
+        "height": 135
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 119192,
+      "p": {
+        "displayName": "渣浆泵-1",
+        "parent": {
+          "__i": 121522
+        },
+        "image": "symbols/项目定制类/门客庆/渣浆泵-1.json",
+        "position": {
+          "x": 3477.31922,
+          "y": 1741.85004
+        },
+        "width": 80,
+        "height": 135,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 119193,
+      "p": {
+        "displayName": "水桶",
+        "parent": {
+          "__i": 121522
+        },
+        "image": "symbols/项目定制类/门客庆/水桶.json",
+        "position": {
+          "x": 3719.94573,
+          "y": 1743.16904
+        },
+        "width": 150,
+        "height": 170
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 119194,
+      "p": {
+        "displayName": "水桶-1",
+        "parent": {
+          "__i": 121522
+        },
+        "image": "symbols/项目定制类/门客庆/水桶-1.json",
+        "position": {
+          "x": 4109.75362,
+          "y": 1743.16904
+        },
+        "width": 150,
+        "height": 170,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 119389,
+      "p": {
+        "displayName": "磁选机",
+        "parent": {
+          "__i": 121522
+        },
+        "image": "symbols/项目定制类/门客庆/磁选机.json",
+        "position": {
+          "x": 3617.31922,
+          "y": 1408.47374
+        },
+        "width": 200,
+        "height": 200,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 119390,
+      "p": {
+        "displayName": "磁选机",
+        "parent": {
+          "__i": 121522
+        },
+        "image": "symbols/项目定制类/门客庆/磁选机.json",
+        "position": {
+          "x": 3913.53642,
+          "y": 1408.47374
+        },
+        "width": 200,
+        "height": 200,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 119391,
+      "p": {
+        "displayName": "磁选机",
+        "parent": {
+          "__i": 121522
+        },
+        "image": "symbols/项目定制类/门客庆/磁选机.json",
+        "position": {
+          "x": 4209.75362,
+          "y": 1408.47374
+        },
+        "width": 200,
+        "height": 200,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 119392,
+      "p": {
+        "displayName": "直线筛-1",
+        "parent": {
+          "__i": 121522
+        },
+        "image": "symbols/项目定制类/门客庆/直线筛-1.json",
+        "position": {
+          "x": 3617.31922,
+          "y": 1123.86516
+        },
+        "width": 200,
+        "height": 139,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 119393,
+      "p": {
+        "displayName": "直线筛-1",
+        "parent": {
+          "__i": 121522
+        },
+        "image": "symbols/项目定制类/门客庆/直线筛-1.json",
+        "position": {
+          "x": 3917.31922,
+          "y": 1123.86516
+        },
+        "width": 200,
+        "height": 139,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 119394,
+      "p": {
+        "displayName": "直线筛-1",
+        "parent": {
+          "__i": 121522
+        },
+        "image": "symbols/项目定制类/门客庆/直线筛-1.json",
+        "position": {
+          "x": 4200.85902,
+          "y": 1123.86516
+        },
+        "width": 200,
+        "height": 139,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 119395,
+      "p": {
+        "displayName": "直线筛",
+        "parent": {
+          "__i": 121522
+        },
+        "image": "symbols/项目定制类/门客庆/直线筛.json",
+        "position": {
+          "x": 4067.88094,
+          "y": 632.50112
+        },
+        "width": 200,
+        "height": 139,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 119396,
+      "p": {
+        "displayName": "直线筛-1",
+        "parent": {
+          "__i": 121522
+        },
+        "image": "symbols/项目定制类/门客庆/直线筛-1.json",
+        "position": {
+          "x": 3759.1919,
+          "y": 632.50112
+        },
+        "width": 200,
+        "height": 139,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 119397,
+      "p": {
+        "displayName": "渣浆泵-1",
+        "parent": {
+          "__i": 121522
+        },
+        "image": "symbols/项目定制类/门客庆/渣浆泵-1.json",
+        "position": {
+          "x": 4408.5669,
+          "y": 1754.66904
+        },
+        "width": 80,
+        "height": 135
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 136819,
+      "p": {
+        "displayName": "浅槽",
+        "parent": {
+          "__i": 121522
+        },
+        "image": "symbols/项目定制类/门客庆/浅槽.json",
+        "position": {
+          "x": 1387.12358,
+          "y": 857.02993
+        },
+        "width": 200,
+        "height": 100
+      },
+      "s": {
+        "2d.gray": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 138367,
+      "p": {
+        "displayName": "浅槽-1",
+        "parent": {
+          "__i": 121522
+        },
+        "image": "symbols/项目定制类/门客庆/浅槽-1.json",
+        "position": {
+          "x": 3967.88094,
+          "y": 850.11395
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "width": 200,
+        "height": 100
+      },
+      "s": {
+        "2d.gray": true
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 121732,
+      "p": {
+        "displayName": "s3",
+        "position": {
+          "x": 339.915,
+          "y": 2298.19967
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "width": 414.38499,
+        "height": 844.66903
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 121524,
+      "p": {
+        "parent": {
+          "__i": 121732
+        },
+        "rotation": 6.28319,
+        "position": {
+          "x": 339.915,
+          "y": 2298.19967
+        },
+        "width": 414.38499,
+        "height": 844.66903
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgb(255,255,255)",
+        "shape.border.width": 1,
+        "shape.border.color": "#979797"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 121525,
+      "p": {
+        "displayName": "磁选机",
+        "parent": {
+          "__i": 121732
+        },
+        "image": "symbols/项目定制类/门客庆/磁选机.json",
+        "position": {
+          "x": 339.915,
+          "y": 2047.76563
+        },
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 121526,
+      "p": {
+        "displayName": "渣浆泵-1",
+        "parent": {
+          "__i": 121732
+        },
+        "image": "symbols/项目定制类/门客庆/渣浆泵-1.json",
+        "position": {
+          "x": 214.87407,
+          "y": 2482.36286
+        },
+        "width": 80,
+        "height": 135
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 121527,
+      "p": {
+        "displayName": "水桶",
+        "parent": {
+          "__i": 121732
+        },
+        "image": "symbols/项目定制类/门客庆/水桶.json",
+        "position": {
+          "x": 414.915,
+          "y": 2464.86286
+        },
+        "width": 150,
+        "height": 170
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 136818,
+      "p": {
+        "displayName": "s4",
+        "position": {
+          "x": 1513.44805,
+          "y": 2298.19967
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "width": 1903.268,
+        "height": 844.66903
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 121731,
+      "p": {
+        "parent": {
+          "__i": 136818
+        },
+        "rotation": 6.28319,
+        "position": {
+          "x": 1513.44805,
+          "y": 2298.19967
+        },
+        "width": 1903.268,
+        "height": 844.66903,
+        "tall": 20
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgb(255,255,255)",
+        "shape.border.width": 1,
+        "shape.border.color": "#979797",
+        "2d.editable": false,
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 121733,
+      "p": {
+        "displayName": "水池",
+        "parent": {
+          "__i": 136818
+        },
+        "image": "symbols/素材库/设备/水池.json",
+        "position": {
+          "x": 659.77182,
+          "y": 2458.18427
+        },
+        "width": 140,
+        "height": 120
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 121985,
+      "p": {
+        "displayName": "水池",
+        "parent": {
+          "__i": 136818
+        },
+        "image": "symbols/素材库/设备/水池.json",
+        "position": {
+          "x": 659.77182,
+          "y": 2615.21452
+        },
+        "width": 140,
+        "height": 120,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 121986,
+      "p": {
+        "displayName": "渣浆泵-1",
+        "parent": {
+          "__i": 136818
+        },
+        "image": "symbols/项目定制类/门客庆/渣浆泵-1.json",
+        "position": {
+          "x": 829.77182,
+          "y": 2597.10809
+        },
+        "width": 80,
+        "height": 135
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 121987,
+      "p": {
+        "displayName": "渣浆泵-1",
+        "parent": {
+          "__i": 136818
+        },
+        "image": "symbols/项目定制类/门客庆/渣浆泵-1.json",
+        "position": {
+          "x": 829.77182,
+          "y": 2438.48548
+        },
+        "width": 80,
+        "height": 135,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 121988,
+      "p": {
+        "displayName": "渣浆泵-1",
+        "parent": {
+          "__i": 136818
+        },
+        "image": "symbols/项目定制类/门客庆/渣浆泵-1.json",
+        "position": {
+          "x": 994.896,
+          "y": 2597.10809
+        },
+        "width": 80,
+        "height": 135,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 121989,
+      "p": {
+        "displayName": "渣浆泵-1",
+        "parent": {
+          "__i": 136818
+        },
+        "image": "symbols/项目定制类/门客庆/渣浆泵-1.json",
+        "position": {
+          "x": 1160.02019,
+          "y": 2597.10809
+        },
+        "width": 80,
+        "height": 135,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 125697,
+      "p": {
+        "displayName": "渣浆泵-1",
+        "parent": {
+          "__i": 136818
+        },
+        "image": "symbols/项目定制类/门客庆/渣浆泵-1.json",
+        "position": {
+          "x": 997.12358,
+          "y": 2438.48548
+        },
+        "width": 80,
+        "height": 135,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 125698,
+      "p": {
+        "displayName": "渣浆泵-1",
+        "parent": {
+          "__i": 136818
+        },
+        "image": "symbols/项目定制类/门客庆/渣浆泵-1.json",
+        "position": {
+          "x": 997.12358,
+          "y": 2279.86286
+        },
+        "width": 80,
+        "height": 135,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 125699,
+      "p": {
+        "displayName": "渣浆泵-1",
+        "parent": {
+          "__i": 136818
+        },
+        "image": "symbols/项目定制类/门客庆/渣浆泵-1.json",
+        "position": {
+          "x": 997.12358,
+          "y": 2121.24024
+        },
+        "width": 80,
+        "height": 135,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 125700,
+      "p": {
+        "displayName": "渣浆泵-1",
+        "parent": {
+          "__i": 136818
+        },
+        "image": "symbols/项目定制类/门客庆/渣浆泵-1.json",
+        "position": {
+          "x": 994.896,
+          "y": 1962.61763
+        },
+        "width": 80,
+        "height": 135,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 126138,
+      "p": {
+        "displayName": "压滤机",
+        "parent": {
+          "__i": 136818
+        },
+        "image": "symbols/项目定制类/门客庆/压滤机.json",
+        "position": {
+          "x": 1387.12358,
+          "y": 2169.90518
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "width": 285,
+        "height": 150
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 129251,
+      "p": {
+        "displayName": "浓缩机_1",
+        "parent": {
+          "__i": 136818
+        },
+        "image": "symbols/素材库/设备/浓缩机_1.json",
+        "position": {
+          "x": 779.77182,
+          "y": 2278.19967
+        },
+        "width": 265,
+        "height": 110
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 129359,
+      "p": {
+        "displayName": "浓缩机_1",
+        "parent": {
+          "__i": 136818
+        },
+        "image": "symbols/素材库/设备/浓缩机_1.json",
+        "position": {
+          "x": 779.77182,
+          "y": 2066.24024
+        },
+        "width": 265,
+        "height": 110,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 129586,
+      "p": {
+        "displayName": "破碎机",
+        "parent": {
+          "__i": 136818
+        },
+        "image": "symbols/项目定制类/门客庆/破碎机.json",
+        "position": {
+          "x": 1387.12358,
+          "y": 2520.18427
+        },
+        "width": 200,
+        "height": 124
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 129587,
+      "p": {
+        "displayName": "渣浆泵-1",
+        "parent": {
+          "__i": 136818
+        },
+        "image": "symbols/项目定制类/门客庆/渣浆泵-1.json",
+        "position": {
+          "x": 1299.10368,
+          "y": 1998.74024
+        },
+        "width": 80,
+        "height": 135,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 129808,
+      "p": {
+        "displayName": "刮板",
+        "parent": {
+          "__i": 136818
+        },
+        "image": "symbols/项目定制类/门客庆/刮板.json",
+        "position": {
+          "x": 1387.12358,
+          "y": 2351.54472
+        },
+        "width": 220,
+        "height": 54
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 129809,
+      "p": {
+        "displayName": "水桶",
+        "parent": {
+          "__i": 136818
+        },
+        "image": "symbols/项目定制类/门客庆/水桶.json",
+        "position": {
+          "x": 1588.44805,
+          "y": 1976.07505
+        },
+        "width": 150,
+        "height": 170
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 130038,
+      "p": {
+        "displayName": "压滤机",
+        "parent": {
+          "__i": 136818
+        },
+        "image": "symbols/项目定制类/门客庆/压滤机.json",
+        "position": {
+          "x": 1863.16339,
+          "y": 2161.8799
+        },
+        "width": 285,
+        "height": 150,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 130039,
+      "p": {
+        "displayName": "破碎机",
+        "parent": {
+          "__i": 136818
+        },
+        "image": "symbols/项目定制类/门客庆/破碎机.json",
+        "position": {
+          "x": 1863.16339,
+          "y": 2512.15899
+        },
+        "width": 200,
+        "height": 124,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 130040,
+      "p": {
+        "displayName": "渣浆泵-1",
+        "parent": {
+          "__i": 136818
+        },
+        "image": "symbols/项目定制类/门客庆/渣浆泵-1.json",
+        "position": {
+          "x": 1775.14348,
+          "y": 1990.71497
+        },
+        "width": 80,
+        "height": 135,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 130041,
+      "p": {
+        "displayName": "刮板",
+        "parent": {
+          "__i": 136818
+        },
+        "image": "symbols/项目定制类/门客庆/刮板.json",
+        "position": {
+          "x": 1863.16339,
+          "y": 2343.51945
+        },
+        "width": 220,
+        "height": 54,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 130276,
+      "p": {
+        "displayName": "水桶",
+        "parent": {
+          "__i": 136818
+        },
+        "image": "symbols/项目定制类/门客庆/水桶.json",
+        "position": {
+          "x": 2173.33006,
+          "y": 1990.71497
+        },
+        "width": 150,
+        "height": 170,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 130277,
+      "p": {
+        "displayName": "渣浆泵-1",
+        "parent": {
+          "__i": 136818
+        },
+        "image": "symbols/项目定制类/门客庆/渣浆泵-1.json",
+        "position": {
+          "x": 2360.0255,
+          "y": 2005.35488
+        },
+        "width": 80,
+        "height": 135,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 132599,
+      "p": {
+        "displayName": "加压过滤机",
+        "parent": {
+          "__i": 136818
+        },
+        "image": "symbols/项目定制类/门客庆/加压过滤机.json",
+        "position": {
+          "x": 2260.0255,
+          "y": 2228.19967
+        },
+        "width": 200,
+        "height": 100
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 132613,
+      "p": {
+        "displayName": "刮板",
+        "parent": {
+          "__i": 136818
+        },
+        "image": "symbols/项目定制类/门客庆/刮板.json",
+        "position": {
+          "x": 2259.17778,
+          "y": 2431.18427
+        },
+        "width": 220,
+        "height": 54
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 132614,
+      "p": {
+        "displayName": "水池",
+        "parent": {
+          "__i": 136818
+        },
+        "image": "symbols/素材库/设备/水池.json",
+        "position": {
+          "x": 2149.17778,
+          "y": 2597.10809
+        },
+        "width": 140,
+        "height": 120
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 132615,
+      "p": {
+        "displayName": "渣浆泵-1",
+        "parent": {
+          "__i": 136818
+        },
+        "image": "symbols/项目定制类/门客庆/渣浆泵-1.json",
+        "position": {
+          "x": 2369.17778,
+          "y": 2573.48548
+        },
+        "width": 80,
+        "height": 135,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 138627,
+      "p": {
+        "displayName": "节点",
+        "rotation": 6.28319,
+        "position": {
+          "x": 3507.04308,
+          "y": 2298.19967
+        },
+        "width": 2042.71572,
+        "height": 844.66903,
+        "tall": 20
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgb(255,255,255)",
+        "shape.border.width": 1,
+        "shape.border.color": "#979797"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 138630,
+      "p": {
+        "displayName": "皮带",
+        "image": "symbols/项目定制类/门客庆/皮带.json",
+        "position": {
+          "x": 2660.01139,
+          "y": 1972.76563
+        }
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 138631,
+      "p": {
+        "displayName": "皮带",
+        "image": "symbols/项目定制类/门客庆/皮带.json",
+        "position": {
+          "x": 2765.56613,
+          "y": 2241.162
+        }
+      }
+    }
+  ],
+  "modified": "Thu Aug 26 2021 10:34:25 GMT+0800 (中国标准时间)",
+  "contentRect": {
+    "x": 131.2225,
+    "y": 453.36516,
+    "width": 4398.67844,
+    "height": 2268.66903
+  }
+}
