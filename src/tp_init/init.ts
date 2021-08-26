@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { DataModel, graph, List, deserializeCallBack } from 'ht';
 
 interface TPINIT {

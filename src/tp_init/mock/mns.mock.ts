@@ -12,7 +12,6 @@ export default (dm: DataModel) => {
   const shuitong_361 = dm.getDataByTag('shuitong_361');
   const sc_359 = dm.getDataByTag('sc_359');
   const sc_600 = dm.getDataByTag('sc_600');
-
   function jnj() {
     jnj_620.setAttr('pl.v', compunted(35, 50, 2));
     jnj_620.setAttr('jbtyw.v', compunted(50, 70, 2));

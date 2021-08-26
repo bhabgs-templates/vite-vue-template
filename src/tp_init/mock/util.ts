@@ -1,3 +1,6 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+import { type } from 'os';
+
 // 计算
 const compunted: (a: number, b: number, c: number) => string = (
   min,
@@ -25,4 +28,5 @@ const computedPercentage: (a: number, b: number, c: number) => string = (
 const computedTrue = () => {
   return !(Math.random() > 0.5);
 };
+
 export { compunted, computedTrue, computedPercentage };

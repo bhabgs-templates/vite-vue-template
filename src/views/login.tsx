@@ -1,6 +1,8 @@
 import { Component, defineComponent } from 'vue';
+import { instance } from '@/api';
+import { useRouter } from 'vue-router';
 import logo from '@/assets/img/logo.png';
-import loginBox from '@/components/loginBox';
+import loginBox, { EventBySubmitParams } from '@/components/loginBox';
 
 const components: Component = {
   components: { loginBox },
@@ -11,6 +13,7 @@ export default defineComponent({
   setup() {
     const name = '';
     const password = '';
+    const router = useRouter();
     return () => (
       <div class='login'>
         <div class='title'>
@@ -23,6 +26,14 @@ export default defineComponent({
               [name, 'username'],
               [password, 'password'],
             ]}
+            onSubmit={(e: EventBySubmitParams) => {
+              instance
+                .get(`/app/login?username=${e.username}&password=${e.password}`)
+                .then((res) => {
+                  window.sessionStorage.setItem('token', res.data.access_token);
+                  router.push('/');
+                });
+            }}
             autoMsg
           />
         </div>

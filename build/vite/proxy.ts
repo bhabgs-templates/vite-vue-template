@@ -7,5 +7,6 @@ export default (): Record<string, string | ProxyOptions> => {
       ws: false,
       rewrite: (path) => path.replace(/^\/ht_/, ''),
     },
+    '/api/': 'http://192.168.5.183',
   };
 };
