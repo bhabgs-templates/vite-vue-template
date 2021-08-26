@@ -1,5 +1,6 @@
 import { defineComponent, reactive, onMounted, watch } from 'vue';
 import { RadioGroup, RadioButton } from 'ant-design-vue';
+import { checkUser } from 'vitevuu';
 import { useRoute } from 'vue-router';
 import init from '@/tp_init/init';
 import tpDataBase from '@/tp_init/base';
@@ -7,6 +8,16 @@ import tpDataBase from '@/tp_init/base';
 const aradio = RadioGroup;
 const aradioButton = RadioButton;
 export default defineComponent({
+  async beforeRouteEnter(to, from, next) {
+    const res = await checkUser.check(false);
+    if (res.type === 'ok') {
+      next();
+    } else {
+      next({
+        path: `/login`,
+      });
+    }
+  },
   setup() {
     const radio = reactive({
       list: tpDataBase,

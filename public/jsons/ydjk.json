@@ -89,27 +89,6 @@
     },
     {
       "c": "ht.Node",
-      "i": 44429,
-      "p": {
-        "displayName": "煤仓-s",
-        "parent": {
-          "__i": 70695
-        },
-        "image": "symbols/素材库/建筑/煤仓-s.json",
-        "position": {
-          "x": 299.40635,
-          "y": 1057.36516
-        },
-        "width": 200,
-        "height": 195
-      },
-      "a": {
-        "l.v": 0.2,
-        "r.v": 0.5
-      }
-    },
-    {
-      "c": "ht.Node",
       "i": 68494,
       "p": {
         "displayName": "直线筛",
@@ -230,6 +209,23 @@
         "width": 200,
         "height": 50,
         "tall": 20
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 153363,
+      "p": {
+        "displayName": "煤仓1",
+        "parent": {
+          "__i": 70695
+        },
+        "image": "symbols/项目定制类/门客庆/煤仓1.json",
+        "position": {
+          "x": 314.87407,
+          "y": 1070.55874
+        },
+        "width": 200,
+        "height": 260
       }
     },
     {
@@ -1159,8 +1155,8 @@
         },
         "image": "symbols/项目定制类/门客庆/磁选机.json",
         "position": {
-          "x": 339.915,
-          "y": 2047.76563
+          "x": 314.915,
+          "y": 2166.24024
         },
         "width": 200,
         "height": 200
@@ -1740,7 +1736,8 @@
         "shape": "rect",
         "shape.background": "rgb(255,255,255)",
         "shape.border.width": 1,
-        "shape.border.color": "#979797"
+        "shape.border.color": "#979797",
+        "2d.movable": false
       }
     },
     {
@@ -1762,17 +1759,167 @@
         "displayName": "皮带",
         "image": "symbols/项目定制类/门客庆/皮带.json",
         "position": {
-          "x": 2765.56613,
-          "y": 2241.162
+          "x": 2660.01139,
+          "y": 2144.64254
+        }
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 140332,
+      "p": {
+        "displayName": "皮带",
+        "image": "symbols/项目定制类/门客庆/皮带.json",
+        "position": {
+          "x": 2660.01139,
+          "y": 2316.51945
+        },
+        "width": 200,
+        "height": 50,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 141332,
+      "p": {
+        "displayName": "皮带",
+        "image": "symbols/项目定制类/门客庆/皮带.json",
+        "position": {
+          "x": 2956.51139,
+          "y": 1972.76563
+        },
+        "width": 200,
+        "height": 50,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 141334,
+      "p": {
+        "displayName": "皮带",
+        "image": "symbols/项目定制类/门客庆/皮带.json",
+        "position": {
+          "x": 2956.51139,
+          "y": 2316.51945
+        },
+        "width": 200,
+        "height": 50,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 141959,
+      "p": {
+        "displayName": "直线筛-1",
+        "image": "symbols/项目定制类/门客庆/直线筛-1.json",
+        "position": {
+          "x": 2956.51139,
+          "y": 2142.35488
+        }
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 146920,
+      "p": {
+        "displayName": "煤仓",
+        "image": "symbols/项目定制类/门客庆/煤仓.json",
+        "position": {
+          "x": 3316.52994,
+          "y": 2589.04678
+        }
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 151111,
+      "p": {
+        "displayName": "煤仓1",
+        "image": "symbols/项目定制类/门客庆/煤仓1.json",
+        "position": {
+          "x": 2660.01139,
+          "y": 2586.65899
+        }
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 151321,
+      "p": {
+        "displayName": "煤仓1",
+        "image": "symbols/项目定制类/门客庆/煤仓1.json",
+        "position": {
+          "x": 2956.51139,
+          "y": 2588.18427
+        },
+        "width": 200,
+        "height": 260,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 153865,
+      "p": {
+        "displayName": "煤仓",
+        "image": "symbols/项目定制类/门客庆/煤仓.json",
+        "position": {
+          "x": 3744.94573,
+          "y": 2586.65899
+        },
+        "width": 200,
+        "height": 285,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 153866,
+      "p": {
+        "displayName": "煤仓",
+        "image": "symbols/项目定制类/门客庆/煤仓.json",
+        "position": {
+          "x": 4308.5669,
+          "y": 2589.04678
+        },
+        "width": 200,
+        "height": 285,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 153867,
+      "p": {
+        "displayName": "皮带",
+        "image": "symbols/项目定制类/门客庆/皮带.json",
+        "position": {
+          "x": 3959.1919,
+          "y": 2066.24024
+        }
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 153868,
+      "p": {
+        "displayName": "刮板",
+        "image": "symbols/项目定制类/门客庆/刮板.json",
+        "position": {
+          "x": 3969.1919,
+          "y": 2298.19967
         }
       }
     }
   ],
-  "modified": "Thu Aug 26 2021 10:34:25 GMT+0800 (中国标准时间)",
+  "modified": "Thu Aug 26 2021 11:05:26 GMT+0800 (中国标准时间)",
   "contentRect": {
     "x": 131.2225,
     "y": 453.36516,
     "width": 4398.67844,
-    "height": 2268.66903
+    "height": 2278.18163
   }
 }
