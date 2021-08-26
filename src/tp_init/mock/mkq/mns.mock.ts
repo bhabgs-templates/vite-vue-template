@@ -1,4 +1,3 @@
-/* eslint-disable camelcase */
 import { DataModel } from 'ht';
 import { GetTcMcArr, getTcMcArr } from '@/tp_init/mock/util';
 

@@ -1,8 +1,8 @@
 import { deserializeCallBack } from 'ht';
-import jj from '@/tp_init/mock/jj.mock';
+import mns from '@/tp_init/mock/mkq/mns.mock';
 
 const callBack: deserializeCallBack = (a, b, c, d) => {
-  jj(b, c);
+  mns(b);
 };
 
 export default callBack;

@@ -1,5 +1,5 @@
-import mns from './mns.callback';
-import jj from './jj.callback';
+import mns from './mkq/mns.callback';
+import jj from './mkq/jj.callback';
 
 export default [
   {

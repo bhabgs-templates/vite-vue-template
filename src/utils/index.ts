@@ -4,6 +4,5 @@ const createDom = (node: string) => {
   btn.setAttribute('src', '/ht_/libs/ht.js');
   body.appendChild(btn);
 };
-
 // eslint-disable-next-line import/prefer-default-export
 export { createDom };
