@@ -86,13 +86,6 @@ export default (dm: DataModel, gv: graph.GraphView) => {
     st_341.setAttr('v', computedPercentage(0.2, 1, 4));
   }
 
-  function stim() {
-    const tim = Math.random() * 10000;
-    setTimeout(() => {
-      jjFun();
-      // 递归调用
-      stim();
-    }, tim);
-  }
+  function stim() {}
   stim();
 };
