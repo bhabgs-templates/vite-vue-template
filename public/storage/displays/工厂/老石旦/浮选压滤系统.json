@@ -1,0 +1,3180 @@
+{
+  "v": "7.2.4",
+  "p": {
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "fitContent": true
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 1672,
+      "p": {
+        "displayName": "压滤机_02",
+        "image": "symbols/项目定制类/老石旦/压滤机_02.json",
+        "position": {
+          "x": -334.58103,
+          "y": -334.46586
+        }
+      },
+      "a": {
+        "ylj.tc": "422X",
+        "ylj.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1673,
+      "p": {
+        "displayName": "刮板机_02",
+        "tag": "gbj_423X",
+        "image": "symbols/项目定制类/老石旦/刮板机_02.json",
+        "position": {
+          "x": -344.43361,
+          "y": -229.56668
+        }
+      },
+      "a": {
+        "gbj.tc": "423X",
+        "gbj.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1674,
+      "p": {
+        "displayName": "浮选机",
+        "tag": "fxj_422",
+        "image": "symbols/项目定制类/老石旦/浮选机.json",
+        "position": {
+          "x": -173.89234,
+          "y": -229.56668
+        }
+      },
+      "a": {
+        "fxj.tc": "422",
+        "fxj.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1675,
+      "p": {
+        "displayName": "浮选机",
+        "tag": "fxj_402",
+        "image": "symbols/项目定制类/老石旦/浮选机.json",
+        "position": {
+          "x": -25.54043,
+          "y": -229.56668
+        }
+      },
+      "a": {
+        "fxj.tc": "402",
+        "fxj.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1676,
+      "p": {
+        "displayName": "浮选机",
+        "tag": "fxj_403",
+        "image": "symbols/项目定制类/老石旦/浮选机.json",
+        "position": {
+          "x": 166.00396,
+          "y": -229.56668
+        }
+      },
+      "a": {
+        "fxj.tc": "403",
+        "fxj.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1677,
+      "p": {
+        "displayName": "煤仓",
+        "tag": "mc_700A",
+        "image": "symbols/项目定制类/老石旦/煤仓.json",
+        "position": {
+          "x": 203.50396,
+          "y": 382.31895
+        }
+      },
+      "a": {
+        "mc.tc": "精煤仓1",
+        "mc.v": 1,
+        "l.tc": "700A",
+        "l.v": 1,
+        "l.mc": "LE",
+        "progress": "14.7m"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1678,
+      "p": {
+        "displayName": "煤仓",
+        "tag": "mc_700B",
+        "image": "symbols/项目定制类/老石旦/煤仓.json",
+        "position": {
+          "x": 356.43189,
+          "y": 382.31895
+        }
+      },
+      "a": {
+        "mc.tc": "精煤仓2",
+        "mc.v": 0.3,
+        "l.tc": "700B",
+        "l.mc": "LE",
+        "progress": "14.7m",
+        "l.v": 333
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1679,
+      "p": {
+        "displayName": "水池_02",
+        "tag": "sc_413X",
+        "image": "symbols/项目定制类/老石旦/水池_02.json",
+        "position": {
+          "x": 153.50396,
+          "y": -80.14882
+        }
+      },
+      "a": {
+        "sc.tc": "413X",
+        "sc.v": 30,
+        "sc.mc": "LEVEL",
+        "sc.progress": "0.4m"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1680,
+      "p": {
+        "displayName": "煤仓",
+        "tag": "mc_900A",
+        "image": "symbols/项目定制类/老石旦/煤仓.json",
+        "position": {
+          "x": 71.95957,
+          "y": 382.31895
+        }
+      },
+      "a": {
+        "mc.v": 1,
+        "l.v": 2,
+        "l.tc": "900A",
+        "l.mc": "LE",
+        "progress": "0.0m"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1681,
+      "p": {
+        "displayName": "浓缩机",
+        "tag": "nsj_602",
+        "image": "symbols/项目定制类/老石旦/浓缩机.json",
+        "position": {
+          "x": 577.1235,
+          "y": -265.46586
+        }
+      },
+      "a": {
+        "nsj.tc": "602",
+        "nsj.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1682,
+      "p": {
+        "source": {
+          "__i": 1672
+        },
+        "target": {
+          "__i": 1673
+        }
+      },
+      "s": {
+        "edge.color": "#404040",
+        "edge.dash.color": "#404040",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 0.40415,
+        "edge.source.anchor.y": 1.02699,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.5,
+        "edge.target.anchor.y": 0,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1683,
+      "p": {
+        "source": {
+          "__i": 1692
+        },
+        "target": {
+          "__i": 1693
+        }
+      },
+      "s": {
+        "edge.color": "#404040",
+        "edge.dash.color": "#05D84B",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 0.45701,
+        "edge.source.anchor.y": 1.07308,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.45541,
+        "edge.target.anchor.y": 0.6092,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 1684,
+      "p": {
+        "position": {
+          "x": -334.58103,
+          "y": -411.93437
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.55063
+        }
+      },
+      "s": {
+        "text": "浮选系统",
+        "text.font": "bold 24px fantasy"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 1685,
+      "p": {
+        "position": {
+          "x": 301.43189,
+          "y": -416.44575
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5604
+        }
+      },
+      "s": {
+        "text": "浓缩系统",
+        "text.font": "bold 24px fantasy"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 1686,
+      "p": {
+        "position": {
+          "x": -337.08103,
+          "y": -1.79414
+        }
+      },
+      "s": {
+        "text": "生产辅助系统",
+        "text.font": "bold 24px fantasy"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 1687,
+      "p": {
+        "position": {
+          "x": 69.97974,
+          "y": 1.22603
+        },
+        "anchor": {
+          "x": 0.5302,
+          "y": 0.5604
+        }
+      },
+      "s": {
+        "text": "产品储存系统",
+        "text.font": "bold 24px fantasy"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 1688,
+      "p": {
+        "position": {
+          "x": 585.5829,
+          "y": 2.73611
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.59061
+        }
+      },
+      "s": {
+        "text": "压滤系统",
+        "text.font": "bold 24px fantasy"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 1689,
+      "p": {
+        "position": {
+          "x": -341.76472,
+          "y": -83.64882
+        },
+        "anchor": {
+          "x": 0.55064,
+          "y": 0.5
+        },
+        "width": 52.70515
+      },
+      "s": {
+        "text": "去701",
+        "text.font": "bold 16px Arial"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 1690,
+      "p": {
+        "position": {
+          "x": 486.93189,
+          "y": 414.86945
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.65101
+        }
+      },
+      "s": {
+        "text": "去中煤储煤场",
+        "text.font": "bold 16px Arial"
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1691,
+      "p": {
+        "source": {
+          "__i": 1673
+        },
+        "target": {
+          "__i": 1689
+        }
+      },
+      "s": {
+        "edge.color": "#404040",
+        "edge.dash.color": "#404040",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 0.5,
+        "edge.source.anchor.y": 1.1095,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.5,
+        "edge.target.anchor.y": -0.06498,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1692,
+      "p": {
+        "displayName": "刮板机_02",
+        "tag": "gbj_855",
+        "image": "symbols/项目定制类/老石旦/刮板机_02.json",
+        "position": {
+          "x": 619.6235,
+          "y": 314.81895
+        }
+      },
+      "a": {
+        "scale": "right",
+        "gbj.tc": "855",
+        "gbj.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1693,
+      "p": {
+        "displayName": "刮板机_02",
+        "tag": "gbj_856",
+        "image": "symbols/项目定制类/老石旦/刮板机_02.json",
+        "position": {
+          "x": 619.6235,
+          "y": 412.31895
+        }
+      },
+      "a": {
+        "scale": "right",
+        "gbj.tc": "856",
+        "gbj.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1694,
+      "p": {
+        "displayName": "刮板机_02",
+        "tag": "gbj_837",
+        "image": "symbols/项目定制类/老石旦/刮板机_02.json",
+        "position": {
+          "x": 751.62182,
+          "y": 312.13687
+        }
+      },
+      "a": {
+        "scale": "right",
+        "gbj.tc": "837",
+        "gbj.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1695,
+      "p": {
+        "displayName": "刮板机_02",
+        "tag": "gbj_625X",
+        "image": "symbols/项目定制类/老石旦/刮板机_02.json",
+        "position": {
+          "x": 902.95377,
+          "y": 312.13687
+        }
+      },
+      "a": {
+        "scale": "right",
+        "gbj.tc": "625X",
+        "gbj.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1696,
+      "p": {
+        "displayName": "刮板机_02",
+        "tag": "gbj_838",
+        "image": "symbols/项目定制类/老石旦/刮板机_02.json",
+        "position": {
+          "x": 750.60812,
+          "y": 412.86912
+        }
+      },
+      "a": {
+        "gbj.tc": "838",
+        "scale": "right",
+        "gbj.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1697,
+      "p": {
+        "displayName": "渣浆泵",
+        "tag": "zjb_421X",
+        "image": "symbols/项目定制类/老石旦/渣浆泵.json",
+        "position": {
+          "x": -259.58103,
+          "y": -83.61149
+        }
+      },
+      "a": {
+        "zjb.tc": "421X",
+        "scale_n": "right",
+        "zjb.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1698,
+      "p": {
+        "displayName": "渣浆泵",
+        "tag": "zjb_642",
+        "image": "symbols/项目定制类/老石旦/渣浆泵.json",
+        "position": {
+          "x": -243.89234,
+          "y": 64.43291
+        }
+      },
+      "a": {
+        "zjb.scale": 1,
+        "zjb.tc": "642",
+        "zjb.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1699,
+      "p": {
+        "displayName": "渣浆泵",
+        "tag": "zjb_643",
+        "image": "symbols/项目定制类/老石旦/渣浆泵.json",
+        "position": {
+          "x": -364.68528,
+          "y": 182.62241
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.66903
+        }
+      },
+      "a": {
+        "zjb.tc": "643",
+        "zjb.scale": 1,
+        "zjb.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1700,
+      "p": {
+        "displayName": "渣浆泵",
+        "tag": "zjb_644",
+        "image": "symbols/项目定制类/老石旦/渣浆泵.json",
+        "position": {
+          "x": -243.89234,
+          "y": 172.48078
+        }
+      },
+      "a": {
+        "zjb.tc": "644",
+        "zjb.scale": 1,
+        "zjb.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1701,
+      "p": {
+        "displayName": "渣浆泵",
+        "tag": "zjb_648",
+        "image": "symbols/项目定制类/老石旦/渣浆泵.json",
+        "position": {
+          "x": -364.43361,
+          "y": 282.13687
+        }
+      },
+      "a": {
+        "zjb.tc": "648",
+        "zjb.scale": 1
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1702,
+      "p": {
+        "displayName": "渣浆泵",
+        "tag": "zjb_4018",
+        "image": "symbols/项目定制类/老石旦/渣浆泵.json",
+        "position": {
+          "x": -243.89234,
+          "y": 282.13687
+        }
+      },
+      "a": {
+        "zjb.scale": 1,
+        "zjb.tc": "4018"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1703,
+      "p": {
+        "displayName": "渣浆泵",
+        "tag": "zjb_646",
+        "image": "symbols/项目定制类/老石旦/渣浆泵.json",
+        "position": {
+          "x": -360.58103,
+          "y": 404.5384
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.65282
+        }
+      },
+      "a": {
+        "zjb.tc": "646",
+        "zjb.scale": 1
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1704,
+      "p": {
+        "displayName": "渣浆泵",
+        "tag": "zjb_645",
+        "image": "symbols/项目定制类/老石旦/渣浆泵.json",
+        "position": {
+          "x": -243.89234,
+          "y": 395.36912
+        }
+      },
+      "a": {
+        "zjb.tc": "645",
+        "zjb.scale": 1
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1705,
+      "p": {
+        "displayName": "渣浆泵",
+        "tag": "zjb_641",
+        "image": "symbols/项目定制类/老石旦/渣浆泵.json",
+        "position": {
+          "x": -360.58103,
+          "y": 64.43291
+        }
+      },
+      "a": {
+        "zjb.scale": 1,
+        "zjb.tc": "641",
+        "zjb.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1706,
+      "p": {
+        "displayName": "水桶-s",
+        "tag": "st_420X",
+        "image": "symbols/项目定制类/老石旦/水桶-s.json",
+        "position": {
+          "x": -181.39234,
+          "y": -83.64882
+        }
+      },
+      "a": {
+        "st.scale": -1,
+        "scale_p": "center",
+        "st.scale_tc": "left",
+        "st.scale_p": "right",
+        "st.tc": "420X",
+        "st.v": 1,
+        "st.mc": "LEVEL",
+        "st.propess": "0.4m"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1707,
+      "p": {
+        "displayName": "渣浆泵",
+        "tag": "zbj_416X",
+        "image": "symbols/项目定制类/老石旦/渣浆泵.json",
+        "position": {
+          "x": -104.05274,
+          "y": -83.61149
+        }
+      },
+      "a": {
+        "zjb.tc": "416X",
+        "zjb.mc": "STATE",
+        "zjb.scale": -1
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1708,
+      "p": {
+        "displayName": "水桶-s",
+        "image": "symbols/项目定制类/老石旦/水桶-s.json",
+        "position": {
+          "x": -25.54026,
+          "y": -83.64882
+        }
+      },
+      "a": {
+        "st.scale": -1,
+        "v": 1,
+        "st.tc": "415X",
+        "st.v": 1,
+        "st.st.scale": 0,
+        "st.propess": "0.4m"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1709,
+      "p": {
+        "displayName": "渣浆泵",
+        "tag": "zjb_429X",
+        "image": "symbols/项目定制类/老石旦/渣浆泵.json",
+        "position": {
+          "x": 51.95957,
+          "y": -80.14882
+        }
+      },
+      "a": {
+        "scale_n": "right",
+        "zjb.tc": "429X",
+        "zjb.mc": "STATE",
+        "zjb.scale": -1
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1710,
+      "p": {
+        "displayName": "渣浆泵",
+        "tag": "zjb_414",
+        "image": "symbols/项目定制类/老石旦/渣浆泵.json",
+        "position": {
+          "x": 236.00396,
+          "y": -79.64882
+        }
+      },
+      "a": {
+        "zjb.tc": "414",
+        "zjb.mc": "STATE",
+        "zjb.scale.tc": "right",
+        "zjb.scale": -1
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1711,
+      "p": {
+        "displayName": "渣浆泵",
+        "tag": "zjb_649",
+        "image": "symbols/项目定制类/老石旦/渣浆泵.json",
+        "position": {
+          "x": -114.13593,
+          "y": 63.78184
+        }
+      },
+      "a": {
+        "zjb.tc": "649",
+        "zjb.scale": 1,
+        "zjb.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1712,
+      "p": {
+        "displayName": "渣浆泵",
+        "image": "symbols/项目定制类/老石旦/渣浆泵.json",
+        "position": {
+          "x": -114.13593,
+          "y": 172.48078
+        }
+      },
+      "a": {
+        "zjb.tc": "4017",
+        "zjb.scale": 1,
+        "zjb.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1713,
+      "p": {
+        "displayName": "皮带机-s",
+        "tag": "pdj_901X",
+        "image": "symbols/项目定制类/老石旦/皮带机-s.json",
+        "position": {
+          "x": 71.95957,
+          "y": 53.78184
+        }
+      },
+      "a": {
+        "progress": " ",
+        "pdj.tc": "901X",
+        "pdj.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1714,
+      "p": {
+        "displayName": "皮带机-s",
+        "tag": "pdj_701",
+        "image": "symbols/项目定制类/老石旦/皮带机-s.json",
+        "position": {
+          "x": 208.50396,
+          "y": 53.78184
+        }
+      },
+      "a": {
+        "progress": " ",
+        "pdj.tc": "701",
+        "pdj.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1715,
+      "p": {
+        "displayName": "皮带机-s",
+        "image": "symbols/项目定制类/老石旦/皮带机-s.json",
+        "position": {
+          "x": 208.50396,
+          "y": 142.48061
+        }
+      },
+      "a": {
+        "pdj.tc": "711",
+        "progress": "133t/h",
+        "pdj.mc": "STATE",
+        "progress2.mc": "COAL_D",
+        "progress.mc": "COAL_CAP",
+        "progress.tc": "711",
+        "progress2.tc": "711",
+        "progress.v": "1",
+        "progress2.v": "1"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1716,
+      "p": {
+        "displayName": "皮带机-s",
+        "tag": "pdj_712",
+        "image": "symbols/项目定制类/老石旦/皮带机-s.json",
+        "position": {
+          "x": 208.50396,
+          "y": 232.13687
+        }
+      },
+      "a": {
+        "pdj.tc": "712",
+        "progress": " ",
+        "pdj.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1717,
+      "p": {
+        "displayName": "皮带机-s",
+        "tag": "PDJ_713",
+        "image": "symbols/项目定制类/老石旦/皮带机-s.json",
+        "position": {
+          "x": 367.93189,
+          "y": 232.13687
+        }
+      },
+      "a": {
+        "pdj.tc": "713",
+        "progress": " ",
+        "pdj.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1718,
+      "p": {
+        "displayName": "皮带机-s",
+        "tag": "PDJ_702",
+        "image": "symbols/项目定制类/老石旦/皮带机-s.json",
+        "position": {
+          "x": 367.93189,
+          "y": 53.78184
+        }
+      },
+      "a": {
+        "progress": " ",
+        "pdj.tc": "702",
+        "pdj.v": "1",
+        "pdj.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1719,
+      "p": {
+        "displayName": "皮带机-s",
+        "tag": "PDJ_703",
+        "image": "symbols/项目定制类/老石旦/皮带机-s.json",
+        "position": {
+          "x": 486.93189,
+          "y": 51.93291
+        }
+      },
+      "a": {
+        "pdj.tc": "703",
+        "progress": " ",
+        "pdj.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1720,
+      "p": {
+        "displayName": "皮带机-s",
+        "tag": "PDJ_704",
+        "image": "symbols/项目定制类/老石旦/皮带机-s.json",
+        "position": {
+          "x": 486.93189,
+          "y": 232.13687
+        }
+      },
+      "a": {
+        "pdj.scale.tc": "right",
+        "pdj.scale_p": "left",
+        "progress": "133t/h",
+        "pdj.tc": "704",
+        "pdj.mc": "STATE；COAL_CAP; COAL_D",
+        "progress.mc": "COAL_CAP",
+        "progress2.mc": "COAL_D",
+        "progress.tc": "704",
+        "progress2.tc": "704",
+        "progress.v": "2",
+        "progress2.v": "2"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1721,
+      "p": {
+        "displayName": "压滤机_02",
+        "tag": "ylj_854",
+        "image": "symbols/项目定制类/老石旦/压滤机_02.json",
+        "position": {
+          "x": 629.6235,
+          "y": 229.12441
+        }
+      },
+      "a": {
+        "ylj.tc": "854",
+        "ylj.mc": "STATE",
+        "tc.scale": "right"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1722,
+      "p": {
+        "displayName": "压滤机_02",
+        "tag": "ylj_835",
+        "image": "symbols/项目定制类/老石旦/压滤机_02.json",
+        "position": {
+          "x": 758.77479,
+          "y": 229.12441
+        }
+      },
+      "a": {
+        "ylj.tc": "835",
+        "ylj.mc": "STATE",
+        "tc.scale": "right"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1723,
+      "p": {
+        "displayName": "压滤机_02",
+        "tag": "ylj_624X",
+        "image": "symbols/项目定制类/老石旦/压滤机_02.json",
+        "position": {
+          "x": 902.95377,
+          "y": 229.12441
+        }
+      },
+      "a": {
+        "ylj.tc": "624X",
+        "ylj.mc": "STATE",
+        "tc.scale": "right"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1724,
+      "p": {
+        "displayName": "水池_02",
+        "tag": "sc_630X",
+        "image": "symbols/项目定制类/老石旦/水池_02.json",
+        "position": {
+          "x": 905.45377,
+          "y": 402.8692
+        }
+      },
+      "a": {
+        "sc.tc": "630X",
+        "sc.mc": "LEVEL",
+        "sc.progress": "0.4m",
+        "sc.v": 1
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1725,
+      "p": {
+        "displayName": "水池_02",
+        "tag": "sc_647",
+        "image": "symbols/项目定制类/老石旦/水池_02.json",
+        "position": {
+          "x": -104.05274,
+          "y": 394.81895
+        }
+      },
+      "a": {
+        "sc.tc": "647",
+        "sc.progress": " ",
+        "sc.v": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1726,
+      "p": {
+        "displayName": "水桶-s",
+        "tag": "st_851",
+        "image": "symbols/项目定制类/老石旦/水桶-s.json",
+        "position": {
+          "x": 754.97868,
+          "y": 48.84532
+        }
+      },
+      "a": {
+        "st.propess": "0.4m",
+        "st.tc": "851",
+        "st.mc": "LEVEL"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1727,
+      "p": {
+        "displayName": "渣浆泵",
+        "tag": "zjb_852",
+        "image": "symbols/项目定制类/老石旦/渣浆泵.json",
+        "position": {
+          "x": 614.6235,
+          "y": 142.48078
+        }
+      },
+      "a": {
+        "zjb.tc": "852",
+        "zjb.scale.tc": "right",
+        "zjb.mc": "STATE",
+        "zjb.scale": -1
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1728,
+      "p": {
+        "displayName": "渣浆泵",
+        "tag": "zjb_853",
+        "image": "symbols/项目定制类/老石旦/渣浆泵.json",
+        "position": {
+          "x": 754.97868,
+          "y": 154.16101
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.69467
+        }
+      },
+      "a": {
+        "scale_n": "left",
+        "zjb.tc": "853",
+        "zjb.scale.tc": "right",
+        "zjb.mc": "STATE",
+        "zjb.scale": -1
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1729,
+      "p": {
+        "displayName": "渣浆泵",
+        "tag": "zjb_623X",
+        "image": "symbols/项目定制类/老石旦/渣浆泵.json",
+        "position": {
+          "x": 887.95377,
+          "y": 142.48061
+        }
+      },
+      "a": {
+        "zjb.tc": "623X",
+        "zjb.scale.tc": "right",
+        "zjb.mc": "STATE",
+        "zjb.scale": -1
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1730,
+      "p": {
+        "displayName": "水池_02",
+        "tag": "zjb_629X",
+        "image": "symbols/项目定制类/老石旦/水池_02.json",
+        "position": {
+          "x": 882.40124,
+          "y": 48.84532
+        }
+      },
+      "a": {
+        "sc.tc": "629X",
+        "sc.mc": "LEVEL",
+        "sc.v": 0,
+        "sc.progress": "0.4m"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1731,
+      "p": {
+        "displayName": "渣浆泵",
+        "tag": "zjb_628X",
+        "image": "symbols/项目定制类/老石旦/渣浆泵.json",
+        "position": {
+          "x": 964.90124,
+          "y": 62.55146
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.67698
+        }
+      },
+      "a": {
+        "zjb.tc": "628X",
+        "zjb.scale.tc": "right",
+        "zjb.mc": "STATE",
+        "zjb.scale": -1
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1732,
+      "p": {
+        "displayName": "浓缩机",
+        "tag": "nsj_601",
+        "image": "symbols/项目定制类/老石旦/浓缩机.json",
+        "position": {
+          "x": 371.93189,
+          "y": -270.06668
+        }
+      },
+      "a": {
+        "nsj.scale_tc": "right",
+        "nsj.mc": "STATE",
+        "nsj.tc": "601"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1733,
+      "p": {
+        "displayName": "渣浆泵",
+        "tag": "zjb_607",
+        "image": "symbols/项目定制类/老石旦/渣浆泵.json",
+        "position": {
+          "x": 317.93189,
+          "y": -77.51539
+        }
+      },
+      "a": {
+        "zjb.tc": "607",
+        "zjb.scale.tc": "right",
+        "zjb.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1734,
+      "p": {
+        "displayName": "渣浆泵",
+        "tag": "zjb_608",
+        "image": "symbols/项目定制类/老石旦/渣浆泵.json",
+        "position": {
+          "x": 443.74704,
+          "y": -66.89685
+        },
+        "anchor": {
+          "x": 0.46937,
+          "y": 0.67698
+        }
+      },
+      "a": {
+        "zjb.tc": "608",
+        "zjb.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1735,
+      "p": {
+        "displayName": "渣浆泵",
+        "tag": "zjb_609",
+        "image": "symbols/项目定制类/老石旦/渣浆泵.json",
+        "position": {
+          "x": 514.43189,
+          "y": -78.64882
+        }
+      },
+      "a": {
+        "zjb.tc": "609",
+        "zjb.scale.tc": "right",
+        "zjb.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1736,
+      "p": {
+        "displayName": "渣浆泵",
+        "tag": "zjb_610",
+        "image": "symbols/项目定制类/老石旦/渣浆泵.json",
+        "position": {
+          "x": 642.1235,
+          "y": -80.14882
+        }
+      },
+      "a": {
+        "zjb.tc": "610",
+        "zjb.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1737,
+      "p": {
+        "displayName": "渣浆泵",
+        "tag": "zjb_621",
+        "image": "symbols/项目定制类/老石旦/渣浆泵.json",
+        "position": {
+          "x": 788.95803,
+          "y": -78.64882
+        }
+      },
+      "a": {
+        "zjb.tc": "621",
+        "zjb.scale.tc": "right",
+        "zjb.mc": "STATE",
+        "zjb.scale": -1
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1738,
+      "p": {
+        "displayName": "渣浆泵",
+        "tag": "zjb_603",
+        "image": "symbols/项目定制类/老石旦/渣浆泵.json",
+        "position": {
+          "x": 695.60812,
+          "y": -404.46592
+        }
+      },
+      "a": {
+        "zjb.tc": "603",
+        "zjb.scale.tc": "right",
+        "zjb.mc": "STATE",
+        "zjb.scale": -1
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1739,
+      "p": {
+        "displayName": "渣浆泵",
+        "tag": "zjb_606",
+        "image": "symbols/项目定制类/老石旦/渣浆泵.json",
+        "position": {
+          "x": 696.57667,
+          "y": -297.31931
+        }
+      },
+      "a": {
+        "zjb.tc": "606",
+        "zjb.scale.tc": "right",
+        "zjb.mc": "STATE",
+        "zjb.scale": -1
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1740,
+      "p": {
+        "displayName": "渣浆泵",
+        "tag": "zjb_64",
+        "image": "symbols/项目定制类/老石旦/渣浆泵.json",
+        "position": {
+          "x": 788.95803,
+          "y": -402.44293
+        }
+      },
+      "a": {
+        "zjb.tc": "604",
+        "zjb.scale.tc": "right",
+        "zjb.mc": "STATE",
+        "zjb.scale": -1
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1741,
+      "p": {
+        "displayName": "渣浆泵",
+        "tag": "zjb_605",
+        "image": "symbols/项目定制类/老石旦/渣浆泵.json",
+        "position": {
+          "x": 788.95803,
+          "y": -295.46586
+        }
+      },
+      "a": {
+        "zjb.tc": "605",
+        "zjb.scale.tc": "right",
+        "zjb.mc": "STATE",
+        "zjb.scale": -1
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1742,
+      "p": {
+        "displayName": "渣浆泵",
+        "tag": "zjb_622",
+        "image": "symbols/项目定制类/老石旦/渣浆泵.json",
+        "position": {
+          "x": 787.89618,
+          "y": -200.69054
+        }
+      },
+      "a": {
+        "zjb.tc": "622",
+        "zjb.scale.tc": "right",
+        "zjb.mc": "STATE",
+        "zjb.scale": -1
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1743,
+      "p": {
+        "displayName": "水池_02",
+        "tag": "sc_620",
+        "image": "symbols/项目定制类/老石旦/水池_02.json",
+        "position": {
+          "x": 882.40124,
+          "y": -151.11149
+        }
+      },
+      "a": {
+        "sc.progress": "0.4m",
+        "sc.tc": "620",
+        "sc.v": 0,
+        "sc.mc": "LEVEL"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1744,
+      "p": {
+        "displayName": "水池_02",
+        "tag": "sc_600",
+        "image": "symbols/项目定制类/老石旦/水池_02.json",
+        "position": {
+          "x": 882.40124,
+          "y": -344.46586
+        }
+      },
+      "a": {
+        "sc.tc": "600",
+        "sc.v": 0,
+        "sc.progress": "0.4m",
+        "sc.scale_p": "right",
+        "sc.mc": "LEVEL"
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1745,
+      "p": {
+        "source": {
+          "__i": 1674
+        },
+        "target": {
+          "__i": 1706
+        }
+      },
+      "s": {
+        "edge.color": "#FE8A26",
+        "edge.dash.color": "#05D84B",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 0.20971,
+        "edge.source.anchor.y": 1.04904,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.31044,
+        "edge.target.anchor.y": -0.1125,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1746,
+      "p": {
+        "source": {
+          "__i": 1674
+        },
+        "target": {
+          "__i": 1707
+        }
+      },
+      "s": {
+        "edge.color": "#FE8A26",
+        "edge.dash.color": "#05D84B",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": [
+            {
+              "x": -183.70086,
+              "y": -277.14407
+            },
+            {
+              "x": -113.61845,
+              "y": -277.14407
+            }
+          ]
+        },
+        "edge.source.anchor.x": 0.38461,
+        "edge.source.anchor.y": 0.32091,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.32608,
+        "edge.target.anchor.y": -0.1417,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1747,
+      "p": {
+        "source": {
+          "__i": 1675
+        },
+        "target": {
+          "__i": 1708
+        }
+      },
+      "s": {
+        "edge.color": "#FE8A26",
+        "edge.dash.color": "#05D84B",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 0.46318,
+        "edge.source.anchor.y": 1.04904,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.46318,
+        "edge.target.anchor.y": -0.08127,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1748,
+      "p": {
+        "source": {
+          "__i": 1733
+        },
+        "target": {
+          "__i": 1681
+        }
+      },
+      "s": {
+        "edge.color": "#FE8A26",
+        "edge.dash.color": "#05D84B",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": [
+            {
+              "x": 313.68447,
+              "y": -159.93053
+            },
+            {
+              "x": 439.28928,
+              "y": -159.93053
+            }
+          ]
+        },
+        "edge.source.anchor.x": 0.42277,
+        "edge.source.anchor.y": -0.15481,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": -0.55169,
+        "edge.target.anchor.y": 3.02011,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1749,
+      "p": {
+        "source": {
+          "__i": 1736
+        },
+        "target": {
+          "__i": 1735
+        }
+      },
+      "s": {
+        "edge.color": "#FE8A26",
+        "edge.dash.color": "#05D84B",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2,
+            4,
+            4,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": [
+            {
+              "x": 638.17952,
+              "y": -162.10733
+            },
+            {
+              "x": 638.17952,
+              "y": -162.10733
+            },
+            {
+              "x": 610.26558,
+              "y": -162.10733
+            },
+            {
+              "x": 578.66091,
+              "y": -162.10733
+            },
+            {
+              "x": 547.05625,
+              "y": -162.10733
+            },
+            {
+              "x": 511.76087,
+              "y": -162.10733
+            },
+            {
+              "x": 511.76087,
+              "y": -162.10733
+            }
+          ]
+        },
+        "edge.source.anchor.x": 0.42829,
+        "edge.source.anchor.y": -0.2256,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.47361,
+        "edge.target.anchor.y": -0.27911,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1750,
+      "p": {
+        "source": {
+          "__i": 1748
+        },
+        "target": {
+          "__i": 1749
+        }
+      },
+      "s": {
+        "edge.color": "#FE8A26",
+        "edge.dash.color": "#05D84B",
+        "edge.source.percent": 0.4975,
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": [
+            {
+              "x": 372.7554,
+              "y": -352.12622
+            },
+            {
+              "x": 578.66091,
+              "y": -352.12622
+            }
+          ]
+        },
+        "edge.target.index": 2
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1751,
+      "p": {
+        "source": {
+          "__i": 1733
+        },
+        "target": {
+          "__i": 1734
+        }
+      },
+      "s": {
+        "edge.color": "#FE8A26",
+        "edge.dash.color": "#05D84B",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 0.90544,
+        "edge.source.anchor.y": 0.64158,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.11829,
+        "edge.target.anchor.y": 0.64158,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1752,
+      "p": {
+        "parent": {
+          "__i": 1751
+        },
+        "source": {
+          "__i": 1726
+        },
+        "target": {
+          "__i": 1751
+        }
+      },
+      "s": {
+        "edge.color": "#FE8A26",
+        "edge.dash.color": "#05D84B",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": [
+            {
+              "x": 754.97868,
+              "y": -27.19869
+            },
+            {
+              "x": 375.28207,
+              "y": -27.19869
+            }
+          ]
+        },
+        "edge.source.anchor.x": 0.5,
+        "edge.source.anchor.y": -0.07777,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0,
+        "edge.target.percent": 0.41625
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1753,
+      "p": {
+        "source": {
+          "__i": 1735
+        },
+        "target": {
+          "__i": 1736
+        }
+      },
+      "s": {
+        "edge.color": "#FE8A26",
+        "edge.dash.color": "#05D84B",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 0.81913,
+        "edge.source.anchor.y": 0.69467,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.13869,
+        "edge.target.anchor.y": 0.71356,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1754,
+      "p": {
+        "source": {
+          "__i": 1753
+        },
+        "target": {
+          "__i": 1752
+        }
+      },
+      "s": {
+        "edge.color": "#FE8A26",
+        "edge.dash.color": "#05D84B",
+        "edge.source.percent": 0.455,
+        "edge.target.percent": 0.47625,
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        }
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1755,
+      "p": {
+        "source": {
+          "__i": 1721
+        },
+        "target": {
+          "__i": 1692
+        }
+      },
+      "s": {
+        "edge.color": "#404040",
+        "edge.dash.color": "#05D84B",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 0.36051,
+        "edge.source.anchor.y": 0.86255,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.44533,
+        "edge.target.anchor.y": 0.47762,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1756,
+      "p": {
+        "source": {
+          "__i": 1727
+        },
+        "target": {
+          "__i": 1721
+        }
+      },
+      "s": {
+        "edge.color": "#FE8A26",
+        "edge.dash.color": "#05D84B",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 0.46552,
+        "edge.source.anchor.y": 1.06871,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.33908,
+        "edge.target.anchor.y": 0.25,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1757,
+      "p": {
+        "source": {
+          "__i": 1728
+        },
+        "target": {
+          "__i": 1722
+        }
+      },
+      "s": {
+        "edge.color": "#FE8A26",
+        "edge.dash.color": "#05D84B",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 0.45467,
+        "edge.source.anchor.y": 1,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.44221,
+        "edge.target.anchor.y": 0.25,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1758,
+      "p": {
+        "source": {
+          "__i": 1729
+        },
+        "target": {
+          "__i": 1723
+        }
+      },
+      "s": {
+        "edge.color": "#FE8A26",
+        "edge.dash.color": "#05D84B",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 0.63615,
+        "edge.source.anchor.y": 1.02504,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.4322,
+        "edge.target.anchor.y": 0.30432,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1759,
+      "p": {
+        "source": {
+          "__i": 1723
+        },
+        "target": {
+          "__i": 1695
+        }
+      },
+      "s": {
+        "edge.color": "#404040",
+        "edge.dash.color": "#05D84B",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 0.42979,
+        "edge.source.anchor.y": 0.89825,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.41327,
+        "edge.target.anchor.y": 0.5,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1760,
+      "p": {
+        "source": {
+          "__i": 1722
+        },
+        "target": {
+          "__i": 1694
+        }
+      },
+      "s": {
+        "edge.color": "#404040",
+        "edge.dash.color": "#05D84B",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            4,
+            4
+          ]
+        },
+        "edge.points": {
+          "__a": [
+            {
+              "x": 752.26084,
+              "y": 254.06171
+            },
+            {
+              "x": 752.31705,
+              "y": 248.73599
+            },
+            {
+              "x": 752.1573,
+              "y": 263.87053
+            },
+            {
+              "x": 751.99755,
+              "y": 279.00506
+            },
+            {
+              "x": 751.62182,
+              "y": 314.59985
+            }
+          ]
+        },
+        "edge.source.anchor.x": 0.43796,
+        "edge.source.anchor.y": 0.95341,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.5,
+        "edge.target.anchor.y": 0.57037,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1761,
+      "p": {
+        "source": {
+          "__i": 1694
+        },
+        "target": {
+          "__i": 1696
+        }
+      },
+      "s": {
+        "edge.color": "#404040",
+        "edge.dash.color": "#05D84B",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 0.5,
+        "edge.source.anchor.y": 1.02405,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.53112,
+        "edge.target.anchor.y": 0.47111,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1762,
+      "p": {
+        "source": {
+          "__i": 1719
+        },
+        "target": {
+          "__i": 1720
+        }
+      },
+      "s": {
+        "edge.color": "#404040",
+        "edge.dash.color": "#05D84B",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 0.56616,
+        "edge.source.anchor.y": 0.7237,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.57863,
+        "edge.target.anchor.y": 0.1386,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1763,
+      "p": {
+        "source": {
+          "__i": 1720
+        },
+        "target": {
+          "__i": 1690
+        }
+      },
+      "s": {
+        "edge.color": "#404040",
+        "edge.dash.color": "#05D84B",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 0.55369,
+        "edge.source.anchor.y": 0.72257,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.5699,
+        "edge.target.anchor.y": 0.18055,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1764,
+      "p": {
+        "source": {
+          "__i": 1718
+        },
+        "target": {
+          "__i": 1762
+        }
+      },
+      "s": {
+        "edge.color": "#404040",
+        "edge.dash.color": "#05D84B",
+        "edge.target.percent": 0.4725,
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": [
+            {
+              "x": 367.93189,
+              "y": 135.75265
+            }
+          ]
+        },
+        "edge.source.anchor.x": 0.5,
+        "edge.source.anchor.y": 1.04866,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1765,
+      "p": {
+        "source": {
+          "__i": 1717
+        },
+        "target": {
+          "__i": 1678
+        }
+      },
+      "s": {
+        "edge.color": "#404040",
+        "edge.dash.color": "#05D84B",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            4,
+            4
+          ]
+        },
+        "edge.points": {
+          "__a": [
+            {
+              "x": 367.93189,
+              "y": 238.79237
+            },
+            {
+              "x": 367.932,
+              "y": 271.84566
+            },
+            {
+              "x": 367.93212,
+              "y": 297.43541
+            },
+            {
+              "x": 367.93225,
+              "y": 323.02516
+            },
+            {
+              "x": 367.93239,
+              "y": 352.32295
+            }
+          ]
+        },
+        "edge.source.anchor.x": 0.5,
+        "edge.source.anchor.y": 0.62101,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.60455,
+        "edge.target.anchor.y": 0.20004,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1766,
+      "p": {
+        "source": {
+          "__i": 1713
+        },
+        "target": {
+          "__i": 1680
+        }
+      },
+      "s": {
+        "edge.color": "#404040",
+        "edge.dash.color": "#05D84B",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 0.5,
+        "edge.source.anchor.y": 0.71548,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.5,
+        "edge.target.anchor.y": 0.0997,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1767,
+      "p": {
+        "source": {
+          "__i": 1715
+        },
+        "target": {
+          "__i": 1714
+        }
+      },
+      "s": {
+        "edge.color": "#404040",
+        "edge.dash.color": "#05D84B",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 0.47119,
+        "edge.source.anchor.y": 0.21993,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.47119,
+        "edge.target.anchor.y": 0.75,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1768,
+      "p": {
+        "source": {
+          "__i": 1715
+        },
+        "target": {
+          "__i": 1716
+        }
+      },
+      "s": {
+        "edge.color": "#404040",
+        "edge.dash.color": "#05D84B",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 0.47119,
+        "edge.source.anchor.y": 0.72773,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.47761,
+        "edge.target.anchor.y": 0.38091,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1769,
+      "p": {
+        "source": {
+          "__i": 1716
+        },
+        "target": {
+          "__i": 1677
+        }
+      },
+      "s": {
+        "edge.color": "#404040",
+        "edge.dash.color": "#05D84B",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 0.47119,
+        "edge.source.anchor.y": 0.77335,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.5251,
+        "edge.target.anchor.y": 0.11085,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1770,
+      "p": {
+        "source": {
+          "__i": 1769
+        },
+        "target": {
+          "__i": 1765
+        }
+      },
+      "s": {
+        "edge.color": "#404040",
+        "edge.dash.color": "#05D84B",
+        "edge.source.percent": 0.6175,
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.target.percent": 0.59625
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1771,
+      "p": {
+        "source": {
+          "__i": 1716
+        },
+        "target": {
+          "__i": 1717
+        }
+      },
+      "s": {
+        "edge.color": "#404040",
+        "edge.dash.color": "#05D84B",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 0.87018,
+        "edge.source.anchor.y": 0.5,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.0874,
+        "edge.target.anchor.y": 0.5,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1772,
+      "p": {
+        "source": {
+          "__i": 1726
+        },
+        "target": {
+          "__i": 1728
+        }
+      },
+      "s": {
+        "edge.color": "#FE8A26",
+        "edge.dash.color": "#05D84B",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.39575,
+        "edge.target.anchor.y": 0.15081,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0,
+        "edge.source.percent": 0.53625,
+        "edge.source.anchor.x": 0.43254,
+        "edge.source.anchor.y": 0.97862
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1773,
+      "p": {
+        "source": {
+          "__i": 1727
+        },
+        "target": {
+          "__i": 1729
+        }
+      },
+      "s": {
+        "edge.color": "#FE8A26",
+        "edge.dash.color": "#05D84B",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": [
+            {
+              "x": 607.5747,
+              "y": 93.65558
+            },
+            {
+              "x": 876.34877,
+              "y": 93.65558
+            }
+          ]
+        },
+        "edge.source.anchor.x": 0.37184,
+        "edge.source.anchor.y": 0.25,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.289,
+        "edge.target.anchor.y": 0.18798,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1774,
+      "p": {
+        "source": {
+          "__i": 1672
+        },
+        "target": {
+          "__i": 1697
+        }
+      },
+      "s": {
+        "edge.color": "#FE8A26",
+        "edge.dash.color": "#05D84B",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": [
+            {
+              "x": -345.10308,
+              "y": -383.71927
+            },
+            {
+              "x": -265.46383,
+              "y": -383.71927
+            }
+          ]
+        },
+        "edge.source.anchor.x": 0.39979,
+        "edge.source.anchor.y": -0.07953,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.39304,
+        "edge.target.anchor.y": -0.0886,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1775,
+      "p": {
+        "displayName": "药剂桶",
+        "tag": "yjt_416",
+        "image": "symbols/项目定制类/老石旦/药剂桶.json",
+        "position": {
+          "x": -14.43231,
+          "y": -430.46575
+        }
+      },
+      "a": {
+        "yjt.tc": "416"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1776,
+      "p": {
+        "displayName": "药剂桶",
+        "tag": "yjt_417",
+        "image": "symbols/项目定制类/老石旦/药剂桶.json",
+        "position": {
+          "x": 183.50396,
+          "y": -432.44293
+        }
+      },
+      "a": {
+        "yjt.tc": "417"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1777,
+      "p": {
+        "displayName": "矿浆预处理器",
+        "tag": "kj_401",
+        "image": "symbols/项目定制类/老石旦/矿浆预处理器.json",
+        "position": {
+          "x": -14.43231,
+          "y": -327.31931
+        }
+      },
+      "a": {
+        "bj.v": "2",
+        "kj.scale": 1,
+        "kj.tc": "401",
+        "kj.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1778,
+      "p": {
+        "displayName": "矿浆预处理器",
+        "image": "symbols/项目定制类/老石旦/矿浆预处理器.json",
+        "position": {
+          "x": 162.26816,
+          "y": -325.46586
+        },
+        "anchor": {
+          "x": 0.4533,
+          "y": 0.5
+        }
+      },
+      "a": {
+        "kj.tc": "421",
+        "kj.scale": -1,
+        "kj.v": "0",
+        "kj.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1779,
+      "p": {
+        "source": {
+          "__i": 1778
+        },
+        "target": {
+          "__i": 1676
+        }
+      },
+      "s": {
+        "edge.color": "#FE8A26",
+        "edge.dash.color": "#05D84B",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 0.5,
+        "edge.source.anchor.y": 1.04792,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.5,
+        "edge.target.anchor.y": 0.47067,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1780,
+      "p": {
+        "source": {
+          "__i": 1777
+        },
+        "target": {
+          "__i": 1675
+        }
+      },
+      "s": {
+        "edge.color": "#FE8A26",
+        "edge.dash.color": "#05D84B",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 0.33659,
+        "edge.source.anchor.y": 1.06257,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.47817,
+        "edge.target.anchor.y": 0.5,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1781,
+      "p": {
+        "source": {
+          "__i": 1777
+        },
+        "target": {
+          "__i": 1710
+        }
+      },
+      "s": {
+        "edge.color": "#FE8A26",
+        "edge.dash.color": "#05D84B",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": [
+            {
+              "x": 227.88403,
+              "y": -384.78779
+            }
+          ]
+        },
+        "edge.source.anchor.x": 0.30682,
+        "edge.source.anchor.y": -0.1761,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0,
+        "edge.target.percent": 0.9375,
+        "edge.target.anchor.x": 0.35236,
+        "edge.target.anchor.y": 0.22939,
+        "opacity": 1
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1782,
+      "p": {
+        "source": {
+          "__i": 1781
+        },
+        "target": {
+          "__i": 1777
+        }
+      },
+      "s": {
+        "edge.color": "rgb(247,247,247)",
+        "edge.dash": true,
+        "edge.dash.color": "#FE8A26",
+        "edge.source.index": 0,
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.target.anchor.x": 0.30702,
+        "edge.target.anchor.y": 0.16086,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0,
+        "edge.dash.pattern": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1783,
+      "p": {
+        "displayName": "分配箱-b",
+        "tag": "fpx_601X",
+        "image": "symbols/项目定制类/老石旦/分配箱-b.json",
+        "position": {
+          "x": 486.93189,
+          "y": -404.94293
+        }
+      },
+      "a": {
+        "fpx.tc": "601X"
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1784,
+      "p": {
+        "source": {
+          "__i": 1783
+        },
+        "target": {
+          "__i": 1750
+        }
+      },
+      "s": {
+        "edge.color": "#FE8A26",
+        "edge.dash.color": "#05D84B",
+        "edge.target.percent": 0.5,
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 0.3221,
+        "edge.source.anchor.y": 1.03059,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1785,
+      "p": {
+        "source": {
+          "__i": 1676
+        },
+        "target": {
+          "__i": 1747
+        }
+      },
+      "s": {
+        "edge.color": "#FE8A26",
+        "edge.dash.color": "#05D84B",
+        "edge.target.percent": 0.5975,
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": [
+            {
+              "x": 167.44051,
+              "y": -150.52856
+            }
+          ]
+        },
+        "edge.source.anchor.x": 0.52608,
+        "edge.source.anchor.y": 1.02051,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1786,
+      "p": {
+        "source": {
+          "__i": 1676
+        },
+        "target": {
+          "__i": 1789
+        }
+      },
+      "s": {
+        "edge.color": "#FE8A26",
+        "edge.dash.color": "#05D84B",
+        "edge.target.percent": 0.56,
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 0.85825,
+        "edge.source.anchor.y": 1,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1787,
+      "p": {
+        "source": {
+          "__i": 1675
+        },
+        "target": {
+          "__i": 1789
+        }
+      },
+      "s": {
+        "edge.color": "#FE8A26",
+        "edge.dash.color": "#05D84B",
+        "edge.target.percent": 0.785,
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 0.81399,
+        "edge.source.anchor.y": 1,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1788,
+      "p": {
+        "source": {
+          "__i": 1781
+        },
+        "target": {
+          "__i": 1778
+        }
+      },
+      "s": {
+        "edge.color": "#EFF1F4",
+        "edge.dash": true,
+        "edge.dash.color": "#FE8A26",
+        "edge.source.percent": 0.36,
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.target.anchor.x": 0.5,
+        "edge.target.anchor.y": 0.1796,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0,
+        "edge.dash.pattern": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1789,
+      "p": {
+        "source": {
+          "__i": 1783
+        },
+        "target": {
+          "__i": 1674
+        }
+      },
+      "s": {
+        "edge.color": "#FE8A26",
+        "edge.dash.color": "#05D84B",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": [
+            {
+              "x": 264.23782,
+              "y": -400.95217
+            },
+            {
+              "x": 264.23782,
+              "y": -166.58471
+            },
+            {
+              "x": 231.0979,
+              "y": -166.58471
+            },
+            {
+              "x": 228.0207,
+              "y": -169.39267
+            },
+            {
+              "x": 224.99602,
+              "y": -166.58471
+            },
+            {
+              "x": 171.09246,
+              "y": -166.58471
+            },
+            {
+              "x": 167.70753,
+              "y": -169.39267
+            },
+            {
+              "x": 164.16586,
+              "y": -166.58471
+            },
+            {
+              "x": -24.61762,
+              "y": -166.58471
+            },
+            {
+              "x": -28.13442,
+              "y": -169.39267
+            },
+            {
+              "x": -31.65123,
+              "y": -166.58471
+            },
+            {
+              "x": -109.60702,
+              "y": -166.58471
+            },
+            {
+              "x": -113.70996,
+              "y": -169.39267
+            },
+            {
+              "x": -117.22676,
+              "y": -166.58471
+            },
+            {
+              "x": -160.84041,
+              "y": -166.58471
+            }
+          ]
+        },
+        "edge.source.anchor.x": 0,
+        "edge.source.anchor.y": 0.59977,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.65355,
+        "edge.target.anchor.y": 1.0715,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1790,
+      "p": {
+        "source": {
+          "__i": 1696
+        },
+        "target": {
+          "__i": 1719
+        }
+      },
+      "s": {
+        "edge.color": "#404040",
+        "edge.dash.color": "#05D84B",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": [
+            {
+              "x": 752.68473,
+              "y": 460.82739
+            },
+            {
+              "x": 555.78576,
+              "y": 460.82739
+            },
+            {
+              "x": 555.78576,
+              "y": 25.13604
+            },
+            {
+              "x": 494.34211,
+              "y": 25.13604
+            }
+          ]
+        },
+        "edge.source.anchor.x": 0.52443,
+        "edge.source.anchor.y": 1.07227,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.56616,
+        "edge.target.anchor.y": 0.25,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1791,
+      "p": {
+        "source": {
+          "__i": 1693
+        },
+        "target": {
+          "__i": 1790
+        }
+      },
+      "s": {
+        "edge.color": "#404040",
+        "edge.dash.color": "#05D84B",
+        "edge.target.percent": 0.2225,
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.source.percent": 0.2225,
+        "edge.source.anchor.x": 0.47183,
+        "edge.source.anchor.y": 1
+      }
+    }
+  ],
+  "modified": "Mon Oct 25 2021 16:08:43 GMT+0800 (中国标准时间)",
+  "contentRect": {
+    "x": -392.18528,
+    "y": -459.94293,
+    "width": 1384.58652,
+    "height": 922.77032
+  }
+}

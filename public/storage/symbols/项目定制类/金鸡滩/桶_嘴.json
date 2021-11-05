@@ -1,0 +1,76 @@
+{
+  "modified": "Thu Oct 14 2021 13:55:30 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "st.tc",
+      "valueType": "String"
+    },
+    {
+      "attr": "st.v",
+      "valueType": "Number",
+      "name": "PBValue"
+    },
+    {
+      "attr": "st.mc",
+      "valueType": "String"
+    }
+  ],
+  "width": 100,
+  "height": 110,
+  "comps": [
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@st.tc",
+        "value": "201"
+      },
+      "align": "center",
+      "color": "rgb(0,0,0)",
+      "font": "bold 14px sans-serif, Arial",
+      "rect": [
+        5.90222,
+        1.67636,
+        36.97931,
+        15.0936
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/素材库/设备/桶_嘴.json",
+      "prefix": "st",
+      "displayName": "桶_嘴",
+      "rect": [
+        0,
+        18.51618,
+        90,
+        90
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/素材库/指示/跳转.json",
+      "displayName": "跳转",
+      "rect": [
+        75.33469,
+        4.26996,
+        25,
+        25
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nconst v = data.ca('st.v');\r\nreturn Number(v || 0).toFixed(0) + '%';\n}",
+        "value": "3.5"
+      },
+      "color": "rgb(255,255,255)",
+      "font": "17px sans-serif, Arial",
+      "rect": [
+        12.04889,
+        39.81374,
+        34.92433,
+        16.9674
+      ]
+    }
+  ]
+}

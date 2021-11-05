@@ -1,0 +1,67 @@
+{
+  "modified": "Thu Aug 26 2021 13:10:04 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "l.v",
+      "valueType": "Percentage",
+      "defaultValue": 0.2,
+      "name": "PBValue"
+    },
+    {
+      "attr": "l.tc",
+      "valueType": "String"
+    },
+    {
+      "attr": "l.mc",
+      "valueType": "String"
+    },
+    {
+      "attr": "r.v",
+      "valueType": "Percentage",
+      "defaultValue": 0.5,
+      "name": "PBValue"
+    },
+    {
+      "attr": "r.tc",
+      "valueType": "String"
+    },
+    {
+      "attr": "r.mc",
+      "valueType": "String"
+    },
+    {
+      "attr": "name",
+      "valueType": "String"
+    }
+  ],
+  "width": 80,
+  "height": 100,
+  "comps": [
+    {
+      "type": "image",
+      "name": "symbols/素材库/建筑/煤仓-s.json",
+      "displayName": "煤仓-s",
+      "rect": [
+        0,
+        0,
+        79.57659,
+        77.58717
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@name",
+        "value": "文本"
+      },
+      "align": "center",
+      "font": "bold 14px sans-serif, Arial",
+      "rect": [
+        0,
+        77.58717,
+        79.95019,
+        28.09865
+      ]
+    }
+  ]
+}

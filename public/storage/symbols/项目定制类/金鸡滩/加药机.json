@@ -1,0 +1,199 @@
+{
+  "modified": "Fri Oct 08 2021 14:36:29 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "xh.tc",
+      "valueType": "String",
+      "group": "信号状态"
+    },
+    {
+      "attr": "xh.mc",
+      "valueType": "String",
+      "group": "信号状态"
+    },
+    {
+      "attr": "xh.v",
+      "valueType": "String",
+      "group": "信号状态"
+    },
+    {
+      "attr": "dqpl.v",
+      "valueType": "String",
+      "group": "当前频率"
+    },
+    {
+      "attr": "dqpl.tc",
+      "valueType": "String",
+      "group": "当前频率"
+    },
+    {
+      "attr": "dqpl.mc",
+      "valueType": "String",
+      "group": "当前频率"
+    },
+    {
+      "attr": "dqpl.labelType",
+      "valueType": "String",
+      "group": "当前频率"
+    },
+    {
+      "attr": "dqpl.unit",
+      "valueType": "String",
+      "group": "当前频率"
+    },
+    {
+      "attr": "kzms.v",
+      "valueType": "String",
+      "group": "控制模式"
+    },
+    {
+      "attr": "kzms.tc",
+      "valueType": "String",
+      "group": "控制模式"
+    },
+    {
+      "attr": "kzms.mc",
+      "valueType": "String",
+      "group": "控制模式"
+    },
+    {
+      "attr": "tjms.v",
+      "valueType": "String",
+      "group": "调节模式",
+      "defaultValue": "1"
+    },
+    {
+      "attr": "tjms.tc",
+      "valueType": "String",
+      "group": "调节模式"
+    },
+    {
+      "attr": "tjms.mc",
+      "valueType": "String",
+      "group": "调节模式"
+    }
+  ],
+  "width": 170,
+  "height": 240,
+  "comps": [
+    {
+      "type": "image",
+      "name": "symbols/素材库/设备/加药机.json",
+      "displayName": "加药机",
+      "rect": [
+        10.60918,
+        32.63748,
+        132,
+        80
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/素材库/指示/跳转.json",
+      "prefix": "tz",
+      "shadow": true,
+      "shadowColor": "rgb(222,222,222)",
+      "displayName": "跳转",
+      "rect": [
+        134.39082,
+        23.61631,
+        25,
+        25
+      ]
+    },
+    {
+      "type": "components/工厂组件/指示/信号状态.json",
+      "prefix": "xh",
+      "displayName": "信号状态",
+      "rect": [
+        4.31432,
+        1.61631,
+        52,
+        22
+      ],
+      "tc": {
+        "func": "attr@tc",
+        "value": "555"
+      },
+      "mc": {
+        "func": "attr@mc"
+      },
+      "xh.state": {
+        "func": "attr@v",
+        "value": "0"
+      }
+    },
+    {
+      "type": "components/工厂组件/label/文字label.json",
+      "displayName": "文字label",
+      "rect": [
+        1.06519,
+        104.16251,
+        167.86962,
+        60.43306
+      ],
+      "v": {
+        "func": "__ht__function(data, view) {\nconst v = data.ca('v');\r\nif (v == '1') return '智能调节';\r\nreturn '手动调节';\n}",
+        "value": "aa"
+      },
+      "tc": {
+        "func": "attr@tjms.tc"
+      },
+      "mc": {
+        "func": "attr@tjms.mc"
+      },
+      "hasShadow": false
+    },
+    {
+      "type": "components/工厂组件/label/文字label.json",
+      "displayName": "文字label",
+      "rect": [
+        1.06519,
+        141.22421,
+        167.86962,
+        60.43306
+      ],
+      "label": "控制模式",
+      "v": {
+        "func": "__ht__function(data, view) {\nconst v = data.ca('v');\r\nif (v === '1') return '自动运行'\r\nreturn '手动运行'\n}",
+        "value": "自动运行"
+      },
+      "tc": {
+        "func": "attr@kzms.tc"
+      },
+      "mc": {
+        "func": "attr@kzms.mc"
+      },
+      "hasShadow": false
+    },
+    {
+      "type": "components/工厂组件/label/文字label.json",
+      "displayName": "文字label",
+      "rect": [
+        -0.52828,
+        189.68172,
+        169.46308,
+        50.31828
+      ],
+      "label": "当前频率",
+      "v": {
+        "func": "__ht__function(data, view) {\nconst v = data.ca('dqpl.v');\r\nreturn Number(v).toFixed(1);\n}",
+        "value": "0"
+      },
+      "tc": {
+        "func": "attr@dqpl.tc"
+      },
+      "mc": {
+        "func": "attr@dqpl.mc"
+      },
+      "labelType": {
+        "func": "attr@dqpl.labelType",
+        "value": "number"
+      },
+      "unit": {
+        "func": "attr@dqpl.unit",
+        "value": "Hz"
+      }
+    }
+  ]
+}

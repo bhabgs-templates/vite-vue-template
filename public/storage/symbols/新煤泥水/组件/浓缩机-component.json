@@ -1,0 +1,285 @@
+{
+  "modified": "Thu Aug 12 2021 09:51:29 GMT+0800 (中國標準時間)",
+  "dataBindings": [
+    {
+      "attr": "fx",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "name": "是否展示分享"
+    },
+    {
+      "attr": "xh.mc",
+      "valueType": "String",
+      "group": "信号"
+    },
+    {
+      "attr": "xh.tc",
+      "valueType": "String",
+      "group": "信号"
+    },
+    {
+      "attr": "xh.v",
+      "valueType": "Boolean",
+      "group": "信号"
+    },
+    {
+      "attr": "zjb1.tc",
+      "valueType": "String",
+      "group": "渣浆泵1"
+    },
+    {
+      "attr": "zjb1.mc",
+      "valueType": "String",
+      "group": "渣浆泵1"
+    },
+    {
+      "attr": "zjb1.v",
+      "valueType": "Boolean",
+      "group": "渣浆泵1"
+    },
+    {
+      "attr": "zjb2.tc",
+      "valueType": "String",
+      "group": "渣浆泵2"
+    },
+    {
+      "attr": "zjb2.mc",
+      "valueType": "String",
+      "group": "渣浆泵2"
+    },
+    {
+      "attr": "zjb2.v",
+      "valueType": "Boolean",
+      "group": "渣浆泵2"
+    },
+    {
+      "attr": "height",
+      "valueType": "String"
+    },
+    {
+      "attr": "width",
+      "valueType": "PositiveNumber"
+    },
+    {
+      "attr": "nj.v",
+      "valueType": "Number",
+      "group": "扭矩"
+    },
+    {
+      "attr": "nj.tc",
+      "valueType": "String",
+      "group": "扭矩"
+    },
+    {
+      "attr": "nj.mc",
+      "valueType": "String",
+      "group": "扭矩"
+    },
+    {
+      "attr": "cqcgd.v",
+      "valueType": "Number",
+      "group": "澄清层高度"
+    },
+    {
+      "attr": "cqcgd.tc",
+      "valueType": "String",
+      "group": "澄清层高度"
+    },
+    {
+      "attr": "cqcgd.mc",
+      "valueType": "String",
+      "group": "澄清层高度"
+    },
+    {
+      "attr": "dlnd.v",
+      "valueType": "Number",
+      "group": "底流浓度"
+    },
+    {
+      "attr": "dlnd.tc",
+      "valueType": "String",
+      "group": "底流浓度"
+    },
+    {
+      "attr": "dlnd.mc",
+      "valueType": "String",
+      "group": "底流浓度"
+    }
+  ],
+  "width": 363,
+  "height": 270,
+  "blendMode": "override",
+  "comps": [
+    {
+      "type": "image",
+      "name": "symbols/新煤泥水/压缩机.json",
+      "displayName": "压缩机",
+      "rect": [
+        36.10519,
+        28,
+        238,
+        94
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/新煤泥水/分享.json",
+      "visible": {
+        "func": "attr@fx",
+        "value": true
+      },
+      "displayName": "分享",
+      "rect": [
+        19.50865,
+        75,
+        48,
+        48
+      ]
+    },
+    {
+      "type": "components/progressBar/信号组件.json",
+      "prefix": "xh",
+      "displayName": "信号组件",
+      "rect": [
+        12.50865,
+        14,
+        110,
+        28
+      ],
+      "xhstate": {
+        "func": "attr@v",
+        "value": false
+      },
+      "tc": {
+        "func": "attr@tc",
+        "value": "601"
+      },
+      "mc": {
+        "func": "attr@mc"
+      }
+    },
+    {
+      "type": "image",
+      "name": "symbols/新煤泥水/background.json",
+      "displayName": "background",
+      "rect": [
+        1,
+        129.89872,
+        281.47789,
+        137
+      ]
+    },
+    {
+      "type": "components/progressBar/label-card.json",
+      "prefix": "nj",
+      "displayName": "label-card",
+      "rect": [
+        82.10519,
+        134.56776,
+        192,
+        38
+      ],
+      "unit": "nm",
+      "value": {
+        "func": "attr@v",
+        "value": 0
+      },
+      "tc": {
+        "func": "attr@tc"
+      },
+      "mc": {
+        "func": "attr@mc"
+      }
+    },
+    {
+      "type": "components/progressBar/label-card.json",
+      "prefix": "cqcgd",
+      "displayName": "label-card",
+      "rect": [
+        82.10519,
+        179.79543,
+        192,
+        38
+      ],
+      "label": "澄清层高度",
+      "unit": "m",
+      "value": {
+        "func": "attr@v",
+        "value": 0
+      },
+      "tc": {
+        "func": "attr@tc"
+      },
+      "mc": {
+        "func": "attr@mc"
+      }
+    },
+    {
+      "type": "components/progressBar/label-card.json",
+      "prefix": "dlnd",
+      "displayName": "label-card",
+      "rect": [
+        82.10519,
+        224.22967,
+        192,
+        38
+      ],
+      "label": "底流浓度",
+      "unit": "g/l",
+      "value": {
+        "func": "attr@v",
+        "value": 0
+      },
+      "tc": {
+        "func": "attr@tc"
+      },
+      "mc": {
+        "func": "attr@mc"
+      }
+    },
+    {
+      "type": "components/progressBar/渣浆泵.json",
+      "prefix": "zjb1",
+      "displayName": "渣浆泵",
+      "rect": [
+        314,
+        0,
+        49,
+        77
+      ],
+      "tc": {
+        "func": "attr@tc",
+        "value": "609"
+      },
+      "mc": {
+        "func": "attr@mc"
+      },
+      "zjb.state": {
+        "func": "attr@v",
+        "value": false
+      }
+    },
+    {
+      "type": "components/progressBar/渣浆泵.json",
+      "prefix": "zjb2",
+      "displayName": "渣浆泵",
+      "rect": [
+        314,
+        96.5,
+        49,
+        77
+      ],
+      "tc": {
+        "func": "attr@tc",
+        "value": "610"
+      },
+      "mc": {
+        "func": "attr@mc"
+      },
+      "zjb.state": {
+        "func": "attr@v",
+        "value": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "modified": "Wed Oct 13 2021 10:30:33 GMT+0800 (中国标准时间)",
+  "width": 31,
+  "height": 28,
+  "comps": [
+    {
+      "type": "shape",
+      "background": "rgb(0,199,7)",
+      "fillRule": "evenodd",
+      "pixelPerfect": true,
+      "points": [
+        0,
+        27.92199,
+        31,
+        27.92199,
+        31,
+        5.62161,
+        0,
+        5.62161,
+        0,
+        27.92199
+      ],
+      "segments": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        5
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(0,199,7)",
+      "fillRule": "evenodd",
+      "pixelPerfect": true,
+      "points": [
+        10.97626,
+        28,
+        20.02417,
+        28,
+        20.02417,
+        19.41265,
+        10.97626,
+        19.41265,
+        10.97626,
+        28
+      ],
+      "segments": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        5
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(67,224,73)",
+      "borderWidth": 0.5,
+      "borderColor": "#b3b3b3",
+      "pixelPerfect": true,
+      "points": [
+        10.97626,
+        28,
+        20.02417,
+        28,
+        20.02417,
+        19.41222,
+        10.97626,
+        19.41222,
+        10.97626,
+        28
+      ],
+      "segments": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        5
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(0,199,7)",
+      "fillRule": "evenodd",
+      "pixelPerfect": true,
+      "points": [
+        9.93032,
+        2,
+        13.50073,
+        9.51661,
+        17.4991,
+        9.51661,
+        21.06994,
+        2,
+        9.93032,
+        2
+      ],
+      "segments": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        5
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(67,224,73)",
+      "borderWidth": 0.5,
+      "borderColor": "#b3b3b3",
+      "pixelPerfect": true,
+      "points": [
+        17.49901,
+        9.51661,
+        13.50107,
+        9.51661,
+        9.93024,
+        2,
+        21.07028,
+        2,
+        17.49901,
+        9.51661
+      ],
+      "segments": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        5
+      ]
+    }
+  ]
+}

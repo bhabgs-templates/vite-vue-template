@@ -1,0 +1,23 @@
+{
+  "modified": "Fri Sep 24 2021 13:20:44 GMT+0800 (中国标准时间)",
+  "width": 52,
+  "height": 22,
+  "func": "__ht__function(g, rect, comp, data, view) {\nconst {x, y, width, height} = rect;\r\n\r\nconst BZ = {\r\n    img: ht.Default.getImage('symbols/素材库/指示/别针.json'),\r\n    x: x + 2,\r\n    y: y + (height - 16)/2,\r\n    w: 16,\r\n    h: 16\r\n}\r\n\r\n\r\n// 渲染圆角矩形\r\nconst renderyj = () => {\r\n    const state = comp.getValue('xh.state');\r\n    const colors = ['#1CDFC1', '#FF6B54', '#F5F6F9'];\r\n    let color = colors[state] || colors[2];\r\n    \r\n    g.beginPath();\r\n    ht.Default.drawRoundRect(g, x, y, width, height, 3);\r\n    g.fillStyle = color;\r\n    g.fill();\r\n}\r\n\r\nrenderyj();\r\n\r\n// 渲染别针\r\nconst renderBZ = () => {\r\n    \r\n    ht.Default.drawImage(g, BZ.img, BZ.x, BZ.y, BZ.w, BZ.h, data, view, '')\r\n}\r\nrenderBZ();\r\n\r\n// 渲染TC文字\r\nconst renderTC = () => {\r\n    const tc = comp.getValue('tc');\r\n    const font = comp.getValue('font');\r\n    ht.Default.drawText(g, tc, font, '#333', BZ.x + BZ.w, y + 2, width - BZ.w, height, 'left', 'middle');\r\n}\r\nrenderTC();\n}",
+  "properties": {
+    "tc": {
+      "valueType": "String",
+      "defaultValue": "666"
+    },
+    "mc": {
+      "valueType": "String"
+    },
+    "xh.state": {
+      "valueType": "String",
+      "defaultValue": "1"
+    },
+    "font": {
+      "valueType": "Font",
+      "defaultValue": "17px sans-serif, Arial"
+    }
+  }
+}

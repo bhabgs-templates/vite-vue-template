@@ -1,0 +1,359 @@
+{
+  "modified": "Mon Sep 27 2021 14:51:41 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "height",
+      "valueType": "String"
+    },
+    {
+      "attr": "width",
+      "valueType": "PositiveNumber"
+    },
+    {
+      "attr": "fx",
+      "valueType": "Boolean"
+    },
+    {
+      "attr": "xh.v",
+      "valueType": "Boolean"
+    },
+    {
+      "attr": "xh.tc",
+      "valueType": "String"
+    },
+    {
+      "attr": "xh.mc",
+      "valueType": "String"
+    },
+    {
+      "attr": "tjms.v",
+      "valueType": "String",
+      "group": "调节模式"
+    },
+    {
+      "attr": "tjms.tc",
+      "valueType": "String",
+      "group": "调节模式"
+    },
+    {
+      "attr": "tjms.mc",
+      "valueType": "String",
+      "group": "调节模式"
+    },
+    {
+      "attr": "kzms.v",
+      "valueType": "String",
+      "group": "控制模式"
+    },
+    {
+      "attr": "kzms.tc",
+      "valueType": "String",
+      "group": "控制模式"
+    },
+    {
+      "attr": "kzms.mc",
+      "valueType": "String",
+      "group": "控制模式"
+    },
+    {
+      "attr": "pl.v",
+      "valueType": "Number",
+      "group": "当前频率"
+    },
+    {
+      "attr": "pl.tc",
+      "valueType": "String",
+      "group": "当前频率"
+    },
+    {
+      "attr": "pl.mc",
+      "valueType": "String",
+      "group": "当前频率"
+    },
+    {
+      "attr": "jbtyw.v",
+      "valueType": "Number",
+      "group": "搅拌桶液位"
+    },
+    {
+      "attr": "jbtyw.tc",
+      "valueType": "String",
+      "group": "搅拌桶液位"
+    },
+    {
+      "attr": "jbtyw.mc",
+      "valueType": "String",
+      "group": "搅拌桶液位"
+    },
+    {
+      "attr": "cyxyw.v",
+      "valueType": "Number",
+      "group": "储药箱液位"
+    },
+    {
+      "attr": "cyxyw.tc",
+      "valueType": "String",
+      "group": "储药箱液位"
+    },
+    {
+      "attr": "cyxyw.mc",
+      "valueType": "String",
+      "group": "储药箱液位"
+    },
+    {
+      "attr": "gysc.v",
+      "valueType": "Number",
+      "group": "给药时长"
+    },
+    {
+      "attr": "gysc.tc",
+      "valueType": "String",
+      "group": "给药时长"
+    },
+    {
+      "attr": "gysc.mc",
+      "valueType": "String",
+      "group": "给药时长"
+    },
+    {
+      "attr": "b1.tc",
+      "valueType": "String",
+      "group": "泵状态"
+    },
+    {
+      "attr": "b1.mc",
+      "valueType": "String",
+      "group": "泵状态"
+    },
+    {
+      "attr": "b1.v",
+      "valueType": "String",
+      "group": "泵状态"
+    },
+    {
+      "attr": "b2.tc",
+      "valueType": "String",
+      "group": "泵状态"
+    },
+    {
+      "attr": "b2.mc",
+      "valueType": "String",
+      "group": "泵状态"
+    },
+    {
+      "attr": "b2.v",
+      "valueType": "String",
+      "group": "泵状态"
+    }
+  ],
+  "width": 280,
+  "height": 470,
+  "comps": [
+    {
+      "type": "image",
+      "name": "symbols/新煤泥水/加药机.json",
+      "displayName": "加药机",
+      "rect": [
+        80.28036,
+        36.08668,
+        127,
+        110
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/新煤泥水/分享.json",
+      "visible": {
+        "func": "attr@fx",
+        "value": true
+      },
+      "displayName": "分享",
+      "rect": [
+        60,
+        109.98451,
+        48,
+        48
+      ]
+    },
+    {
+      "type": "components/progressBar/信号组件.json",
+      "prefix": "xh",
+      "displayName": "信号组件",
+      "rect": [
+        5,
+        0,
+        110,
+        28
+      ],
+      "xhstate": {
+        "func": "attr@v",
+        "value": true
+      },
+      "tc": {
+        "func": "attr@tc",
+        "value": "620"
+      },
+      "mc": {
+        "func": "attr@mc"
+      }
+    },
+    {
+      "type": "image",
+      "name": "symbols/新煤泥水/background.json",
+      "displayName": "background",
+      "rect": [
+        0,
+        243,
+        280,
+        227.7453
+      ]
+    },
+    {
+      "type": "components/progressBar/文字-label.json",
+      "prefix": "tjms",
+      "displayName": "文字-label",
+      "rect": [
+        51.5,
+        166.98058,
+        168,
+        31
+      ],
+      "label": "调节模式",
+      "value": {
+        "func": "__ht__function(data, view) {\nconst d = data.ca('v');\r\n\r\nif (!d || d == 'false') return '手动';\r\nreturn '智能';\n}",
+        "value": "智能"
+      },
+      "tc": {
+        "func": "attr@tc"
+      },
+      "mc": {
+        "func": "attr@mc"
+      }
+    },
+    {
+      "type": "components/progressBar/文字-label.json",
+      "prefix": "kzms",
+      "displayName": "文字-label",
+      "rect": [
+        51.5,
+        202.34795,
+        168,
+        31
+      ],
+      "value": {
+        "func": "__ht__function(data, view) {\nconst d = data.ca('v');\r\n\r\nif (!d || d == 'false') return '手动';\r\nreturn '自动';\n}",
+        "value": "自动"
+      },
+      "tc": {
+        "func": "attr@tc"
+      },
+      "mc": {
+        "func": "attr@mc"
+      }
+    },
+    {
+      "type": "components/progressBar/label-card.json",
+      "prefix": "pl",
+      "displayName": "label-card",
+      "rect": [
+        79.21964,
+        257.12366,
+        192,
+        38
+      ],
+      "label": "当前频率",
+      "unit": "Hz",
+      "value": {
+        "func": "attr@v",
+        "value": 20
+      },
+      "tc": {
+        "func": "attr@tc"
+      },
+      "mc": {
+        "func": "attr@mc"
+      }
+    },
+    {
+      "type": "components/progressBar/label-card.json",
+      "prefix": "jbtyw",
+      "displayName": "label-card",
+      "rect": [
+        79.21964,
+        311.5591,
+        192,
+        38
+      ],
+      "label": "搅拌桶液位",
+      "value": {
+        "func": "attr@v",
+        "value": 60
+      },
+      "tc": {
+        "func": "attr@tc"
+      },
+      "mc": {
+        "func": "attr@mc"
+      }
+    },
+    {
+      "type": "components/progressBar/label-card.json",
+      "prefix": "cyxyw",
+      "displayName": "label-card",
+      "rect": [
+        82.08768,
+        365.99453,
+        192,
+        38
+      ],
+      "label": "储药箱液位",
+      "value": {
+        "func": "attr@v",
+        "value": 30
+      },
+      "tc": {
+        "func": "attr@tc"
+      },
+      "mc": {
+        "func": "attr@mc"
+      }
+    },
+    {
+      "type": "components/progressBar/label-card.json",
+      "prefix": "gysc",
+      "displayName": "label-card",
+      "rect": [
+        84,
+        420.42997,
+        192,
+        38
+      ],
+      "label": "给药时长",
+      "unit": "s",
+      "value": {
+        "func": "attr@v",
+        "value": 120
+      },
+      "tc": {
+        "func": "attr@tc"
+      },
+      "mc": {
+        "func": "attr@mc"
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nconst v1 = data.ca('b1.v');\r\nconst v2 = data.ca('b2.v');\r\nif (v1 == 0 && v2 == 0) return '1#泵';\r\nreturn '2#泵';\n}",
+        "value": "2#泵"
+      },
+      "font": "18px arial, sans-serif",
+      "rect": [
+        230.29686,
+        103.24214,
+        50,
+        50
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "modified": "Wed Oct 13 2021 14:48:32 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "hxs.tc",
+      "valueType": "String"
+    },
+    {
+      "attr": "hxs.mc",
+      "valueType": "String"
+    },
+    {
+      "attr": "hxs.v",
+      "valueType": "String"
+    },
+    {
+      "attr": "hxs.scale",
+      "valueType": "Number"
+    },
+    {
+      "attr": "hxs.scale_tc",
+      "valueType": "Align"
+    }
+  ],
+  "width": 60,
+  "height": 83,
+  "comps": [
+    {
+      "type": "image",
+      "name": {
+        "func": "__ht__function(data, view) {\nconst v = data.ca('hxs.v');\r\nconst v1 = 'symbols/素材库/设备/振动弧形筛.json'; //正常\r\nconst v2 = 'symbols/素材库/设备/振动弧形筛_g.json'; // 故障\r\nconst v3 = 'symbols/素材库/设备/振动弧形筛_r.json'; // 故障\r\nlet color = v1;\r\nif (v === '2' || v === '8') color = v2;\r\nif (v === '4' || v === '20') color = v3;\r\nreturn color;\n}",
+        "value": "symbols/素材库/设备/振动弧形筛.json"
+      },
+      "displayName": "振动弧形筛",
+      "scaleX": {
+        "func": "attr@hxs.scale",
+        "value": 1
+      },
+      "rect": [
+        0,
+        10.02324,
+        51.85518,
+        72.7792
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@hxs.tc",
+        "value": "201"
+      },
+      "align": {
+        "func": "attr@hxs.scale_tc",
+        "value": "right"
+      },
+      "color": "rgb(0,0,0)",
+      "font": "bold 14px sans-serif, Arial",
+      "rect": [
+        -8.92342,
+        0,
+        72.39389,
+        13.73125
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "modified": "Thu Oct 14 2021 13:08:02 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "xlq3.tc",
+      "valueType": "String"
+    },
+    {
+      "attr": "xlq3.mc",
+      "valueType": "String"
+    },
+    {
+      "attr": "xlq3.v",
+      "valueType": "String"
+    }
+  ],
+  "width": 120,
+  "height": 80,
+  "comps": [
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@tc",
+        "value": "201"
+      },
+      "color": "rgb(0,0,0)",
+      "font": "bold 14px sans-serif, Arial",
+      "prefix": "xlq3",
+      "rect": [
+        40.73508,
+        1.90842,
+        38.52984,
+        19.32605
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nlet v = data.ca('v');\r\nv = v == undefined ? 0 : Number(v);\r\nif (v >= 100) v = 100;\r\nif (v <= 0) v = 0;\r\nreturn v===0?\"\":v.toFixed(3) + 'g/cm³';\n}",
+        "value": "文本"
+      },
+      "vAlign": "top",
+      "color": "#70b602",
+      "font": "bold 16px sans-serif, Arial",
+      "prefix": "xlq3",
+      "rect": [
+        84.2201,
+        1.90842,
+        38.52984,
+        19.32605
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/素材库/设备/旋流器 三产品.json",
+      "prefix": "xlq3",
+      "displayName": "旋流器 三产品",
+      "anchorX": 0.38924,
+      "anchorY": 0.559,
+      "rect": [
+        0,
+        12.04471,
+        87.81914,
+        67.95529
+      ]
+    }
+  ]
+}

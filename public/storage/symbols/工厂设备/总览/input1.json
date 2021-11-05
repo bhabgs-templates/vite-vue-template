@@ -1,0 +1,120 @@
+{
+  "modified": "Thu Jul 15 2021 12:07:31 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "val1",
+      "valueType": "String"
+    },
+    {
+      "attr": "unit1",
+      "valueType": "String"
+    },
+    {
+      "attr": "cangwei.v",
+      "valueType": "String"
+    },
+    {
+      "attr": "unit2",
+      "valueType": "String"
+    },
+    {
+      "attr": "cangwei.tc",
+      "valueType": "String"
+    },
+    {
+      "attr": "cangwei.mc",
+      "valueType": "String"
+    }
+  ],
+  "width": 130,
+  "height": 36,
+  "comps": [
+    {
+      "type": "roundRect",
+      "background": "rgb(255,255,255)",
+      "borderWidth": 0.5,
+      "borderColor": "#979797",
+      "rect": [
+        0,
+        0,
+        129.90011,
+        36
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@val1",
+        "value": "9"
+      },
+      "align": "right",
+      "color": "#007AFF",
+      "font": "28px sans-serif, Arial",
+      "rect": [
+        0,
+        0,
+        37.76645,
+        36
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@unit1",
+        "value": "m"
+      },
+      "vAlign": "bottom",
+      "color": "#666",
+      "font": "22px sans-serif, Arial",
+      "rect": [
+        37.76645,
+        -0.45903,
+        26.15051,
+        36.45589
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.5,
+      "borderColor": "#979797",
+      "points": [
+        63.91695,
+        3.19585,
+        63.91695,
+        32.34198
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@cangwei.v",
+        "value": "无"
+      },
+      "align": "right",
+      "color": "#007AFF",
+      "font": "28px sans-serif, Arial",
+      "rect": [
+        63.91695,
+        0.45903,
+        37.76645,
+        36
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@unit2",
+        "value": "%"
+      },
+      "vAlign": "bottom",
+      "color": "#666",
+      "font": "22px sans-serif, Arial",
+      "rect": [
+        101.6834,
+        0,
+        26.15051,
+        36.45589
+      ]
+    }
+  ]
+}

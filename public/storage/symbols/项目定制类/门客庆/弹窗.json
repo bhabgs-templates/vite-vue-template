@@ -1,0 +1,65 @@
+{
+  "modified": "Fri Aug 20 2021 13:56:30 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "title",
+      "valueType": "String"
+    },
+    {
+      "attr": "round",
+      "valueType": "Number",
+      "name": "圆角角度"
+    }
+  ],
+  "width": 1127,
+  "height": 900,
+  "fitSize": true,
+  "comps": [
+    {
+      "type": "components/工厂组件/title.json",
+      "shadowColor": "rgb(128,128,128)",
+      "displayName": "title",
+      "rect": [
+        0,
+        0,
+        1128.59647,
+        106.24101
+      ],
+      "round": {
+        "func": "attr@round",
+        "value": 10
+      },
+      "bc": "rgb(46,140,255)"
+    },
+    {
+      "type": "rect",
+      "background": "rgb(255,255,255)",
+      "borderWidth": 1,
+      "borderColor": "#979797",
+      "shadowColor": "rgb(128,128,128)",
+      "displayName": "矩形",
+      "rect": [
+        0,
+        106.24101,
+        1128.59647,
+        800.34893
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@title",
+        "value": "文本"
+      },
+      "align": "center",
+      "color": "rgb(245,245,245)",
+      "font": "52px arial, sans-serif",
+      "rect": [
+        0,
+        0,
+        1127,
+        106.24101
+      ]
+    }
+  ]
+}

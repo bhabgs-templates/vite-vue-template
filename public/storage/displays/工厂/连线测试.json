@@ -1,0 +1,99 @@
+{
+  "v": "7.2.2-dev18",
+  "p": {
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {},
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 2971,
+      "p": {
+        "position": {
+          "x": -67.02928,
+          "y": 57.32265
+        },
+        "width": 338,
+        "height": 293
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "#D8D8D8",
+        "shape.border.width": 1,
+        "shape.border.color": "#979797"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2972,
+      "p": {
+        "position": {
+          "x": 551.8912,
+          "y": 452.06722
+        },
+        "width": 338,
+        "height": 293,
+        "tall": 20
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "#D8D8D8",
+        "shape.border.width": 1,
+        "shape.border.color": "#979797"
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 2974,
+      "p": {
+        "source": {
+          "__i": 2971
+        },
+        "target": {
+          "__i": 2972
+        }
+      },
+      "s": {
+        "edge.color": "#EFF1F4",
+        "edge.width": 5,
+        "edge.dash": true,
+        "edge.dash.color": "#05D84B",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": [
+            {
+              "x": 177.79166,
+              "y": 70.61229
+            },
+            {
+              "x": 195.44473,
+              "y": 363.14893
+            }
+          ]
+        },
+        "edge.source.anchor.x": 1,
+        "edge.source.anchor.y": 0.86833,
+        "edge.target.anchor.x": 0,
+        "edge.target.anchor.y": 0.13167,
+        "edge.offset": 45,
+        "edge.dash.offset": 455535353
+      }
+    }
+  ],
+  "modified": "Thu May 13 2021 14:00:19 GMT+0800 (中国标准时间)",
+  "contentRect": {
+    "x": -237.52928,
+    "y": -90.67735,
+    "width": 959.92048,
+    "height": 690.74457
+  }
+}

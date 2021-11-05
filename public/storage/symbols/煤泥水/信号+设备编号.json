@@ -1,0 +1,80 @@
+{
+  "modified": "Fri May 14 2021 15:16:08 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "tc",
+      "valueType": "String"
+    },
+    {
+      "attr": "state",
+      "valueType": "Boolean"
+    }
+  ],
+  "width": 110,
+  "height": 28,
+  "comps": [
+    {
+      "type": "image",
+      "name": "symbols/煤泥水/信号 - 正常.json",
+      "visible": {
+        "func": "attr@state",
+        "value": true
+      },
+      "displayName": "信号 - 正常",
+      "rect": [
+        0,
+        -0.37196,
+        33.71312,
+        28.89696
+      ]
+    },
+    {
+      "type": "image",
+      "color": null,
+      "name": "symbols/煤泥水/信号-终端.json",
+      "visible": {
+        "func": "__ht__function(data, view) {\nconst state = data.a('state');\n\nif (!state) {\n    return true;\n}\nreturn false;\n}",
+        "value": true
+      },
+      "pixelPerfect": true,
+      "displayName": "信号-终端",
+      "rect": [
+        0,
+        -0.525,
+        38.73332,
+        29.04999
+      ]
+    },
+    {
+      "type": "rect",
+      "background": {
+        "func": "__ht__function(data, view) {\nconst state = data.a('state');\n\nif (state) {\n    return '#05D84B';\n}\nreturn '#999';\n}",
+        "value": "rgb(153,153,153)"
+      },
+      "borderColor": "#979797",
+      "pixelPerfect": true,
+      "rect": [
+        46.07989,
+        0.08277,
+        64,
+        28
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@tc",
+        "value": "0"
+      },
+      "align": "center",
+      "color": "rgb(255,255,255)",
+      "font": "bold 22px sans-serif, Arial",
+      "rect": [
+        64.07989,
+        2.96295,
+        28,
+        25.03705
+      ]
+    }
+  ]
+}

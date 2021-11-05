@@ -1,0 +1,21 @@
+{
+  "modified": "Sat Oct 09 2021 10:09:55 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "content",
+      "valueType": "Multiline",
+      "defaultValue": "svg"
+    },
+    {
+      "attr": "background",
+      "valueType": "Color",
+      "defaultValue": "rgb(247,69,69)"
+    }
+  ],
+  "snapshotURL": "symbols/快照/svg.json",
+  "renderHTML": "__ht__function(data, gv, cache) {if (!cache.htmlView) {\r\n    const div = cache.htmlView = document.createElement('div');\r\n        div.style.overflow = 'hidden';\r\n        div.style.width = '100%';\r\n        div.style.height = '100%';\r\n        div.setAttribute('class', 'svg-box');\r\n        data.div = div;\r\n        div.layoutHTML = function() {\r\n            gv.layoutHTML(data, div);\r\n        };\r\n}\r\n\r\nconst svgStyle = document.getElementById('svg_component_style');\r\nif (!svgStyle) {\r\n    const sty = document.createElement('style');\r\n    const str = \".svg-box svg{width:100%;height:100%;}\";\r\n    sty.type = \"text/css\";\r\n    sty.id = \"svg_component_style\";\r\n    if (sty.styleSheet) { // 兼容IE\r\n        sty.styleSheet.cssText = str;\r\n    } else {\r\n        sty.innerHTML = str;\r\n    }\r\n    document.getElementsByTagName(\"head\")[0].appendChild(sty)\r\n}\r\ncache.htmlView.innerHTML = data.a('content');\r\ncache.htmlView.style.background = data.a('background');\r\nreturn cache.htmlView;}",
+  "width": 100,
+  "height": 100,
+  "pixelPerfect": false,
+  "comps": []
+}

@@ -1,0 +1,228 @@
+{
+  "modified": "Thu Jul 15 2021 10:03:09 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "astate",
+      "valueType": "String",
+      "name": "zcfa.v"
+    },
+    {
+      "attr": "zcfa.tc",
+      "valueType": "String"
+    },
+    {
+      "attr": "zcfa.mc",
+      "valueType": "String"
+    },
+    {
+      "attr": "bstate",
+      "valueType": "String",
+      "name": "zcfb.v"
+    },
+    {
+      "attr": "zcfb.tc",
+      "valueType": "String"
+    },
+    {
+      "attr": "zcfb.mc",
+      "valueType": "String"
+    }
+  ],
+  "width": 176,
+  "height": 212,
+  "comps": [
+    {
+      "type": "shape",
+      "background": "#3C6DB5",
+      "fillRule": "evenodd",
+      "pixelPerfect": true,
+      "points": [
+        176,
+        0,
+        176,
+        212,
+        0,
+        212,
+        0,
+        0,
+        176,
+        0
+      ],
+      "segments": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        5
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "points": [
+        176,
+        0,
+        176,
+        212,
+        0,
+        212,
+        0,
+        0,
+        176,
+        0
+      ],
+      "segments": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        5
+      ]
+    },
+    {
+      "type": "text",
+      "text": "主厂房",
+      "color": "rgb(255,255,255)",
+      "font": "20px SourceHanSansCN-Medium, \"Source Han Sans CN\"",
+      "pixelPerfect": true,
+      "rect": [
+        8.43479,
+        19.89393,
+        0.10488,
+        0.10382
+      ]
+    },
+    {
+      "type": "shape",
+      "background": {
+        "func": "__ht__function(data, view) {\nconst state = data.ca('astate');\nconst color = {\n    '1': '#89F311',\n    '0': '#D3D3D3',\n}\nreturn color[state] || '#FF0000';\n}",
+        "value": "#3C6DB5"
+      },
+      "borderWidth": 1,
+      "borderColor": "rgb(250,250,250)",
+      "fillRule": "evenodd",
+      "pixelPerfect": true,
+      "points": [
+        4.24096,
+        36.73267,
+        171.75904,
+        36.73267,
+        171.75904,
+        36.73267,
+        171.75904,
+        36.73267,
+        171.75904,
+        120.69307,
+        171.75904,
+        120.69307,
+        171.75904,
+        120.69307,
+        4.24096,
+        120.69307,
+        4.24096,
+        120.69307,
+        4.24096,
+        120.69307,
+        4.24096,
+        36.73267,
+        4.24096,
+        36.73267,
+        4.24096,
+        36.73267
+      ],
+      "segments": [
+        1,
+        2,
+        3,
+        2,
+        3,
+        2,
+        3,
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "type": "text",
+      "text": "A系统",
+      "color": "rgb(255,255,255)",
+      "font": "20px SourceHanSansCN-Medium, \"Source Han Sans CN\"",
+      "pixelPerfect": true,
+      "rect": [
+        60.68346,
+        79.71571,
+        0.10488,
+        0.10382
+      ]
+    },
+    {
+      "type": "shape",
+      "background": {
+        "func": "__ht__function(data, view) {\nconst state = data.ca('bstate');\nconst color = {\n    '1': '#89F311',\n    '0': '#D3D3D3',\n}\nreturn color[state] || '#FF0000';\n}",
+        "value": "#3C6DB5"
+      },
+      "borderWidth": 1,
+      "borderColor": "rgb(255,255,255)",
+      "fillRule": "evenodd",
+      "pixelPerfect": true,
+      "points": [
+        4.24096,
+        123.84158,
+        171.75904,
+        123.84158,
+        171.75904,
+        123.84158,
+        171.75904,
+        123.84158,
+        171.75904,
+        207.80198,
+        171.75904,
+        207.80198,
+        171.75904,
+        207.80198,
+        4.24096,
+        207.80198,
+        4.24096,
+        207.80198,
+        4.24096,
+        207.80198,
+        4.24096,
+        123.84158,
+        4.24096,
+        123.84158,
+        4.24096,
+        123.84158
+      ],
+      "segments": [
+        1,
+        2,
+        3,
+        2,
+        3,
+        2,
+        3,
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "type": "text",
+      "text": "B系统",
+      "color": "rgb(255,255,255)",
+      "font": "20px SourceHanSansCN-Medium, \"Source Han Sans CN\"",
+      "pixelPerfect": true,
+      "rect": [
+        59.67623,
+        166.82463,
+        0.10488,
+        0.10382
+      ]
+    }
+  ]
+}

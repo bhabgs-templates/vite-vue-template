@@ -1,0 +1,66 @@
+{
+  "modified": "Wed Oct 20 2021 18:04:36 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "st.mc",
+      "valueType": "String"
+    },
+    {
+      "attr": "st.tc",
+      "valueType": "String"
+    },
+    {
+      "attr": "st.v",
+      "valueType": "Percentage",
+      "name": "PBValue"
+    }
+  ],
+  "width": 66,
+  "height": 85,
+  "comps": [
+    {
+      "type": "image",
+      "name": "symbols/素材库/设备/水桶.json",
+      "prefix": "st",
+      "displayName": "水桶",
+      "scaleX": -1,
+      "rect": [
+        0,
+        21,
+        66,
+        64
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@st.tc",
+        "value": "201"
+      },
+      "align": "center",
+      "color": "rgb(0,0,0)",
+      "font": "bold 14px sans-serif, Arial",
+      "rect": [
+        35.93714,
+        3.42258,
+        36.97931,
+        15.0936
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nlet v = data.ca('st.v');\r\nv = v == undefined ? 0 : Number(v);\r\nif (v <= 0) v = 0;\r\nif (v >= 100) v = 100;\r\nreturn v.toFixed(0) + '%';\n}",
+        "value": "文本"
+      },
+      "color": "rgb(10,255,157)",
+      "font": "bold 18px sans-serif, Arial",
+      "rect": [
+        45.69571,
+        69.99418,
+        44.57321,
+        13.67605
+      ]
+    }
+  ]
+}

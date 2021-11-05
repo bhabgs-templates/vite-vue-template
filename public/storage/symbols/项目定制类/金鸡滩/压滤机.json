@@ -1,0 +1,373 @@
+{
+  "modified": "Fri Oct 22 2021 12:03:13 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "xh.tc",
+      "valueType": "String",
+      "group": "信号状态"
+    },
+    {
+      "attr": "xh.mc",
+      "valueType": "String",
+      "group": "信号状态"
+    },
+    {
+      "attr": "xh.v",
+      "valueType": "String",
+      "group": "信号状态"
+    },
+    {
+      "attr": "b.v",
+      "valueType": "String",
+      "group": "板数"
+    },
+    {
+      "attr": "b.tc",
+      "valueType": "String",
+      "group": "板数"
+    },
+    {
+      "attr": "b.mc",
+      "valueType": "String",
+      "group": "板数"
+    },
+    {
+      "attr": "controlMethod.tc",
+      "valueType": "String",
+      "group": "控制方式"
+    },
+    {
+      "attr": "controlMethod.mc",
+      "valueType": "String",
+      "defaultValue": "LOCAL",
+      "group": "控制方式"
+    },
+    {
+      "attr": "controlMethod.v",
+      "valueType": "String",
+      "group": "控制方式"
+    },
+    {
+      "attr": "controlMode.tc",
+      "valueType": "String",
+      "group": "控制模式"
+    },
+    {
+      "attr": "controlMode.mc",
+      "valueType": "String",
+      "defaultValue": "AUTO"
+    },
+    {
+      "attr": "controlMode.v",
+      "valueType": "String"
+    },
+    {
+      "attr": "loose.tc",
+      "valueType": "String",
+      "group": "当前进程-松开"
+    },
+    {
+      "attr": "loose.mc",
+      "valueType": "String",
+      "defaultValue": "RO_LOOSE",
+      "group": "当前进程-松开"
+    },
+    {
+      "attr": "loose.v",
+      "valueType": "String",
+      "group": "当前进程-松开"
+    },
+    {
+      "attr": "takePlate.tc",
+      "valueType": "String",
+      "group": "当前进程-取板"
+    },
+    {
+      "attr": "takePlate.mc",
+      "valueType": "String",
+      "defaultValue": "RO_TAKE"
+    },
+    {
+      "attr": "takePlate.v",
+      "valueType": "String"
+    },
+    {
+      "attr": "pullPlate.tc",
+      "valueType": "String",
+      "group": "当前进程-拉板"
+    },
+    {
+      "attr": "pullPlate.mc",
+      "valueType": "String",
+      "defaultValue": "RO_PULL"
+    },
+    {
+      "attr": "pullPlate.v",
+      "valueType": "String"
+    },
+    {
+      "attr": "press.tc",
+      "valueType": "String",
+      "group": "当前进程-压紧"
+    },
+    {
+      "attr": "press.mc",
+      "valueType": "String",
+      "defaultValue": "RO_PRESS"
+    },
+    {
+      "attr": "press.v",
+      "valueType": "String"
+    },
+    {
+      "attr": "holdPress.tc",
+      "valueType": "String",
+      "group": "当前进程-保压"
+    },
+    {
+      "attr": "holdPress.mc",
+      "valueType": "String",
+      "defaultValue": "RO_HOLD_PRESS"
+    },
+    {
+      "attr": "holdPress.v",
+      "valueType": "String"
+    },
+    {
+      "attr": "feeding.tc",
+      "valueType": "String",
+      "group": "当前进程-进料"
+    },
+    {
+      "attr": "feeding.mc",
+      "valueType": "String",
+      "defaultValue": "RO_FEEDING"
+    },
+    {
+      "attr": "feeding.v",
+      "valueType": "String"
+    },
+    {
+      "attr": "squeeze.tc",
+      "valueType": "String",
+      "group": "当前进程-压榨"
+    },
+    {
+      "attr": "squeeze.mc",
+      "valueType": "String",
+      "defaultValue": "RO_SQUEEZE"
+    },
+    {
+      "attr": "squeeze.v",
+      "valueType": "String"
+    },
+    {
+      "attr": "emptying.tc",
+      "valueType": "String",
+      "group": "当前进程-放空"
+    },
+    {
+      "attr": "emptying.mc",
+      "valueType": "String",
+      "defaultValue": "RO_EMPTYING"
+    },
+    {
+      "attr": "emptying.v",
+      "valueType": "String"
+    },
+    {
+      "attr": "blow.tc",
+      "valueType": "String",
+      "group": "当前进程-吹风"
+    },
+    {
+      "attr": "blow.mc",
+      "valueType": "String",
+      "defaultValue": "RO_BLOW"
+    },
+    {
+      "attr": "blow.v",
+      "valueType": "String"
+    },
+    {
+      "attr": "wait.tc",
+      "valueType": "String",
+      "group": "当前进程-循环等待"
+    },
+    {
+      "attr": "wait.mc",
+      "valueType": "String",
+      "defaultValue": "RO_CYCLE"
+    },
+    {
+      "attr": "wait.v",
+      "valueType": "String"
+    }
+  ],
+  "width": 300,
+  "height": 130,
+  "comps": [
+    {
+      "type": "image",
+      "name": "symbols/素材库/设备/压滤机.json",
+      "displayName": "压滤机_1",
+      "rect": [
+        11.93952,
+        27.87228,
+        150,
+        52
+      ]
+    },
+    {
+      "type": "components/工厂组件/指示/信号状态.json",
+      "prefix": "xh",
+      "displayName": "信号状态",
+      "rect": [
+        0,
+        0,
+        52,
+        22
+      ],
+      "tc": {
+        "func": "attr@tc",
+        "value": "666"
+      },
+      "mc": {
+        "func": "attr@mc"
+      },
+      "xh.state": {
+        "func": "attr@v",
+        "value": "1"
+      }
+    },
+    {
+      "type": "text",
+      "text": "板",
+      "font": "bold 12px sans-serif, Arial",
+      "rect": [
+        99.8471,
+        0,
+        14.52104,
+        22
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@b.v",
+        "value": "20"
+      },
+      "align": "right",
+      "color": "#3377FF",
+      "font": "16px sans-serif, Arial",
+      "rect": [
+        59.5109,
+        0,
+        40.33621,
+        22
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/素材库/指示/跳转.json",
+      "displayName": "跳转",
+      "rect": [
+        149.43952,
+        15.37228,
+        25,
+        25
+      ]
+    },
+    {
+      "type": "text",
+      "text": "当前进程：",
+      "font": " 14px sans-serif, Arial",
+      "rect": [
+        1,
+        103.77531,
+        50,
+        17.48313
+      ]
+    },
+    {
+      "type": "text",
+      "text": "控制方式：",
+      "font": " 14px sans-serif, Arial",
+      "rect": [
+        143.10164,
+        71.13072,
+        50,
+        17.48313
+      ]
+    },
+    {
+      "type": "text",
+      "text": "控制模式：",
+      "font": " 14px sans-serif, Arial",
+      "anchorX": 0.60423,
+      "rect": [
+        143.10164,
+        103.77531,
+        50,
+        17.48313
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nconst v0 = data.ca('loosen.v');\r\nconst v1 = data.ca('takePlate.v');\r\nconst v2 = data.ca('pullPlate.v');\r\nconst v3 = data.ca('press.v');\r\nconst v4 = data.ca('holdPress.v');\r\nconst v5 = data.ca('feeding.v');\r\nconst v6 = data.ca('squeeze.v');\r\nconst v7 = data.ca('emptying.v');\r\nconst v8 = data.ca('blow.v');\r\nconst v9 = data.ca('wait.v');\r\nlet state = \"暂无数据\";\r\nif (v0 === 'true') state = \"松开\";\r\nif (v1 === 'true') state = \"取板\";\r\nif (v2 === 'true') state = \"拉板\";\r\nif (v3 === 'true') state = \"压紧\";\r\nif (v4 === 'true') state = \"保压\";\r\nif (v5 === 'true') state = \"进料\";\r\nif (v6 === 'true') state = \"压榨\";\r\nif (v7 === 'true') state = \"放空\";\r\nif (v8 === 'true') state = \"吹风\";\r\nif (v9 === 'true') state = \"循环等待\";\r\nreturn state;\n}",
+        "value": "文本"
+      },
+      "color": {
+        "func": "__ht__function(data, view) {\nlet arr=[\r\n    data.ca('loosen.v'),\r\n    data.ca('takePlate.v'),\r\n    data.ca('pullPlate.v'),\r\n    data.ca('holdPress.v'),\r\n    data.ca('press.v'),\r\n    data.ca('feeding.v'),\r\n    data.ca('squeeze.v'),\r\n    data.ca('emptying.v'),\r\n    data.ca('blow.v'),\r\n    data.ca('wait.v'),\r\n    ];\r\nconst c1 = '#f59a23'; //待机\r\nconst c2 = '#00f'; // 运行\r\nconst c3 = '#999'; \r\nlet color= c3;\r\nlet state=arr.some((i)=>i=='true')\r\nif (state === true) color = c2;\r\nreturn color;\n}",
+        "value": "#000"
+      },
+      "font": "16px arial, sans-serif",
+      "anchorX": 0.55863,
+      "rect": [
+        70.78143,
+        99.96371,
+        25.97719,
+        25.10632
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nconst v = data.ca('controlMethod.v');\r\nconst v1 = '就地'; //就地\r\nconst v2 = '集控';// 集控\r\nlet state = \"暂无数据\";\r\nif (v === '0') state = v2;\r\nif (v === '1') state = v1;\r\nreturn state;\n}",
+        "value": "文本"
+      },
+      "color": {
+        "func": "__ht__function(data, view) {\nconst v = data.ca('controlMethod.v');\r\nconst c1 = '#f59a23'; //橙色\r\nconst c2 = '#0000ff';// 蓝色\r\nconst c3= '#999';// 灰色\r\nlet color = c3;\r\nif (v === '0') color = c2;\r\nif (v === '1') color = c1;\r\nreturn color;\n}",
+        "value": ""
+      },
+      "font": "16px arial, sans-serif",
+      "anchorX": 0.55863,
+      "rect": [
+        222.9995,
+        67.31912,
+        25.97719,
+        25.10632
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nconst v = data.ca('controlMode.v');\r\nconst v1 = '自动'; //正常\r\nconst v2 = '手动';// 待机\r\nlet state = \"暂无数据\";\r\nif (v === '0') state = v2;\r\nif (v === '1') state = v1;\r\nreturn state;\n}",
+        "value": "文本"
+      },
+      "color": {
+        "func": "__ht__function(data, view) {\nconst v = data.ca('controlMode.v');\r\nconst c1 = '#f59a23'; //橙色\r\nconst c2 = '#0000ff';// 蓝色\r\nconst c3= '#999';// 灰色\r\nlet color = c3;\r\nif (v === '0') color = c1;\r\nif (v === '1') color = c2;\r\nreturn color;\n}",
+        "value": ""
+      },
+      "font": "16px arial, sans-serif",
+      "anchorX": 0.55863,
+      "rect": [
+        222.9995,
+        99.96371,
+        25.97719,
+        25.10632
+      ]
+    }
+  ]
+}

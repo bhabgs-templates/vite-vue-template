@@ -1,0 +1,89 @@
+{
+  "modified": "Wed Oct 20 2021 18:04:28 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "st.tc",
+      "valueType": "String"
+    },
+    {
+      "attr": "st.v",
+      "valueType": "Number",
+      "name": "PBValue"
+    },
+    {
+      "attr": "st.mc",
+      "valueType": "String"
+    },
+    {
+      "attr": "display",
+      "valueType": "String",
+      "defaultValue": "0"
+    }
+  ],
+  "width": 66,
+  "height": 110,
+  "comps": [
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@st.tc",
+        "value": "201"
+      },
+      "align": "center",
+      "color": "rgb(0,0,0)",
+      "font": "bold 14px sans-serif, Arial",
+      "rect": [
+        35.93714,
+        3.42258,
+        36.97931,
+        15.0936
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/素材库/设备/桶_嘴.json",
+      "prefix": "st",
+      "displayName": "桶_嘴",
+      "scaleX": -1,
+      "rect": [
+        0,
+        21.76782,
+        64.89618,
+        63.23218
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nlet v = data.ca('st.v');\r\nv = v == undefined ? 0 : Number(v);\r\nif (v <= 0) v = 0;\r\nif (v >= 100) v = 100;\r\nv = Number(v);\r\nreturn v.toFixed(0) + '%';\n}",
+        "value": "文本"
+      },
+      "align": "center",
+      "color": {
+        "func": "__ht__function(data, view) {\nconst v = data.ca('curProgress.v');\r\nconst v1 = '#70b602'; \r\nconst v2 = 'rgba(255,0,0)';\r\nlet color = v1;\r\nif ('100' < v) color = v2;\r\nif ('0' > v) color = v2;\r\nreturn color;\n}",
+        "value": ""
+      },
+      "font": "bold 16px sans-serif, Arial",
+      "rect": [
+        7.84128,
+        94.15509,
+        44.57321,
+        13.67605
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nlet v = data.ca('display');\r\n\r\nreturn v==0 ? \"\" : \"当前液位：\";\n}",
+        "value": ""
+      },
+      "font": "bold 10px sans-serif, Arial",
+      "rect": [
+        -40.81576,
+        89.4936,
+        50,
+        15.38986
+      ]
+    }
+  ]
+}

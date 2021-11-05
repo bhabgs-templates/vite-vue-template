@@ -1,0 +1,32 @@
+{
+  "modified": "Mon Jun 21 2021 09:56:47 GMT+0800 (中国标准时间)",
+  "width": 500,
+  "height": 11,
+  "func": "__ht__function(g, rect, comp, data, view) {\n// resect\nrect.width = comp.getValue('width');\nrect.height = comp.getValue('height');\n\n// 读取参数\nconst bColor = comp.getValue('bColor');\nconst distance = comp.getValue('distance');\nconst lineToWidth = comp.getValue('lineToWidth');\nconst {width, height, x, y} = rect;\n\nfunction renderLines(x, y, w) {\n    g.fillStyle = bColor;\n    g.beginPath();\n    g.fillRect(x, y, lineToWidth, height);\n    g.fill();\n    g.closePath();\n    if (x <= w) {\n        renderLines(x + distance, y, w)\n    }\n}\nrenderLines(x,y,width);\n\nfunction renderRect() {\n    g.beginPath();\n    g.moveTo(x,y);\n    g.lineTo(x+width, y);\n    g.lineTo(x+width, y+height)\n    g.lineTo(x, y+height)\n    g.lineTo(x, y);\n    g.lineWidth = 1;\n    g.strokeStyle = bColor;\n    g.stroke();\n}\n\nrenderRect();\n}",
+  "properties": {
+    "bColor": {
+      "valueType": "Color",
+      "defaultValue": "#1EB07F"
+    },
+    "distance": {
+      "valueType": "Number",
+      "defaultValue": 10,
+      "name": "距离"
+    },
+    "lineToWidth": {
+      "valueType": "Number",
+      "defaultValue": 8,
+      "name": "宽度"
+    },
+    "width": {
+      "valueType": "Number",
+      "defaultValue": 500,
+      "name": "长"
+    },
+    "height": {
+      "valueType": "Number",
+      "defaultValue": 11,
+      "name": "高"
+    }
+  }
+}

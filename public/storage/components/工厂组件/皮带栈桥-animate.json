@@ -1,0 +1,77 @@
+{
+  "modified": "Tue Jul 13 2021 16:40:08 GMT+0800 (中国标准时间)",
+  "width": 200,
+  "height": 30,
+  "func": "__ht__function(g, rect, comp, data, view) {\n// resect\nrect.width = comp.getValue('width');\nrect.height = comp.getValue('height');\n// 读取参数\nconst {width, height, x, y} = rect;\nconst direction = comp.getValue('direction');\nconst runState = comp.getValue('runState');\nconst lineWidth = comp.getValue('lineWidth');\nconst angle = comp.getValue('angle');\nconst distance = comp.getColor('distance');\nconst runColor = comp.getColor('runColor');\nconst stopColor = comp.getColor('stopColor');\nconst waitColor = comp.getColor('waitColor');\nconst lineColor = comp.getColor('lineColor');\nconst bColor = runState;\nconst offset = comp.getColor('offset');\nconst title = comp.getValue('title');\nconst titleColor = comp.getColor('titleColor');\n\n// 绘制底色矩形\nfunction renderRect() {\n    g.lineWidth = lineWidth;\n    g.strokeStyle = lineColor;\n    g.strokeRect(x, y, width, height);\n    const color = {\n    '2': runColor,\n    '8': runColor,\n    '4': stopColor,\n    '20': stopColor,\n    '1': waitColor\n    }\n    g.fillStyle = color[bColor] || waitColor;\n    // g.fillStyle = bColor;\n    g.beginPath();\n    g.fillRect(x, y, width, height);\n    g.fill();\n}\n\n// 绘制折线等\nfunction compuntedxy(x,y) {\n    let x1,y1,x2,y2;\n    x1 = direction ? x + angle : x - angle;\n    y1 = y + height/2;\n    x2 = x;\n    y2 = y + height;\n    return {x1,y1,x2,y2}\n}\nfunction renderLine(x, y, w) {\n    const {x1,y1,x2,y2} = compuntedxy(x,y);\n    g.beginPath();\n    g.moveTo(x, y);\n    g.lineTo(x1, y1);\n    g.lineTo(x2, y2)\n    g.lineWidth = lineWidth;\n    g.strokeStyle = lineColor;\n    g.stroke();\n    if (x <= w ) {\n        renderLine(x + distance,y, w);\n    }\n}\n\nrenderRect();\nconst noffset = Math.abs(offset)%distance;\n\nif (offset%distance === 0 && offset >= 0) {\n    renderLine(x - distance, y, width);\n} else if (offset < 0) {\n    renderLine(x+offset, y, width);\n} else {\n    renderLine(x + noffset - distance, y, width);\n}\n\n// 文字底色\nfunction renderFontRect() {\n    const fontWidth = g.measureText(title).width + 8;\n    g.fillStyle = bColor;\n    g.beginPath();\n    g.fillRect(x + (width-fontWidth)/2, y + height *0.15, fontWidth, height *0.7);\n    g.fill();\n}\nrenderFontRect();\n// 绘制文本以及文本底色\nht.Default.drawText(g, title, '12px Arial', titleColor, x,y, width, height, 'center', 'middle');\n\nconsole.log(g.measureText(title).width );\n}",
+  "properties": {
+    "height": {
+      "valueType": "Number",
+      "defaultValue": 30,
+      "name": "高度"
+    },
+    "width": {
+      "valueType": "Number",
+      "defaultValue": 200,
+      "name": "长度"
+    },
+    "runColor": {
+      "valueType": "Color",
+      "defaultValue": "#0F9D6D",
+      "name": "运行底色"
+    },
+    "stopColor": {
+      "valueType": "Color",
+      "defaultValue": "#D14F52",
+      "name": "停运底色"
+    },
+    "runState": {
+      "valueType": "String",
+      "defaultValue": true,
+      "name": "运行状态"
+    },
+    "lineColor": {
+      "valueType": "Color",
+      "defaultValue": "rgb(219,0,0)",
+      "name": "线条颜色"
+    },
+    "lineWidth": {
+      "valueType": "Number",
+      "defaultValue": 0.6,
+      "name": "线条宽度"
+    },
+    "angle": {
+      "valueType": "Number",
+      "defaultValue": 8,
+      "name": "角度"
+    },
+    "distance": {
+      "valueType": "Number",
+      "defaultValue": 15,
+      "name": "距离"
+    },
+    "direction": {
+      "valueType": "Boolean",
+      "defaultValue": true,
+      "name": "方向"
+    },
+    "offset": {
+      "valueType": "Number",
+      "defaultValue": 0,
+      "name": "偏移"
+    },
+    "title": {
+      "valueType": "String",
+      "defaultValue": "Title",
+      "name": "文本信息"
+    },
+    "titleColor": {
+      "valueType": "Color",
+      "defaultValue": "rgb(255,255,255)"
+    },
+    "waitColor": {
+      "valueType": "Color",
+      "defaultValue": "rgb(191,182,182)",
+      "name": "待机颜色"
+    }
+  }
+}

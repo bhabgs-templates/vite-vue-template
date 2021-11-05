@@ -1,0 +1,66 @@
+{
+  "modified": "Thu Oct 14 2021 15:44:03 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "cxj.mc",
+      "valueType": "String"
+    },
+    {
+      "attr": "cxj.v",
+      "valueType": "String"
+    },
+    {
+      "attr": "cxj.scale_tc",
+      "valueType": "Align"
+    },
+    {
+      "attr": "cxj.tc",
+      "valueType": "String"
+    },
+    {
+      "attr": "cxj.scale",
+      "valueType": "Number"
+    }
+  ],
+  "width": 80,
+  "height": 80,
+  "comps": [
+    {
+      "type": "image",
+      "name": {
+        "func": "__ht__function(data, view) {\nconst v = data.ca('cxj.v');\r\nconst v1 = 'symbols/素材库/设备/磁选机.json'; //正常\r\nconst v2 = 'symbols/素材库/设备/磁选机_g.json'; // 故障\r\nconst v3 = 'symbols/素材库/设备/磁选机_r.json'; // 故障\r\nlet color = v1;\r\nif (v === '2' || v === '8') color = v2;\r\nif (v === '4' || v === '20') color = v3;\r\nreturn color;\n}",
+        "value": "symbols/素材库/设备/磁选机.json"
+      },
+      "displayName": "磁选机",
+      "scaleX": {
+        "func": "attr@cxj.scale",
+        "value": 1
+      },
+      "rect": [
+        -0.11908,
+        15.04994,
+        68.44816,
+        64.17016
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@cxj.tc",
+        "value": "201"
+      },
+      "align": {
+        "func": "attr@cxj.scale_tc",
+        "value": "right"
+      },
+      "color": "rgb(0,0,0)",
+      "font": "bold 14px sans-serif, Arial",
+      "rect": [
+        -0.11908,
+        0,
+        74.56969,
+        14.23659
+      ]
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "modified": "Fri Oct 15 2021 15:55:17 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "state.mc",
+      "valueType": "String"
+    },
+    {
+      "attr": "state.v",
+      "valueType": "String"
+    },
+    {
+      "attr": "state.tc",
+      "valueType": "String"
+    },
+    {
+      "attr": "py.tc",
+      "valueType": "String"
+    },
+    {
+      "attr": "py.mc",
+      "valueType": "String"
+    },
+    {
+      "attr": "py.v",
+      "valueType": "String"
+    }
+  ],
+  "width": 150,
+  "height": 59,
+  "comps": [
+    {
+      "type": "image",
+      "color": {
+        "func": "__ht__function(data, view) {\nconst v = data.ca('state.v');\r\nconst v1 = 'rgba(255,255,255,1)'; //正常\r\nconst v2 = 'rgba(0,0,0,0.3)';// 待机\r\nconst v3 = 'rgba(255,0,0,0.5)'; // 故障\r\nlet color = v2;\r\nif (v === '1' || v === '4') color = v1;\r\nif (v === '2' || v === '3') color = v3;\r\nreturn color;\n}"
+      },
+      "name": "symbols/素材库/设备/浓缩机.json",
+      "displayName": "浓缩机",
+      "rect": [
+        0,
+        0,
+        150,
+        59
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@state.tc",
+        "value": "201"
+      },
+      "color": "rgb(0,0,0)",
+      "font": "bold 14px sans-serif, Arial",
+      "rect": [
+        0,
+        0,
+        36.97931,
+        15.0936
+      ]
+    },
+    {
+      "type": "polygon",
+      "background": {
+        "func": "__ht__function(data, view) {\nconst v = data.ca('py.v');\r\nif(v == 1) return 'red';\r\nreturn 'rgb(0,255,42)'\n}",
+        "value": "rgb(255,0,0)"
+      },
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "__ht__function(data, view) {\nconst v = data.ca('py.v');\r\nif(v == 1) return 'red';\r\nreturn 'rgb(0,255,42)'\n}",
+        "value": "rgb(255,0,0)"
+      },
+      "polygonSide": 3,
+      "rotation": 4.71239,
+      "rect": [
+        102.62547,
+        1.9,
+        7.6,
+        8.76923
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgb(255,255,255)",
+      "borderColor": "#979797",
+      "rect": [
+        106.06109,
+        7.25442,
+        0.72876,
+        0.78949
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgb(255,255,255)",
+      "borderColor": "#979797",
+      "rect": [
+        106.06109,
+        3.48196,
+        0.72876,
+        3.29976
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nconst v = data.ca('py.v');\r\nif (v == 1) return '耙压异常';\r\nreturn '耙压正常'\n}",
+        "value": "耙压正常"
+      },
+      "color": {
+        "func": "__ht__function(data, view) {\nconst v = data.ca('py.v');\r\nif(v == 1) return 'red';\r\nreturn 'rgb(0,255,42)'\n}",
+        "value": "rgb(0,255,42)"
+      },
+      "font": "9px arial, sans-serif",
+      "rect": [
+        110.81009,
+        1.40681,
+        32.51115,
+        9.75561
+      ]
+    }
+  ]
+}

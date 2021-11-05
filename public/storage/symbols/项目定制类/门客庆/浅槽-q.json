@@ -1,0 +1,190 @@
+{
+  "modified": "Wed Oct 20 2021 15:29:24 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "qc.tc",
+      "valueType": "String",
+      "group": "数据"
+    },
+    {
+      "attr": "qc.mc",
+      "valueType": "String",
+      "group": "数据"
+    },
+    {
+      "attr": "qc.v",
+      "valueType": "String",
+      "group": "数据"
+    },
+    {
+      "attr": "control.tc",
+      "valueType": "String",
+      "group": "智能密控"
+    },
+    {
+      "attr": "control.mc",
+      "valueType": "String"
+    },
+    {
+      "attr": "control.v",
+      "valueType": "String"
+    },
+    {
+      "attr": "curDensity.tc",
+      "valueType": "String",
+      "group": "当前密度"
+    },
+    {
+      "attr": "curDensity.mc",
+      "valueType": "String"
+    },
+    {
+      "attr": "curDensity.v",
+      "valueType": "String"
+    },
+    {
+      "attr": "setDensity.tc",
+      "valueType": "String",
+      "group": "设定密度"
+    },
+    {
+      "attr": "setDensity.mc",
+      "valueType": "String"
+    },
+    {
+      "attr": "setDensity.v",
+      "valueType": "String"
+    }
+  ],
+  "width": 380,
+  "height": 100,
+  "comps": [
+    {
+      "type": "image",
+      "name": {
+        "func": "__ht__function(data, view) {\nconst v = data.ca('qc.v');\r\nconst v1 = 'symbols/素材库/设备/浅槽.json'; //待机\r\nconst v2 = 'symbols/素材库/设备/浅槽_g.json'; // 正常\r\nconst v3 = 'symbols/素材库/设备/浅槽_r.json'; // 故障\r\nconst v4 = 'symbols/素材库/设备/浅槽_y.json'; // 就绪\r\nlet color = v4;\r\nif (v ==='0') color = v1;\r\nif (v ==='1') color = v2;\r\nif (v ==='2') color = v3;\r\nif (v ==='3') color = v4;\r\nreturn color;\n}",
+        "value": "symbols/素材库/设备/浅槽.json"
+      },
+      "displayName": "浅槽",
+      "rect": [
+        69.10869,
+        9.24529,
+        181.28822,
+        81.50943
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@qc.tc",
+        "value": "201"
+      },
+      "color": "rgb(0,0,0)",
+      "font": "bold 14px sans-serif, Arial",
+      "anchorX": 0.42815,
+      "anchorY": 0.5402,
+      "rect": [
+        35.89659,
+        2.94228,
+        44.17196,
+        15.52928
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nlet v = data.ca('curDensity.v');\r\nv = v == undefined ? 0 : Number(v);\r\nreturn  v.toFixed(3) + 'kg/L';\n}",
+        "value": "201"
+      },
+      "align": "right",
+      "color": {
+        "func": "__ht__function(data, view) {\nconst v = data.ca('curDensity.v');\r\nconst v1 = '#70b602'; //绿色\r\nconst v2 = 'rgba(255,0,0)';// 红色\r\nlet color = v1;\r\nif (v >= '0.01') color = v2;\r\nif (v <= '0.01') color = v1;\r\nreturn color;\n}",
+        "value": ""
+      },
+      "font": "bold 12px sans-serif, Arial",
+      "anchorX": 0.57808,
+      "anchorY": 0.56907,
+      "rect": [
+        300.73367,
+        34.97286,
+        79.26633,
+        11.94313
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nlet v = data.ca('setDensity.v');\r\nv = v == undefined ? 0 : Number(v);\r\nreturn  v.toFixed(3) + 'kg/L';\n}",
+        "value": "201"
+      },
+      "align": "right",
+      "color": {
+        "func": "__ht__function(data, view) {\nconst v = data.ca('setDensity.v');\r\nconst v1 = '#70b602'; //绿色\r\nconst v2 = 'rgba(255,0,0)';// 红色\r\nlet color = v1;\r\nif (v >= '0.01') color = v2;\r\nif (v <= '0.01') color = v1;\r\nreturn color;\n}",
+        "value": ""
+      },
+      "font": "bold 12px sans-serif, Arial",
+      "rect": [
+        296.84852,
+        59.97286,
+        83.15148,
+        11.94313
+      ]
+    },
+    {
+      "type": "text",
+      "text": "当前密度：",
+      "font": "bold 10px sans-serif, Arial",
+      "rect": [
+        258.49909,
+        28.44442,
+        46.45161,
+        25
+      ]
+    },
+    {
+      "type": "text",
+      "text": "设定密度：",
+      "font": "bold 10px sans-serif, Arial",
+      "anchorY": 0.53871,
+      "rect": [
+        258.49909,
+        53.44442,
+        46.45161,
+        25
+      ]
+    },
+    {
+      "type": "text",
+      "text": "智能密控：",
+      "font": "bold 10px sans-serif, Arial",
+      "anchorX": 0.5368,
+      "rect": [
+        258.49909,
+        2.94228,
+        46.45161,
+        25
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nlet v = data.ca('control.v');\r\nconst v1 = '开启'; //就地\r\nconst v2 = '关闭';// 集控\r\nlet state = v2;\r\nif (v === '0') state = v2;\r\nif (v === '1') state = v1;\r\nreturn state;\n}",
+        "value": ""
+      },
+      "align": "right",
+      "color": {
+        "func": "__ht__function(data, view) {\nconst v = data.ca('control.v');\r\nconst c1 = '#70b602'; //绿色\r\nconst c2= '#999';// 灰色\r\nlet color = c2;\r\nif (v === '0') color = c2;\r\nif (v === '1') color = c1;\r\nreturn color;\n}",
+        "value": ""
+      },
+      "font": "bold 12px sans-serif, Arial",
+      "anchorX": 0.57808,
+      "anchorY": 0.56907,
+      "rect": [
+        315.73844,
+        10.70692,
+        31.15286,
+        11.94313
+      ]
+    }
+  ]
+}

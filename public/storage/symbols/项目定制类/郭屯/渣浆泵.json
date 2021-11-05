@@ -1,0 +1,198 @@
+{
+  "modified": "Thu Oct 21 2021 14:23:09 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "zjb.tc",
+      "valueType": "String"
+    },
+    {
+      "attr": "zjb.mc",
+      "valueType": "String"
+    },
+    {
+      "attr": "zjb.v",
+      "valueType": "String"
+    },
+    {
+      "attr": "tc.scale",
+      "valueType": "Align",
+      "name": "tc位置"
+    },
+    {
+      "attr": "scale",
+      "valueType": "Number",
+      "name": "渣浆泵位置"
+    },
+    {
+      "attr": "ele.tc",
+      "valueType": "String",
+      "group": "电流"
+    },
+    {
+      "attr": "ele.mc",
+      "valueType": "String"
+    },
+    {
+      "attr": "ele.v",
+      "valueType": "String"
+    },
+    {
+      "attr": "pl.tc",
+      "valueType": "String"
+    },
+    {
+      "attr": "pv.mc",
+      "valueType": "String"
+    },
+    {
+      "attr": "pv.v",
+      "valueType": "String"
+    },
+    {
+      "attr": "pl.display",
+      "valueType": "String",
+      "defaultValue": "0"
+    }
+  ],
+  "width": 65,
+  "height": 100,
+  "comps": [
+    {
+      "type": "rect",
+      "background": "rgb(247,247,247)",
+      "borderColor": "#979797",
+      "rect": [
+        1.28234,
+        84.51717,
+        71.73728,
+        29.5788
+      ]
+    },
+    {
+      "type": "image",
+      "name": {
+        "func": "__ht__function(data, view) {\nconst v = data.ca('zjb.v');\r\nconst v1 = 'symbols/素材库/设备/渣浆泵.json'; //正常\r\nconst v2 = 'symbols/素材库/设备/渣浆泵_g.json'; // 故障\r\nconst v3 = 'symbols/素材库/设备/渣浆泵_r.json'; // 故障\r\nlet color = v1;\r\nif (v === '2' || v === '8') color = v2;\r\nif (v === '4' || v === '20') color = v3;\r\nreturn color;\n}",
+        "value": "symbols/素材库/设备/渣浆泵.json"
+      },
+      "displayName": "渣浆泵",
+      "scaleX": {
+        "func": "attr@scale",
+        "value": 1
+      },
+      "rect": [
+        7.51365,
+        13.31853,
+        49.97271,
+        68.01841
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@zjb.tc",
+        "value": "201"
+      },
+      "align": {
+        "func": "attr@tc.scale",
+        "value": "left"
+      },
+      "color": "rgb(0,0,0)",
+      "font": "bold 14px sans-serif, Arial",
+      "rect": [
+        0,
+        0,
+        65,
+        13.31853
+      ]
+    },
+    {
+      "type": "text",
+      "text": "电流：",
+      "rect": [
+        1.28234,
+        89.33022,
+        26.639,
+        8.94884
+      ]
+    },
+    {
+      "type": "text",
+      "text": "A",
+      "rect": [
+        59.70267,
+        89.33022,
+        10.59466,
+        8.94884
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nlet v = data.ca('ele.v');\r\nv = v == undefined ? 0 : Number(v);\r\nif (v < 0) v = 0;\r\nreturn  v.toFixed(1);\n}",
+        "value": "0"
+      },
+      "color": "#0000ff",
+      "font": "14px arial, sans-serif",
+      "rect": [
+        30.84736,
+        89.33022,
+        26.639,
+        8.94884
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nlet v = data.ca('pl.display');\r\n\r\nreturn v==0 ? \"\" : \"频率：\";\n}",
+        "value": ""
+      },
+      "rect": [
+        1.28234,
+        105.24777,
+        26.639,
+        8.94884
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nlet v = data.ca('pl.display');\r\n\r\nreturn v==0 ? \"\" : \"Hz\";\n}",
+        "value": "Hz"
+      },
+      "anchorX": 0.58357,
+      "anchorY": 0.3219,
+      "rect": [
+        61.14262,
+        105.24777,
+        10.59466,
+        8.94884
+      ]
+    },
+    {
+      "type": "text",
+      "color": "#0000ff",
+      "font": "14px arial, sans-serif",
+      "rect": [
+        30.84736,
+        105.14713,
+        26.639,
+        8.94884
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nlet s = data.ca('pl.display');\r\nlet v = data.ca('ele.v');\r\nv==undefined ? v = 0 : v\r\nreturn s==0 ? v= \"\" : v = Number(v).toFixed(1)\n}",
+        "value": "0"
+      },
+      "color": "#0000ff",
+      "font": "14px arial, sans-serif",
+      "rect": [
+        30.84736,
+        105.14713,
+        26.639,
+        8.94884
+      ]
+    }
+  ]
+}

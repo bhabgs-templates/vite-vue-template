@@ -1,0 +1,52 @@
+{
+  "modified": "Fri Oct 15 2021 13:52:25 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "state.tc",
+      "valueType": "String",
+      "group": "状态"
+    },
+    {
+      "attr": "state.mc",
+      "valueType": "String",
+      "group": "状态"
+    },
+    {
+      "attr": "state.v",
+      "valueType": "String"
+    }
+  ],
+  "width": 120,
+  "height": 39,
+  "comps": [
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@state.tc",
+        "value": "201"
+      },
+      "color": "rgb(0,0,0)",
+      "font": "bold 14px sans-serif, Arial",
+      "rect": [
+        -2,
+        4.15074,
+        36.97931,
+        15.0936
+      ]
+    },
+    {
+      "type": "image",
+      "name": {
+        "func": "__ht__function(data, view) {\nconst v = data.ca('gbj.v');\r\nconst v1 = 'symbols/素材库/设备/刮板.json'; //待机\r\nconst v2 = 'symbols/素材库/设备/刮板_g.json'; // 正常\r\nconst v3 = 'symbols/素材库/设备/刮板_r.json'; // 故障\r\nconst v4 = 'symbols/素材库/设备/刮板_y.json'; // 就绪\r\nlet color = v4;\r\nif (v ==='0') color = v1;\r\nif (v ==='1') color = v2;\r\nif (v ==='2') color = v3;\r\nif (v ==='3') color = v4;\r\nreturn color;\n}",
+        "value": "symbols/素材库/设备/刮板.json"
+      },
+      "displayName": "刮板",
+      "rect": [
+        0,
+        19.24434,
+        120,
+        20
+      ]
+    }
+  ]
+}

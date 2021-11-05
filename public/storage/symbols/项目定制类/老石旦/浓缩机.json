@@ -1,0 +1,59 @@
+{
+  "modified": "Tue Oct 19 2021 16:04:57 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "nsj.tc",
+      "valueType": "String"
+    },
+    {
+      "attr": "nsj.mc",
+      "valueType": "String"
+    },
+    {
+      "attr": "nsj.v",
+      "valueType": "String"
+    },
+    {
+      "attr": "nsj.scale_tc",
+      "valueType": "Align"
+    }
+  ],
+  "width": 130,
+  "height": 58,
+  "comps": [
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@tc",
+        "value": "201"
+      },
+      "align": {
+        "func": "attr@scale_tc",
+        "value": "left"
+      },
+      "color": "rgb(0,0,0)",
+      "font": "bold 14px sans-serif, Arial",
+      "prefix": "nsj",
+      "rect": [
+        3.01353,
+        0,
+        121.4203,
+        14.76819
+      ]
+    },
+    {
+      "type": "image",
+      "name": {
+        "func": "__ht__function(data, view) {\nconst v = data.ca('nsj.v');\r\nconst v1 = 'symbols/素材库/设备/浓缩机.json'; //正常\r\nconst v2 = 'symbols/素材库/设备/浓缩机_g.json'; // 故障\r\nconst v3 = 'symbols/素材库/设备/浓缩机_r.json'; // 故障\r\nlet color = v1;\r\nif (v === '2' || v === '8') color = v2;\r\nif (v === '4' || v === '20') color = v3;\r\nreturn color;\n}",
+        "value": "symbols/素材库/设备/浓缩机.json"
+      },
+      "displayName": "浓缩机",
+      "rect": [
+        0,
+        7.74031,
+        130.32124,
+        51.25969
+      ]
+    }
+  ]
+}

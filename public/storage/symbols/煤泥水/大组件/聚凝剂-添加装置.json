@@ -1,0 +1,228 @@
+{
+  "modified": "Fri May 14 2021 15:19:04 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "mc",
+      "valueType": "String"
+    },
+    {
+      "attr": "state",
+      "valueType": "Boolean"
+    },
+    {
+      "attr": "width",
+      "valueType": "PositiveNumber"
+    },
+    {
+      "attr": "height",
+      "valueType": "String"
+    },
+    {
+      "attr": "show_fx",
+      "valueType": "Boolean"
+    },
+    {
+      "attr": "dqpl_val",
+      "valueType": "String"
+    },
+    {
+      "attr": "tjms_val",
+      "valueType": "String"
+    },
+    {
+      "attr": "kzms_state",
+      "valueType": "String"
+    },
+    {
+      "attr": "tc",
+      "valueType": "String"
+    },
+    {
+      "attr": "label",
+      "valueType": "String"
+    }
+  ],
+  "width": 280,
+  "height": 299,
+  "comps": [
+    {
+      "type": "image",
+      "name": "symbols/煤泥水/絮凝剂 - 添加装置.json",
+      "pixelPerfect": true,
+      "displayName": "絮凝剂 - 添加装置",
+      "rect": [
+        80.51909,
+        38,
+        130,
+        110
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/煤泥水/跳转.json",
+      "visible": {
+        "func": "attr@show_fx",
+        "value": true
+      },
+      "pixelPerfect": true,
+      "displayName": "跳转",
+      "rect": [
+        53.01909,
+        108,
+        50,
+        50
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/煤泥水/信号+设备编号.json",
+      "pixelPerfect": true,
+      "displayName": "信号+设备编号",
+      "rect": [
+        26.36631,
+        0,
+        110,
+        28
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/煤泥水/background.json",
+      "displayName": "background",
+      "rect": [
+        0,
+        242.5526,
+        272.73263,
+        55.67067
+      ]
+    },
+    {
+      "type": "roundRect",
+      "background": "rgb(255,255,255)",
+      "borderWidth": 1,
+      "borderColor": "#ccc",
+      "cornerRadius": 3,
+      "rect": [
+        115.15944,
+        251.9343,
+        143.57981,
+        36
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(0,0,0)",
+      "borderWidth": 1,
+      "borderColor": "#979797",
+      "closePath": true,
+      "points": [
+        199.76032,
+        255.56576,
+        199.76032,
+        269.6711,
+        199.76032,
+        285.21011
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Hz",
+      "align": "center",
+      "color": "#666",
+      "font": "bold 22px sans-serif, Arial",
+      "displayName": "Hz",
+      "rect": [
+        199.76032,
+        255.56576,
+        58.97893,
+        29.64435
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@dqpl_val",
+        "value": "0"
+      },
+      "align": "center",
+      "color": "#007AFF",
+      "font": "bold 28px sans-serif, Arial",
+      "rect": [
+        119.15379,
+        255.86677,
+        72.39759,
+        28.13505
+      ]
+    },
+    {
+      "type": "text",
+      "text": "当前频率",
+      "align": "right",
+      "font": "24px sans-serif",
+      "rect": [
+        26.28516,
+        252.38793,
+        83.59292,
+        36
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@label",
+        "value": "调节模式："
+      },
+      "font": "24px sans-serif, Arial",
+      "rect": [
+        42.36146,
+        166.36642,
+        108.07223,
+        30
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@tjms_val",
+        "value": "智能"
+      },
+      "color": "#007AFF",
+      "font": "24px sans-serif, Arial",
+      "rect": [
+        165.97203,
+        166.36642,
+        50.36678,
+        30
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@label",
+        "value": "控制模式："
+      },
+      "font": "24px sans-serif, Arial",
+      "rect": [
+        42.36146,
+        202.90469,
+        108.07223,
+        30
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@kzms_state",
+        "value": "自动"
+      },
+      "color": "#007AFF",
+      "font": "24px sans-serif, Arial",
+      "rect": [
+        165.97203,
+        202.90469,
+        50.36678,
+        30
+      ]
+    }
+  ]
+}

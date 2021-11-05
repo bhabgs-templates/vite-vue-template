@@ -1,0 +1,56 @@
+{
+  "modified": "Thu Aug 12 2021 10:08:58 GMT+0800 (中國標準時間)",
+  "dataBindings": [
+    {
+      "attr": "height",
+      "valueType": "String"
+    },
+    {
+      "attr": "width",
+      "valueType": "PositiveNumber"
+    },
+    {
+      "attr": "val",
+      "valueType": "Number"
+    },
+    {
+      "attr": "sc.tc",
+      "valueType": "String"
+    },
+    {
+      "attr": "sc.mc",
+      "valueType": "String"
+    },
+    {
+      "attr": "sc.v",
+      "valueType": "Number"
+    }
+  ],
+  "width": 140,
+  "height": 120,
+  "comps": [
+    {
+      "type": "components/progressBar/水池.json",
+      "prefix": "sc",
+      "displayName": "水池",
+      "rect": [
+        0,
+        0,
+        140,
+        110
+      ],
+      "tc": {
+        "func": "attr@tc",
+        "value": "600"
+      },
+      "mc": {
+        "func": "attr@mc",
+        "value": "0"
+      },
+      "progress.val": {
+        "func": "attr@v",
+        "value": 0.3
+      }
+    }
+  ]
+}

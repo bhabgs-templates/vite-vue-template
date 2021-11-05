@@ -1,0 +1,84 @@
+{
+  "modified": "Fri Aug 20 2021 14:04:33 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "c1",
+      "valueType": "String"
+    },
+    {
+      "attr": "c2",
+      "valueType": "String"
+    }
+  ],
+  "width": 128,
+  "height": 278,
+  "comps": [
+    {
+      "type": "image",
+      "name": "symbols/工厂设备/总览/仓.json",
+      "displayName": "仓",
+      "rect": [
+        0.03238,
+        0,
+        127.42903,
+        127.42903
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/工厂设备/总览/仓.json",
+      "displayName": "仓",
+      "rect": [
+        0.03238,
+        150.03238,
+        127.96762,
+        127.96762
+      ]
+    },
+    {
+      "type": "roundRect",
+      "background": "#545457",
+      "borderColor": "#979797",
+      "shadow": true,
+      "shadowColor": "rgb(102,102,102)",
+      "rect": [
+        35.53238,
+        25.5,
+        57,
+        221
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@c1",
+        "value": "1#"
+      },
+      "align": "center",
+      "color": "rgb(255,255,255)",
+      "font": "28px arial, sans-serif",
+      "rect": [
+        35.53238,
+        37.5,
+        57,
+        50
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@c2",
+        "value": "1#"
+      },
+      "align": "center",
+      "color": "rgb(255,255,255)",
+      "font": "28px arial, sans-serif",
+      "rect": [
+        35.53238,
+        188.5,
+        57,
+        50
+      ]
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "modified": "Tue Jul 13 2021 16:05:12 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "state",
+      "valueType": "String",
+      "name": "yl.v"
+    },
+    {
+      "attr": "tc",
+      "valueType": "String",
+      "name": "yl.tc"
+    },
+    {
+      "attr": "mc",
+      "valueType": "String",
+      "name": "yl.mc"
+    }
+  ],
+  "width": 246,
+  "height": 86,
+  "comps": [
+    {
+      "type": "shape",
+      "background": {
+        "func": "__ht__function(data, view) {\nconst state = data.ca('state');\r\nconst color = {\r\n    '1': '#89F311',\r\n    '0': '#D3D3D3',\r\n}\r\nreturn color[state] || '#FF0000';\n}",
+        "value": "rgb(42,59,168)"
+      },
+      "pixelPerfect": true,
+      "points": [
+        0.32762,
+        -0.67238,
+        246.32762,
+        -0.67238,
+        246.32762,
+        85.32762,
+        0.32762,
+        85.32762,
+        0.32762,
+        -0.67238
+      ],
+      "segments": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        5
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 2,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "points": [
+        245.32762,
+        0.32762,
+        245.32762,
+        84.32762,
+        1.32762,
+        84.32762,
+        1.32762,
+        0.32762,
+        245.32762,
+        0.32762
+      ],
+      "segments": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        5
+      ]
+    },
+    {
+      "type": "text",
+      "text": "压滤车间",
+      "color": "rgb(255,255,255)",
+      "font": "20px SourceHanSansCN-Medium, \"Source Han Sans CN\"",
+      "pixelPerfect": true,
+      "rect": [
+        8.32762,
+        18.32762,
+        0.01,
+        0.01
+      ]
+    },
+    {
+      "type": "shape",
+      "background": {
+        "func": "__ht__function(data, view) {\nconst state = data.ca('state');\r\nconst color = {\r\n    '1': '#89F311',\r\n    '0': '#D3D3D3',\r\n}\r\nreturn color[state] || '#FF0000';\n}",
+        "value": "rgb(190,203,230)"
+      },
+      "pixelPerfect": true,
+      "points": [
+        0.32762,
+        45.32762,
+        123.32762,
+        45.32762,
+        123.32762,
+        85.32762,
+        0.32762,
+        85.32762,
+        0.32762,
+        45.32762
+      ],
+      "segments": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        5
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 2,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "points": [
+        122.32762,
+        46.32762,
+        122.32762,
+        84.32762,
+        1.32762,
+        84.32762,
+        1.32762,
+        46.32762,
+        122.32762,
+        46.32762
+      ],
+      "segments": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        5
+      ]
+    },
+    {
+      "type": "shape",
+      "background": {
+        "func": "__ht__function(data, view) {\nconst state = data.ca('state');\r\nconst color = {\r\n    '1': '#89F311',\r\n    '0': '#D3D3D3',\r\n}\r\nreturn color[state] || '#FF0000';\n}",
+        "value": "#2B55A9"
+      },
+      "pixelPerfect": true,
+      "points": [
+        28.82762,
+        42.32762,
+        68.82762,
+        42.32762,
+        68.82762,
+        85.32762,
+        28.82762,
+        85.32762,
+        28.82762,
+        42.32762
+      ],
+      "segments": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        5
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 2,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "displayName": "不规则图形",
+      "points": [
+        67.82762,
+        43.32762,
+        67.82762,
+        84.32762,
+        29.82762,
+        84.32762,
+        29.82762,
+        43.32762,
+        67.82762,
+        43.32762
+      ],
+      "segments": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        5
+      ]
+    }
+  ]
+}

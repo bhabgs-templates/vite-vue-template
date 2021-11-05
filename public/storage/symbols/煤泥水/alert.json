@@ -1,0 +1,50 @@
+{
+  "modified": "Tue May 18 2021 14:46:48 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "label",
+      "valueType": "String"
+    }
+  ],
+  "width": 270,
+  "height": 54,
+  "comps": [
+    {
+      "type": "image",
+      "name": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+PHN2ZyB0PSIxNjIwNjE2NjgzMjk0IiBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjIyOTMiIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCI+PGRlZnM+PHN0eWxlIHR5cGU9InRleHQvY3NzIj48L3N0eWxlPjwvZGVmcz48cGF0aCBkPSJNMTAwMS42NjE4NjcgNzk2LjU0NGM0OC44OTYgODQuOTA2NjY3IDcuNjggMTU3LjAxMzMzMy04Ny41NTIgMTU3LjAxMzMzM0gxMTAuNzgxODY3Yy05Ny44MzQ2NjcgMC0xMzkuMDUwNjY3LTY5LjUwNC05MC4xMTItMTU3LjAxMzMzM2w0MDEuNjY0LTY2Ni44OGM0OC44OTYtODcuNTUyIDEyOC43MjUzMzMtODcuNTUyIDE3Ny42NjQgMGw0MDEuNjY0IDY2Ni44OHpNNDc5LjE2NTg2NyAyOTYuNTMzMzMzdjM0MS4zMzMzMzRhMzIgMzIgMCAxIDAgNjQgMHYtMzQxLjMzMzMzNGEzMiAzMiAwIDEgMC02NCAweiBtMCA0NjkuMzMzMzM0djQyLjY2NjY2NmEzMiAzMiAwIDEgMCA2NCAwdi00Mi42NjY2NjZhMzIgMzIgMCAxIDAtNjQgMHoiIGZpbGw9IiNGQUFEMTQiIHAtaWQ9IjIyOTQiPjwvcGF0aD48L3N2Zz4=",
+      "displayName": "警告",
+      "rect": [
+        17.14354,
+        14.71029,
+        30,
+        27
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@label",
+        "value": "文本"
+      },
+      "color": "#333",
+      "font": "26px sans-serif, Arial",
+      "rect": [
+        53.2558,
+        12,
+        234.56124,
+        30
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": "#E7E7E7",
+      "points": [
+        0,
+        54,
+        270,
+        54
+      ]
+    }
+  ]
+}

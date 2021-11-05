@@ -1,0 +1,48 @@
+{
+  "modified": "Fri Jul 09 2021 15:07:20 GMT+0800 (中国标准时间)",
+  "width": 300,
+  "height": 20,
+  "func": "__ht__function(g, rect, comp, data, view) {\n// resect\nrect.width = comp.getValue('width');\nrect.height = comp.getValue('height');\n\nconst {width, height, x, y} = rect;\nconst bColor = comp.getColor('bColor');\nconst direction = comp.getValue('direction');\nconst aDirection = comp.getValue('a_direction'); // 流动方向\nconst title = comp.getValue('title');\nconst nw = direction ? width : height;\nconst nh = direction ? height : width;\n// 方向默认是 横着的，非的时候为竖着\n// 流动方向 默认朝右侧流动 否则反之\n// 当方向为 竖着的时候 流动默认方向为向上，否则反之\n// 绘制地面矩形\nconst color = {\n    '2': '#89F311',\n    '8': '#89F311',\n    '4': '#FF0000',\n    '20': '#FF0000',\n    '1': '#D3D3D3'\n}\ng.fillStyle = color[bColor] || '#D3D3D3';\ng.beginPath();\ng.fillRect(x, y, nw, nh);\ng.fill();\n\n\n\n// 绘制线\nconst lineWidth = 0.6;\nconst jd = comp.getValue('jd'); // 当前线段弯折角度\nconst jl = comp.getValue('jl'); // 每个线段之间的距离\nconst lineToLineW = direction ? height : width;\nconst lineColor = '#A0A5AE';\nfunction renderLine(a, b, c) {\n        \n    // 默认流动方向\n    function onaDirection() {\n        const tox = a + jd;\n        const toy = b + c/2;\n        g.beginPath();\n        g.moveTo(a,b);\n        g.lineTo(tox, toy);\n        g.lineTo(a, b+c)\n        g.lineWidth = lineWidth;\n        g.strokeStyle = lineColor;\n        g.stroke();\n        if (tox+jl + jd <= width) {\n            renderLine(tox + jl, b, c);\n        }\n    }\n\n    // 反方向\n    function unaDirection() {\n        const tox = a + jd;\n        const toy = b + c/2;\n        g.beginPath();\n        g.moveTo(tox, b);\n        g.lineTo(a, toy);\n        g.lineTo(tox, toy+c/2);\n        g.lineWidth = lineWidth;\n        g.strokeStyle = lineColor;\n        g.stroke();\n        if (a + c/2 <= width) {\n            renderLine(tox + jl, b, c);\n        }\n    }\n    aDirection ? onaDirection() : unaDirection();\n}\nrenderLine(x, y, lineToLineW);\n\n// 绘制文字\nht.Default.drawText(g, title, '20px Arial', '#3F6D0A', 0, 0,width, height, 'center', 'middle');\n}",
+  "properties": {
+    "direction": {
+      "valueType": "Boolean",
+      "defaultValue": true,
+      "name": "方向",
+      "description": "方向"
+    },
+    "a_direction": {
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "name": "流动方向",
+      "description": "流动方向"
+    },
+    "bColor": {
+      "valueType": "Color",
+      "defaultValue": "#89F311"
+    },
+    "width": {
+      "valueType": "Number",
+      "defaultValue": 300
+    },
+    "jd": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 3,
+      "name": "当前线段弯折角度",
+      "description": "当前线段弯折角度"
+    },
+    "jl": {
+      "valueType": "Number",
+      "defaultValue": 6,
+      "name": "每个线段之间的距离",
+      "description": "每个线段之间的距离"
+    },
+    "title": {
+      "valueType": "String",
+      "defaultValue": "title"
+    },
+    "height": {
+      "valueType": "Number",
+      "defaultValue": 20
+    }
+  }
+}

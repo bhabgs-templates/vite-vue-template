@@ -1,0 +1,80 @@
+{
+  "modified": "Thu Jul 15 2021 09:48:17 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "input.v",
+      "valueType": "String"
+    },
+    {
+      "attr": "unit1",
+      "valueType": "String"
+    },
+    {
+      "attr": "input.tc",
+      "valueType": "String"
+    },
+    {
+      "attr": "input.mc",
+      "valueType": "String"
+    }
+  ],
+  "width": 120,
+  "height": 36,
+  "comps": [
+    {
+      "type": "roundRect",
+      "borderWidth": 1,
+      "borderColor": "#00B8EC",
+      "rect": [
+        0,
+        0,
+        120,
+        36
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@input.v",
+        "value": "9"
+      },
+      "align": "center",
+      "color": "#2CF0AD",
+      "font": "28px sans-serif, Arial",
+      "rect": [
+        0,
+        0,
+        84.67686,
+        36
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@unit1",
+        "value": "m"
+      },
+      "align": "center",
+      "vAlign": "bottom",
+      "color": "rgb(255,255,255)",
+      "font": "22px sans-serif, Arial",
+      "rect": [
+        84.67686,
+        0,
+        35.32314,
+        36.45589
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.5,
+      "borderColor": "rgb(255,255,255)",
+      "points": [
+        84.67686,
+        3.65488,
+        84.67686,
+        32.80101
+      ]
+    }
+  ]
+}

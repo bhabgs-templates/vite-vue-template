@@ -1,0 +1,541 @@
+{
+  "modified": "Fri May 14 2021 15:34:54 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "mc",
+      "valueType": "String"
+    },
+    {
+      "attr": "state",
+      "valueType": "Boolean"
+    },
+    {
+      "attr": "ylj_kzms",
+      "valueType": "String"
+    },
+    {
+      "attr": "ylj_gzms",
+      "valueType": "String"
+    },
+    {
+      "attr": "ylj_jlms",
+      "valueType": "String"
+    },
+    {
+      "attr": "ylj_xlms",
+      "valueType": "String"
+    },
+    {
+      "attr": "ylj_dqjc",
+      "valueType": "String"
+    },
+    {
+      "attr": "width",
+      "valueType": "PositiveNumber"
+    },
+    {
+      "attr": "height",
+      "valueType": "String"
+    },
+    {
+      "attr": "ylj_dqjs",
+      "valueType": "String"
+    },
+    {
+      "attr": "ylj_xlcs",
+      "valueType": "String"
+    },
+    {
+      "attr": "ylj_lyll",
+      "valueType": "String"
+    },
+    {
+      "attr": "ylj_ylbs",
+      "valueType": "String"
+    },
+    {
+      "attr": "tc",
+      "valueType": "String"
+    },
+    {
+      "attr": "label",
+      "valueType": "String"
+    },
+    {
+      "attr": "unit",
+      "valueType": "String"
+    }
+  ],
+  "width": 285,
+  "height": 600,
+  "comps": [
+    {
+      "type": "image",
+      "name": "symbols/煤泥水/压滤机.json",
+      "displayName": "压滤机",
+      "rect": [
+        0,
+        0,
+        285,
+        150
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@label",
+        "value": "控制模式："
+      },
+      "font": "24px sans-serif, Arial",
+      "rect": [
+        31.06517,
+        175,
+        108.07223,
+        30
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@ylj_kzms",
+        "value": "远程"
+      },
+      "color": "#007AFF",
+      "font": "24px sans-serif, Arial",
+      "rect": [
+        154.67574,
+        175,
+        50.36678,
+        30
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@label",
+        "value": "工作模式："
+      },
+      "font": "24px sans-serif, Arial",
+      "rect": [
+        31.06517,
+        212.22531,
+        108.07223,
+        30
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@ylj_gzms",
+        "value": "自动"
+      },
+      "color": "#007AFF",
+      "font": "24px sans-serif, Arial",
+      "rect": [
+        154.67574,
+        212.22531,
+        50.36678,
+        30
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@label",
+        "value": "进料模式："
+      },
+      "font": "24px sans-serif, Arial",
+      "rect": [
+        31.06517,
+        249.45061,
+        108.07223,
+        30
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@ylj_jlms",
+        "value": "智能"
+      },
+      "color": "#007AFF",
+      "font": "24px sans-serif, Arial",
+      "rect": [
+        154.67574,
+        249.45061,
+        50.36678,
+        30
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@label",
+        "value": "卸料模式："
+      },
+      "font": "24px sans-serif, Arial",
+      "rect": [
+        31.06517,
+        286.67592,
+        108.07223,
+        30
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@ylj_xlms",
+        "value": "智能"
+      },
+      "color": "#007AFF",
+      "font": "24px sans-serif, Arial",
+      "rect": [
+        154.67574,
+        286.67592,
+        50.36678,
+        30
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@label",
+        "value": "当前进程："
+      },
+      "font": "24px sans-serif, Arial",
+      "rect": [
+        31.06517,
+        323.69214,
+        108.07223,
+        30
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@ylj_dqjc",
+        "value": "进料"
+      },
+      "color": "#007AFF",
+      "font": "24px sans-serif, Arial",
+      "rect": [
+        154.67574,
+        323.69214,
+        50.36678,
+        30
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/煤泥水/background.json",
+      "displayName": "background",
+      "rect": [
+        0,
+        373.36695,
+        285,
+        226.63305
+      ]
+    },
+    {
+      "type": "roundRect",
+      "background": "rgb(255,255,255)",
+      "borderWidth": 1,
+      "borderColor": "#ccc",
+      "cornerRadius": 3,
+      "rect": [
+        111.78464,
+        390.14232,
+        143.57981,
+        36
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(0,0,0)",
+      "borderWidth": 1,
+      "borderColor": "#979797",
+      "closePath": true,
+      "points": [
+        196.38551,
+        393.77378,
+        196.38551,
+        407.87912,
+        196.38551,
+        423.41813
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@unit",
+        "value": "s"
+      },
+      "align": "center",
+      "color": "#666",
+      "font": "bold 22px sans-serif, Arial",
+      "rect": [
+        196.38551,
+        393.77378,
+        58.97893,
+        29.64435
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@ylj_dqjs",
+        "value": "0"
+      },
+      "align": "center",
+      "color": "#007AFF",
+      "font": "bold 28px sans-serif, Arial",
+      "rect": [
+        115.77899,
+        394.07479,
+        72.39759,
+        28.13505
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@label",
+        "value": "当前计时"
+      },
+      "align": "right",
+      "font": "24px sans-serif",
+      "displayName": "当前计时",
+      "rect": [
+        22.91035,
+        390.59595,
+        83.59292,
+        36
+      ]
+    },
+    {
+      "type": "roundRect",
+      "background": "rgb(255,255,255)",
+      "borderWidth": 1,
+      "borderColor": "#ccc",
+      "cornerRadius": 3,
+      "rect": [
+        111.78464,
+        438.99235,
+        143.57981,
+        36
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(0,0,0)",
+      "borderWidth": 1,
+      "borderColor": "#979797",
+      "closePath": true,
+      "points": [
+        196.38552,
+        442.62381,
+        196.38552,
+        456.72915,
+        196.38552,
+        472.26816
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@unit",
+        "value": "板"
+      },
+      "align": "center",
+      "color": "#666",
+      "font": "bold 22px sans-serif, Arial",
+      "rect": [
+        196.38552,
+        442.62381,
+        58.97893,
+        29.64435
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@ylj_xlcs",
+        "value": "0"
+      },
+      "align": "center",
+      "color": "#007AFF",
+      "font": "bold 28px sans-serif, Arial",
+      "rect": [
+        115.77899,
+        442.92482,
+        72.39759,
+        28.13505
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@label",
+        "value": "卸料次序"
+      },
+      "align": "right",
+      "font": "24px sans-serif",
+      "rect": [
+        22.91036,
+        439.44598,
+        83.59292,
+        36
+      ]
+    },
+    {
+      "type": "roundRect",
+      "background": "rgb(255,255,255)",
+      "borderWidth": 1,
+      "borderColor": "#ccc",
+      "cornerRadius": 3,
+      "rect": [
+        111.78463,
+        486.68347,
+        143.57981,
+        36
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(0,0,0)",
+      "borderWidth": 1,
+      "borderColor": "#979797",
+      "closePath": true,
+      "points": [
+        196.38551,
+        490.31493,
+        196.38551,
+        504.42027,
+        196.38551,
+        519.95928
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@unit",
+        "value": "m3/h"
+      },
+      "align": "center",
+      "color": "#666",
+      "font": "bold 22px sans-serif, Arial",
+      "rect": [
+        196.38551,
+        490.31493,
+        58.97893,
+        29.64435
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@ylj_lyll",
+        "value": "0"
+      },
+      "align": "center",
+      "color": "#007AFF",
+      "font": "bold 28px sans-serif, Arial",
+      "rect": [
+        115.77898,
+        490.61594,
+        72.39759,
+        28.13505
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@label",
+        "value": "滤液流量"
+      },
+      "align": "right",
+      "font": "24px sans-serif",
+      "rect": [
+        22.91035,
+        487.1371,
+        83.59292,
+        36
+      ]
+    },
+    {
+      "type": "roundRect",
+      "background": "rgb(255,255,255)",
+      "borderWidth": 1,
+      "borderColor": "#ccc",
+      "cornerRadius": 3,
+      "rect": [
+        115.14723,
+        538.40645,
+        143.57981,
+        36
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(0,0,0)",
+      "borderWidth": 1,
+      "borderColor": "#979797",
+      "closePath": true,
+      "points": [
+        199.74812,
+        542.03791,
+        199.74812,
+        556.14325,
+        199.74812,
+        571.68226
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@unit",
+        "value": "板"
+      },
+      "align": "center",
+      "color": "#666",
+      "font": "bold 22px sans-serif, Arial",
+      "rect": [
+        199.74812,
+        542.03791,
+        58.97893,
+        29.64435
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@ylj_ylbs",
+        "value": "0"
+      },
+      "align": "center",
+      "color": "#007AFF",
+      "font": "bold 28px sans-serif, Arial",
+      "rect": [
+        119.14159,
+        542.33892,
+        72.39759,
+        28.13505
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@label",
+        "value": "压滤板数"
+      },
+      "align": "right",
+      "font": "24px sans-serif",
+      "rect": [
+        26.27295,
+        538.86008,
+        83.59292,
+        36
+      ]
+    }
+  ]
+}

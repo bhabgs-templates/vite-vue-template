@@ -1,0 +1,188 @@
+{
+  "modified": "Thu Aug 12 2021 09:34:35 GMT+0800 (中國標準時間)",
+  "dataBindings": [
+    {
+      "attr": "height",
+      "valueType": "String"
+    },
+    {
+      "attr": "width",
+      "valueType": "PositiveNumber"
+    },
+    {
+      "attr": "fx",
+      "valueType": "Boolean"
+    },
+    {
+      "attr": "tjms.v",
+      "valueType": "String",
+      "name": "调节模式",
+      "group": "调节模式"
+    },
+    {
+      "attr": "kzms.v",
+      "valueType": "String",
+      "name": "控制模式",
+      "group": "控制模式"
+    },
+    {
+      "attr": "xh.v",
+      "valueType": "Boolean",
+      "group": "信号"
+    },
+    {
+      "attr": "xh.tc",
+      "valueType": "String",
+      "group": "信号"
+    },
+    {
+      "attr": "xh.mc",
+      "valueType": "String",
+      "group": "信号"
+    },
+    {
+      "attr": "pl.v",
+      "valueType": "Number",
+      "group": "当前频率"
+    },
+    {
+      "attr": "pl.tc",
+      "valueType": "String",
+      "group": "当前频率"
+    },
+    {
+      "attr": "pl.mc",
+      "valueType": "String",
+      "group": "当前频率"
+    }
+  ],
+  "width": 260,
+  "height": 299,
+  "comps": [
+    {
+      "type": "image",
+      "name": "symbols/新煤泥水/加药机.json",
+      "displayName": "加药机",
+      "rect": [
+        46.5,
+        34.76436,
+        127,
+        110
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/新煤泥水/分享.json",
+      "visible": {
+        "func": "attr@fx",
+        "value": true
+      },
+      "displayName": "分享",
+      "rect": [
+        26.21964,
+        108.66219,
+        48,
+        48
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/新煤泥水/background.json",
+      "displayName": "background",
+      "rect": [
+        0,
+        243,
+        257.13196,
+        56
+      ]
+    },
+    {
+      "type": "components/progressBar/label-card.json",
+      "prefix": "pl",
+      "displayName": "label-card",
+      "rect": [
+        61.16833,
+        252,
+        192,
+        38
+      ],
+      "label": "当前频率",
+      "unit": "Hz",
+      "value": {
+        "func": "attr@v",
+        "value": 0
+      },
+      "tc": {
+        "func": "attr@tc"
+      },
+      "mc": {
+        "func": "attr@mc"
+      }
+    },
+    {
+      "type": "components/progressBar/信号组件.json",
+      "prefix": "xh",
+      "displayName": "信号组件",
+      "rect": [
+        0,
+        0,
+        110,
+        28
+      ],
+      "xhstate": {
+        "func": "attr@v",
+        "value": true
+      },
+      "tc": {
+        "func": "attr@tc",
+        "value": "620"
+      },
+      "mc": {
+        "func": "attr@mc"
+      }
+    },
+    {
+      "type": "components/progressBar/文字-label.json",
+      "prefix": "tjms",
+      "displayName": "文字-label",
+      "rect": [
+        30.37958,
+        166.98058,
+        168,
+        31
+      ],
+      "label": "调节模式",
+      "value": {
+        "func": "attr@v",
+        "value": "智能"
+      },
+      "tc": {
+        "func": "attr@tc"
+      },
+      "mc": {
+        "func": "attr@mc"
+      }
+    },
+    {
+      "type": "components/progressBar/文字-label.json",
+      "prefix": "kzms",
+      "displayName": "文字-label",
+      "rect": [
+        30.37958,
+        202.34795,
+        168,
+        31
+      ],
+      "value": {
+        "func": "attr@v",
+        "value": "自动"
+      },
+      "tc": {
+        "func": "attr@tc"
+      },
+      "mc": {
+        "func": "attr@mc"
+      }
+    }
+  ]
+}

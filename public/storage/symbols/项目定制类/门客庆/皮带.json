@@ -1,0 +1,90 @@
+{
+  "modified": "Fri Oct 15 2021 15:28:28 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "state.v",
+      "valueType": "String",
+      "defaultValue": "3",
+      "group": "皮带状态"
+    },
+    {
+      "attr": "state.mc",
+      "valueType": "String",
+      "group": "皮带状态"
+    },
+    {
+      "attr": "state.tc",
+      "valueType": "String",
+      "group": "皮带状态"
+    },
+    {
+      "attr": "val.tc",
+      "valueType": "String",
+      "group": "皮带值"
+    },
+    {
+      "attr": "val.mc",
+      "valueType": "String",
+      "group": "皮带值"
+    },
+    {
+      "attr": "val.v",
+      "valueType": "String",
+      "name": "皮带值",
+      "group": "皮带值",
+      "defaultValue": " "
+    }
+  ],
+  "width": 100,
+  "height": 38,
+  "comps": [
+    {
+      "type": "image",
+      "color": "",
+      "name": {
+        "func": "__ht__function(data, view) {\nconst v = data.ca('state.v');\r\nconst v1 = 'symbols/素材库/设备/皮带机.json'; //待机\r\nconst v2 = 'symbols/素材库/设备/皮带机_g.json'; // 正常\r\nconst v3 = 'symbols/素材库/设备/皮带机_r.json'; // 故障\r\nconst v4 = 'symbols/素材库/设备/皮带机_y.json'; // 就绪\r\nlet color = v4;\r\nif (v ==='0') color = v1;\r\nif (v ==='1') color = v2;\r\nif (v ==='2') color = v3;\r\nif (v ==='3') color = v4;\r\nreturn color;\n}",
+        "value": "symbols/素材库/设备/皮带机.json"
+      },
+      "state": {
+        "func": true
+      },
+      "displayName": "皮带机",
+      "rect": [
+        0,
+        19.86822,
+        100,
+        18
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@state.tc",
+        "value": "201"
+      },
+      "color": "rgb(0,0,0)",
+      "font": "14px sans-serif, Arial",
+      "rect": [
+        0,
+        3.9064,
+        36.97931,
+        15.0936
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nlet v = data.ca('val.v');\r\n    v = Number(v);\r\nif (v !== 0) {\r\n return v.toFixed(0) + 't/h';   \r\n}\r\nreturn '';\n}",
+        "value": "0"
+      },
+      "color": "rgb(10,255,157)",
+      "font": "bold 18px sans-serif, Arial",
+      "rect": [
+        64.2733,
+        1.72446,
+        35.7267,
+        18.14376
+      ]
+    }
+  ]
+}

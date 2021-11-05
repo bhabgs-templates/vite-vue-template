@@ -1,0 +1,64 @@
+{
+  "modified": "Wed Oct 13 2021 18:09:19 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "gmj.tc",
+      "valueType": "String"
+    },
+    {
+      "attr": "gmj.mc",
+      "valueType": "String"
+    },
+    {
+      "attr": "gmj.v",
+      "valueType": "String"
+    },
+    {
+      "attr": "gmj.scale.tc",
+      "valueType": "Align"
+    }
+  ],
+  "width": 50,
+  "height": 45,
+  "comps": [
+    {
+      "type": "image",
+      "name": {
+        "func": "__ht__function(data, view) {\nconst v = data.ca('gmj.v');\r\nconst v1 = 'symbols/素材库/设备/给煤机.json'; //正常\r\nconst v2 = 'symbols/素材库/设备/给煤机_g.json'; // 故障\r\nconst v3 = 'symbols/素材库/设备/给煤机_r.json'; // 故障\r\nlet color = v1;\r\nif (v === '2' || v === '8') color = v2;\r\nif (v === '4' || v === '20') color = v3;\r\nreturn color;\n}",
+        "value": "symbols/素材库/设备/给煤机.json"
+      },
+      "displayName": "给煤机",
+      "scaleX": -1,
+      "rect": [
+        -1.99778,
+        0,
+        54.16204,
+        54.11765
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@gmj.tc",
+        "value": "103"
+      },
+      "align": {
+        "func": "attr@gmj.scale.tc",
+        "value": "left"
+      },
+      "vAlign": "top",
+      "color": "rgb(0,0,0)",
+      "font": "bold 14px sans-serif, Arial",
+      "displayName": {
+        "func": "attr@gmj.tc",
+        "value": "201"
+      },
+      "rect": [
+        -1.99778,
+        -1.99778,
+        28.63485,
+        12.1754
+      ]
+    }
+  ]
+}

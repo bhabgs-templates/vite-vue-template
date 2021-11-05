@@ -1534,6 +1534,23 @@
   resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.9.2.tgz#adea7b6953cbb34651766b0548468e743c6a2353"
   integrity sha512-VZMYa7+fXHdwIq1TDhSXoVmSPEGM/aa+6Aiq3nVVJ9bXr24zScr+NlKFKC3iPljA7ho/GAZr+d2jOf5GIRC30Q==
 
+"@rollup/plugin-typescript@^8.2.5":
+  version "8.3.0"
+  resolved "https://registry.npmmirror.com/@rollup/plugin-typescript/download/@rollup/plugin-typescript-8.3.0.tgz#bc1077fa5897b980fc27e376c4e377882c63e68b"
+  integrity sha1-vBB3+liXuYD8J+N2xON3iCxj5os=
+  dependencies:
+    "@rollup/pluginutils" "^3.1.0"
+    resolve "^1.17.0"
+
+"@rollup/pluginutils@^3.1.0":
+  version "3.1.0"
+  resolved "https://registry.nlark.com/@rollup/pluginutils/download/@rollup/pluginutils-3.1.0.tgz#706b4524ee6dc8b103b3c995533e5ad680c02b9b"
+  integrity sha1-cGtFJO5tyLEDs8mVUz5a1oDAK5s=
+  dependencies:
+    "@types/estree" "0.0.39"
+    estree-walker "^1.0.1"
+    picomatch "^2.2.2"
+
 "@rollup/pluginutils@^4.1.0":
   version "4.1.1"
   resolved "https://registry.npmjs.org/@rollup/pluginutils/-/pluginutils-4.1.1.tgz"
@@ -1644,6 +1661,11 @@
   version "0.0.50"
   resolved "https://registry.yarnpkg.com/@types/estree/-/estree-0.0.50.tgz#1e0caa9364d3fccd2931c3ed96fdbeaa5d4cca83"
   integrity sha512-C6N5s2ZFtuZRj54k2/zyRhNDjJwwcViAM3Nbm8zjBpbqAdZ00mr0CFxvSKeO8Y/e03WVFLpQMdHYVfUd6SB+Hw==
+
+"@types/estree@0.0.39":
+  version "0.0.39"
+  resolved "https://registry.nlark.com/@types/estree/download/@types/estree-0.0.39.tgz#e177e699ee1b8c22d23174caaa7422644389509f"
+  integrity sha1-4Xfmme4bjCLSMXTKqnQiZEOJUJ8=
 
 "@types/estree@^0.0.48":
   version "0.0.48"
@@ -3759,6 +3781,11 @@ estraverse@^5.1.0, estraverse@^5.2.0:
   version "5.2.0"
   resolved "https://registry.yarnpkg.com/estraverse/-/estraverse-5.2.0.tgz#307df42547e6cc7324d3cf03c155d5cdb8c53880"
   integrity sha512-BxbNGGNm0RyRYvUdHpIwv9IWzeM9XClbOxwoATuFdOE7ZE6wHL+HQ5T8hoPM+zHvmKzzsEqhgy0GrQ5X13afiQ==
+
+estree-walker@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.npm.taobao.org/estree-walker/download/estree-walker-1.0.1.tgz#31bc5d612c96b704106b477e6dd5d8aa138cb700"
+  integrity sha1-MbxdYSyWtwQQa0d+bdXYqhOMtwA=
 
 estree-walker@^2.0.1:
   version "2.0.2"
@@ -7055,7 +7082,7 @@ resolve-url@^0.2.1:
   resolved "https://registry.npm.taobao.org/resolve-url/download/resolve-url-0.2.1.tgz#2c637fe77c893afd2a663fe21aa9080068e2052a"
   integrity sha1-LGN/53yJOv0qZj/iGqkIAGjiBSo=
 
-resolve@^1.10.0, resolve@^1.13.1, resolve@^1.14.2, resolve@^1.15.1, resolve@^1.18.1, resolve@^1.20.0:
+resolve@^1.10.0, resolve@^1.13.1, resolve@^1.14.2, resolve@^1.15.1, resolve@^1.17.0, resolve@^1.18.1, resolve@^1.20.0:
   version "1.20.0"
   resolved "https://registry.npm.taobao.org/resolve/download/resolve-1.20.0.tgz?cache=0&sync_timestamp=1613054898763&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fresolve%2Fdownload%2Fresolve-1.20.0.tgz#629a013fb3f70755d6f0b7935cc1c2c5378b1975"
   integrity sha1-YpoBP7P3B1XW8LeTXMHCxTeLGXU=
@@ -8193,10 +8220,12 @@ vitevui@^1.0.0-beta.47:
     mitt "2.1.0"
     vue "^3.0.5"
 
-vitevuu@^1.0.5:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/vitevuu/-/vitevuu-1.0.5.tgz#8fda888d4ede47ce942ca2bc0f9aab51309159dc"
-  integrity sha512-dcnU+vfdJpXNnUCJs0gZI3xHGUbju5Thb2dMkPmRVERtftIS9LM21FlbYeBG24fTeU7cQ97mWyB12RPcnmSsVA==
+vitevuu@^1.0.8:
+  version "1.0.8"
+  resolved "https://registry.npmmirror.com/vitevuu/download/vitevuu-1.0.8.tgz#a89b220d3b38f23bbb20722bb45c74c79dfde75e"
+  integrity sha1-qJsiDTs48ju7IHIrtFx0x539514=
+  dependencies:
+    "@rollup/plugin-typescript" "^8.2.5"
 
 void-elements@^3.1.0:
   version "3.1.0"

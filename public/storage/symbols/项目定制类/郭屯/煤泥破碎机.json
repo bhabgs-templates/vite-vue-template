@@ -1,0 +1,50 @@
+{
+  "modified": "Thu Oct 21 2021 14:01:07 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "mnpsj.tc",
+      "valueType": "String"
+    },
+    {
+      "attr": "mnpsj.mc",
+      "valueType": "String"
+    },
+    {
+      "attr": "mnpsj.v",
+      "valueType": "String"
+    }
+  ],
+  "width": 100,
+  "height": 80,
+  "comps": [
+    {
+      "type": "image",
+      "name": {
+        "func": "__ht__function(data, view) {\nconst v = data.ca('mnpsj.v');\r\nconst v1 = 'symbols/素材库/设备/煤泥破碎机.json'; //正常\r\nconst v2 = 'symbols/素材库/设备/煤泥破碎机_g.json'; // 故障\r\nconst v3 = 'symbols/素材库/设备/煤泥破碎机_r.json'; // 故障\r\nlet color = v1;\r\nif (v === '2' || v === '8') color = v2;\r\nif (v === '4' || v === '20') color = v3;\r\nreturn color;\n}",
+        "value": "symbols/素材库/设备/煤泥破碎机.json"
+      },
+      "displayName": "煤泥破碎机",
+      "rect": [
+        0,
+        20.25243,
+        99.58388,
+        59.49513
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@mnpsj.tc",
+        "value": "201"
+      },
+      "color": "rgb(0,0,0)",
+      "font": "bold 14px sans-serif, Arial",
+      "rect": [
+        0,
+        0,
+        30.32953,
+        13.31853
+      ]
+    }
+  ]
+}

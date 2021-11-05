@@ -1,0 +1,133 @@
+{
+  "modified": "Mon Oct 11 2021 13:37:43 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "name",
+      "valueType": "String"
+    }
+  ],
+  "width": 119,
+  "height": 119,
+  "comps": [
+    {
+      "type": "oval",
+      "background": "rgb(34,12,199)",
+      "opacity": 0.3,
+      "rect": [
+        0,
+        0,
+        119,
+        119
+      ]
+    },
+    {
+      "type": "oval",
+      "background": "rgb(34,12,199)",
+      "borderColor": "#979797",
+      "rect": [
+        8.66198,
+        10.35423,
+        103.6024,
+        99.89452
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/项目定制类/老石旦/监控总图/装饰元素.json",
+      "displayName": "装饰元素",
+      "rect": [
+        22.78449,
+        16.80942,
+        34.50208,
+        104.55176
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@name",
+        "value": "原煤仓"
+      },
+      "color": "rgb(255,255,255)",
+      "font": "28px arial, sans-serif",
+      "rect": [
+        16.48503,
+        32.89044,
+        91.26892,
+        50
+      ]
+    },
+    {
+      "type": "oval",
+      "background": "rgb(255,255,255)",
+      "borderColor": "#979797",
+      "opacity": 0.2,
+      "rect": [
+        67.98631,
+        94.89439,
+        2.98335,
+        2.98335
+      ]
+    },
+    {
+      "type": "oval",
+      "background": "rgb(255,255,255)",
+      "borderColor": "#979797",
+      "opacity": 0.2,
+      "rect": [
+        45.42546,
+        90.33983,
+        2.26139,
+        2.26139
+      ]
+    },
+    {
+      "type": "oval",
+      "background": "rgb(255,255,255)",
+      "borderColor": "#979797",
+      "opacity": 0.2,
+      "rect": [
+        55.99624,
+        94.89439,
+        1.29034,
+        1.29034
+      ]
+    },
+    {
+      "type": "oval",
+      "background": "rgb(255,255,255)",
+      "borderColor": "#979797",
+      "opacity": 0.2,
+      "rect": [
+        83.4987,
+        89.20913,
+        2.26139,
+        2.26139
+      ]
+    },
+    {
+      "type": "oval",
+      "background": "rgb(255,255,255)",
+      "borderColor": "#979797",
+      "opacity": 0.2,
+      "rect": [
+        60.93786,
+        84.65459,
+        1.25207,
+        1.25207
+      ]
+    },
+    {
+      "type": "oval",
+      "background": "rgb(255,255,255)",
+      "borderColor": "#979797",
+      "opacity": 0.2,
+      "rect": [
+        70.96966,
+        86.94774,
+        2.26139,
+        2.26139
+      ]
+    }
+  ]
+}

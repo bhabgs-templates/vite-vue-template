@@ -1,0 +1,444 @@
+{
+  "modified": "Thu Jun 24 2021 10:41:05 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "height",
+      "valueType": "String"
+    },
+    {
+      "attr": "width",
+      "valueType": "PositiveNumber"
+    },
+    {
+      "attr": "xh.v",
+      "valueType": "Boolean",
+      "group": "信号",
+      "defaultValue": true
+    },
+    {
+      "attr": "xh.tc",
+      "valueType": "String",
+      "group": "信号",
+      "defaultValue": "0"
+    },
+    {
+      "attr": "xh.mc",
+      "valueType": "String",
+      "group": "信号",
+      "defaultValue": "0"
+    },
+    {
+      "attr": "fx",
+      "valueType": "Boolean",
+      "name": "是否显示分享",
+      "defaultValue": true
+    },
+    {
+      "attr": "gzms.mc",
+      "valueType": "String",
+      "group": "工作模式",
+      "defaultValue": "0"
+    },
+    {
+      "attr": "gzms.tc",
+      "valueType": "String",
+      "group": "工作模式",
+      "defaultValue": "0"
+    },
+    {
+      "attr": "gzms.v",
+      "valueType": "String",
+      "group": "工作模式",
+      "defaultValue": "0"
+    },
+    {
+      "attr": "jlms.mc",
+      "valueType": "String",
+      "group": "进料模式",
+      "defaultValue": "0"
+    },
+    {
+      "attr": "jlms.tc",
+      "valueType": "String",
+      "group": "进料模式",
+      "defaultValue": "0"
+    },
+    {
+      "attr": "jlms.v",
+      "valueType": "String",
+      "group": "进料模式",
+      "defaultValue": "0"
+    },
+    {
+      "attr": "xlms.mc",
+      "valueType": "String",
+      "group": "卸料模式",
+      "defaultValue": "0"
+    },
+    {
+      "attr": "xlms.tc",
+      "valueType": "String",
+      "group": "卸料模式",
+      "defaultValue": "0"
+    },
+    {
+      "attr": "xlms.v",
+      "valueType": "String",
+      "group": "卸料模式",
+      "defaultValue": "0"
+    },
+    {
+      "attr": "dqjs.mc",
+      "valueType": "String",
+      "group": "当前计时",
+      "defaultValue": "0"
+    },
+    {
+      "attr": "dqjs.tc",
+      "valueType": "String",
+      "group": "当前计时",
+      "defaultValue": "0"
+    },
+    {
+      "attr": "dqjs.v",
+      "valueType": "Number",
+      "group": "当前计时",
+      "defaultValue": 0
+    },
+    {
+      "attr": "xlcx.mc",
+      "valueType": "String",
+      "group": "卸料次序",
+      "defaultValue": "0"
+    },
+    {
+      "attr": "xlcx.tc",
+      "valueType": "String",
+      "group": "卸料次序",
+      "defaultValue": "0"
+    },
+    {
+      "attr": "xlcx.v",
+      "valueType": "Number",
+      "group": "卸料次序",
+      "defaultValue": 0
+    },
+    {
+      "attr": "ylll.mc",
+      "valueType": "String",
+      "group": "滤液流量",
+      "defaultValue": "0"
+    },
+    {
+      "attr": "ylll.tc",
+      "valueType": "String",
+      "group": "滤液流量",
+      "defaultValue": "0"
+    },
+    {
+      "attr": "ylll.v",
+      "valueType": "Number",
+      "group": "滤液流量",
+      "defaultValue": 0
+    },
+    {
+      "attr": "ylbs.mc",
+      "valueType": "String",
+      "group": "压滤板数",
+      "defaultValue": "0"
+    },
+    {
+      "attr": "ylbs.tc",
+      "valueType": "String",
+      "group": "压滤板数",
+      "defaultValue": "0"
+    },
+    {
+      "attr": "ylbs.v",
+      "valueType": "Number",
+      "group": "压滤板数",
+      "defaultValue": 0
+    },
+    {
+      "attr": "kzms.v",
+      "valueType": "String",
+      "group": "控制模式",
+      "defaultValue": "0"
+    },
+    {
+      "attr": "kzms.tc",
+      "valueType": "String",
+      "group": "控制模式",
+      "defaultValue": "0"
+    },
+    {
+      "attr": "kzms.mc",
+      "valueType": "String",
+      "group": "控制模式",
+      "defaultValue": "0"
+    }
+  ],
+  "width": 300,
+  "height": 530,
+  "comps": [
+    {
+      "type": "image",
+      "name": "symbols/新煤泥水/压滤机.json",
+      "displayName": "压滤机",
+      "rect": [
+        15,
+        37.02632,
+        285,
+        98
+      ]
+    },
+    {
+      "type": "components/progressBar/信号组件.json",
+      "prefix": "xh",
+      "displayName": "信号组件",
+      "rect": [
+        25.57744,
+        0,
+        110,
+        28
+      ],
+      "xhstate": {
+        "func": "attr@v",
+        "value": false
+      },
+      "tc": {
+        "func": "attr@tc",
+        "value": "600"
+      },
+      "mc": {
+        "func": "attr@mc"
+      }
+    },
+    {
+      "type": "image",
+      "name": "symbols/新煤泥水/分享.json",
+      "visible": {
+        "func": "attr@fx",
+        "value": true
+      },
+      "displayName": "分享",
+      "rect": [
+        3.21895,
+        97.98814,
+        48,
+        48
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/新煤泥水/background.json",
+      "displayName": "background",
+      "rect": [
+        15,
+        342.247,
+        263.52784,
+        180
+      ]
+    },
+    {
+      "type": "components/progressBar/label-card.json",
+      "prefix": "dqjs",
+      "displayName": "label-card",
+      "rect": [
+        71.83413,
+        349.18908,
+        192,
+        38
+      ],
+      "label": "当前计时",
+      "unit": "s",
+      "value": {
+        "func": "attr@v",
+        "value": 1258
+      },
+      "tc": {
+        "func": "attr@tc"
+      },
+      "mc": {
+        "func": "attr@mc"
+      }
+    },
+    {
+      "type": "components/progressBar/label-card.json",
+      "prefix": "xlcx",
+      "displayName": "label-card",
+      "rect": [
+        71.83413,
+        391.89436,
+        192,
+        38
+      ],
+      "label": "卸料次序",
+      "unit": "板",
+      "value": {
+        "func": "attr@v",
+        "value": 1
+      },
+      "tc": {
+        "func": "attr@tc"
+      },
+      "mc": {
+        "func": "attr@mc"
+      }
+    },
+    {
+      "type": "components/progressBar/label-card.json",
+      "prefix": "ylll",
+      "displayName": "label-card",
+      "rect": [
+        71.83413,
+        434.59964,
+        192,
+        38
+      ],
+      "label": "滤液流量",
+      "unit": "m3/h",
+      "value": {
+        "func": "attr@v",
+        "value": 7.5
+      },
+      "tc": {
+        "func": "attr@tc"
+      },
+      "mc": {
+        "func": "attr@mc"
+      }
+    },
+    {
+      "type": "components/progressBar/label-card.json",
+      "prefix": "ylbs",
+      "displayName": "label-card",
+      "rect": [
+        71.83413,
+        477.59964,
+        192,
+        38
+      ],
+      "label": "压滤板数",
+      "unit": "板",
+      "value": {
+        "func": "attr@v",
+        "value": 5
+      },
+      "tc": {
+        "func": "attr@tc"
+      },
+      "mc": {
+        "func": "attr@mc"
+      }
+    },
+    {
+      "type": "components/progressBar/文字-label.json",
+      "prefix": "kzms",
+      "displayName": "文字-label",
+      "rect": [
+        57.76392,
+        155.14237,
+        168,
+        31
+      ],
+      "value": {
+        "func": "attr@v",
+        "value": "远程"
+      },
+      "tc": {
+        "func": "attr@tc"
+      },
+      "mc": {
+        "func": "attr@mc"
+      }
+    },
+    {
+      "type": "components/progressBar/文字-label.json",
+      "prefix": "gzms",
+      "displayName": "文字-label",
+      "rect": [
+        57.76392,
+        191.35678,
+        168,
+        31
+      ],
+      "label": "工作模式",
+      "value": {
+        "func": "attr@v",
+        "value": "自动"
+      },
+      "tc": {
+        "func": "attr@tc"
+      },
+      "mc": {
+        "func": "attr@mc"
+      }
+    },
+    {
+      "type": "components/progressBar/文字-label.json",
+      "prefix": "jlms",
+      "displayName": "文字-label",
+      "rect": [
+        57.76392,
+        227.57119,
+        168,
+        31
+      ],
+      "label": "进料模式",
+      "value": {
+        "func": "attr@v",
+        "value": "智能"
+      },
+      "tc": {
+        "func": "attr@tc"
+      },
+      "mc": {
+        "func": "attr@mc"
+      }
+    },
+    {
+      "type": "components/progressBar/文字-label.json",
+      "prefix": "xlms",
+      "displayName": "文字-label",
+      "rect": [
+        57.76392,
+        263.78559,
+        168,
+        31
+      ],
+      "label": "卸料模式",
+      "value": {
+        "func": "attr@v",
+        "value": "智能"
+      },
+      "tc": {
+        "func": "attr@tc"
+      },
+      "mc": {
+        "func": "attr@mc"
+      }
+    },
+    {
+      "type": "components/progressBar/文字-label.json",
+      "prefix": "kzms",
+      "displayName": "文字-label",
+      "rect": [
+        57.76392,
+        300,
+        168,
+        31
+      ],
+      "value": {
+        "func": "attr@v",
+        "value": "进料"
+      },
+      "tc": {
+        "func": "attr@tc"
+      },
+      "mc": {
+        "func": "attr@mc"
+      }
+    }
+  ]
+}

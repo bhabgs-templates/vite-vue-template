@@ -1,0 +1,114 @@
+{
+  "modified": "Fri Sep 24 2021 13:41:22 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "blfkd.v",
+      "valueType": "String",
+      "group": "比例阀开度"
+    },
+    {
+      "attr": "blfkd.tc",
+      "valueType": "String",
+      "group": "比例阀开度"
+    },
+    {
+      "attr": "blfkd.mc",
+      "valueType": "String",
+      "group": "比例阀开度"
+    },
+    {
+      "attr": "dqll.v",
+      "valueType": "String",
+      "group": "当前流量"
+    },
+    {
+      "attr": "dqll.tc",
+      "valueType": "String",
+      "group": "当前流量"
+    },
+    {
+      "attr": "dqll.mc",
+      "valueType": "String",
+      "group": "当前流量"
+    }
+  ],
+  "width": 200,
+  "height": 150,
+  "comps": [
+    {
+      "type": "image",
+      "name": "symbols/素材库/设备/粉料箱.json",
+      "displayName": "粉料箱",
+      "rect": [
+        51.36554,
+        0,
+        86,
+        60
+      ]
+    },
+    {
+      "type": "roundRect",
+      "background": "rgb(255,255,255)",
+      "borderColor": "#979797",
+      "cornerRadius": 5,
+      "shadow": true,
+      "shadowColor": "rgb(196,196,196)",
+      "rect": [
+        10.67223,
+        67.45986,
+        178.65554,
+        75.24369
+      ]
+    },
+    {
+      "type": "components/工厂组件/label/文字label.json",
+      "prefix": "blfkd",
+      "displayName": "文字label",
+      "rect": [
+        0,
+        73.51395,
+        189.32777,
+        38.54004
+      ],
+      "label": "比例阀开度",
+      "v": {
+        "func": "attr@v",
+        "value": "30"
+      },
+      "tc": {
+        "func": "attr@tc"
+      },
+      "mc": {
+        "func": "attr@mc"
+      },
+      "hasShadow": false,
+      "labelType": "number",
+      "unit": "%"
+    },
+    {
+      "type": "components/工厂组件/label/文字label.json",
+      "prefix": "dqll",
+      "displayName": "文字label",
+      "rect": [
+        0,
+        96.81068,
+        189.32777,
+        41.51338
+      ],
+      "label": "当前流量",
+      "v": {
+        "func": "attr@v",
+        "value": "5.6"
+      },
+      "tc": {
+        "func": "attr@tc"
+      },
+      "mc": {
+        "func": "attr@mc"
+      },
+      "hasShadow": false,
+      "labelType": "number",
+      "unit": "m³/h"
+    }
+  ]
+}

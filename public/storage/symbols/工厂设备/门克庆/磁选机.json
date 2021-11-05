@@ -1,0 +1,54 @@
+{
+  "modified": "Sat Aug 14 2021 11:21:46 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "xhstate",
+      "valueType": "Boolean"
+    },
+    {
+      "attr": "tc",
+      "valueType": "String"
+    },
+    {
+      "attr": "mc",
+      "valueType": "String"
+    }
+  ],
+  "width": 230,
+  "height": 256,
+  "comps": [
+    {
+      "type": "image",
+      "name": "symbols/工厂设备/磁选机.json",
+      "displayName": "磁选机",
+      "rotation": 6.28319,
+      "rect": [
+        -23.4329,
+        14.97102,
+        265.57288,
+        265.57288
+      ]
+    },
+    {
+      "type": "components/progressBar/信号组件.json",
+      "displayName": "信号组件",
+      "rect": [
+        60,
+        0.97102,
+        110,
+        28
+      ],
+      "xhstate": {
+        "func": "attr@xhstate",
+        "value": false
+      },
+      "tc": {
+        "func": "attr@tc",
+        "value": "600"
+      },
+      "mc": {
+        "func": "attr@mc"
+      }
+    }
+  ]
+}

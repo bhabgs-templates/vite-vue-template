@@ -1,0 +1,66 @@
+{
+  "modified": "Fri Jun 04 2021 14:03:03 GMT+0800 (中国标准时间)",
+  "width": 132,
+  "height": 106,
+  "comps": [
+    {
+      "type": "shape",
+      "background": "#afb4bc",
+      "fillRule": "evenodd",
+      "pixelPerfect": true,
+      "points": [
+        9,
+        9,
+        123,
+        9,
+        123,
+        9,
+        123,
+        9,
+        123,
+        97,
+        123,
+        97,
+        123,
+        97,
+        9,
+        97,
+        9,
+        97,
+        9,
+        97,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9
+      ],
+      "segments": [
+        1,
+        2,
+        3,
+        2,
+        3,
+        2,
+        3,
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "type": "text",
+      "text": "煤泥棚",
+      "color": "#333333",
+      "font": "20px SourceHanSansCN-Medium, \"Source Han Sans CN\"",
+      "pixelPerfect": true,
+      "rect": [
+        36,
+        54,
+        0.01,
+        0.01
+      ]
+    }
+  ]
+}

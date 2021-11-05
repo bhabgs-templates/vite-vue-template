@@ -1,0 +1,38 @@
+{
+  "modified": "Thu Sep 30 2021 14:50:05 GMT+0800 (中国标准时间)",
+  "width": 200,
+  "height": 72,
+  "func": "__ht__function(g, rect, comp, data, view) {\nconst {x, y, width, height} = rect;\r\n\r\nconst padding = 15;\r\n\r\n// 渲染背景\r\nconst renderbackground = () => {\r\n    g.beginPath();\r\n    // 是否渲染阴影\r\n    const hasShadow = comp.getValue('hasShadow');\r\n    if (hasShadow) {\r\n        g.shadowBlur= 10;\r\n        g.shadowOffsetX = 5;\r\n        g.shadowOffsetY = 5;\r\n        g.shadowColor=\"rgba(0,0,0,.1)\";\r\n    }\r\n    ht.Default.drawRoundRect(g, x + padding/2, y +  padding/2, width - padding, height - padding, 5);\r\n    g.fillStyle = '#fff';\r\n    g.fill();\r\n    g.shadowBlur=0;\r\n    g.shadowOffsetX = 0;\r\n    g.shadowOffsetY = 0;\r\n    g.shadowColor=\"black\";\r\n}\r\nrenderbackground();\r\n\r\n\r\n\r\n// 渲染label\r\nconst label = {\r\n    w: width/2 - padding,\r\n    h: height,\r\n    v: comp.getValue('label'),\r\n    font:  comp.getValue('font'),\r\n    color: \"#333\",\r\n    x: x + padding,\r\n    y\r\n}\r\nconst renderLabel = () => {\r\n      ht.Default.drawText(g, label.v, label.font, label.color, label.x, label.y, label.w, label.h, 'left', 'middle');\r\n}\r\n\r\nrenderLabel();\r\n\r\n// 回执背景\r\nconst background = {\r\n    x: label.w + padding,\r\n    y: y + (height - 24)/2,\r\n    w: label.w,\r\n    h: 24,\r\n    color: 'rgba(51, 119, 255, 0.1)'\r\n}\r\nconst renderValbackground = () => {\r\n    g.beginPath();\r\n    ht.Default.drawRoundRect(g, background.x, background.y, background.w, background.h, 2);\r\n    g.fillStyle = background.color;\r\n    g.fill();\r\n}\r\n\r\n\r\nconst fontStyle = {\r\n    v: comp.getValue('v'),\r\n    font: label.font,\r\n    x: background.x,\r\n    y: background.y,\r\n    h: background.h,\r\n    w: background.w,\r\n    color: '#3377FF'\r\n};\r\n\r\nconst unitStyle = {\r\n    v: comp.getValue('unit'),\r\n    font: label.font,\r\n    x: background.x +  background.w / 2,\r\n    y: background.y,\r\n    h: background.h,\r\n    w: background.w / 2,\r\n    color: '#000'\r\n};\r\nconst labelType = comp.getValue('labelType');\r\n\r\nif (labelType === 'text') {\r\n    renderValbackground();\r\n    ht.Default.drawText(g, fontStyle.v, fontStyle.font, fontStyle.color, fontStyle.x, fontStyle.y, fontStyle.w, fontStyle.h, 'center', 'middle')\r\n} else {\r\n    fontStyle.w = background.w /2;\r\n    ht.Default.drawText(g, fontStyle.v, fontStyle.font, fontStyle.color, fontStyle.x, fontStyle.y, fontStyle.w, fontStyle.h, 'right', 'middle');\r\n    // unit\r\n    ht.Default.drawText(g, unitStyle.v, unitStyle.font, unitStyle.color, unitStyle.x, unitStyle.y, unitStyle.w, unitStyle.h, 'left', 'middle');\r\n}\n}",
+  "properties": {
+    "label": {
+      "valueType": "String",
+      "defaultValue": "调节模式"
+    },
+    "v": {
+      "valueType": "String",
+      "defaultValue": "aa"
+    },
+    "tc": {
+      "valueType": "String"
+    },
+    "mc": {
+      "valueType": "String"
+    },
+    "font": {
+      "valueType": "Font"
+    },
+    "hasShadow": {
+      "valueType": "Boolean",
+      "defaultValue": true,
+      "name": "是否显示阴影"
+    },
+    "labelType": {
+      "valueType": "String",
+      "defaultValue": "text"
+    },
+    "unit": {
+      "valueType": "String",
+      "defaultValue": "Hz"
+    }
+  }
+}

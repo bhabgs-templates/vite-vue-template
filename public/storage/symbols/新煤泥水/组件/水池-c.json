@@ -1,0 +1,138 @@
+{
+  "modified": "Tue Jun 22 2021 11:16:56 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "height",
+      "valueType": "String"
+    },
+    {
+      "attr": "width",
+      "valueType": "PositiveNumber"
+    },
+    {
+      "attr": "zjb.tc",
+      "valueType": "String",
+      "group": "渣浆泵"
+    },
+    {
+      "attr": "zjb.mc",
+      "valueType": "String",
+      "group": "渣浆泵"
+    },
+    {
+      "attr": "zjb.v",
+      "valueType": "Boolean",
+      "group": "渣浆泵"
+    },
+    {
+      "attr": "wy.tc",
+      "valueType": "String",
+      "group": "液位"
+    },
+    {
+      "attr": "wy.mc",
+      "valueType": "String",
+      "group": "液位"
+    },
+    {
+      "attr": "wy.v",
+      "valueType": "Number",
+      "group": "液位"
+    },
+    {
+      "attr": "sc.mc",
+      "valueType": "String",
+      "group": "水池"
+    },
+    {
+      "attr": "sc.tc",
+      "valueType": "String",
+      "group": "水池"
+    },
+    {
+      "attr": "sc.v",
+      "valueType": "Number",
+      "group": "水池"
+    }
+  ],
+  "width": 270,
+  "height": 170,
+  "comps": [
+    {
+      "type": "image",
+      "name": "symbols/新煤泥水/background.json",
+      "displayName": "background",
+      "rect": [
+        0,
+        121.18587,
+        213.06579,
+        48
+      ]
+    },
+    {
+      "type": "components/progressBar/label-card.json",
+      "displayName": "label-card",
+      "rect": [
+        16.43319,
+        126.18587,
+        192,
+        38
+      ],
+      "label": "液位",
+      "value": {
+        "func": "attr@wy.v",
+        "value": 18
+      },
+      "tc": {
+        "func": "attr@wy.tc"
+      },
+      "mc": {
+        "func": "attr@wy.mc"
+      }
+    },
+    {
+      "type": "components/progressBar/渣浆泵.json",
+      "displayName": "渣浆泵",
+      "rect": [
+        220.38169,
+        0,
+        49,
+        77
+      ],
+      "tc": {
+        "func": "attr@zjb.tc",
+        "value": "604"
+      },
+      "mc": {
+        "func": "attr@zjb.mc",
+        "value": "mc66"
+      },
+      "zjb.state": {
+        "func": "attr@zjb.v",
+        "value": false
+      }
+    },
+    {
+      "type": "components/progressBar/水池.json",
+      "displayName": "水池",
+      "rect": [
+        31.38249,
+        0,
+        140,
+        110
+      ],
+      "tc": {
+        "func": "attr@sc.tc",
+        "value": "600"
+      },
+      "mc": {
+        "func": "attr@sc.mc",
+        "value": "0"
+      },
+      "progress.val": {
+        "func": "attr@sc.v",
+        "value": 0.3
+      }
+    }
+  ]
+}

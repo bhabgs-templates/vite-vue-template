@@ -1,0 +1,137 @@
+{
+  "modified": "Mon Sep 27 2021 14:42:00 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "by.tc",
+      "valueType": "String",
+      "group": "耙压"
+    },
+    {
+      "attr": "by.mc",
+      "valueType": "String",
+      "group": "耙压"
+    },
+    {
+      "attr": "by.v",
+      "valueType": "Number",
+      "group": "耙压"
+    },
+    {
+      "attr": "cqcgd.mc",
+      "valueType": "String",
+      "group": "澄清层高度"
+    },
+    {
+      "attr": "cqcgd.tc",
+      "valueType": "String",
+      "group": "澄清层高度"
+    },
+    {
+      "attr": "cqcgd.v",
+      "valueType": "Number",
+      "group": "澄清层高度"
+    },
+    {
+      "attr": "height",
+      "valueType": "String"
+    },
+    {
+      "attr": "width",
+      "valueType": "PositiveNumber"
+    }
+  ],
+  "width": 363,
+  "height": 370,
+  "blendMode": "override",
+  "comps": [
+    {
+      "type": "image",
+      "name": "symbols/新煤泥水/background.json",
+      "displayName": "background",
+      "rect": [
+        40.76105,
+        160.84983,
+        281.47789,
+        196.81151
+      ]
+    },
+    {
+      "type": "components/progressBar/label-card.json",
+      "prefix": "by",
+      "displayName": "label-card",
+      "rect": [
+        121.38894,
+        169.51466,
+        192,
+        38
+      ],
+      "label": "耙压",
+      "unit": "Mpa",
+      "value": {
+        "func": "__ht__function(data, view) {\nlet v = data.ca('v');\r\nv = Number(v);\r\nv = v ? v : 0;\r\nreturn v.toFixed(2);\n}",
+        "value": 0
+      },
+      "tc": {
+        "func": "attr@tc"
+      },
+      "mc": {
+        "func": "attr@mc"
+      }
+    },
+    {
+      "type": "components/progressBar/label-card.json",
+      "prefix": "cqcgd",
+      "displayName": "label-card",
+      "rect": [
+        121.38894,
+        216.7287,
+        192,
+        38
+      ],
+      "label": "澄清层高度",
+      "unit": "m",
+      "value": {
+        "func": "__ht__function(data, view) {\nlet v = data.ca('v');\r\nv = Number(v);\r\nv = v ? v : 0;\r\nreturn v.toFixed(2);\n}",
+        "value": 0
+      },
+      "tc": {
+        "func": "attr@tc"
+      },
+      "mc": {
+        "func": "attr@mc"
+      }
+    },
+    {
+      "type": "components/progressBar/label-card.json",
+      "displayName": "label-card",
+      "rect": [
+        121.38894,
+        263.94273,
+        192,
+        38
+      ],
+      "label": "澄清层尺度",
+      "unit": "尺",
+      "value": {
+        "func": "__ht__function(data, view) {\nlet v = data.ca('cqcgd.v');\r\nv = Number(v);\r\nv = v ? v*0.31 : 0;\r\nreturn v.toFixed(1);\n}",
+        "value": 0
+      }
+    },
+    {
+      "type": "components/progressBar/label-card.json",
+      "displayName": "label-card",
+      "rect": [
+        121.38894,
+        311.15677,
+        192,
+        38
+      ],
+      "label": "煤泥厚度",
+      "unit": "m",
+      "value": {
+        "func": "__ht__function(data, view) {\nlet v = data.ca('cqcgd.v');\r\nv = Number(v);\r\nv = v ? 5.5 - v : 0;\r\nreturn v.toFixed(1);\n}",
+        "value": 0
+      }
+    }
+  ]
+}

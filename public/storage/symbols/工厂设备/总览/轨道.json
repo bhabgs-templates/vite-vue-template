@@ -1,0 +1,30 @@
+{
+  "modified": "Fri Aug 20 2021 14:04:57 GMT+0800 (中国标准时间)",
+  "width": 500,
+  "height": 11,
+  "fitSize": true,
+  "clip": true,
+  "comps": [
+    {
+      "type": "components/工厂组件/轨道.json",
+      "displayName": "轨道",
+      "rect": [
+        0,
+        0,
+        500,
+        11
+      ],
+      "bColor": "#35F2A6",
+      "distance": 60,
+      "lineToWidth": 30,
+      "width": {
+        "func": "__ht__function(data, view) {\nreturn data._width;\n}",
+        "value": 500
+      },
+      "height": {
+        "func": "__ht__function(data, view) {\nreturn data._height;\n}",
+        "value": 11
+      }
+    }
+  ]
+}

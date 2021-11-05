@@ -1,0 +1,70 @@
+{
+  "modified": "Tue Oct 12 2021 10:19:05 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "s.v",
+      "valueType": "String",
+      "name": "数值"
+    },
+    {
+      "attr": "s.tc",
+      "valueType": "String"
+    },
+    {
+      "attr": "s.mc",
+      "valueType": "String"
+    },
+    {
+      "attr": "s.unit",
+      "valueType": "String",
+      "name": "单位"
+    }
+  ],
+  "width": 133,
+  "height": 32,
+  "comps": [
+    {
+      "type": "rect",
+      "borderWidth": 1,
+      "borderColor": "#839EEF",
+      "rect": [
+        0,
+        0,
+        133,
+        32
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@s.v",
+        "value": "0"
+      },
+      "align": "center",
+      "color": "#EBF2FF",
+      "font": "23px arial, sans-serif",
+      "rect": [
+        0,
+        0,
+        72.6131,
+        33.85335
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@s.unit",
+        "value": "s"
+      },
+      "align": "center",
+      "color": "#EBF2FF",
+      "font": "22px arial, sans-serif",
+      "rect": [
+        72.6131,
+        0,
+        60.3869,
+        33.85335
+      ]
+    }
+  ]
+}

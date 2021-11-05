@@ -1,0 +1,153 @@
+{
+  "modified": "Wed Oct 20 2021 10:28:11 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "pdj.tc",
+      "valueType": "String"
+    },
+    {
+      "attr": "pdj.mc",
+      "valueType": "String"
+    },
+    {
+      "attr": "pdj.v",
+      "valueType": "String"
+    },
+    {
+      "attr": "scale_tc",
+      "valueType": "Align"
+    },
+    {
+      "attr": "scale_v",
+      "valueType": "Align"
+    },
+    {
+      "attr": "progress",
+      "valueType": "String"
+    },
+    {
+      "attr": "display",
+      "valueType": "String",
+      "defaultValue": "0"
+    },
+    {
+      "attr": "number.tc",
+      "valueType": "String",
+      "group": "卸料台数"
+    },
+    {
+      "attr": "number.mc",
+      "valueType": "String",
+      "defaultValue": "UNLOAD_COUNT_CHO  ",
+      "group": "卸料台数"
+    },
+    {
+      "attr": "number.v",
+      "valueType": "String",
+      "group": "卸料台数"
+    }
+  ],
+  "width": 114,
+  "height": 34,
+  "comps": [
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@pdj.tc",
+        "value": "11"
+      },
+      "align": {
+        "func": "attr@scale_tc",
+        "value": "left"
+      },
+      "vAlign": "top",
+      "color": "rgb(0,0,0)",
+      "font": "bold 14px sans-serif, Arial",
+      "displayName": "201",
+      "rect": [
+        0,
+        -2.12014,
+        95,
+        13.96462
+      ]
+    },
+    {
+      "type": "image",
+      "name": {
+        "func": "__ht__function(data, view) {\nconst v = data.ca('pdj.v');\r\nconst v1 = 'symbols/素材库/设备/皮带机.json'; //正常\r\nconst v2 = 'symbols/素材库/设备/皮带机_g.json'; // 故障\r\nconst v3 = 'symbols/素材库/设备/皮带机_r.json'; // 故障\r\nlet color = v1;\r\nif (v === '2' || v === '8') color = v2;\r\nif (v === '4' || v === '20') color = v3;\r\nreturn color;\n}",
+        "value": "symbols/素材库/设备/皮带机.json"
+      },
+      "displayName": "皮带机",
+      "rect": [
+        0.02487,
+        13.12903,
+        113.97513,
+        20.87097
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@yxsd",
+        "value": " "
+      },
+      "align": {
+        "func": "attr@scale_v",
+        "value": "right"
+      },
+      "vAlign": "top",
+      "color": "#70b602",
+      "font": "bold 14px sans-serif, Arial",
+      "displayName": "201",
+      "rect": [
+        2.72342,
+        -2.12014,
+        107.50654,
+        13.05327
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nlet v = data.ca('display');\r\n\r\nreturn v==0 ? \"\" : \"允许卸料台数：\";\n}",
+        "value": "允许卸料台数："
+      },
+      "font": " 14px sans-serif, Arial",
+      "rect": [
+        -15.05061,
+        44.66664,
+        87.88482,
+        13.60215
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nlet v = data.ca('display');\r\n\r\nreturn v==0 ? \"\" : \"台\";\n}",
+        "value": "台"
+      },
+      "font": " 14px sans-serif, Arial",
+      "rect": [
+        89.68884,
+        44.66664,
+        16.88656,
+        13.60215
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nconst v = data.ca('number.v');\r\nlet state;\r\nreturn state ===\"1\" ? \"1\":\"2\";\n}",
+        "value": "1"
+      },
+      "color": "#00f",
+      "font": " 14px sans-serif, Arial",
+      "rect": [
+        75.79058,
+        44.66664,
+        24.726,
+        13.60215
+      ]
+    }
+  ]
+}

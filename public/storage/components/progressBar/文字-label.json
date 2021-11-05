@@ -1,0 +1,22 @@
+{
+  "modified": "Tue Jun 22 2021 11:53:05 GMT+0800 (中国标准时间)",
+  "width": 168,
+  "height": 31,
+  "func": "__ht__function(g, rect, comp, data, view) {\nconst {x,y,width,height} = rect;\nconst val = comp.getValue('value');\nconst label = comp.getValue('label');\nconst font = '24px sans-serif, Arial';\nht.Default.drawText(g,label+'：' , font, '#333', x, y, 120, height, 'right', 'middle');\nht.Default.drawText(g,val , font, '#007AFF', x+120, y, 48, height, 'left', 'middle');\n}",
+  "properties": {
+    "label": {
+      "valueType": "String",
+      "defaultValue": "控制模式"
+    },
+    "value": {
+      "valueType": "String",
+      "defaultValue": "智能"
+    },
+    "tc": {
+      "valueType": "String"
+    },
+    "mc": {
+      "valueType": "String"
+    }
+  }
+}

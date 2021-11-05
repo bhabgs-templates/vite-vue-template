@@ -1,0 +1,59 @@
+{
+  "modified": "Sat Oct 23 2021 13:15:04 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "ylj.tc",
+      "valueType": "String"
+    },
+    {
+      "attr": "ylj.mc",
+      "valueType": "String"
+    },
+    {
+      "attr": "ylj.v",
+      "valueType": "String"
+    },
+    {
+      "attr": "tc.scale",
+      "valueType": "Align"
+    }
+  ],
+  "width": 201,
+  "height": 90,
+  "comps": [
+    {
+      "type": "image",
+      "name": {
+        "func": "__ht__function(data, view) {\nconst v = data.ca('ylj.v');\r\nconst v1 = 'symbols/素材库/设备/压滤机.json'; //正常\r\nconst v2 = 'symbols/素材库/设备/压滤机_g.json'; // 故障\r\nconst v3 = 'symbols/素材库/设备/压滤机_r.json'; // 故障\r\nlet color = v1;\r\nif (v === '2' || v === '8') color = v2;\r\nif (v === '4' || v === '20') color = v3;\r\nreturn color;\n}",
+        "value": "symbols/素材库/设备/压滤机.json"
+      },
+      "displayName": "压滤机",
+      "rect": [
+        -2.98132,
+        20.47651,
+        202.25019,
+        69.52349
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@ylj.tc",
+        "value": "201"
+      },
+      "align": {
+        "func": "attr@tc.scale",
+        "value": "left"
+      },
+      "color": "rgb(0,0,0)",
+      "font": "bold 14px sans-serif, Arial",
+      "displayName": "201",
+      "rect": [
+        21.0747,
+        4.32372,
+        88.38669,
+        10.14253
+      ]
+    }
+  ]
+}

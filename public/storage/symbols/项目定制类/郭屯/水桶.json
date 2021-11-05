@@ -1,0 +1,67 @@
+{
+  "modified": "Fri Oct 22 2021 09:27:49 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "st.tc",
+      "valueType": "String"
+    },
+    {
+      "attr": "v",
+      "valueType": "Number",
+      "name": "PBValue"
+    },
+    {
+      "attr": "st.mc",
+      "valueType": "String"
+    }
+  ],
+  "width": 120,
+  "height": 140,
+  "comps": [
+    {
+      "type": "image",
+      "name": "symbols/素材库/设备/桶_嘴.json",
+      "displayName": "桶_嘴",
+      "rect": [
+        0,
+        23.82624,
+        119.23097,
+        116.17376
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@tc",
+        "value": "401"
+      },
+      "align": "right",
+      "font": "bold 15px sans-serif, Arial",
+      "prefix": "st",
+      "rect": [
+        -4.2974,
+        3.03828,
+        39.08803,
+        16.55392
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nlet v = data.ca('v');\r\nv = v == undefined ? 0 : Number(v);\r\nif (v > 100) v = 100;\r\nif (v < 0) v = 0;\r\nreturn v.toFixed(0) + '%';\n}",
+        "value": "文本"
+      },
+      "color": "#00f",
+      "font": "bold 18px sans-serif, Arial",
+      "prefix": "st",
+      "anchorX": 0.37583,
+      "anchorY": 0.57839,
+      "rect": [
+        24.54782,
+        44.87125,
+        42.53221,
+        19.08926
+      ]
+    }
+  ]
+}

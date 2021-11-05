@@ -1,0 +1,200 @@
+{
+  "modified": "Sat Oct 23 2021 13:02:38 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "nsj.tc",
+      "valueType": "String"
+    },
+    {
+      "attr": "nsj.mc",
+      "valueType": "String"
+    },
+    {
+      "attr": "nsj.v",
+      "valueType": "String"
+    },
+    {
+      "attr": "nsj.scale_tc",
+      "valueType": "Align"
+    },
+    {
+      "attr": "turbidity.tc",
+      "valueType": "String",
+      "group": "清水浊度"
+    },
+    {
+      "attr": "turbidity.mc",
+      "valueType": "String"
+    },
+    {
+      "attr": "turbidity.v",
+      "valueType": "String"
+    },
+    {
+      "attr": "concentration.tc",
+      "valueType": "String",
+      "group": "底流浓度"
+    },
+    {
+      "attr": "concentration.mc",
+      "valueType": "String"
+    },
+    {
+      "attr": "concentration.v",
+      "valueType": "String"
+    },
+    {
+      "attr": "lap.tc",
+      "valueType": "String",
+      "group": "圈时"
+    },
+    {
+      "attr": "lap.mc",
+      "valueType": "String"
+    },
+    {
+      "attr": "lap.v",
+      "valueType": "String"
+    }
+  ],
+  "width": 260,
+  "height": 180,
+  "comps": [
+    {
+      "type": "image",
+      "name": {
+        "func": "__ht__function(data, view) {\nconst v = data.ca('nsj.v');\r\nconst v1 = 'symbols/素材库/设备/浓缩机.json'; //正常\r\nconst v2 = 'symbols/素材库/设备/浓缩机_g.json'; // 故障\r\nconst v3 = 'symbols/素材库/设备/浓缩机_r.json'; // 故障\r\nlet color = v1;\r\nif (v === '2' || v === '8') color = v2;\r\nif (v === '4' || v === '20') color = v3;\r\nreturn color;\n}",
+        "value": "symbols/素材库/设备/浓缩机.json"
+      },
+      "displayName": "浓缩机",
+      "rect": [
+        -1.99258,
+        12.52813,
+        261.97538,
+        103.04365
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@tc",
+        "value": "201"
+      },
+      "align": {
+        "func": "attr@scale_tc",
+        "value": "left"
+      },
+      "color": "rgb(0,0,0)",
+      "font": "bold 14px sans-serif, Arial",
+      "prefix": "nsj",
+      "rect": [
+        2.088,
+        1.95349,
+        121.4203,
+        14.76819
+      ]
+    },
+    {
+      "type": "text",
+      "text": "清水浊度：",
+      "font": "14px arial, sans-serif",
+      "rect": [
+        6.41051,
+        119.68539,
+        32.25266,
+        12.37588
+      ]
+    },
+    {
+      "type": "text",
+      "text": "底流浓度：",
+      "font": "14px arial, sans-serif",
+      "rect": [
+        6.41051,
+        141.26,
+        32.25266,
+        12.37588
+      ]
+    },
+    {
+      "type": "text",
+      "text": "g/l",
+      "font": "14px arial, sans-serif",
+      "anchorX": 0.64186,
+      "rect": [
+        106.67558,
+        119.68539,
+        19.23785,
+        12.37588
+      ]
+    },
+    {
+      "type": "text",
+      "text": "g/l",
+      "font": "14px arial, sans-serif",
+      "anchorX": 0.64186,
+      "rect": [
+        106.67558,
+        141.26,
+        19.23785,
+        12.37588
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nlet v = data.ca('turbidity.v');\r\nv = v == undefined ? 0 : Number(v);\r\nif (v < 0) v = 0;\r\nreturn  v.toFixed(1);\n}",
+        "value": "0"
+      },
+      "color": "#0000ff",
+      "font": "14px arial, sans-serif",
+      "rect": [
+        84.04184,
+        119.68539,
+        32.25266,
+        12.37588
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nlet v = data.ca('lap.v');\r\nv = v == undefined ? 0 : Number(v);\r\nreturn  v;\n}",
+        "value": "0"
+      },
+      "color": "#0000ff",
+      "font": "14px arial, sans-serif",
+      "rect": [
+        58.31296,
+        164.10106,
+        32.25266,
+        12.37588
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nlet v = data.ca('concentration.v');\r\nv = v == undefined ? 0 : Number(v);\r\nif (v < 0) v = 0;\r\nreturn  v.toFixed(0);\n}",
+        "value": "0"
+      },
+      "color": "#0000ff",
+      "font": "14px arial, sans-serif",
+      "rect": [
+        84.04184,
+        141.26,
+        32.25266,
+        12.37588
+      ]
+    },
+    {
+      "type": "text",
+      "text": "圈时：",
+      "font": "14px arial, sans-serif",
+      "rect": [
+        6.41051,
+        164.10106,
+        32.25266,
+        12.37588
+      ]
+    }
+  ]
+}

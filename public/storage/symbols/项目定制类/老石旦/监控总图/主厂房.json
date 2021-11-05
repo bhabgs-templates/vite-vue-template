@@ -1,0 +1,100 @@
+{
+  "modified": "Mon Oct 11 2021 14:39:38 GMT+0800 (中国标准时间)",
+  "width": 320,
+  "height": 184,
+  "comps": [
+    {
+      "type": "rect",
+      "background": "#2B298B",
+      "borderColor": "#979797",
+      "rect": [
+        0,
+        0.30732,
+        319.61643,
+        183.47212
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/项目定制类/老石旦/监控总图/装饰元素.json",
+      "displayName": "装饰元素",
+      "rect": [
+        4.70532,
+        -6.45379,
+        84.07449,
+        254.77118
+      ]
+    },
+    {
+      "type": "text",
+      "text": "主厂房",
+      "color": "rgb(255,255,255)",
+      "font": "28px arial, sans-serif",
+      "rect": [
+        39.98145,
+        108.53206,
+        89.09442,
+        50
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/项目定制类/老石旦/退出.json",
+      "displayName": "退出",
+      "rect": [
+        288.60379,
+        147.53206,
+        19,
+        22
+      ]
+    },
+    {
+      "type": "text",
+      "text": "煤泥板数：",
+      "color": "rgb(255,255,255)",
+      "font": "16px arial, sans-serif",
+      "rect": [
+        70.57761,
+        41.79599,
+        78.47429,
+        25.92545
+      ]
+    },
+    {
+      "type": "text",
+      "text": "原煤重介密度：",
+      "color": "rgb(255,255,255)",
+      "font": "16px arial, sans-serif",
+      "rect": [
+        70.57761,
+        74.48256,
+        84.00611,
+        25
+      ]
+    },
+    {
+      "type": "text",
+      "text": "6 板",
+      "color": "rgb(255,255,255)",
+      "font": "16px arial, sans-serif",
+      "rect": [
+        172.30168,
+        45.17829,
+        50,
+        19.16085
+      ]
+    },
+    {
+      "type": "text",
+      "text": "1.545 g/l",
+      "color": "rgb(255,255,255)",
+      "font": "16px arial, sans-serif",
+      "rect": [
+        172.30168,
+        78.4309,
+        50,
+        20.33022
+      ]
+    }
+  ]
+}

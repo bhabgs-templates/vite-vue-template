@@ -4,8 +4,13 @@ import css from './build/vite/css';
 import proxy from './build/vite/proxy';
 import { pathResolve } from './build/utils';
 
+const NODE_ENV =
+  process.env.NODE_ENV === 'development' || !process.env.NODE_ENV
+    ? 'development'
+    : 'any';
+
 export default defineConfig(() => ({
-  base: '/tp/',
+  base: NODE_ENV === 'development' ? '' : '/tp_test/',
   envDir: pathResolve('env'),
   plugins: plugins(),
   css: css(),

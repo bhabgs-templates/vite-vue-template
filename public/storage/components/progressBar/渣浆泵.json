@@ -1,0 +1,19 @@
+{
+  "modified": "Thu Sep 23 2021 15:49:50 GMT+0800 (中国标准时间)",
+  "width": 49,
+  "height": 77,
+  "func": "__ht__function(g, rect, comp, data, view) {\nconst {x, y, width, height} = rect;\n\nconst zjbimg = ht.Default.getImage('symbols/新煤泥水/渣浆泵.json');\n// 渲染渣浆泵\nrenderZjb();\nfunction renderZjb() {\n    const zjbh = 46;\n    const zjb = {\n        img: zjbimg,\n        x: x+(width - 34)/2,\n        y: y+height - zjbh,\n        w: 34,\n        h: zjbh\n    }\n    ht.Default.drawImage(g, zjb.img, zjb.x, zjb.y, zjb.w, zjb.h, data, view, '')\n}\n\n// 渲染文字和矩形\nrenderTextRect();\nfunction renderTextRect() {\n    const state = comp.getValue('zjb.state');\n    const rectStyle = {\n        radiu: 5,\n        x,\n        y,\n        w: width,\n        h: 23,\n        bColor: state ? '#05D84B' : 'rgb(153,153,153)'\n    };\n    const textStyle = {\n        val: comp.getValue('tc'),\n        font: 'bold 22px sans-serif, Arial',\n        color: '#fff',\n        x,\n        y,\n        w: width,\n        h: 23,\n    };\n    g.beginPath();\n    ht.Default.drawRoundRect(g, rectStyle.x, rectStyle.y, rectStyle.w, rectStyle.h, 5);\n    g.fillStyle = rectStyle.bColor;\n    g.fill();\n    ht.Default.drawText(g, textStyle.val, textStyle.font, textStyle.color, textStyle.x, textStyle.y, textStyle.w, textStyle.h, 'center', 'middle')\n}\n}",
+  "properties": {
+    "tc": {
+      "valueType": "String",
+      "defaultValue": "666"
+    },
+    "mc": {
+      "valueType": "String"
+    },
+    "zjb.state": {
+      "valueType": "Boolean",
+      "defaultValue": true
+    }
+  }
+}

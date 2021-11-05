@@ -1,0 +1,133 @@
+{
+  "modified": "Thu Jul 15 2021 09:42:11 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "unit1",
+      "valueType": "String"
+    },
+    {
+      "attr": "unit2",
+      "valueType": "String"
+    },
+    {
+      "attr": "val1",
+      "valueType": "String"
+    },
+    {
+      "attr": "canggao.v",
+      "valueType": "String"
+    },
+    {
+      "attr": "val1.length",
+      "valueType": "Number",
+      "defaultValue": 3
+    },
+    {
+      "attr": "val1.precision",
+      "valueType": "Number",
+      "defaultValue": 2
+    },
+    {
+      "attr": "canggao.tc",
+      "valueType": "String"
+    },
+    {
+      "attr": "canggao.mc",
+      "valueType": "String"
+    }
+  ],
+  "width": 151,
+  "height": 37,
+  "comps": [
+    {
+      "type": "roundRect",
+      "borderWidth": 1,
+      "borderColor": "#00B8EC",
+      "rect": [
+        0.36506,
+        0.54759,
+        150.22164,
+        35.95828
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": "rgb(255,255,255)",
+      "gradientColor": null,
+      "points": [
+        81.33572,
+        6.9992,
+        81.33572,
+        30.0008
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@val1",
+        "value": "29"
+      },
+      "align": "right",
+      "color": "#2CF0AD",
+      "font": "24px arial, sans-serif",
+      "rect": [
+        5.75518,
+        7.02593,
+        51.10271,
+        23.00159
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@unit1",
+        "value": "m"
+      },
+      "align": "center",
+      "vAlign": "bottom",
+      "color": "rgb(255,255,255)",
+      "font": "18px sans-serif, Arial",
+      "rect": [
+        56.85789,
+        11.96121,
+        18.61799,
+        17.79397
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@val2",
+        "value": "29"
+      },
+      "align": "right",
+      "color": "#2CF0AD",
+      "font": "24px arial, sans-serif",
+      "rect": [
+        82.91055,
+        7.02593,
+        47.53093,
+        23.00159
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@unit2",
+        "value": "m"
+      },
+      "align": "center",
+      "vAlign": "bottom",
+      "color": "rgb(255,255,255)",
+      "font": "18px sans-serif, Arial",
+      "displayName": "m",
+      "rect": [
+        128.39613,
+        11.96121,
+        18.61799,
+        17.79397
+      ]
+    }
+  ]
+}

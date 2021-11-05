@@ -1,0 +1,47 @@
+{
+  "modified": "Fri May 14 2021 15:18:03 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "mc",
+      "valueType": "String",
+      "defaultValue": "test"
+    },
+    {
+      "attr": "state",
+      "valueType": "Boolean"
+    },
+    {
+      "attr": "tc",
+      "valueType": "String",
+      "defaultValue": "619"
+    }
+  ],
+  "width": 190,
+  "height": 136,
+  "comps": [
+    {
+      "type": "image",
+      "name": "symbols/煤泥水/凝聚剂-添加装置.json",
+      "pixelPerfect": true,
+      "displayName": "凝聚剂-添加装置",
+      "rect": [
+        25,
+        31,
+        165,
+        105
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/煤泥水/信号+设备编号.json",
+      "pixelPerfect": true,
+      "displayName": "信号+设备编号",
+      "rect": [
+        -0.72993,
+        0,
+        110,
+        28
+      ]
+    }
+  ]
+}

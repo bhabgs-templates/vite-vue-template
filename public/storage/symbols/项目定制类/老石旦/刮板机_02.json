@@ -1,0 +1,62 @@
+{
+  "modified": "Fri Oct 15 2021 11:03:29 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "gbj.tc",
+      "valueType": "String"
+    },
+    {
+      "attr": "gbj.mc",
+      "valueType": "String"
+    },
+    {
+      "attr": "gbj.v",
+      "valueType": "String"
+    },
+    {
+      "attr": "scale",
+      "valueType": "Align",
+      "defaultValue": "left"
+    }
+  ],
+  "width": 85,
+  "height": 35,
+  "comps": [
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@gbj.tc",
+        "value": "201"
+      },
+      "align": {
+        "func": "attr@scale",
+        "value": "left"
+      },
+      "color": "rgb(0,0,0)",
+      "font": "bold 14px sans-serif, Arial",
+      "displayName": "201",
+      "anchorX": 0.4127,
+      "anchorY": 0.40856,
+      "rect": [
+        0,
+        3.9162,
+        85,
+        13.5838
+      ]
+    },
+    {
+      "type": "image",
+      "name": {
+        "func": "__ht__function(data, view) {\nconst v = data.ca('gbj.v');\r\nconst v1 = 'symbols/素材库/设备/刮板.json'; //正常\r\nconst v2 = 'symbols/素材库/设备/刮板_g.json'; // 故障\r\nconst v3 = 'symbols/素材库/设备/刮板_r.json'; // 故障\r\nlet color = v1;\r\nif (v === '2' || v === '8') color = v2;\r\nif (v === '4' || v === '20') color = v3;\r\nreturn color;\n}",
+        "value": "symbols/素材库/设备/刮板.json"
+      },
+      "displayName": "刮板",
+      "rect": [
+        0.30477,
+        20.88413,
+        84.69523,
+        14.11587
+      ]
+    }
+  ]
+}

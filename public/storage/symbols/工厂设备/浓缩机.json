@@ -1,0 +1,231 @@
+{
+  "modified": "Fri Aug 20 2021 14:01:17 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "state",
+      "valueType": "String",
+      "name": "nsj.v"
+    },
+    {
+      "attr": "text",
+      "valueType": "String"
+    },
+    {
+      "attr": "nsj.tc",
+      "valueType": "String",
+      "name": "nsj.tc"
+    },
+    {
+      "attr": "nsj.mc",
+      "valueType": "String",
+      "name": "nsj.mc"
+    }
+  ],
+  "width": 154,
+  "height": 154,
+  "comps": [
+    {
+      "type": "shape",
+      "background": {
+        "func": "__ht__function(data, view) {\nconst state = data.ca('state');\nconst color = {\n    '2': '#89F311',\n    '8': '#89F311',\n    '4': '#FF0000',\n    '20': '#FF0000',\n    '1': '#D3D3D3'\n}\nreturn color[state] || '#D3D3D3';\n}",
+        "value": "#9d9d9d"
+      },
+      "fillRule": "evenodd",
+      "pixelPerfect": true,
+      "points": [
+        148.5,
+        77,
+        148.5,
+        37.77626,
+        116.22374,
+        5.5,
+        77,
+        5.5,
+        37.77626,
+        5.5,
+        5.5,
+        37.77626,
+        5.5,
+        77,
+        5.5,
+        116.22374,
+        37.77626,
+        148.5,
+        77,
+        148.5,
+        116.22374,
+        148.5,
+        148.5,
+        116.22374,
+        148.5,
+        77
+      ],
+      "segments": [
+        1,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": "#737373",
+      "pixelPerfect": true,
+      "points": [
+        148.5,
+        77,
+        148.5,
+        37.77626,
+        116.22374,
+        5.5,
+        77,
+        5.5,
+        37.77626,
+        5.5,
+        5.5,
+        37.77626,
+        5.5,
+        77,
+        5.5,
+        116.22374,
+        37.77626,
+        148.5,
+        77,
+        148.5,
+        116.22374,
+        148.5,
+        148.5,
+        116.22374,
+        148.5,
+        77
+      ],
+      "segments": [
+        1,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 2,
+      "borderColor": "#737373",
+      "borderCap": "square",
+      "pixelPerfect": true,
+      "points": [
+        77,
+        14,
+        77,
+        64.904,
+        130.75173,
+        45.5,
+        87.32033,
+        70.952,
+        130.75173,
+        108.5,
+        87.32033,
+        83.048,
+        77,
+        140,
+        77,
+        89.096,
+        23.24827,
+        108.5,
+        66.67967,
+        83.048,
+        23.24827,
+        45.5,
+        66.67967,
+        70.952
+      ],
+      "segments": [
+        1,
+        2,
+        1,
+        2,
+        1,
+        2,
+        1,
+        2,
+        1,
+        2,
+        1,
+        2
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "#737373",
+      "fillRule": "evenodd",
+      "pixelPerfect": true,
+      "points": [
+        81,
+        77,
+        81,
+        74.80566,
+        79.19434,
+        73,
+        77,
+        73,
+        74.80566,
+        73,
+        73,
+        74.80566,
+        73,
+        77,
+        73,
+        79.19434,
+        74.80566,
+        81,
+        77,
+        81,
+        79.19434,
+        81,
+        81,
+        79.19434,
+        81,
+        77
+      ],
+      "segments": [
+        1,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "type": "rect",
+      "background": {
+        "func": "__ht__function(data, view) {\nconst state = data.ca('state');\nconst color = {\n    '2': '#89F311',\n    '8': '#89F311',\n    '4': '#FF0000',\n    '20': '#FF0000',\n    '1': '#D3D3D3'\n}\nreturn color[state] || '#D3D3D3';\n}",
+        "value": "#D8D8D8"
+      },
+      "borderColor": "#979797",
+      "rect": [
+        28.8029,
+        102.62319,
+        97.56232,
+        19.96232
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@text",
+        "value": "文本"
+      },
+      "align": "center",
+      "color": "#434343",
+      "displayName": "文本",
+      "rect": [
+        24.9908,
+        104.05217,
+        107.18651,
+        18.53333
+      ]
+    }
+  ]
+}

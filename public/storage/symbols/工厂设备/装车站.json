@@ -1,0 +1,20 @@
+{
+  "modified": "Fri Jun 04 2021 10:11:42 GMT+0800 (中国标准时间)",
+  "width": 70,
+  "height": 70,
+  "comps": [
+    {
+      "type": "oval",
+      "background": "#A0A5AE",
+      "borderColor": "#979797",
+      "shadow": true,
+      "shadowColor": "#A0A5AE",
+      "rect": [
+        0,
+        0,
+        70,
+        69.76693
+      ]
+    }
+  ]
+}

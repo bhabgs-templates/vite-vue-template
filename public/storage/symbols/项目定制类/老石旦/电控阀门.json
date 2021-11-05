@@ -1,0 +1,110 @@
+{
+  "modified": "Tue Oct 19 2021 15:03:55 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "open.tc",
+      "valueType": "String",
+      "group": "开到位"
+    },
+    {
+      "attr": "open.mc",
+      "valueType": "String",
+      "defaultValue": "TAP_OPEN",
+      "group": "开到位"
+    },
+    {
+      "attr": "open.v",
+      "valueType": "String",
+      "group": "开到位"
+    },
+    {
+      "attr": "close.tc",
+      "valueType": "String",
+      "group": "关到位"
+    },
+    {
+      "attr": "close.mc",
+      "valueType": "String",
+      "defaultValue": "TAP_CLOSE",
+      "group": "关到位"
+    },
+    {
+      "attr": "close.v",
+      "valueType": "String",
+      "group": "关到位"
+    },
+    {
+      "attr": "fmstate.scale",
+      "valueType": "Align",
+      "name": "阀门状态",
+      "group": "文本位置"
+    },
+    {
+      "attr": "state.scale",
+      "valueType": "Align",
+      "name": "状态显示",
+      "group": "文本位置"
+    }
+  ],
+  "onClick": "__ht__function(event, data, view, point, width, height) {\nconst objects = data.getAttrObject()\r\nwindow.controlState(objects);\n}",
+  "width": 20,
+  "height": 24,
+  "comps": [
+    {
+      "type": "image",
+      "color": {
+        "func": "__ht__function(data, view) {\nconst open = data.ca('open.v');\r\nconst close = data.ca('close.v');\r\nconst colors = [\r\n    'rgba(4,255,0,0.80)',\r\n    'rgba(207,207,207,0.80)',\r\n    'rgba(212,0,0,0.8)'\r\n];\r\nlet state = 2; // 0 1 2 -> 开到位 关到位 其他\r\n\r\nif (open == 'false' && close == 'true') state = 1;\r\nif (open == 'true' && close == 'false') state = 0;\r\n\r\n\r\nreturn colors[state];\n}",
+        "value": "rgba(207,207,207,0.80)"
+      },
+      "stretch": "centerUniform",
+      "name": "symbols/素材库/设备/电控阀门.json",
+      "displayName": "电控阀门",
+      "rect": [
+        0,
+        0.37124,
+        20.03725,
+        23.25753
+      ]
+    },
+    {
+      "type": "text",
+      "text": "阀门状态",
+      "align": {
+        "func": "attr@fmstate.scale",
+        "value": "left"
+      },
+      "font": "16px arial, sans-serif",
+      "anchorX": 0.55863,
+      "rect": [
+        -72.50637,
+        -6.65749,
+        162.29022,
+        25.10632
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nconst v = data.ca('open.v');\r\nconst v0 = data.ca('close.v');\r\nconst v1 = '开到位'; //开到位\r\nconst v2 = '关到位';// 关到位\r\nconst v3 = '未知';// 未知\r\nlet state = v3;\r\nif (v ===\"0\" && v0==\"1\") state = v1;\r\nif (v ===\"1\" && v0==\"0\") state = v2;\r\nreturn state;\n}",
+        "value": ""
+      },
+      "align": {
+        "func": "attr@state.scale",
+        "value": "left"
+      },
+      "color": {
+        "func": "__ht__function(data, view) {\nconst v = data.ca('open.v');\r\nconst v0 = data.ca('close.v');\r\nconst v1 = '#70b602'; //开到位\r\nconst v2 = '#d8d8d8';// 关到位\r\nconst v3 = 'red';// 未知\r\nlet color = v3;\r\nif (v ===\"0\" && v0==\"1\") color = v1;\r\nif (v ===\"1\" && v0==\"0\") color = v2;\r\nreturn color;\n}",
+        "value": ""
+      },
+      "font": "16px arial, sans-serif",
+      "anchorX": 0.67054,
+      "anchorY": 0.46471,
+      "rect": [
+        -62.16941,
+        12.00001,
+        140.1396,
+        25.10632
+      ]
+    }
+  ]
+}

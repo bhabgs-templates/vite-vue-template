@@ -1,0 +1,66 @@
+{
+  "modified": "Fri Jun 04 2021 13:39:22 GMT+0800 (中国标准时间)",
+  "width": 114,
+  "height": 134,
+  "comps": [
+    {
+      "type": "shape",
+      "background": "#afb4bc",
+      "fillRule": "evenodd",
+      "pixelPerfect": true,
+      "points": [
+        9,
+        9,
+        105,
+        9,
+        105,
+        9,
+        105,
+        9,
+        105,
+        125,
+        105,
+        125,
+        105,
+        125,
+        9,
+        125,
+        9,
+        125,
+        9,
+        125,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9
+      ],
+      "segments": [
+        1,
+        2,
+        3,
+        2,
+        3,
+        2,
+        3,
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "type": "text",
+      "text": "配电室",
+      "color": "#333333",
+      "font": "20px SourceHanSansCN-Medium, \"Source Han Sans CN\"",
+      "pixelPerfect": true,
+      "rect": [
+        27,
+        68,
+        0.01,
+        0.01
+      ]
+    }
+  ]
+}

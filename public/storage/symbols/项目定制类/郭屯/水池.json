@@ -1,0 +1,49 @@
+{
+  "modified": "Fri Oct 22 2021 09:28:13 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "sc.tc",
+      "valueType": "String"
+    },
+    {
+      "attr": "sc.mc",
+      "valueType": "String"
+    },
+    {
+      "attr": "sc.v",
+      "valueType": "Number"
+    }
+  ],
+  "width": 120,
+  "height": 95,
+  "comps": [
+    {
+      "type": "image",
+      "name": "symbols/素材库/设备/水池.json",
+      "displayName": "水池",
+      "rect": [
+        0,
+        0,
+        120,
+        102.78548
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nlet v = data.ca('sc.v');\r\nv = v == undefined ? 0 : Number(v);\r\nif (v >= 100) v = 100;\r\nif (v <= 0) v = 0;\r\nreturn v.toFixed(0) + '%';\n}",
+        "value": "文本"
+      },
+      "color": "#00f",
+      "font": "bold 18px sans-serif, Arial",
+      "anchorX": 0.37583,
+      "anchorY": 0.57839,
+      "rect": [
+        55.03296,
+        55.68735,
+        36.2342,
+        19.08926
+      ]
+    }
+  ]
+}

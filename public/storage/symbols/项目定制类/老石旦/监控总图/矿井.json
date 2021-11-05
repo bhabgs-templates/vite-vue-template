@@ -1,0 +1,46 @@
+{
+  "modified": "Mon Oct 11 2021 10:59:29 GMT+0800 (中国标准时间)",
+  "width": 128,
+  "height": 85,
+  "comps": [
+    {
+      "type": "shape",
+      "background": "rgb(45,59,177)",
+      "borderColor": "#979797",
+      "closePath": true,
+      "points": [
+        19.46461,
+        0,
+        102.34906,
+        0,
+        128,
+        85.97545,
+        -0.44345,
+        85.97545
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/项目定制类/老石旦/监控总图/装饰元素.json",
+      "displayName": "装饰元素",
+      "rect": [
+        16.55655,
+        2.62675,
+        33,
+        100
+      ]
+    },
+    {
+      "type": "text",
+      "text": "矿井",
+      "color": "rgb(255,255,255)",
+      "font": "bold 28px sans-serif, Arial",
+      "rect": [
+        33.05655,
+        23.16328,
+        50,
+        50
+      ]
+    }
+  ]
+}

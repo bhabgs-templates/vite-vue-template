@@ -1,0 +1,777 @@
+{
+  "modified": "Mon Oct 25 2021 14:11:56 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "signal.tc",
+      "valueType": "String",
+      "group": "信号"
+    },
+    {
+      "attr": "signal.mc",
+      "valueType": "String",
+      "group": "信号",
+      "defaultValue": "LINK_INTERRUPT "
+    },
+    {
+      "attr": "signal.v",
+      "valueType": "String",
+      "group": "信号"
+    },
+    {
+      "attr": "plate.tc",
+      "valueType": "String",
+      "group": "板数"
+    },
+    {
+      "attr": "plate.mc",
+      "valueType": "String",
+      "defaultValue": "PLATE_CNT",
+      "group": "板数"
+    },
+    {
+      "attr": "plate.v",
+      "valueType": "String",
+      "group": "板数"
+    },
+    {
+      "attr": "loosen.tc",
+      "valueType": "String",
+      "group": "当前进程-松开"
+    },
+    {
+      "attr": "loosen.mc",
+      "valueType": "String",
+      "defaultValue": "RO_LOOSE",
+      "group": "当前进程-松开"
+    },
+    {
+      "attr": "loosen.v",
+      "valueType": "String",
+      "defaultValue": "false",
+      "group": "当前进程-松开"
+    },
+    {
+      "attr": "takePlate.tc",
+      "valueType": "String",
+      "group": "当前进程-取板"
+    },
+    {
+      "attr": "takePlate.mc",
+      "valueType": "String",
+      "defaultValue": "RO_TAKE",
+      "group": "当前进程-取板"
+    },
+    {
+      "attr": "takePlate.v",
+      "valueType": "String",
+      "defaultValue": "false",
+      "group": "当前进程-取板"
+    },
+    {
+      "attr": "pullPlate.tc",
+      "valueType": "String",
+      "group": "当前进程-拉板"
+    },
+    {
+      "attr": "pullPlate.mc",
+      "valueType": "String",
+      "defaultValue": "RO_PULL",
+      "group": "当前进程-拉板"
+    },
+    {
+      "attr": "pullPlate.v",
+      "valueType": "String",
+      "defaultValue": "false",
+      "group": "当前进程-拉板"
+    },
+    {
+      "attr": " press.tc",
+      "valueType": "String",
+      "group": "当前进程-压紧"
+    },
+    {
+      "attr": " press.v",
+      "valueType": "String"
+    },
+    {
+      "attr": " press.mc",
+      "valueType": "String",
+      "defaultValue": " RO_PRESS",
+      "group": "当前进程-压紧"
+    },
+    {
+      "attr": "holdPress.tc",
+      "valueType": "String",
+      "group": "当前进程-保压"
+    },
+    {
+      "attr": "holdPress.mc",
+      "valueType": "String",
+      "defaultValue": "RO_HOLD_PRESS",
+      "group": "当前进程-保压"
+    },
+    {
+      "attr": "holdPress.v",
+      "valueType": "String",
+      "defaultValue": "false",
+      "group": "当前进程-保压"
+    },
+    {
+      "attr": "feeding.v",
+      "valueType": "String",
+      "defaultValue": "false",
+      "group": "当前进程-进料"
+    },
+    {
+      "attr": "feeding.tc",
+      "valueType": "String",
+      "group": "当前进程-进料"
+    },
+    {
+      "attr": "feeding.mc",
+      "valueType": "String",
+      "defaultValue": "RO_FEEDING",
+      "group": "当前进程-进料"
+    },
+    {
+      "attr": "squeeze.tc",
+      "valueType": "String",
+      "group": "当前进程-压榨"
+    },
+    {
+      "attr": "squeeze.mc",
+      "valueType": "String",
+      "defaultValue": "RO_SQUEEZE",
+      "group": "当前进程-压榨"
+    },
+    {
+      "attr": "squeeze.v",
+      "valueType": "String",
+      "defaultValue": "false",
+      "group": "当前进程-压榨"
+    },
+    {
+      "attr": "emptying.tc",
+      "valueType": "String",
+      "group": "当前进程-放空"
+    },
+    {
+      "attr": "emptying.mc",
+      "valueType": "String",
+      "defaultValue": "RO_EMPTYING",
+      "group": "当前进程-放空"
+    },
+    {
+      "attr": "emptying.v",
+      "valueType": "String",
+      "defaultValue": "false",
+      "group": "当前进程-放空"
+    },
+    {
+      "attr": "blow.tc",
+      "valueType": "String",
+      "group": "当前进程-吹风"
+    },
+    {
+      "attr": "blow.mc",
+      "valueType": "String",
+      "defaultValue": "RO_BLOW",
+      "group": "当前进程-吹风"
+    },
+    {
+      "attr": "blow.v",
+      "valueType": "String",
+      "defaultValue": "false"
+    },
+    {
+      "attr": "blow_b.tc",
+      "valueType": "String",
+      "group": "当前进程-反吹"
+    },
+    {
+      "attr": "blow_b.mc",
+      "valueType": "String",
+      "defaultValue": "RO_BLOW_B",
+      "group": "当前进程-反吹"
+    },
+    {
+      "attr": "blow_b.v",
+      "valueType": "String",
+      "defaultValue": "false"
+    },
+    {
+      "attr": "release.tc",
+      "valueType": "String",
+      "group": "当前进程-卸压"
+    },
+    {
+      "attr": "release.mc",
+      "valueType": "String",
+      "defaultValue": "RO_LOSS_PRESS",
+      "group": "当前进程-卸压"
+    },
+    {
+      "attr": "release.v",
+      "valueType": "String",
+      "defaultValue": "false",
+      "group": "当前进程-卸压"
+    },
+    {
+      "attr": "wait.tc",
+      "valueType": "String",
+      "group": "当前进程-循环等待  "
+    },
+    {
+      "attr": "wait.mc",
+      "valueType": "String",
+      "defaultValue": "RO_CYCLE",
+      "group": "当前进程-循环等待  "
+    },
+    {
+      "attr": "wait.v",
+      "valueType": "String",
+      "defaultValue": "false",
+      "group": "当前进程-循环等待  "
+    },
+    {
+      "attr": "openFlap1.tc",
+      "valueType": "String",
+      "group": "当前进程-翻板1打开 "
+    },
+    {
+      "attr": "openFlap1.mc",
+      "valueType": "String",
+      "defaultValue": "RO_REPLICA1_OPEN",
+      "group": "当前进程-翻板1打开 "
+    },
+    {
+      "attr": "openFlap1.v",
+      "valueType": "String",
+      "defaultValue": "false",
+      "group": "当前进程-翻板1打开 "
+    },
+    {
+      "attr": "openFlap2.tc",
+      "valueType": "String",
+      "group": "当前进程-翻板2打开 "
+    },
+    {
+      "attr": "openFlap2.mc",
+      "valueType": "String",
+      "defaultValue": "RO_REPLICA2_OPEN",
+      "group": "当前进程-翻板2打开 "
+    },
+    {
+      "attr": "openFlap2.v",
+      "valueType": "String",
+      "defaultValue": "false",
+      "group": "当前进程-翻板2打开 "
+    },
+    {
+      "attr": "closeFlap1.tc",
+      "valueType": "String",
+      "group": "当前进程-翻板1关闭"
+    },
+    {
+      "attr": "closeFlap1.mc",
+      "valueType": "String",
+      "defaultValue": "RO_REPLICA1_CLOSE",
+      "group": "当前进程-翻板1关闭"
+    },
+    {
+      "attr": "closeFlap1.v",
+      "valueType": "String",
+      "defaultValue": "false"
+    },
+    {
+      "attr": "closeFlap2.tc",
+      "valueType": "String",
+      "group": "当前进程-翻板2关闭"
+    },
+    {
+      "attr": "closeFlap2.mc",
+      "valueType": "String",
+      "defaultValue": " RO_REPLICA2_CLOSE",
+      "group": "当前进程-翻板2关闭"
+    },
+    {
+      "attr": "closeFlap2.v",
+      "valueType": "String",
+      "defaultValue": "false"
+    },
+    {
+      "attr": "curFlow.tc",
+      "valueType": "String",
+      "group": "当前流量"
+    },
+    {
+      "attr": "curFlow.mc",
+      "valueType": "String",
+      "defaultValue": "FL ",
+      "group": "当前流量"
+    },
+    {
+      "attr": "curFlow.v",
+      "valueType": "String"
+    },
+    {
+      "attr": "curTime.tc",
+      "valueType": "String",
+      "group": "当前计时"
+    },
+    {
+      "attr": "curTime.mc",
+      "valueType": "String",
+      "defaultValue": "PRC_TIMER",
+      "group": "当前计时"
+    },
+    {
+      "attr": "curTime.v",
+      "valueType": "String"
+    },
+    {
+      "attr": "controlMethod.tc",
+      "valueType": "String",
+      "group": "控制方式"
+    },
+    {
+      "attr": "controlMethod.mc",
+      "valueType": "String",
+      "defaultValue": "LOCAL",
+      "group": "控制方式"
+    },
+    {
+      "attr": "controlMethod.v",
+      "valueType": "String"
+    },
+    {
+      "attr": "controlMode.tc",
+      "valueType": "String",
+      "group": "控制模式"
+    },
+    {
+      "attr": "controlMode.mc",
+      "valueType": "String",
+      "defaultValue": "AUTO ",
+      "group": "控制模式"
+    },
+    {
+      "attr": "controlMode.v",
+      "valueType": "String"
+    },
+    {
+      "attr": "feedstock.tc",
+      "valueType": "String",
+      "group": "进料模式"
+    },
+    {
+      "attr": "feedstock.mc",
+      "valueType": "String",
+      "defaultValue": "FEEDOVER_M_CHO",
+      "group": "进料模式"
+    },
+    {
+      "attr": "feedstock.v",
+      "valueType": "String",
+      "group": "进料模式"
+    },
+    {
+      "attr": "unload.tc",
+      "valueType": "String",
+      "group": "卸料模式"
+    },
+    {
+      "attr": "unload.mc",
+      "valueType": "String",
+      "defaultValue": "UNLOAD_M_CHO",
+      "group": "卸料模式"
+    },
+    {
+      "attr": "unload.v",
+      "valueType": "String",
+      "group": "卸料模式"
+    }
+  ],
+  "width": 251,
+  "height": 200,
+  "comps": [
+    {
+      "type": "rect",
+      "background": "rgb(247,247,247)",
+      "borderWidth": 1,
+      "borderColor": "#ffffff",
+      "rect": [
+        -22.68753,
+        90.7976,
+        314.17004,
+        114.98293
+      ]
+    },
+    {
+      "type": "image",
+      "name": {
+        "func": "__ht__function(data, view) {\nlet arr=[\r\n    data.ca('loosen.v'),\r\n    data.ca('takePlate.v'),\r\n    data.ca('pullPlate.v'),\r\n    data.ca('holdPress.v'),\r\n    data.ca('press.v'),\r\n    data.ca('feeding.v'),\r\n    data.ca('squeeze.v'),\r\n    data.ca('emptying.v'),\r\n    data.ca('blow.v'),\r\n    data.ca('blow_b.v'),\r\n    data.ca('release.v'),\r\n    data.ca('wait.v'),\r\n    data.ca('openFlap1.v'),\r\n    data.ca('openFlap2.v'),\r\n    data.ca('closeFlap2.v'),\r\n    data.ca('closeFlap2.v'),\r\n    ];\r\nconst c1 = 'symbols/素材库/设备/压滤机.json'; //待机\r\nconst c2 = 'symbols/素材库/设备/压滤机_g.json'; // 运行\r\nlet color= c1;\r\nlet state=arr.some((i)=>i=='true')\r\nif (state === true) color = c2;\r\n\r\nreturn color;\n}",
+        "value": "symbols/素材库/设备/压滤机.json"
+      },
+      "displayName": "压滤机",
+      "rect": [
+        -2.45899,
+        25.77707,
+        164.15952,
+        57.45583
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 2,
+      "borderColor": "#4B96CC",
+      "points": [
+        18.16532,
+        76.60211,
+        78.33154,
+        76.62165,
+        102.44539,
+        76.60211,
+        102.44539,
+        76.60211,
+        104.40312,
+        76.60211,
+        102.44539,
+        76.52165
+      ],
+      "segments": [
+        1,
+        4,
+        2,
+        2
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 2,
+      "borderColor": "#4B96CC",
+      "points": [
+        22.54101,
+        72.92209,
+        22.54101,
+        72.92209,
+        17.80085,
+        76.1224,
+        17.80454,
+        76.45494,
+        17.8156,
+        77.44983,
+        21.97922,
+        80.20929,
+        22.54101,
+        80.28796
+      ],
+      "segments": [
+        1,
+        4,
+        4
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 2,
+      "borderColor": "#4B96CC",
+      "points": [
+        100.30418,
+        73.04486,
+        100.30418,
+        73.04486,
+        104.70909,
+        76.3897,
+        104.71227,
+        76.72779,
+        104.71809,
+        77.34806,
+        101.61744,
+        79.32021,
+        100.30418,
+        80.04243
+      ],
+      "segments": [
+        1,
+        4,
+        4
+      ]
+    },
+    {
+      "type": "text",
+      "text": "板",
+      "rect": [
+        75.5,
+        53.3257,
+        50,
+        50
+      ]
+    },
+    {
+      "type": "text",
+      "text": "当前进程：",
+      "font": " 14px sans-serif, Arial",
+      "rect": [
+        -2.45899,
+        96.36312,
+        50,
+        17.48313
+      ]
+    },
+    {
+      "type": "text",
+      "text": "当前流量：",
+      "font": "14px sans-serif, Arial",
+      "rect": [
+        -2.45899,
+        122.85363,
+        50,
+        17.48313
+      ]
+    },
+    {
+      "type": "text",
+      "text": "控制方式：",
+      "font": " 14px sans-serif, Arial",
+      "rect": [
+        -2.45899,
+        149.45722,
+        50,
+        17.48313
+      ]
+    },
+    {
+      "type": "text",
+      "text": "进料模式：",
+      "font": " 14px sans-serif, Arial",
+      "rect": [
+        -2.45899,
+        175.08362,
+        50,
+        17.48313
+      ]
+    },
+    {
+      "type": "text",
+      "text": "当前计时：",
+      "font": " 14px sans-serif, Arial",
+      "rect": [
+        147.21038,
+        122.77237,
+        50,
+        17.48313
+      ]
+    },
+    {
+      "type": "text",
+      "text": "控制模式：",
+      "font": " 14px sans-serif, Arial",
+      "anchorX": 0.60423,
+      "rect": [
+        147.21038,
+        148.28906,
+        50,
+        17.48313
+      ]
+    },
+    {
+      "type": "text",
+      "text": "卸料模式：",
+      "font": " 14px sans-serif, Arial",
+      "rect": [
+        147.21038,
+        175.00236,
+        50,
+        17.48313
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nconst v0 = data.ca('loosen.v');\r\nconst v1 = data.ca('takePlate.v');\r\nconst v2 = data.ca('pullPlate.v');\r\nconst v3 = data.ca('press.v');\r\nconst v4 = data.ca('holdPress.v');\r\nconst v5 = data.ca('feeding.v');\r\nconst v6 = data.ca('squeeze.v');\r\nconst v7 = data.ca('emptying.v');\r\nconst v8 = data.ca('blow.v');\r\nconst v9 = data.ca('blow_b.v');\r\nconst v10 = data.ca('release.v');\r\nconst v11 = data.ca('wait.v');\r\nconst v12 = data.ca('openFlap1.v');\r\nconst v13 = data.ca('openFlap2.v');\r\nconst v14 = data.ca('closeFlap1.v');\r\nconst v15 = data.ca('closeFlap2.v');\r\nlet state = \"暂无数据\";\r\nif (v0 === 'true') state = \"松开\";\r\nif (v1 === 'true') state = \"取板\";\r\nif (v2 === 'true') state = \"拉板\";\r\nif (v3 === 'true') state = \"压紧\";\r\nif (v4 === 'true') state = \"保压\";\r\nif (v5 === 'true') state = \"进料\";\r\nif (v6 === 'true') state = \"压榨\";\r\nif (v7 === 'true') state = \"放空\";\r\nif (v8 === 'true') state = \"吹风\";\r\nif (v9 === 'true') state = \"反吹\";\r\nif (v10 === 'true') state = \"卸压\";\r\nif (v11 === 'true') state = \"循环等待\";\r\nif (v12 === 'true') state = \"翻板1打开\";\r\nif (v13 === 'true') state = \"翻板2打开\";\r\nif (v14 === 'true') state = \"翻板1关闭\";\r\nif (v15 === 'true') state = \"翻板2关闭\";\r\nreturn state;\n}",
+        "value": "文本"
+      },
+      "color": {
+        "func": "__ht__function(data, view) {\nlet arr=[\r\n    data.ca('loosen.v'),\r\n    data.ca('takePlate.v'),\r\n    data.ca('pullPlate.v'),\r\n    data.ca('holdPress.v'),\r\n    data.ca('press.v'),\r\n    data.ca('feeding.v'),\r\n    data.ca('squeeze.v'),\r\n    data.ca('emptying.v'),\r\n    data.ca('blow.v'),\r\n    data.ca('blow_b.v'),\r\n    data.ca('release.v'),\r\n    data.ca('wait.v'),\r\n    data.ca('openFlap1.v'),\r\n    data.ca('openFlap2.v'),\r\n    data.ca('closeFlap2.v'),\r\n    data.ca('closeFlap2.v'),\r\n    ];\r\nconst c1 = '#f59a23'; //待机\r\nconst c2 = '#00f'; // 运行\r\nconst c3 = '#999'; // 运行\r\nlet color= c3;\r\nlet state=arr.some((i)=>i=='true')\r\nif (state === true) color = c2;\r\nreturn color;\n}",
+        "value": "#000"
+      },
+      "font": "16px arial, sans-serif",
+      "anchorX": 0.55863,
+      "rect": [
+        69.09116,
+        92.55153,
+        25.97719,
+        25.10632
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nlet v = data.ca('curFlow.v');\r\nv = v == undefined ? 0 : Number(v);\r\nif (v < 0) v = 0;\r\nreturn  v.toFixed(1);\n}",
+        "value": "文本"
+      },
+      "color": "#0000ff",
+      "font": "16px arial, sans-serif",
+      "rect": [
+        69.09116,
+        119.0952,
+        50,
+        25
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nconst v = data.ca('controlMethod.v');\r\nconst v1 = '就地'; //就地\r\nconst v2 = '集控';// 集控\r\nlet state = \"暂无数据\";\r\nif (v === '0') state = v2;\r\nif (v === '1') state = v1;\r\nreturn state;\n}",
+        "value": "文本"
+      },
+      "color": {
+        "func": "__ht__function(data, view) {\nconst v = data.ca('controlMethod.v');\r\nconst c1 = '#f59a23'; //橙色\r\nconst c2 = '#0000ff';// 蓝色\r\nconst c3= '#999';// 灰色\r\nlet color = c3;\r\nif (v === '0') color = c2;\r\nif (v === '1') color = c1;\r\nreturn color;\n}",
+        "value": ""
+      },
+      "font": "16px arial, sans-serif",
+      "anchorX": 0.55863,
+      "rect": [
+        69.09116,
+        144.0952,
+        25.97719,
+        25.10632
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nconst v = data.ca('feedstock.v');\r\nconst v1 = '智能'; \r\nconst v2 = '手动';\r\nlet state = \"暂无数据\";\r\nif (v === '0') state = v2;\r\nif (v === '1') state = v1;\r\nreturn state;\n}",
+        "value": "文本"
+      },
+      "color": {
+        "func": "__ht__function(data, view) {\nconst v = data.ca('feedstock.v');\r\nconst c1 = '#f59a23'; //橙色\r\nconst c2 = '#0000ff';// 蓝色\r\nconst c3= '#999';// 灰色\r\nlet color = c3;\r\nif (v === '0') color = c1;\r\nif (v === '1') color = c2;\r\nreturn color;\n}",
+        "value": "#000"
+      },
+      "font": "16px arial, sans-serif",
+      "anchorX": 0.55863,
+      "rect": [
+        69.09116,
+        169.20152,
+        25.97719,
+        25.10632
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nlet v = data.ca('curTime.v');\r\nv = v == undefined ? 0 : Number(v);\r\nif (v < 0) v = 0;\r\nreturn  v.toFixed(0);\n}",
+        "value": "文本"
+      },
+      "color": "#0000ff",
+      "font": "16px arial, sans-serif",
+      "anchorX": 0.55863,
+      "rect": [
+        212.82501,
+        119.01393,
+        25.97719,
+        25.10632
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nconst v = data.ca('controlMode.v');\r\nconst v1 = '自动'; //正常\r\nconst v2 = '手动';// 待机\r\nlet state = \"暂无数据\";\r\nif (v === '0') state = v2;\r\nif (v === '1') state = v1;\r\nreturn state;\n}",
+        "value": "文本"
+      },
+      "color": {
+        "func": "__ht__function(data, view) {\nconst v = data.ca('controlMode.v');\r\nconst c1 = '#f59a23'; //橙色\r\nconst c2 = '#0000ff';// 蓝色\r\nconst c3= '#999';// 灰色\r\nlet color = c3;\r\nif (v === '0') color = c1;\r\nif (v === '1') color = c2;\r\nreturn color;\n}",
+        "value": ""
+      },
+      "font": "16px arial, sans-serif",
+      "anchorX": 0.55863,
+      "rect": [
+        212.82501,
+        144.47747,
+        25.97719,
+        25.10632
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nconst v = data.ca('unload.v');\r\nconst v1 = '智能'; \r\nconst v2 = '手动';\r\nlet state = \"暂无数据\";\r\nif (v === '0') state = v2;\r\nif (v === '1') state = v1;\r\nreturn state;\n}",
+        "value": "文本"
+      },
+      "color": {
+        "func": "__ht__function(data, view) {\nconst v = data.ca('unload.v');\r\nconst c1 = '#f59a23'; //橙色\r\nconst c2 = '#0000ff';// 蓝色\r\nconst c3= '#999';// 灰色\r\nlet color = c3;\r\nif (v === '0') color = c1;\r\nif (v === '1') color = c2;\r\nreturn color;\n}",
+        "value": "#000"
+      },
+      "font": "16px arial, sans-serif",
+      "anchorX": 0.55863,
+      "rect": [
+        212.82501,
+        171.19077,
+        25.97719,
+        25.10632
+      ]
+    },
+    {
+      "type": "text",
+      "text": "s",
+      "font": "16px arial, sans-serif",
+      "anchorX": 0.55863,
+      "rect": [
+        255.77912,
+        119.37115,
+        25.97719,
+        25.10632
+      ]
+    },
+    {
+      "type": "text",
+      "text": "m³/h",
+      "font": "16px arial, sans-serif",
+      "anchorX": 0.67555,
+      "rect": [
+        112.31559,
+        118.96077,
+        25.97719,
+        25.10632
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nlet v = data.ca('plate.v');\r\nv = v == undefined ? 0 : Number(v);\r\nif (v < 0) v = 0;\r\nreturn  v.toFixed(0);\n}",
+        "value": "文本"
+      },
+      "color": "#0000ff",
+      "font": "bold 16px arial, sans-serif",
+      "anchorX": 0.55863,
+      "rect": [
+        34.55242,
+        67.7348,
+        25.97719,
+        25.10632
+      ]
+    },
+    {
+      "type": "components/工厂组件/指示/信号状态.json",
+      "displayName": "信号状态",
+      "rect": [
+        3.34878,
+        0,
+        57.93544,
+        22
+      ],
+      "tc": {
+        "func": "attr@signal.tc",
+        "value": "666"
+      },
+      "mc": {
+        "func": "attr@signal.mc"
+      },
+      "xh.state": {
+        "func": "attr@signal.v",
+        "value": "1"
+      }
+    }
+  ]
+}

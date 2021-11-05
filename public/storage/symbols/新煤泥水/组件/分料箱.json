@@ -1,0 +1,80 @@
+{
+  "modified": "Thu Aug 12 2021 09:42:29 GMT+0800 (中國標準時間)",
+  "dataBindings": [
+    {
+      "attr": "width",
+      "valueType": "PositiveNumber"
+    },
+    {
+      "attr": "height",
+      "valueType": "String"
+    },
+    {
+      "attr": "card.v",
+      "valueType": "Number",
+      "group": "入料浓度",
+      "defaultValue": 0
+    },
+    {
+      "attr": "card.tc",
+      "valueType": "String",
+      "group": "入料浓度",
+      "defaultValue": "0"
+    },
+    {
+      "attr": "card.mc",
+      "valueType": "String",
+      "group": "入料浓度",
+      "defaultValue": "0"
+    }
+  ],
+  "width": 255,
+  "height": 143,
+  "comps": [
+    {
+      "type": "image",
+      "name": "symbols/煤泥水/background.json",
+      "displayName": "background",
+      "rect": [
+        0,
+        94.14014,
+        252.13139,
+        48.60831
+      ]
+    },
+    {
+      "type": "components/progressBar/label-card.json",
+      "prefix": "card",
+      "displayName": "label-card",
+      "rect": [
+        51.10924,
+        99.44429,
+        192,
+        38
+      ],
+      "label": "入料浓度",
+      "unit": "g/l",
+      "value": {
+        "func": "attr@v",
+        "value": 35
+      },
+      "tc": {
+        "func": "attr@tc"
+      },
+      "mc": {
+        "func": "attr@mc"
+      }
+    },
+    {
+      "type": "image",
+      "name": "symbols/新煤泥水/分料箱.json",
+      "displayName": "分料箱",
+      "rect": [
+        85.60924,
+        0,
+        123,
+        85
+      ]
+    }
+  ]
+}

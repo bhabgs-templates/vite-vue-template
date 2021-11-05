@@ -1,0 +1,91 @@
+{
+  "modified": "Thu Oct 21 2021 17:21:15 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "st.tc",
+      "valueType": "String"
+    },
+    {
+      "attr": "st.scale_tc",
+      "valueType": "Align"
+    },
+    {
+      "attr": "st.scale",
+      "valueType": "Number"
+    },
+    {
+      "attr": "st.v",
+      "valueType": "Number",
+      "name": "PBValue"
+    },
+    {
+      "attr": "st.mc",
+      "valueType": "String"
+    },
+    {
+      "attr": "st.scale_p",
+      "valueType": "Align"
+    }
+  ],
+  "width": 150,
+  "height": 150,
+  "comps": [
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@tc",
+        "value": "401"
+      },
+      "align": {
+        "func": "attr@scale_tc",
+        "value": "right"
+      },
+      "font": "bold 15px sans-serif, Arial",
+      "prefix": "st",
+      "rect": [
+        -25.09434,
+        10.23761,
+        176.29301,
+        24.40885
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nlet v = data.ca('v');\r\nv = v == undefined ? 0 : Number(v);\r\nif (v >= 100) v = 100;\r\nif (v <= 0) v = 0;\r\nreturn v.toFixed(1) + 'm';\n}",
+        "value": "文本"
+      },
+      "align": {
+        "func": "attr@scale_p",
+        "value": "left"
+      },
+      "color": "#70b602",
+      "font": "bold 18px sans-serif, Arial",
+      "prefix": "st",
+      "anchorX": 0.37583,
+      "anchorY": 0.57839,
+      "rect": [
+        0,
+        10.23761,
+        150,
+        19.08926
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/素材库/设备/桶_嘴.json",
+      "prefix": "st",
+      "displayName": "桶_嘴",
+      "scaleX": {
+        "func": "attr@scale",
+        "value": 1
+      },
+      "rect": [
+        2.58378,
+        38.89278,
+        114.03109,
+        111.10722
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "modified": "Mon Aug 30 2021 22:53:53 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "l.v",
+      "valueType": "Number",
+      "name": "PBValue"
+    },
+    {
+      "attr": "l.tc",
+      "valueType": "String"
+    },
+    {
+      "attr": "l.mc",
+      "valueType": "String"
+    },
+    {
+      "attr": "name",
+      "valueType": "String",
+      "name": "名称"
+    }
+  ],
+  "width": 130,
+  "height": 140,
+  "comps": [
+    {
+      "type": "image",
+      "name": "symbols/素材库/设备/煤仓-b.json",
+      "displayName": "煤仓-b",
+      "rect": [
+        25,
+        0.5,
+        80,
+        107
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@name",
+        "value": "文本"
+      },
+      "align": "center",
+      "font": "bold 14px sans-serif, Arial",
+      "rect": [
+        26.06504,
+        107.51164,
+        77.86991,
+        32.48836
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nlet v = data.ca('l.v');\r\nv = v == undefined ? 0 : Number(v);\r\nif (v <= 0) v = 0;\r\nif (v >= 100) v = 100;\r\nreturn v.toFixed(0) + '%';\n}",
+        "value": "文本"
+      },
+      "align": "right",
+      "color": "rgb(10,255,157)",
+      "font": "bold 18px sans-serif, Arial",
+      "rect": [
+        -20.27357,
+        82.29919,
+        50,
+        19.74971
+      ]
+    }
+  ]
+}

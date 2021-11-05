@@ -1,0 +1,134 @@
+{
+  "modified": "Fri Aug 20 2021 14:04:44 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "state",
+      "valueType": "String",
+      "name": "sf.v"
+    },
+    {
+      "attr": "tc",
+      "valueType": "String",
+      "name": "sf.tc"
+    },
+    {
+      "attr": "mc",
+      "valueType": "String",
+      "name": "sf.mc"
+    }
+  ],
+  "width": 246,
+  "height": 86,
+  "comps": [
+    {
+      "type": "shape",
+      "background": "#000000",
+      "pixelPerfect": true,
+      "points": [
+        1,
+        0,
+        245,
+        0,
+        245,
+        86,
+        47.03774,
+        86,
+        47.03774,
+        56,
+        1,
+        56,
+        1,
+        0
+      ],
+      "segments": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        5
+      ]
+    },
+    {
+      "type": "shape",
+      "background": {
+        "func": "__ht__function(data, view) {\nconst state = data.ca('state');\r\nconst color = {\r\n    '1': '#89F311',\r\n    '0': '#D3D3D3',\r\n}\r\nreturn color[state] || '#FF0000';\n}",
+        "value": "#2B55A9"
+      },
+      "pixelPerfect": true,
+      "points": [
+        1,
+        0,
+        245,
+        0,
+        245,
+        86,
+        47.03774,
+        86,
+        47.03774,
+        56,
+        1,
+        56,
+        1,
+        0
+      ],
+      "segments": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        5
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 2,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "points": [
+        245,
+        1,
+        245,
+        85,
+        47.47619,
+        85,
+        47.47619,
+        55,
+        1,
+        55,
+        1,
+        1,
+        245,
+        1
+      ],
+      "segments": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        5
+      ]
+    },
+    {
+      "type": "text",
+      "text": "筛分车间",
+      "color": "rgb(255,255,255)",
+      "font": "20px SourceHanSansCN-Medium, \"Source Han Sans CN\"",
+      "pixelPerfect": true,
+      "rect": [
+        25,
+        19,
+        0.01,
+        0.01
+      ]
+    }
+  ]
+}

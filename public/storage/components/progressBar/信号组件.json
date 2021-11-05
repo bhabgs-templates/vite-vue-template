@@ -1,0 +1,23 @@
+{
+  "modified": "Tue May 18 2021 14:08:28 GMT+0800 (中国标准时间)",
+  "width": 110,
+  "height": 28,
+  "func": "__ht__function(g, rect, comp, data, view) {\nconst closexh = ht.Default.getImage('symbols/新煤泥水/信号-闭.json');\nconst openxh = ht.Default.getImage('symbols/新煤泥水/信号-正常.json');\nconst state = comp.getValue('xhstate');\nconst {x, y, width} = rect;\n\nconst xh = {\n    img: state ? openxh : closexh,\n    x: 0,\n    y: y + 1,\n    w: state ? 30 : 35,\n    h: state ? 24 : 26,\n};\n\nht.Default.drawImage(g, xh.img, xh.x, xh.y, xh.w, xh.h, data, view, '');\n\n\n// 绘制圆角矩形\nrenderdrawRoundRect();\nfunction renderdrawRoundRect() {\n    const radiu = comp.getValue('radiu');\n    const rectvW = 64;\n    const rectv = {\n        w: rectvW,\n        h: 28,\n        x: width - rectvW,\n        color: state ? '#05D84B' : 'rgb(153,153,153)',\n        y\n    }\n    g.beginPath();\n    ht.Default.drawRoundRect(g, rectv.x, rectv.y, rectv.w, rectv.h, radiu);\n    g.fillStyle = rectv.color;\n    g.fill();\n\n    const text = {\n        val: comp.getValue('tc'),\n        font: 'bold 22px sans-serif, Arial',\n        color: '#fff',\n        x: rectv.x,\n        y: rectv.y\n    }\n    ht.Default.drawText(g, text.val, text.font, text.color, text.x, text.y, rectv.w, rectv.h, 'center', 'middle');\n}\n}",
+  "properties": {
+    "xhstate": {
+      "valueType": "Boolean",
+      "defaultValue": false
+    },
+    "radiu": {
+      "valueType": "Number",
+      "defaultValue": 5
+    },
+    "tc": {
+      "valueType": "String",
+      "defaultValue": "600"
+    },
+    "mc": {
+      "valueType": "String"
+    }
+  }
+}

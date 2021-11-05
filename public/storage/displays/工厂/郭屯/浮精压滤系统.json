@@ -1,0 +1,1213 @@
+{
+  "v": "7.2.4",
+  "p": {
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {},
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 1670,
+      "p": {
+        "displayName": "浮选机",
+        "tag": "fxj_401",
+        "image": "symbols/项目定制类/郭屯/浮选机.json",
+        "position": {
+          "x": -252.74562,
+          "y": -257.31484
+        }
+      },
+      "a": {
+        "fxj.tc": "401",
+        "fxj.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1671,
+      "p": {
+        "displayName": "水池",
+        "tag": "sc_",
+        "image": "symbols/项目定制类/郭屯/水池.json",
+        "position": {
+          "x": -129.76999,
+          "y": 0.24877
+        }
+      },
+      "a": {
+        "sc.tc": "浮选精矿池",
+        "sc.mc": "LEVELPROPORTION",
+        "sc.v": 2
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1672,
+      "p": {
+        "displayName": "渣浆泵",
+        "tag": "zjb_408",
+        "image": "symbols/项目定制类/郭屯/渣浆泵.json",
+        "position": {
+          "x": 50.69224,
+          "y": -249.81484
+        }
+      },
+      "a": {
+        "scale": -1,
+        "zjb.tc": "408",
+        "zjb.mc": "STATE",
+        "ele.mc": "CURRENT"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1673,
+      "p": {
+        "displayName": "渣浆泵",
+        "tag": "zjb_409",
+        "image": "symbols/项目定制类/郭屯/渣浆泵.json",
+        "position": {
+          "x": 50.69224,
+          "y": 10.24877
+        }
+      },
+      "a": {
+        "ele.mc": "CURRENT",
+        "zjb.tc": "409",
+        "ele.tc": "409"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1674,
+      "p": {
+        "displayName": "刮板",
+        "tag": "gb_414",
+        "image": "symbols/项目定制类/郭屯/刮板.json",
+        "position": {
+          "x": 596.25659,
+          "y": -249.81484
+        }
+      },
+      "a": {
+        "gbj.tc": "414",
+        "gbj.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1675,
+      "p": {
+        "displayName": "圆盘给料机",
+        "tag": "glj_417",
+        "image": "symbols/项目定制类/郭屯/圆盘给料机.json",
+        "position": {
+          "x": 785.83631,
+          "y": -239.81484
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "a": {
+        "glj.tc": "417",
+        "curEle.tc": "417",
+        "curPl.tc": "417",
+        "glj.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1676,
+      "p": {
+        "displayName": "皮带机",
+        "image": "symbols/项目定制类/郭屯/皮带机.json",
+        "position": {
+          "x": 1065.1103,
+          "y": -199.81484
+        }
+      },
+      "a": {
+        "pdj.tc": "435",
+        "display": "1",
+        "start.v": "false"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1677,
+      "p": {
+        "displayName": "煤泥破碎机",
+        "tag": "psj_436",
+        "image": "symbols/项目定制类/郭屯/煤泥破碎机.json",
+        "position": {
+          "x": 1112.6103,
+          "y": 0.24877
+        }
+      },
+      "a": {
+        "mnpsj.tc": "436",
+        "mnpsj.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1678,
+      "p": {
+        "displayName": "压滤机_2",
+        "tag": "ylj_411",
+        "image": "symbols/项目定制类/郭屯/压滤机_2.json",
+        "position": {
+          "x": 341.20862,
+          "y": -189.81484
+        }
+      },
+      "a": {
+        "signal.v": "0",
+        "signal.mc": "LINK_INTERRUPT ",
+        "upload.v": "true",
+        "upload.mc": "UNLOAD_M_CHO",
+        "unload.v": "false",
+        "signal.tc": "411",
+        "plate.mc": "PLATE_CNT",
+        "plate.tc": "411",
+        "press1.tc": "411",
+        "unlock.tc": "411",
+        "preloose.tc": "411",
+        "drip.tc": "411",
+        "open.tc": "411",
+        "loosen.tc": "411",
+        "waitUpload.tc": "411",
+        "take.tc": "411",
+        "pull.tc": "411",
+        "upload.tc": "411",
+        "close.tc": "411",
+        "press.tc": "411",
+        "lock.tc": "411",
+        "feeding.tc": "411",
+        "feedDelay.tc": "411",
+        "squeeze1.tc": "411",
+        "squeeze1Delay.tc": "411",
+        "squeeze2.tc": "411",
+        "squeeze2Delay.tc": "411",
+        "squeeze3.tc": "411",
+        "squeeze3Delay.tc": "411",
+        "squeeze4.tc": "411",
+        "squeeze4Delay.tc": "411",
+        "blow1.tc": "411",
+        "empty.tc": "411",
+        "blow2.tc": "411",
+        "coenerblow.tc": "411",
+        "curFlow.tc": "411",
+        "curTime.tc": "411",
+        "controlMethod.tc": "411",
+        "controlMode.tc": "411",
+        "feedstock.tc": "411"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1679,
+      "p": {
+        "displayName": "浮选机",
+        "tag": "fxj_407",
+        "image": "symbols/项目定制类/郭屯/浮选机.json",
+        "position": {
+          "x": -252.74562,
+          "y": 253.22391
+        }
+      },
+      "a": {
+        "fxj.tc": "407",
+        "fxj.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1680,
+      "p": {
+        "displayName": "渣浆泵",
+        "tag": "zjb_410",
+        "image": "symbols/项目定制类/郭屯/渣浆泵.json",
+        "position": {
+          "x": 50.69224,
+          "y": 260.72391
+        }
+      },
+      "a": {
+        "scale": 1,
+        "pv.display": "1",
+        "ele.mc": "CURRENT",
+        "zjb.tc": "410",
+        "ele.tc": "410"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1681,
+      "p": {
+        "displayName": "压滤机_2",
+        "tag": "ylj_412",
+        "image": "symbols/项目定制类/郭屯/压滤机_2.json",
+        "position": {
+          "x": 341.20862,
+          "y": 70.24877
+        }
+      },
+      "a": {
+        "signal.tc": "412",
+        "signal.v": "0",
+        "plate.mc": "PLATE_CNT",
+        "plate.tc": "412",
+        "press1.tc": "412",
+        "unlock.tc": "412",
+        "preloose.tc": "412",
+        "drip.tc": "412",
+        "open.tc": "412",
+        "loosen.tc": "412",
+        "waitUpload.tc": "412",
+        "take.tc": "412",
+        "pull.tc": "412",
+        "close.tc": "412",
+        "squeeze3Delay.tc": "412",
+        "squeeze3.mc": "RO_SQUEEZE3",
+        "squeeze3.tc": "412",
+        "squeeze2Delay.tc": "412",
+        "squeeze2.tc": "412",
+        "squeeze1Delay.tc": "412",
+        "squeeze1.tc": "412",
+        "feedDelay.tc": "412",
+        "feeding.tc": "412",
+        "press.tc": "412",
+        "lock.tc": "412",
+        "squeeze4.tc": "412",
+        "squeeze4Delay.tc": "412",
+        "blow1.tc": "412",
+        "empty.tc": "412",
+        "blow2.tc": "412",
+        "coenerblow.tc": "412",
+        "curFlow.tc": "412",
+        "curTime.tc": "412",
+        "controlMethod.tc": "412",
+        "controlMode.tc": "412",
+        "feedstock.tc": "412",
+        "upload.tc": "412"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1682,
+      "p": {
+        "displayName": "压滤机_2",
+        "tag": "ylj_413",
+        "image": "symbols/项目定制类/郭屯/压滤机_2.json",
+        "position": {
+          "x": 341.20862,
+          "y": 320.72391
+        }
+      },
+      "a": {
+        "signal.tc": "413",
+        "plate.tc": "413",
+        "plate.mc": "PLATE_CNT",
+        "press1.tc": "413",
+        "unlock.tc": "413",
+        "preloose.tc": "413",
+        "drip.tc": "413",
+        "open.tc": "413",
+        "loosen.tc": "413",
+        "waitUpload.tc": "413",
+        "take.tc": "413",
+        "pull.tc": "413",
+        "close.tc": "413",
+        "press.tc": "413",
+        "lock.tc": "413",
+        "feeding.tc": "413",
+        "feedDelay.tc": "413",
+        "squeeze1.tc": "413",
+        "squeeze1Delay.tc": "413",
+        "squeeze2.tc": "413",
+        "squeeze2Delay.tc": "413",
+        "squeeze3.tc": "413",
+        "squeeze3Delay.tc": "413",
+        "squeeze4.tc": "413",
+        "squeeze4Delay.tc": "413",
+        "blow1.mc": "RO_BLOW1",
+        "blow1.tc": "413",
+        "empty.tc": "413",
+        "blow2.tc": "413",
+        "coenerblow.tc": "413",
+        "curTime.tc": "413",
+        "curFlow.tc": "413",
+        "controlMethod.tc": "413",
+        "controlMode.tc": "413",
+        "feedstock.tc": "413",
+        "upload.tc": "413"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1684,
+      "p": {
+        "displayName": "渣浆泵",
+        "tag": "zjb_420",
+        "image": "symbols/项目定制类/郭屯/渣浆泵.json",
+        "position": {
+          "x": 1113.1362,
+          "y": 250.72391
+        }
+      },
+      "a": {
+        "pl.display": "1",
+        "zjb.tc": "420",
+        "ele.tc": "420",
+        "pv.mc": "SPEED",
+        "zjb.mc": "STATE",
+        "ele.mc": "CURRENT",
+        "pl.tc": "420"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1685,
+      "p": {
+        "displayName": "圆盘给料机",
+        "tag": "glj_418",
+        "image": "symbols/项目定制类/郭屯/圆盘给料机.json",
+        "position": {
+          "x": 785.83631,
+          "y": 27.74877
+        }
+      },
+      "a": {
+        "glj.tc": "418",
+        "glj.mc": "STATE",
+        "curEle.tc": "418",
+        "curPl.tc": "418"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1686,
+      "p": {
+        "displayName": "圆盘给料机",
+        "tag": "glj_419",
+        "image": "symbols/项目定制类/郭屯/圆盘给料机.json",
+        "position": {
+          "x": 785.83631,
+          "y": 278.22382
+        }
+      },
+      "a": {
+        "glj.tc": "419",
+        "glj.mc": "STATE",
+        "curEle.tc": "419",
+        "curPl.tc": "419"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1687,
+      "p": {
+        "displayName": "水池",
+        "tag": "sc_400",
+        "image": "symbols/项目定制类/郭屯/水池.json",
+        "position": {
+          "x": 975.6103,
+          "y": 241.61543
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.42425
+        }
+      },
+      "a": {
+        "sc.tc": "400",
+        "sc.mc": "LEVELPROPORTION "
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1688,
+      "p": {
+        "displayName": "刮板",
+        "tag": "gb415",
+        "image": "symbols/项目定制类/郭屯/刮板.json",
+        "position": {
+          "x": 596.25659,
+          "y": 10.24877
+        }
+      },
+      "a": {
+        "gbj.mc": "STATE",
+        "gbj.tc": "415"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1689,
+      "p": {
+        "displayName": "刮板",
+        "tag": "gb_416",
+        "image": "symbols/项目定制类/郭屯/刮板.json",
+        "position": {
+          "x": 591.72304,
+          "y": 264.12407
+        },
+        "anchor": {
+          "x": 0.46373,
+          "y": 0.59715
+        }
+      },
+      "a": {
+        "gbj.mc": "STATE",
+        "gbj.tc": "416"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 92707,
+      "p": {
+        "displayName": "皮带机_s",
+        "tag": "pdj_502",
+        "image": "symbols/项目定制类/郭屯/皮带机_s.json",
+        "position": {
+          "x": 1115.20055,
+          "y": 91.54389
+        },
+        "anchor": {
+          "x": 0.52159,
+          "y": 0.53238
+        }
+      },
+      "a": {
+        "pdj.tc": "502",
+        "pdj.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 115697,
+      "p": {
+        "source": {
+          "__i": 1670
+        },
+        "target": {
+          "__i": 1679
+        }
+      },
+      "s": {
+        "edge.color": "#EFF1F4",
+        "edge.dash": true,
+        "edge.dash.color": "#4B96CC",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 0.35472,
+        "edge.source.anchor.y": 1.06642,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.34737,
+        "edge.target.anchor.y": 0.35848,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0,
+        "edge.dash.pattern": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 116084,
+      "p": {
+        "source": {
+          "__i": 115697
+        },
+        "target": {
+          "__i": 1671
+        }
+      },
+      "s": {
+        "edge.color": "#EFF1F4",
+        "edge.dash": true,
+        "edge.dash.color": "#4B96CC",
+        "edge.source.percent": 0.4975,
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.target.anchor.x": 0.1043,
+        "edge.target.anchor.y": 0.65596,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0,
+        "edge.dash.pattern": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 116675,
+      "p": {
+        "source": {
+          "__i": 1680
+        },
+        "target": {
+          "__i": 1672
+        }
+      },
+      "s": {
+        "edge.color": "#EFF1F4",
+        "edge.dash": true,
+        "edge.dash.color": "#4B96CC",
+        "edge.dash.pattern": [
+          8,
+          8
+        ],
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": [
+            {
+              "x": -25.34797,
+              "y": 265.89981
+            },
+            {
+              "x": -25.34797,
+              "y": -245.54111
+            }
+          ]
+        },
+        "edge.source.anchor.x": 0,
+        "edge.source.anchor.y": 0.55176,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0,
+        "edge.target.anchor.y": 0.54274,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 116677,
+      "p": {
+        "source": {
+          "__i": 116675
+        },
+        "target": {
+          "__i": 1671
+        }
+      },
+      "s": {
+        "edge.color": "#EFF1F4",
+        "edge.dash": true,
+        "edge.dash.color": "#4B96CC",
+        "edge.source.percent": 0.49125,
+        "edge.dash.pattern": [
+          8,
+          8
+        ],
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.target.anchor.x": 1,
+        "edge.target.anchor.y": 0.66285,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 116679,
+      "p": {
+        "source": {
+          "__i": 1672
+        },
+        "target": {
+          "__i": 1678
+        }
+      },
+      "s": {
+        "edge.color": "#EFF1F4",
+        "edge.dash": true,
+        "edge.dash.color": "#4B96CC",
+        "edge.dash.pattern": [
+          8,
+          8
+        ],
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 0.95377,
+        "edge.source.anchor.y": 0.55288,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.09656,
+        "edge.target.anchor.y": 0.25,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 116681,
+      "p": {
+        "source": {
+          "__i": 1673
+        },
+        "target": {
+          "__i": 1681
+        }
+      },
+      "s": {
+        "edge.color": "#EFF1F4",
+        "edge.dash": true,
+        "edge.dash.color": "#4B96CC",
+        "edge.dash.pattern": [
+          8,
+          8
+        ],
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 0.93499,
+        "edge.source.anchor.y": 0.55825,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.09339,
+        "edge.target.anchor.y": 0.25,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 116683,
+      "p": {
+        "source": {
+          "__i": 1680
+        },
+        "target": {
+          "__i": 1682
+        }
+      },
+      "s": {
+        "edge.color": "#EFF1F4",
+        "edge.dash": true,
+        "edge.dash.color": "#4B96CC",
+        "edge.dash.pattern": [
+          8,
+          8
+        ],
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 0.93816,
+        "edge.source.anchor.y": 0.55176,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.08704,
+        "edge.target.anchor.y": 0.25,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 116685,
+      "p": {
+        "source": {
+          "__i": 1678
+        },
+        "target": {
+          "__i": 1674
+        }
+      },
+      "s": {
+        "edge.color": "#EFF1F4",
+        "edge.dash": true,
+        "edge.dash.color": "#4B96CC",
+        "edge.dash.pattern": [
+          8,
+          8
+        ],
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 0.75,
+        "edge.source.anchor.y": 0.25,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0,
+        "edge.target.anchor.y": 0.66769,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 116687,
+      "p": {
+        "source": {
+          "__i": 1688
+        },
+        "target": {
+          "__i": 1681
+        }
+      },
+      "s": {
+        "edge.color": "#EFF1F4",
+        "edge.dash": true,
+        "edge.dash.color": "#4B96CC",
+        "edge.dash.pattern": [
+          8,
+          8
+        ],
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 0,
+        "edge.source.anchor.y": 0.65569,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.75,
+        "edge.target.anchor.y": 0.25,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 116689,
+      "p": {
+        "source": {
+          "__i": 1674
+        },
+        "target": {
+          "__i": 1675
+        }
+      },
+      "s": {
+        "edge.color": "#EFF1F4",
+        "edge.dash": true,
+        "edge.dash.color": "#4B96CC",
+        "edge.source.index": 1,
+        "edge.dash.pattern": [
+          8,
+          8
+        ],
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.target.anchor.x": -0.02608,
+        "edge.target.anchor.y": 0.44818,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0,
+        "edge.source.anchor.x": 1,
+        "edge.source.anchor.y": 0.60625,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 116691,
+      "p": {
+        "source": {
+          "__i": 1675
+        },
+        "target": {
+          "__i": 1676
+        }
+      },
+      "s": {
+        "edge.color": "#EFF1F4",
+        "edge.dash": true,
+        "edge.dash.color": "#4B96CC",
+        "edge.dash.pattern": [
+          8,
+          8
+        ],
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 0.82366,
+        "edge.source.anchor.y": 0.46259,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.42543,
+        "edge.target.anchor.y": 0.18837,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 116693,
+      "p": {
+        "source": {
+          "__i": 1677
+        },
+        "target": {
+          "__i": 1676
+        }
+      },
+      "s": {
+        "edge.color": "#EFF1F4",
+        "edge.dash": true,
+        "edge.dash.color": "#4B96CC",
+        "edge.dash.pattern": [
+          8,
+          8
+        ],
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 0.46043,
+        "edge.source.anchor.y": 0.1898,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.6965,
+        "edge.target.anchor.y": 0.27163,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 116695,
+      "p": {
+        "source": {
+          "__i": 1677
+        },
+        "target": {
+          "__i": 92707
+        }
+      },
+      "s": {
+        "edge.color": "#EFF1F4",
+        "edge.dash": true,
+        "edge.dash.color": "#4B96CC",
+        "edge.dash.pattern": [
+          8,
+          8
+        ],
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 0.46043,
+        "edge.source.anchor.y": 1,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.47782,
+        "edge.target.anchor.y": 0.25,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 116697,
+      "p": {
+        "source": {
+          "__i": 1686
+        },
+        "target": {
+          "__i": 116691
+        }
+      },
+      "s": {
+        "edge.color": "#EFF1F4",
+        "edge.dash": true,
+        "edge.dash.color": "#4B96CC",
+        "edge.dash.pattern": [
+          8,
+          8
+        ],
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": [
+            {
+              "x": 895.15794,
+              "y": 266.83607
+            },
+            {
+              "x": 895.15794,
+              "y": -243.44289
+            }
+          ]
+        },
+        "edge.source.anchor.x": 0.90209,
+        "edge.source.anchor.y": 0.4051,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.index": 1
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 116699,
+      "p": {
+        "source": {
+          "__i": 1685
+        },
+        "target": {
+          "__i": 116697
+        }
+      },
+      "s": {
+        "edge.color": "#EFF1F4",
+        "edge.dash": true,
+        "edge.dash.color": "#4B96CC",
+        "edge.target.percent": 0.42125,
+        "edge.dash.pattern": [
+          8,
+          8
+        ],
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 0.86193,
+        "edge.source.anchor.y": 0.44562,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 116701,
+      "p": {
+        "source": {
+          "__i": 1688
+        },
+        "target": {
+          "__i": 1685
+        }
+      },
+      "s": {
+        "edge.color": "#EFF1F4",
+        "edge.dash": true,
+        "edge.dash.color": "#4B96CC",
+        "edge.dash.pattern": [
+          8,
+          8
+        ],
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 1,
+        "edge.source.anchor.y": 0.68765,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0,
+        "edge.target.anchor.y": 0.4094,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 116703,
+      "p": {
+        "source": {
+          "__i": 1689
+        },
+        "target": {
+          "__i": 1686
+        }
+      },
+      "s": {
+        "edge.color": "#EFF1F4",
+        "edge.dash": true,
+        "edge.dash.color": "#4B96CC",
+        "edge.dash.pattern": [
+          8,
+          8
+        ],
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 1.02463,
+        "edge.source.anchor.y": 0.71164,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0,
+        "edge.target.anchor.y": 0.41589,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 116705,
+      "p": {
+        "source": {
+          "__i": 1689
+        },
+        "target": {
+          "__i": 1682
+        }
+      },
+      "s": {
+        "edge.color": "#EFF1F4",
+        "edge.dash": true,
+        "edge.dash.color": "#4B96CC",
+        "edge.dash.pattern": [
+          8,
+          8
+        ],
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": -0.03642,
+        "edge.source.anchor.y": 0.56354,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.75,
+        "edge.target.anchor.y": 0.25,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0
+      }
+    }
+  ],
+  "modified": "Thu Oct 21 2021 17:12:02 GMT+0800 (中国标准时间)",
+  "contentRect": {
+    "x": -325.24562,
+    "y": -299.81484,
+    "width": 1497.85592,
+    "height": 730.53875
+  }
+}

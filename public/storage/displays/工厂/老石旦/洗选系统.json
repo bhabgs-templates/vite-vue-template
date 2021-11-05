@@ -1,0 +1,1728 @@
+{
+  "v": "7.2.4",
+  "p": {
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "gridAngle": 2.0944,
+    "gridRotation": 0.5236,
+    "fitContent": true
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 2440,
+      "p": {
+        "position": {
+          "x": -142.76324,
+          "y": -51.45999
+        },
+        "width": 44.73466,
+        "height": 26.31882
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "#D8D8D8",
+        "shape.border.width": 1,
+        "shape.border.color": "#979797"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 2441,
+      "p": {
+        "position": {
+          "x": -146.20048,
+          "y": -49.07136
+        },
+        "anchor": {
+          "x": 0.39579,
+          "y": 0.67225
+        },
+        "width": 47.82862,
+        "height": 13.86726
+      },
+      "s": {
+        "text": "入料缓冲箱",
+        "text.font": "8px arial, sans-serif"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2442,
+      "p": {
+        "displayName": "压滤机",
+        "tag": "ylj_854",
+        "dataBindings": {
+          "a": {}
+        },
+        "image": "symbols/项目定制类/老石旦/压滤机.json",
+        "position": {
+          "x": 588.47262,
+          "y": -106.7237
+        },
+        "width": -1,
+        "height": -1
+      },
+      "a": {
+        "ylj.tc": "854",
+        "plate.v": "1",
+        "takePlate.v": "true",
+        "pullPlate.v": "false",
+        "feeding.v": "false",
+        "squeeze.v": "false",
+        " press.v": "true",
+        "plate.tc": "854",
+        "loosen.tc": "854",
+        "takePlate.tc": "854",
+        "pullPlate.tc": "854",
+        " press.tc": "854",
+        "holdPress.tc": "854",
+        "feeding.tc": "854",
+        "squeeze.tc": "854",
+        "emptying.tc": "854",
+        "blow.tc": "854",
+        "blow_b.tc": "854",
+        "release.tc": "854",
+        "wait.tc": "854",
+        "openFlap1.tc": "854",
+        "openFlap2.tc": "854",
+        "closeFlap1.tc": "854",
+        "closeFlap2.tc": "854",
+        "curFlow.tc": "854",
+        "curFlow.mc": "FL",
+        "curTime.tc": "854",
+        "curTime.mc": "PRC_TIMER",
+        "controlMethod.tc": "854",
+        "controlMethod.mc": "LOCAL",
+        "controlMode.tc": "854",
+        "controlMode.mc": "AUTO",
+        "feedstock.tc": "854",
+        "unload.tc": "854",
+        "unload.v": "1",
+        "loosen.v": "true",
+        "signal.tc": "854",
+        "signal.v": "0",
+        "signal.mc": "LINK_INTERRUPT "
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 2443,
+      "p": {
+        "source": {
+          "__i": 2498
+        },
+        "target": {
+          "__i": 2497
+        }
+      },
+      "s": {
+        "edge.color": "rgb(247,247,247)",
+        "edge.dash": true,
+        "edge.dash.color": "#4B96CC",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": [
+            {
+              "x": -20.37643,
+              "y": -21.81287
+            },
+            {
+              "x": -145.08443,
+              "y": -21.81287
+            },
+            {
+              "x": -277.93374,
+              "y": -21.81287
+            }
+          ]
+        },
+        "edge.source.anchor.x": 0.47752,
+        "edge.source.anchor.y": 0.0459,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.5,
+        "edge.target.anchor.y": 0.14561,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0,
+        "edge.dash.pattern": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2444,
+      "p": {
+        "displayName": "水桶",
+        "tag": "st_15",
+        "image": "symbols/项目定制类/老石旦/水桶.json",
+        "position": {
+          "x": 241.2886,
+          "y": 41.54001
+        }
+      },
+      "a": {
+        "state.tc": "201",
+        "st.tc": "851",
+        "st.v": 4,
+        "st.scale": 1,
+        "mc": "30%",
+        "v": 1,
+        "propess": " ",
+        "st.propess": " ",
+        "st.scale_tc": "left",
+        "st.scale_p": "right",
+        "st.mc": "LEVEL"
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 2445,
+      "p": {
+        "source": {
+          "__i": 2440
+        },
+        "target": {
+          "__i": 2443
+        }
+      },
+      "s": {
+        "edge.color": "rgb(247,247,247)",
+        "edge.dash": true,
+        "edge.dash.color": "#4B96CC",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.index": 2,
+        "edge.source.index": 2,
+        "edge.source.anchor.x": 0.43731,
+        "edge.source.anchor.y": 1,
+        "edge.dash.pattern": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2446,
+      "p": {
+        "displayName": "渣浆泵",
+        "tag": "zjb_05",
+        "image": "symbols/项目定制类/老石旦/渣浆泵.json",
+        "position": {
+          "x": -315.43341,
+          "y": 170.54001
+        }
+      },
+      "a": {
+        "state.tc": "607",
+        "zjb.tc": "607",
+        "zjb.scale": -1,
+        "zjb.scale.tc": "right",
+        "zjb.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2447,
+      "p": {
+        "displayName": "电控阀门",
+        "tag": "fm_607.FM-1",
+        "image": "symbols/项目定制类/老石旦/电控阀门.json",
+        "position": {
+          "x": -318.86224,
+          "y": 125.82954
+        }
+      },
+      "a": {
+        "close.tc": "607.FM-1",
+        "open.tc": "607.FM-1"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2448,
+      "p": {
+        "displayName": "电控阀门",
+        "tag": "fm_608.FM-1",
+        "image": "symbols/项目定制类/老石旦/电控阀门.json",
+        "position": {
+          "x": -249.43341,
+          "y": 125.82954
+        }
+      },
+      "s": {
+        "label.align": "right"
+      },
+      "a": {
+        "fmstate.scale": "right",
+        "state.scale": "right",
+        "open.tc": "608.FM-1",
+        "close.tc": "608.FM-1"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2449,
+      "p": {
+        "displayName": "渣浆泵",
+        "tag": "zjb_06",
+        "image": "symbols/项目定制类/老石旦/渣浆泵.json",
+        "position": {
+          "x": -243.43341,
+          "y": 170.54001
+        },
+        "width": -1,
+        "height": -1,
+        "tall": 20
+      },
+      "a": {
+        "state.tc": "608",
+        "zjb.tc": "608",
+        "zjb.scale": -1,
+        "zjb.scale.tc": "right",
+        "zjb.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2450,
+      "p": {
+        "displayName": "电控阀门",
+        "tag": "fm_609.FM-1",
+        "image": "symbols/项目定制类/老石旦/电控阀门.json",
+        "position": {
+          "x": -56.6228,
+          "y": 128.54001
+        }
+      },
+      "a": {
+        "open.tc": "609.FM-1",
+        "close.tc": "609.FM-1",
+        "open.v": "0",
+        "close.v": "1"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2451,
+      "p": {
+        "displayName": "电控阀门",
+        "tag": "fm_610.FM-1",
+        "image": "symbols/项目定制类/老石旦/电控阀门.json",
+        "position": {
+          "x": 25.04618,
+          "y": 125.82954
+        }
+      },
+      "s": {
+        "label.align": "right"
+      },
+      "a": {
+        "fmstate.scale": "right",
+        "state.scale": "right",
+        "open.tc": "610.FM-1",
+        "close.tc": "610.FM-1"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2452,
+      "p": {
+        "displayName": "电控阀门",
+        "tag": "fm_607.FM-2",
+        "image": "symbols/项目定制类/老石旦/电控阀门.json",
+        "position": {
+          "x": -315.43341,
+          "y": 225.45127
+        }
+      },
+      "a": {
+        "open.tc": "607.FM-2",
+        "close.tc": "607.FM-2"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2453,
+      "p": {
+        "displayName": "电控阀门",
+        "tag": "fm_608.FM-2",
+        "image": "symbols/项目定制类/老石旦/电控阀门.json",
+        "position": {
+          "x": -239.43341,
+          "y": 225.45127
+        }
+      },
+      "a": {
+        "fmstate.scale": "right",
+        "state.scale": "right",
+        "open.tc": "608.FM-2",
+        "close.tc": "608.FM-2"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2454,
+      "p": {
+        "displayName": "电控阀门",
+        "tag": "fm_609.FM-2",
+        "image": "symbols/项目定制类/老石旦/电控阀门.json",
+        "position": {
+          "x": -55.6228,
+          "y": 225.45127
+        }
+      },
+      "a": {
+        "open.tc": "609.FM-2",
+        "close.tc": "609.FM-2"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2455,
+      "p": {
+        "displayName": "电控阀门",
+        "tag": "fm_610.FM-2",
+        "image": "symbols/项目定制类/老石旦/电控阀门.json",
+        "position": {
+          "x": 28.8772,
+          "y": 225.45127
+        }
+      },
+      "a": {
+        "fmstate.scale": "right",
+        "state.scale": "right",
+        "open.tc": "610.FM-2",
+        "close.tc": "610.FM-2"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2456,
+      "p": {
+        "displayName": "渣浆泵",
+        "tag": "zjb_07",
+        "image": "symbols/项目定制类/老石旦/渣浆泵.json",
+        "position": {
+          "x": -54.20449,
+          "y": 179.74701
+        },
+        "anchor": {
+          "x": 0.54432,
+          "y": 0.65345
+        }
+      },
+      "a": {
+        "state.tc": "609",
+        "zjb.tc": "609",
+        "zjb.scale": -1,
+        "zjb.scale.tc": "right",
+        "zjb.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2457,
+      "p": {
+        "displayName": "渣浆泵",
+        "tag": "zjb_08",
+        "image": "symbols/项目定制类/老石旦/渣浆泵.json",
+        "position": {
+          "x": 28.8772,
+          "y": 170.54001
+        }
+      },
+      "a": {
+        "state.tc": "610",
+        "zjb.tc": "610",
+        "zjb.scale": -1,
+        "zjb.scale.tc": "center",
+        "zjb.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2458,
+      "p": {
+        "displayName": "渣浆泵",
+        "tag": "zjb_10",
+        "image": "symbols/项目定制类/老石旦/渣浆泵.json",
+        "position": {
+          "x": -197.36224,
+          "y": 363
+        }
+      },
+      "a": {
+        "state.tc": "603",
+        "zjb.tc": "603",
+        "zjb.scale": -1,
+        "zjb.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2459,
+      "p": {
+        "displayName": "渣浆泵",
+        "tag": "zjb_11",
+        "image": "symbols/项目定制类/老石旦/渣浆泵.json",
+        "position": {
+          "x": -149.13057,
+          "y": 363
+        }
+      },
+      "a": {
+        "state.tc": "604",
+        "zjb.tc": "604",
+        "zjb.scale": -1,
+        "zjb.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2460,
+      "p": {
+        "displayName": "渣浆泵",
+        "tag": "zjb_12",
+        "image": "symbols/项目定制类/老石旦/渣浆泵.json",
+        "position": {
+          "x": -104.39591,
+          "y": 363
+        }
+      },
+      "a": {
+        "state.tc": "605",
+        "zjb.tc": "605",
+        "scale_n": "left",
+        "zjb.scale": -1,
+        "zjb.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2461,
+      "p": {
+        "displayName": "渣浆泵",
+        "tag": "zjb_14",
+        "image": "symbols/项目定制类/老石旦/渣浆泵.json",
+        "position": {
+          "x": 88.33715,
+          "y": 359
+        }
+      },
+      "a": {
+        "zjb.tc": "623X",
+        "zjb.scale": -1,
+        "zjb.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2462,
+      "p": {
+        "displayName": "压滤机",
+        "tag": "ylj_835",
+        "image": "symbols/项目定制类/老石旦/压滤机.json",
+        "position": {
+          "x": 588.47262,
+          "y": 129.28888
+        }
+      },
+      "a": {
+        "ylj.tc": "835",
+        "loosen.tc": "835",
+        "plate.tc": "835",
+        "takePlate.tc": "835",
+        "pullPlate.tc": "835",
+        " press.tc": "835",
+        "holdPress.tc": "835",
+        "feeding.tc": "835",
+        "squeeze.tc": "835",
+        "emptying.tc": "835",
+        "blow.tc": "835",
+        "blow_b.tc": "835",
+        "release.tc": "835",
+        "wait.tc": "835",
+        "openFlap1.tc": "835",
+        "openFlap2.tc": "835",
+        "closeFlap1.tc": "835",
+        "closeFlap2.tc": "835",
+        "curFlow.tc": "835",
+        "curTime.tc": "835",
+        "signal.tc": "835"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2463,
+      "p": {
+        "displayName": "压滤机",
+        "tag": "ylj_624X",
+        "image": "symbols/项目定制类/老石旦/压滤机.json",
+        "position": {
+          "x": 571.64909,
+          "y": 393
+        }
+      },
+      "a": {
+        "ylj.tc": "624X",
+        "plate.tc": "624X",
+        "loosen.tc": "624X",
+        "takePlate.tc": "624X",
+        "pullPlate.tc": "624X",
+        " press.tc": "624X",
+        "holdPress.tc": "624X",
+        "feeding.tc": "624X",
+        "squeeze.tc": "624X",
+        "emptying.tc": "624X",
+        "blow.tc": "624X",
+        "blow_b.tc": "624X",
+        "release.tc": "624X",
+        "wait.tc": "624X",
+        "openFlap1.tc": "624X",
+        "openFlap2.tc": "624X",
+        "closeFlap1.tc": "624X",
+        "closeFlap2.tc": "624X",
+        "curFlow.tc": "624X",
+        "curTime.tc": "624X",
+        "controlMethod.tc": "624X",
+        "controlMode.tc": "624X",
+        "feedstock.tc": "624X",
+        "unload.tc": "624X",
+        "signal.tc": "624X"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2464,
+      "p": {
+        "displayName": "渣浆泵",
+        "tag": "zjb_16",
+        "image": "symbols/项目定制类/老石旦/渣浆泵.json",
+        "position": {
+          "x": 343.07357,
+          "y": -51.45999
+        }
+      },
+      "a": {
+        "zjb.tc": "853",
+        "zjb.scale": -1,
+        "zjb.scale.tc": "right",
+        "zjb.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2465,
+      "p": {
+        "displayName": "渣浆泵",
+        "tag": "zjb_17",
+        "image": "symbols/项目定制类/老石旦/渣浆泵.json",
+        "position": {
+          "x": 343.07357,
+          "y": 58.28888
+        }
+      },
+      "a": {
+        "zjb.scale": -1,
+        "zjb.scale.tc": "right",
+        "zjb.mc": "STATE",
+        "zjb.tc": "852"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2466,
+      "p": {
+        "displayName": "渣浆泵",
+        "tag": "zjb_!8",
+        "image": "symbols/项目定制类/老石旦/渣浆泵.json",
+        "position": {
+          "x": 341.16085,
+          "y": 167.14721
+        },
+        "anchor": {
+          "x": 0.44023,
+          "y": 0.64345
+        }
+      },
+      "a": {
+        "zjb.tc": "624X",
+        "zjb.scale": -1,
+        "zjb.scale.tc": "right",
+        "zjb.mc": "STATE     "
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 2467,
+      "p": {
+        "source": {
+          "__i": 2452
+        },
+        "target": {
+          "__i": 2444
+        }
+      },
+      "s": {
+        "edge.color": "#EFF1F4",
+        "edge.dash": true,
+        "edge.dash.color": "#5bbf69",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": [
+            {
+              "x": -315.43341,
+              "y": 289.68537
+            },
+            {
+              "x": 135.56339,
+              "y": 289.68537
+            },
+            {
+              "x": 135.56339,
+              "y": -120.83196
+            },
+            {
+              "x": 244.6951,
+              "y": -120.83196
+            }
+          ]
+        },
+        "edge.source.anchor.x": 0.5,
+        "edge.source.anchor.y": 1.18977,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.52271,
+        "edge.target.anchor.y": 0.08282,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0,
+        "edge.dash.pattern": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 2468,
+      "p": {
+        "source": {
+          "__i": 2453
+        },
+        "target": {
+          "__i": 2444
+        }
+      },
+      "s": {
+        "edge.color": "rgb(247,247,247)",
+        "edge.dash": true,
+        "edge.dash.color": "#4B96CC",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": [
+            {
+              "x": -238.99321,
+              "y": 262.22164
+            },
+            {
+              "x": 122.85787,
+              "y": 262.22164
+            },
+            {
+              "x": 122.85787,
+              "y": -139.67896
+            },
+            {
+              "x": 255.45585,
+              "y": -139.67896
+            }
+          ]
+        },
+        "edge.source.anchor.x": 0.52201,
+        "edge.source.anchor.y": 1.10609,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0,
+        "edge.target.percent": 0.44875,
+        "edge.target.anchor.x": 0.60558,
+        "edge.target.anchor.y": 0.25,
+        "edge.dash.pattern": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 2469,
+      "p": {
+        "source": {
+          "__i": 2454
+        },
+        "target": {
+          "__i": 2467
+        }
+      },
+      "s": {
+        "edge.color": "#EFF1F4",
+        "edge.dash": true,
+        "edge.dash.color": "#5bbf69",
+        "edge.target.percent": 0.27625,
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 0.5,
+        "edge.source.anchor.y": 1.10609,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.dash.pattern": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 2470,
+      "p": {
+        "source": {
+          "__i": 2455
+        },
+        "target": {
+          "__i": 2468
+        }
+      },
+      "s": {
+        "edge.color": "rgb(247,247,247)",
+        "edge.dash": true,
+        "edge.dash.color": "#4B96CC",
+        "edge.target.percent": 0.2725,
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 0.5,
+        "edge.source.anchor.y": 1.06425,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.dash.pattern": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2471,
+      "p": {
+        "displayName": "刮板机",
+        "tag": "gbj_22",
+        "image": "symbols/项目定制类/老石旦/刮板机.json",
+        "position": {
+          "x": 812.84738,
+          "y": -164.42339
+        }
+      },
+      "a": {
+        "gbj.tc": "855",
+        "start": "0"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2472,
+      "p": {
+        "displayName": "刮板机",
+        "tag": "gbj_25",
+        "image": "symbols/项目定制类/老石旦/刮板机.json",
+        "position": {
+          "x": 1056.7487,
+          "y": -164.42339
+        }
+      },
+      "a": {
+        "gbj.tc": "856",
+        "start": "1",
+        "stop": "1",
+        "start.tc": "856",
+        "start.v": "0",
+        "stop.v": "1",
+        "stop.tc": "856",
+        "display": "1"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2473,
+      "p": {
+        "displayName": "刮板机",
+        "tag": "gbj_)23",
+        "image": "symbols/项目定制类/老石旦/刮板机.json",
+        "position": {
+          "x": 812.84738,
+          "y": 69.54001
+        }
+      },
+      "a": {
+        "gbj.tc": "837"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2474,
+      "p": {
+        "displayName": "刮板机",
+        "tag": "gbj_24",
+        "image": "symbols/项目定制类/老石旦/刮板机.json",
+        "position": {
+          "x": 812.84738,
+          "y": 325.90253
+        }
+      },
+      "a": {
+        "gbj.tc": "625X"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2475,
+      "p": {
+        "displayName": "刮板机",
+        "tag": "gbj_26",
+        "image": "symbols/项目定制类/老石旦/刮板机.json",
+        "position": {
+          "x": 1056.7487,
+          "y": 190.54001
+        }
+      },
+      "a": {
+        "gbj.tc": "838",
+        "start": "1",
+        "stop": "1",
+        "display": "1"
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 2476,
+      "p": {
+        "source": {
+          "__i": 2464
+        },
+        "target": {
+          "__i": 2442
+        }
+      },
+      "s": {
+        "edge.color": "rgb(247,247,247)",
+        "edge.dash": true,
+        "edge.dash.color": "#4B96CC",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": [
+            {
+              "x": 418.73733,
+              "y": -43.17864
+            },
+            {
+              "x": 418.73733,
+              "y": -156.7237
+            }
+          ]
+        },
+        "edge.source.anchor.x": 1.07312,
+        "edge.source.anchor.y": 0.65278,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.02046,
+        "edge.target.anchor.y": 0.25,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0,
+        "edge.dash.pattern": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2477,
+      "p": {
+        "displayName": "电控阀门",
+        "tag": "fm_854.FM-1",
+        "image": "symbols/项目定制类/老石旦/电控阀门.json",
+        "position": {
+          "x": 429.02376,
+          "y": -164.42339
+        }
+      },
+      "a": {
+        "open.tc": "854.FM-1",
+        "close.tc": "854.FM-1"
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 2478,
+      "p": {
+        "source": {
+          "__i": 2465
+        },
+        "target": {
+          "__i": 2462
+        }
+      },
+      "s": {
+        "edge.color": "rgb(247,247,247)",
+        "edge.dash": true,
+        "edge.dash.color": "#4B96CC",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 1.11317,
+        "edge.source.anchor.y": 0.69703,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.03242,
+        "edge.target.anchor.y": 0.20262,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0,
+        "edge.dash.pattern": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2479,
+      "p": {
+        "displayName": "电控阀门",
+        "tag": "fm_835.FM-1",
+        "image": "symbols/项目定制类/老石旦/电控阀门.json",
+        "position": {
+          "x": 389.02376,
+          "y": 65.54001
+        }
+      },
+      "a": {
+        "fmstate.scale": "right",
+        "state.scale": "right",
+        "open.tc": "835.FM-1",
+        "close.tc": "835.FM-1"
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 2480,
+      "p": {
+        "source": {
+          "__i": 2466
+        },
+        "target": {
+          "__i": 2463
+        }
+      },
+      "s": {
+        "edge.color": "rgb(247,247,247)",
+        "edge.dash": true,
+        "edge.dash.color": "#4B96CC",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": [
+            {
+              "x": 411.3961,
+              "y": 170.45383
+            },
+            {
+              "x": 411.3961,
+              "y": 330.65481
+            }
+          ]
+        },
+        "edge.source.anchor.x": 1.15322,
+        "edge.source.anchor.y": 0.69856,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.03224,
+        "edge.target.anchor.y": 0.18967,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0,
+        "edge.dash.pattern": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2481,
+      "p": {
+        "displayName": "电控阀门",
+        "tag": "fm_624X.FM-1",
+        "image": "symbols/项目定制类/老石旦/电控阀门.json",
+        "position": {
+          "x": 409.02376,
+          "y": 321.90253
+        }
+      },
+      "a": {
+        "open.tc": "624X.FM-1",
+        "close.tc": "624X.FM-1"
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 2482,
+      "p": {
+        "source": {
+          "__i": 2442
+        },
+        "target": {
+          "__i": 2471
+        }
+      },
+      "s": {
+        "edge.color": "rgb(247,247,247)",
+        "edge.dash": true,
+        "edge.dash.color": "#4B96CC",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": -0.05357,
+        "edge.target.anchor.y": 0.75,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0,
+        "edge.source.index": 0,
+        "edge.source.anchor.x": 0.66345,
+        "edge.source.anchor.y": 0.25,
+        "edge.dash.pattern": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 2483,
+      "p": {
+        "source": {
+          "__i": 2462
+        },
+        "target": {
+          "__i": 2473
+        }
+      },
+      "s": {
+        "edge.color": "rgb(247,247,247)",
+        "edge.dash": true,
+        "edge.dash.color": "#4B96CC",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 0.6605,
+        "edge.source.anchor.y": 0.21513,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0,
+        "edge.target.anchor.y": 0.58669,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0,
+        "edge.dash.pattern": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 2484,
+      "p": {
+        "source": {
+          "__i": 2463
+        },
+        "target": {
+          "__i": 2474
+        }
+      },
+      "s": {
+        "edge.color": "rgb(247,247,247)",
+        "edge.dash": true,
+        "edge.dash.color": "#4B96CC",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 0.65794,
+        "edge.source.anchor.y": 0.22205,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": -0.0221,
+        "edge.target.anchor.y": 0.82214,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0,
+        "edge.dash.pattern": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 2485,
+      "p": {
+        "source": {
+          "__i": 2471
+        },
+        "target": {
+          "__i": 2472
+        }
+      },
+      "s": {
+        "edge.color": "rgb(247,247,247)",
+        "edge.dash": true,
+        "edge.dash.color": "#4B96CC",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 1,
+        "edge.source.anchor.y": 0.8322,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0,
+        "edge.target.anchor.y": 0.8322,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0,
+        "edge.dash.pattern": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 2486,
+      "p": {
+        "source": {
+          "__i": 2473
+        },
+        "target": {
+          "__i": 2474
+        }
+      },
+      "s": {
+        "edge.color": "rgb(247,247,247)",
+        "edge.dash": true,
+        "edge.dash.color": "#4B96CC",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": [
+            {
+              "x": 939.79503,
+              "y": 74.75494
+            },
+            {
+              "x": 939.79503,
+              "y": 332.65661
+            }
+          ]
+        },
+        "edge.source.anchor.x": 1,
+        "edge.source.anchor.y": 0.66297,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 1.03692,
+        "edge.target.anchor.y": 0.75,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0,
+        "edge.dash.pattern": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 2487,
+      "p": {
+        "source": {
+          "__i": 2475
+        },
+        "target": {
+          "__i": 2486
+        }
+      },
+      "s": {
+        "edge.color": "rgb(247,247,247)",
+        "edge.dash": true,
+        "edge.dash.color": "#4B96CC",
+        "edge.target.percent": 0.49125,
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 0,
+        "edge.source.anchor.y": 0.75,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.dash.pattern": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 2488,
+      "p": {
+        "source": {
+          "__i": 2472
+        },
+        "target": {
+          "__i": 2475
+        }
+      },
+      "s": {
+        "edge.color": "rgb(247,247,247)",
+        "edge.dash": true,
+        "edge.dash.color": "#4B96CC",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": [
+            {
+              "x": 1161.43994,
+              "y": -153.75725
+            },
+            {
+              "x": 1161.43994,
+              "y": 198.68489
+            }
+          ]
+        },
+        "edge.source.anchor.x": 1,
+        "edge.source.anchor.y": 0.87225,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 1.04469,
+        "edge.target.anchor.y": 0.79346,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0,
+        "edge.dash.pattern": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2489,
+      "p": {
+        "displayName": "皮带机",
+        "tag": "pdj_703",
+        "image": "symbols/项目定制类/老石旦/皮带机.json",
+        "position": {
+          "x": 1170.7487,
+          "y": 317
+        }
+      },
+      "a": {
+        "bdj.tc": "703",
+        "yxsd": " ",
+        "pdj.tc": "YL_SL",
+        "pdj.mc": "UNLOAD_COUNT_CHO",
+        "display": "1",
+        "number.tc": "YL_SL"
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 2490,
+      "p": {
+        "source": {
+          "__i": 2489
+        },
+        "target": {
+          "__i": 2488
+        }
+      },
+      "s": {
+        "edge.color": "rgb(247,247,247)",
+        "edge.dash": true,
+        "edge.dash.color": "#4B96CC",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0,
+        "edge.target.index": 2,
+        "edge.source.index": 2,
+        "edge.source.anchor.x": 0.44026,
+        "edge.source.anchor.y": -0.42424,
+        "edge.dash.pattern": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2491,
+      "p": {
+        "displayName": "水池",
+        "image": "symbols/项目定制类/老石旦/水池.json",
+        "position": {
+          "x": -291.93341,
+          "y": 357
+        }
+      },
+      "a": {
+        "sc.v": 22,
+        "sc.tc": "600",
+        "sc.mc": "LEVEL"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2492,
+      "p": {
+        "displayName": "水桶-s",
+        "tag": "st_630",
+        "image": "symbols/项目定制类/老石旦/水桶-s.json",
+        "position": {
+          "x": 10.04618,
+          "y": 359.90253
+        }
+      },
+      "a": {
+        "st.v": 6,
+        "st.tc": "630",
+        "st.scale": 1,
+        "propess": " ",
+        "st.mc": "LEVEL "
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 2493,
+      "p": {
+        "source": {
+          "__i": 2495
+        },
+        "target": {
+          "__i": 2440
+        }
+      },
+      "s": {
+        "edge.color": "rgb(247,247,247)",
+        "edge.dash": true,
+        "edge.dash.color": "#4B96CC",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": [
+            {
+              "x": -290.43374,
+              "y": -56.06631
+            },
+            {
+              "x": -165.13057,
+              "y": -56.06631
+            }
+          ]
+        },
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0,
+        "edge.target.percent": 0.50625,
+        "edge.target.anchor.x": 0,
+        "edge.target.anchor.y": 0.32498,
+        "edge.source.index": 3,
+        "edge.source.anchor.x": 0.5,
+        "edge.source.anchor.y": 1.03849,
+        "edge.dash.pattern": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 2494,
+      "p": {
+        "source": {
+          "__i": 2496
+        },
+        "target": {
+          "__i": 2440
+        }
+      },
+      "s": {
+        "edge.color": "rgb(247,247,247)",
+        "edge.dash": true,
+        "edge.dash.color": "#4B96CC",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": [
+            {
+              "x": -17.45382,
+              "y": -53.57444
+            }
+          ]
+        },
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 1,
+        "edge.target.anchor.y": 0.41966,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0,
+        "edge.source.index": 1,
+        "edge.source.anchor.x": 0.5,
+        "edge.source.anchor.y": 1.02731,
+        "edge.dash.pattern": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2495,
+      "p": {
+        "displayName": "加药机",
+        "tag": "jyj_433X",
+        "image": "symbols/项目定制类/老石旦/加药机.json",
+        "position": {
+          "x": -283.02074,
+          "y": -159.67339
+        },
+        "anchor": {
+          "x": 0.5706,
+          "y": 0.75
+        }
+      },
+      "a": {
+        "jyj.tc": "433X",
+        "jyj.mc": "RUNS",
+        "jyj.v": "3"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2496,
+      "p": {
+        "displayName": "加药机",
+        "tag": "jyj_434X",
+        "image": "symbols/项目定制类/老石旦/加药机.json",
+        "position": {
+          "x": -17.45382,
+          "y": -180.42339
+        }
+      },
+      "a": {
+        "jyj.tc": "434X",
+        "scale_tc": "right",
+        "jyj.scale_tc": "right",
+        "jyj.mc": "RUNS"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2497,
+      "p": {
+        "displayName": "浓缩机_",
+        "image": "symbols/项目定制类/老石旦/浓缩机_.json",
+        "position": {
+          "x": -277.93374,
+          "y": 22.2763
+        }
+      },
+      "a": {
+        "nsj.tc": "601",
+        "nsj.mc": "RUNS"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2498,
+      "p": {
+        "displayName": "浓缩机_",
+        "tag": "nsj_602",
+        "image": "symbols/项目定制类/老石旦/浓缩机_.json",
+        "position": {
+          "x": -17.45382,
+          "y": 24.54001
+        }
+      },
+      "a": {
+        "nsj.mc": "RUNS",
+        "nsj.tc": "602",
+        "nsj.v": "0",
+        "nsj.scale_tc": "right"
+      }
+    }
+  ],
+  "modified": "Mon Oct 25 2021 14:13:16 GMT+0800 (中国标准时间)",
+  "contentRect": {
+    "x": -344.43341,
+    "y": -221.92339,
+    "width": 1572.18211,
+    "height": 714.92339
+  }
+}

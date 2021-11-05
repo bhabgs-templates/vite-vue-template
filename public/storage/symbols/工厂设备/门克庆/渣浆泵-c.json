@@ -1,0 +1,51 @@
+{
+  "modified": "Sat Aug 14 2021 11:06:44 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "tc",
+      "valueType": "String"
+    }
+  ],
+  "width": 100,
+  "height": 154,
+  "comps": [
+    {
+      "type": "image",
+      "name": "symbols/新煤泥水/渣浆泵.json",
+      "displayName": "渣浆泵",
+      "rect": [
+        7.38487,
+        0,
+        85.23026,
+        115.31153
+      ]
+    },
+    {
+      "type": "roundRect",
+      "background": "rgb(153,153,153)",
+      "borderColor": "#979797",
+      "rect": [
+        29.50512,
+        125.37971,
+        50,
+        23.15205
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@tc",
+        "value": "0"
+      },
+      "align": "center",
+      "color": "rgb(255,255,255)",
+      "font": "bold 22px sans-serif, Arial",
+      "rect": [
+        29.68947,
+        125.06894,
+        49.81565,
+        28.93106
+      ]
+    }
+  ]
+}

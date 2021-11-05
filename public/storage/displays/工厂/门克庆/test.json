@@ -1,0 +1,665 @@
+{
+  "v": "7.2.4",
+  "p": {
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {},
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 1525,
+      "p": {
+        "displayName": "zp_102",
+        "image": "symbols/项目定制类/门客庆/渣浆泵-1.json",
+        "position": {
+          "x": 268,
+          "y": 617
+        }
+      },
+      "a": {
+        "state.tc": "923",
+        "state.v": "1",
+        "state.mc": "STATE_PLC"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1526,
+      "p": {
+        "displayName": "zp_104",
+        "image": "symbols/项目定制类/门客庆/渣浆泵-1.json",
+        "position": {
+          "x": 474.71069,
+          "y": 609
+        }
+      },
+      "a": {
+        "state.v": "3",
+        "state.tc": "342"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1527,
+      "p": {
+        "displayName": "cxj_106",
+        "image": "symbols/项目定制类/门客庆/磁选机.json",
+        "position": {
+          "x": 626.82628,
+          "y": 583
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.3
+        }
+      },
+      "a": {
+        "state.mc": "STATE_PLC",
+        "state.tc": "327"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1528,
+      "p": {
+        "displayName": "zbj_108",
+        "image": "symbols/项目定制类/门客庆/渣浆泵-1.json",
+        "position": {
+          "x": 850,
+          "y": 618
+        }
+      },
+      "a": {
+        "state.tc": "343",
+        "state.mc": "STATE_PLC"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1529,
+      "p": {
+        "displayName": "cxj_109",
+        "image": "symbols/项目定制类/门客庆/磁选机.json",
+        "position": {
+          "x": 942,
+          "y": 616
+        }
+      },
+      "a": {
+        "state.mc": "STATE_PLC",
+        "state.tc": "330"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1530,
+      "p": {
+        "displayName": "zxj_105",
+        "image": "symbols/项目定制类/门客庆/磁选机.json",
+        "position": {
+          "x": 561,
+          "y": 405.61229
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.38922
+        }
+      },
+      "a": {
+        "state.mc": "STATE_PLC",
+        "state.v": "1",
+        "state.tc": "339"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1531,
+      "p": {
+        "displayName": "st_101",
+        "image": "symbols/项目定制类/门客庆/桶_嘴_1.json",
+        "position": {
+          "x": 146,
+          "y": 619
+        }
+      },
+      "a": {
+        "st.tc": "922",
+        "st.v": 10,
+        "st.mc": "LEVELPROPORTION"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1532,
+      "p": {
+        "displayName": "tz_103",
+        "image": "symbols/项目定制类/门客庆/桶_嘴_1.json",
+        "position": {
+          "x": 377,
+          "y": 608
+        }
+      },
+      "a": {
+        "st.tc": "304",
+        "st.v": 20,
+        "st.mc": "LEVELPROPORTION"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1533,
+      "p": {
+        "displayName": "tz_107",
+        "image": "symbols/项目定制类/门客庆/桶_嘴_1.json",
+        "position": {
+          "x": 778,
+          "y": 602
+        },
+        "anchor": {
+          "x": 0.86364,
+          "y": 0.37273
+        }
+      },
+      "a": {
+        "st.tc": "341",
+        "st.v": 20,
+        "st.mc": "LEVELPROPORTION"
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1534,
+      "p": {
+        "source": {
+          "__i": 1530
+        },
+        "target": {
+          "__i": 1527
+        }
+      },
+      "s": {
+        "edge.color": "#EFF1F4",
+        "edge.dash": true,
+        "edge.dash.color": "#05D84B",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 0.86347,
+        "edge.source.anchor.y": 0.81524,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.06141,
+        "edge.target.anchor.y": 0.29661,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1535,
+      "p": {
+        "source": {
+          "__i": 1525
+        },
+        "target": {
+          "__i": 1531
+        }
+      },
+      "s": {
+        "edge.color": "#EFF1F4",
+        "edge.dash": true,
+        "edge.dash.color": "#05D84B",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": -0.61094,
+        "edge.source.anchor.y": 0.75,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.8284,
+        "edge.target.anchor.y": 0.62808,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1536,
+      "p": {
+        "displayName": "电控阀门",
+        "image": "symbols/项目定制类/门客庆/电控阀门.json",
+        "position": {
+          "x": 222.52143,
+          "y": 631.52209
+        }
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1537,
+      "p": {
+        "source": {
+          "__i": 1526
+        },
+        "target": {
+          "__i": 1532
+        }
+      },
+      "s": {
+        "edge.color": "#EFF1F4",
+        "edge.dash": true,
+        "edge.dash.color": "#05D84B",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 0,
+        "edge.source.anchor.y": 0.70751,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.81866,
+        "edge.target.anchor.y": 0.63548,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1538,
+      "p": {
+        "source": {
+          "__i": 1531
+        },
+        "target": {
+          "__i": 1525
+        }
+      },
+      "s": {
+        "edge.color": "#EFF1F4",
+        "edge.dash": true,
+        "edge.dash.color": "#05D84B",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 0.55536,
+        "edge.source.anchor.y": 0.17934,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": -2.80917,
+        "edge.target.anchor.y": -0.88539,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1539,
+      "p": {
+        "displayName": "电控阀门",
+        "image": "symbols/项目定制类/门客庆/电控阀门.json",
+        "rotation": 1.5708,
+        "position": {
+          "x": 152,
+          "y": 537.49895
+        }
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1540,
+      "p": {
+        "source": {
+          "__i": 1532
+        },
+        "target": {
+          "__i": 1535
+        }
+      },
+      "s": {
+        "edge.color": "#EFF1F4",
+        "edge.dash": true,
+        "edge.dash.color": "#05D84B",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            4
+          ]
+        },
+        "edge.points": {
+          "__a": [
+            {
+              "x": 203.29296,
+              "y": 524.47753
+            },
+            {
+              "x": 205.15555,
+              "y": 633.4997
+            }
+          ]
+        },
+        "edge.source.anchor.x": -2.1255,
+        "edge.source.anchor.y": -0.57542,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0,
+        "edge.target.percent": 0.37875
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1541,
+      "p": {
+        "displayName": "电控阀门",
+        "image": "symbols/项目定制类/门客庆/电控阀门.json",
+        "rotation": 1.5708,
+        "position": {
+          "x": 205.67562,
+          "y": 492
+        },
+        "width": 10,
+        "height": 10.18584
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1542,
+      "p": {
+        "source": {
+          "__i": 1525
+        },
+        "target": {
+          "__i": 1530
+        }
+      },
+      "s": {
+        "edge.color": "#EFF1F4",
+        "edge.dash": true,
+        "edge.dash.color": "#05D84B",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": [
+            {
+              "x": 277,
+              "y": 319.67868
+            },
+            {
+              "x": 525.0449,
+              "y": 319.67868
+            }
+          ]
+        },
+        "edge.source.anchor.x": 0.75,
+        "edge.source.anchor.y": 0.25,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.05056,
+        "edge.target.anchor.y": 0.34513,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1543,
+      "p": {
+        "source": {
+          "__i": 1530
+        },
+        "target": {
+          "__i": 1532
+        }
+      },
+      "s": {
+        "edge.color": "#EFF1F4",
+        "edge.dash": true,
+        "edge.dash.color": "#05D84B",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": [
+            {
+              "x": 527.39548,
+              "y": 484.14997
+            },
+            {
+              "x": 377,
+              "y": 484.14997
+            }
+          ]
+        },
+        "edge.source.anchor.x": 0.07994,
+        "edge.source.anchor.y": 0.69541,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.5,
+        "edge.target.anchor.y": 0.16537,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1544,
+      "p": {
+        "source": {
+          "__i": 1533
+        },
+        "target": {
+          "__i": 1543
+        }
+      },
+      "s": {
+        "edge.color": "#EFF1F4",
+        "edge.dash": true,
+        "edge.dash.color": "#05D84B",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": [
+            {
+              "x": 749.83454,
+              "y": 525.58167
+            }
+          ]
+        },
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0,
+        "edge.target.percent": 0.845,
+        "edge.source.percent": 0.92375,
+        "edge.source.anchor.x": 0.43689,
+        "edge.source.anchor.y": 0.17812
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1545,
+      "p": {
+        "source": {
+          "__i": 1533
+        },
+        "target": {
+          "__i": 1528
+        }
+      },
+      "s": {
+        "edge.color": "#EFF1F4",
+        "edge.dash": true,
+        "edge.dash.color": "#05D84B",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 0.81888,
+        "edge.source.anchor.y": 0.62876,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0,
+        "edge.target.anchor.y": 0.68154,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1546,
+      "p": {
+        "source": {
+          "__i": 1534
+        },
+        "target": {
+          "__i": 1529
+        }
+      },
+      "s": {
+        "edge.color": "#EFF1F4",
+        "edge.dash": true,
+        "edge.dash.color": "#05D84B",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": [
+            {
+              "x": 905.90814,
+              "y": 476.25472
+            }
+          ]
+        },
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.04885,
+        "edge.target.anchor.y": 0.34588,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0,
+        "edge.source.percent": 0.23125
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1547,
+      "p": {
+        "displayName": "电控阀门",
+        "image": "symbols/项目定制类/门客庆/电控阀门.json",
+        "position": {
+          "x": 498.00061,
+          "y": 525.60341
+        },
+        "anchor": {
+          "x": 0.52899,
+          "y": 0.66952
+        }
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1548,
+      "p": {
+        "displayName": "电控阀门",
+        "image": "symbols/项目定制类/门客庆/电控阀门.json",
+        "rotation": 1.5708,
+        "position": {
+          "x": 592.54129,
+          "y": 495.04781
+        },
+        "width": 10.29904,
+        "height": 11.43002
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1549,
+      "p": {
+        "displayName": "电控阀门",
+        "image": "symbols/项目定制类/门客庆/电控阀门.json",
+        "rotation": 1.5708,
+        "position": {
+          "x": 378.7703,
+          "y": 536.8398
+        }
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1550,
+      "p": {
+        "displayName": "电控阀门",
+        "image": "symbols/项目定制类/门客庆/电控阀门.json",
+        "position": {
+          "x": 643.24268,
+          "y": 472.50377
+        }
+      }
+    }
+  ],
+  "modified": "Thu Sep 23 2021 13:51:46 GMT+0800 (中国标准时间)",
+  "contentRect": {
+    "x": 113,
+    "y": 317.67868,
+    "width": 869,
+    "height": 356.32132
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "modified": "Wed Oct 13 2021 17:06:14 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "zjb.tc",
+      "valueType": "String"
+    },
+    {
+      "attr": "zjb.mc",
+      "valueType": "String"
+    },
+    {
+      "attr": "zjb.v",
+      "valueType": "String"
+    },
+    {
+      "attr": "zjb.scale",
+      "valueType": "Number",
+      "defaultValue": 1
+    },
+    {
+      "attr": "zjb.scale.tc",
+      "valueType": "Align"
+    }
+  ],
+  "width": 55,
+  "height": 60,
+  "comps": [
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@zjb.tc",
+        "value": "201"
+      },
+      "align": {
+        "func": "attr@zjb.scale.tc",
+        "value": "left"
+      },
+      "color": "rgb(0,0,0)",
+      "font": "bold 14px sans-serif, Arial",
+      "rect": [
+        -2.77469,
+        0,
+        58.26859,
+        13.31853
+      ]
+    },
+    {
+      "type": "image",
+      "name": {
+        "func": "__ht__function(data, view) {\nconst v = data.ca('zjb.v');\r\nconst v1 = 'symbols/素材库/设备/渣浆泵.json'; //正常\r\nconst v2 = 'symbols/素材库/设备/渣浆泵_g.json'; // 故障\r\nconst v3 = 'symbols/素材库/设备/渣浆泵_r.json'; // 故障\r\nlet color = v1;\r\nif (v === '2' || v === '8') color = v2;\r\nif (v === '4' || v === '20') color = v3;\r\nreturn color;\n}",
+        "value": "symbols/新煤泥水/渣浆泵.json"
+      },
+      "displayName": "渣浆泵",
+      "scaleX": {
+        "func": "attr@zjb.scale",
+        "value": 1
+      },
+      "rect": [
+        10.43285,
+        17.20141,
+        31.63374,
+        42.79859
+      ]
+    }
+  ]
+}

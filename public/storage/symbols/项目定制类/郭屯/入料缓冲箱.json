@@ -1,0 +1,79 @@
+{
+  "modified": "Thu Oct 21 2021 17:56:33 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "concentration.tc",
+      "valueType": "String"
+    },
+    {
+      "attr": "concentration.mc",
+      "valueType": "String"
+    },
+    {
+      "attr": "concentration.v",
+      "valueType": "String"
+    }
+  ],
+  "width": 130,
+  "height": 120,
+  "comps": [
+    {
+      "type": "rect",
+      "background": "#afafaf",
+      "borderColor": "#979797",
+      "rect": [
+        17.68814,
+        0,
+        109.98778,
+        66.72448
+      ]
+    },
+    {
+      "type": "text",
+      "text": "入料缓冲箱",
+      "rect": [
+        37.02356,
+        25.50597,
+        77.56337,
+        15.71254
+      ]
+    },
+    {
+      "type": "text",
+      "text": "煤泥水浓度：",
+      "rect": [
+        23.67643,
+        79.16225,
+        77.56337,
+        15.71254
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nlet v = data.ca('concentration.v');\r\nv = v == undefined ? 0 : Number(v);\r\nif (v < 0) v = 0;\r\nreturn  v.toFixed(1);\n}",
+        "value": "0"
+      },
+      "color": "#0000ff",
+      "font": "14px arial, sans-serif",
+      "rect": [
+        31.05176,
+        104.96596,
+        31.40636,
+        15.03404
+      ]
+    },
+    {
+      "type": "text",
+      "text": "g/l",
+      "font": "14px arial, sans-serif",
+      "anchorX": 0.64186,
+      "rect": [
+        70.24807,
+        104.96596,
+        26.69426,
+        15.03404
+      ]
+    }
+  ]
+}

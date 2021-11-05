@@ -1,0 +1,84 @@
+{
+  "modified": "Fri Aug 20 2021 14:04:22 GMT+0800 (中国标准时间)",
+  "width": 48,
+  "height": 74,
+  "comps": [
+    {
+      "type": "shape",
+      "background": "#3C6DB5",
+      "pixelPerfect": true,
+      "points": [
+        4,
+        4,
+        44,
+        4,
+        44,
+        70,
+        4,
+        70,
+        4,
+        4
+      ],
+      "segments": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        5
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 2,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "points": [
+        43,
+        5,
+        43,
+        69,
+        5,
+        69,
+        5,
+        5,
+        43,
+        5
+      ],
+      "segments": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        5
+      ]
+    },
+    {
+      "type": "text",
+      "text": "泵",
+      "color": "rgb(255,255,255)",
+      "font": "20px SourceHanSansCN-Medium, \"Source Han Sans CN\"",
+      "pixelPerfect": true,
+      "rect": [
+        14,
+        24.96337,
+        0.01,
+        0.01
+      ]
+    },
+    {
+      "type": "text",
+      "text": "房",
+      "color": "rgb(255,255,255)",
+      "font": "20px SourceHanSansCN-Medium, \"Source Han Sans CN\"",
+      "pixelPerfect": true,
+      "rect": [
+        13.99,
+        52.42841,
+        0.01,
+        0.01
+      ]
+    }
+  ]
+}

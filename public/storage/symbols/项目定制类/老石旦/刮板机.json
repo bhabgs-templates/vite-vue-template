@@ -1,0 +1,153 @@
+{
+  "modified": "Wed Oct 20 2021 10:26:39 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "gbj.tc",
+      "valueType": "String"
+    },
+    {
+      "attr": "gbj.mc",
+      "valueType": "String"
+    },
+    {
+      "attr": "gbj.v",
+      "valueType": "String"
+    },
+    {
+      "attr": "start.tc",
+      "valueType": "String",
+      "group": "启动"
+    },
+    {
+      "attr": "start.mc",
+      "valueType": "String",
+      "defaultValue": "START_BELT_M_CHO ",
+      "group": "启动"
+    },
+    {
+      "attr": "start.v",
+      "valueType": "String",
+      "group": "启动"
+    },
+    {
+      "attr": "stop.tc",
+      "valueType": "String",
+      "group": "停止"
+    },
+    {
+      "attr": "stop.mc",
+      "valueType": "String",
+      "defaultValue": "STOP_BELT_M_CHO",
+      "group": "停止"
+    },
+    {
+      "attr": "stop.v",
+      "valueType": "String",
+      "group": "停止"
+    },
+    {
+      "attr": "display",
+      "valueType": "String",
+      "defaultValue": "0"
+    }
+  ],
+  "width": 114,
+  "height": 32,
+  "comps": [
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@tc",
+        "value": "201"
+      },
+      "align": "center",
+      "color": "rgb(0,0,0)",
+      "font": "bold 14px sans-serif, Arial",
+      "prefix": "gbj",
+      "rect": [
+        1.97697,
+        1.40493,
+        28.97669,
+        16.50721
+      ]
+    },
+    {
+      "type": "image",
+      "name": {
+        "func": "__ht__function(data, view) {\nconst v = data.ca('gbj.v');\r\nconst v1 = 'symbols/素材库/设备/刮板.json'; //正常\r\nconst v2 = 'symbols/素材库/设备/刮板_g.json'; // 故障\r\nconst v3 = 'symbols/素材库/设备/刮板_r.json'; // 故障\r\nlet color = v1;\r\nif (v === '2' || v === '8') color = v2;\r\nif (v === '4' || v === '20') color = v3;\r\nreturn color;\n}",
+        "value": "symbols/素材库/设备/刮板.json"
+      },
+      "displayName": "刮板",
+      "rect": [
+        0,
+        14.28445,
+        114,
+        18.84276
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nlet v = data.ca('display');\r\n\r\nreturn v==0 ? \"\" : \"启动模式：\";\n}",
+        "value": "启动模式："
+      },
+      "font": " 14px sans-serif, Arial",
+      "rect": [
+        -1.9793,
+        39.60766,
+        50,
+        13.60215
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nlet v = data.ca('display');\r\n\r\nreturn v==0 ? \"\" : \"停止模式：\";\n}",
+        "value": "停止模式："
+      },
+      "font": " 14px sans-serif, Arial",
+      "rect": [
+        -1.9793,
+        60.22575,
+        50,
+        13.60215
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nconst v = data.ca('start.v');\r\nconst v0 = data.ca('display');\r\nconst v1 = '智能'; //正常\r\nconst v2 = '手动';// 待机\r\nlet state = \"\";\r\nif (v0 === '1') state = \"暂无数据\";\r\nif (v === '0') state = v2;\r\nif (v === '1') state = v1;\r\nreturn state;\n}",
+        "value": "文本"
+      },
+      "color": {
+        "func": "__ht__function(data, view) {\nconst v = data.ca('start.v');\r\nconst v1 = '#f59a23'; //手动\r\nconst v2 = '#0000ff';// 智能\r\nconst v3= '#999';// 未获取到数据\r\nlet color = v3;\r\nif (v === '0') color = v1;\r\nif (v === '1') color = v2;\r\nreturn color;\n}",
+        "value": "#000"
+      },
+      "font": "16px arial, sans-serif",
+      "rect": [
+        65.9793,
+        39.60766,
+        50,
+        13.60215
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nconst v = data.ca('stop.v');\r\nconst v0 = data.ca('display');\r\nconst v1 = '智能'; //正常\r\nconst v2 = '手动';// 待机\r\nlet state = \"\";\r\nif (v0 === '1') state = \"暂无数据\";\r\nif (v === '0') state = v2;\r\nif (v === '1') state = v1;\r\nreturn state;\n}",
+        "value": "文本"
+      },
+      "color": {
+        "func": "__ht__function(data, view) {\nconst v = data.ca('stop.v');\r\nconst v1 = '#f59a23'; //手动\r\nconst v2 = '#0000ff';// 智能\r\nconst v3= '#999';// 未获取到数据\r\nlet color = v3;\r\nif (v === '0') color = v1;\r\nif (v === '1') color = v2;\r\nreturn color;\n}",
+        "value": "#000"
+      },
+      "font": "16px arial, sans-serif",
+      "rect": [
+        65.9793,
+        60.22575,
+        50,
+        13.60215
+      ]
+    }
+  ]
+}

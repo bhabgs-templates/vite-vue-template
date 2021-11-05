@@ -1,0 +1,98 @@
+{
+  "modified": "Fri Aug 20 2021 14:02:55 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "width",
+      "valueType": "Int"
+    },
+    {
+      "attr": "jd",
+      "valueType": "PositiveNumber",
+      "name": "当前线段弯折角度",
+      "description": "当前线段弯折角度"
+    },
+    {
+      "attr": "jl",
+      "valueType": "Number",
+      "name": "每个线段之间的距离",
+      "description": "每个线段之间的距离"
+    },
+    {
+      "attr": "title",
+      "valueType": "String"
+    },
+    {
+      "attr": "height",
+      "valueType": "PositiveNumber"
+    },
+    {
+      "attr": "a_direction",
+      "valueType": "Boolean",
+      "name": "流动方向",
+      "description": "流动方向"
+    },
+    {
+      "attr": "bk.v",
+      "valueType": "String",
+      "name": "bk.v"
+    },
+    {
+      "attr": "bk.tc",
+      "valueType": "String",
+      "name": "bk.tc"
+    },
+    {
+      "attr": "bk.mc",
+      "valueType": "String",
+      "name": "bk.mc"
+    }
+  ],
+  "width": {
+    "func": "attr@width",
+    "value": 100
+  },
+  "height": {
+    "func": "attr@height",
+    "value": 20
+  },
+  "comps": [
+    {
+      "type": "components/工厂组件/皮带栈桥.json",
+      "displayName": "皮带栈桥",
+      "rect": [
+        0,
+        0,
+        100,
+        20
+      ],
+      "a_direction": {
+        "func": "attr@a_direction",
+        "value": true
+      },
+      "bColor": {
+        "func": "attr@bk.v",
+        "value": "#89F311"
+      },
+      "width": {
+        "func": "attr@width",
+        "value": 100
+      },
+      "jd": {
+        "func": "attr@jd",
+        "value": 3
+      },
+      "jl": {
+        "func": "attr@jl",
+        "value": 6
+      },
+      "title": {
+        "func": "attr@title",
+        "value": "title"
+      },
+      "height": {
+        "func": "attr@height",
+        "value": 20
+      }
+    }
+  ]
+}

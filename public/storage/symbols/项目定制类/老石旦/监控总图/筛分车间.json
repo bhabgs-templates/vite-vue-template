@@ -1,0 +1,91 @@
+{
+  "modified": "Mon Oct 11 2021 11:32:44 GMT+0800 (中国标准时间)",
+  "width": 275,
+  "height": 115,
+  "comps": [
+    {
+      "type": "rect",
+      "background": "rgb(42,48,163)",
+      "borderColor": "#979797",
+      "selectable": false,
+      "movable": false,
+      "editable": false,
+      "rect": [
+        8.00167,
+        4.80413,
+        228.99666,
+        80.4691
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgb(42,48,163)",
+      "borderColor": "#979797",
+      "selectable": false,
+      "movable": false,
+      "editable": false,
+      "rect": [
+        8.00167,
+        82.07048,
+        195.37298,
+        26.62372
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/项目定制类/老石旦/监控总图/装饰元素.json",
+      "displayName": "装饰元素",
+      "rect": [
+        35.72854,
+        0,
+        44.15748,
+        153.68905
+      ]
+    },
+    {
+      "type": "text",
+      "text": "筛分车间",
+      "color": "rgb(255,255,255)",
+      "font": "bold 28px sans-serif, Arial",
+      "rect": [
+        62.94587,
+        26.84452,
+        123.48458,
+        50
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/项目定制类/老石旦/箭头.json",
+      "displayName": "箭头",
+      "rect": [
+        253,
+        88.6942,
+        22,
+        20
+      ]
+    },
+    {
+      "type": "text",
+      "text": "至原煤厂",
+      "color": "#B6CBF5",
+      "rect": [
+        203.37465,
+        73.6942,
+        50,
+        50
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/项目定制类/老石旦/退出.json",
+      "displayName": "退出",
+      "rect": [
+        16.72854,
+        84.38234,
+        19,
+        22
+      ]
+    }
+  ]
+}

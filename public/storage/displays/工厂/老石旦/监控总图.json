@@ -1,0 +1,2038 @@
+{
+  "v": "7.2.4",
+  "p": {
+    "background": "#1A1A56",
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "fitContent": true
+  },
+  "d": [
+    {
+      "c": "ht.Data",
+      "i": 3063,
+      "p": {
+        "displayName": "原煤系统"
+      },
+      "s": {
+        "editor.folder": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 3064,
+      "p": {
+        "displayName": "原煤系统",
+        "parent": {
+          "__i": 3063
+        },
+        "image": "symbols/项目定制类/老石旦/监控总图/原煤系统.json",
+        "position": {
+          "x": 168.0371,
+          "y": 191.03494
+        }
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 3065,
+      "p": {
+        "displayName": "原煤仓",
+        "parent": {
+          "__i": 3063
+        },
+        "image": "symbols/项目定制类/老石旦/监控总图/原煤仓.json",
+        "position": {
+          "x": -71.07672,
+          "y": 74.97689
+        }
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 3066,
+      "p": {
+        "displayName": "矿井",
+        "parent": {
+          "__i": 3063
+        },
+        "image": "symbols/项目定制类/老石旦/监控总图/矿井.json",
+        "position": {
+          "x": -57.07672,
+          "y": 292.99754
+        }
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 3067,
+      "p": {
+        "displayName": "筛分车间",
+        "parent": {
+          "__i": 3063
+        },
+        "image": "symbols/项目定制类/老石旦/监控总图/筛分车间.json",
+        "position": {
+          "x": 326.97613,
+          "y": 74.97689
+        }
+      }
+    },
+    {
+      "c": "ht.Data",
+      "i": 3068,
+      "p": {
+        "displayName": "连线",
+        "parent": {
+          "__i": 3063
+        }
+      },
+      "s": {
+        "editor.folder": true,
+        "edge.dash.color": null,
+        "edge.color": "rgb(150,192,255)"
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 3069,
+      "p": {
+        "parent": {
+          "__i": 3068
+        },
+        "source": {
+          "__i": 3065
+        },
+        "target": {
+          "__i": 3067
+        }
+      },
+      "s": {
+        "edge.color": "rgb(150,192,255)",
+        "edge.dash": true,
+        "edge.dash.color": "#1A1A56",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 1.02107,
+        "edge.source.anchor.y": 0.5,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0,
+        "edge.target.anchor.y": 0.5,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 3070,
+      "p": {
+        "parent": {
+          "__i": 3068
+        },
+        "source": {
+          "__i": 3066
+        },
+        "target": {
+          "__i": 3065
+        }
+      },
+      "s": {
+        "edge.color": "rgb(150,192,255)",
+        "edge.dash": true,
+        "edge.dash.color": "#1A1A56",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 0.39761,
+        "edge.source.anchor.y": -0.03664,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.5,
+        "edge.target.anchor.y": 1,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Data",
+      "i": 3071,
+      "p": {
+        "displayName": "原煤场"
+      },
+      "s": {
+        "editor.folder": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 3072,
+      "p": {
+        "displayName": "原煤厂",
+        "parent": {
+          "__i": 3071
+        },
+        "image": "symbols/项目定制类/老石旦/监控总图/原煤厂.json",
+        "position": {
+          "x": 812.27018,
+          "y": 137.03494
+        }
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 3073,
+      "p": {
+        "parent": {
+          "__i": 3071
+        },
+        "position": {
+          "x": 879.77018,
+          "y": 33.97689
+        }
+      },
+      "s": {
+        "text": "原煤场",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "bold 28px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 3074,
+      "p": {
+        "parent": {
+          "__i": 3071
+        },
+        "position": {
+          "x": 803.77018,
+          "y": 34.47689
+        },
+        "width": 17,
+        "height": 17
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "#839EEF",
+        "shape.border.color": "#979797"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 3075,
+      "p": {
+        "displayName": "节点",
+        "parent": {
+          "__i": 3071
+        },
+        "position": {
+          "x": 803.77018,
+          "y": 200.53494
+        },
+        "width": 17,
+        "height": 17,
+        "tall": 20
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "#839EEF",
+        "shape.border.color": "#979797"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 3076,
+      "p": {
+        "displayName": "箭头",
+        "parent": {
+          "__i": 3071
+        },
+        "image": "symbols/项目定制类/老石旦/箭头.json",
+        "position": {
+          "x": 784.27018,
+          "y": 58.97689
+        }
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 3077,
+      "p": {
+        "parent": {
+          "__i": 3071
+        },
+        "position": {
+          "x": 741.49851,
+          "y": 58.97689
+        },
+        "width": 63.54334,
+        "height": 27.24344
+      },
+      "s": {
+        "text": "自筛分车间",
+        "text.color": "#B6CBF5"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 3078,
+      "p": {
+        "displayName": "节点",
+        "parent": {
+          "__i": 3071
+        },
+        "position": {
+          "x": 803.77018,
+          "y": 373.53494
+        },
+        "width": 17,
+        "height": 17,
+        "tall": 20
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "#839EEF",
+        "shape.border.color": "#979797"
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 3079,
+      "p": {
+        "parent": {
+          "__i": 3071
+        },
+        "source": {
+          "__i": 3075
+        },
+        "target": {
+          "__i": 3074
+        }
+      },
+      "s": {
+        "edge.color": "rgb(150,192,255)",
+        "edge.dash": true,
+        "edge.dash.color": "#1A1A56",
+        "edge.type": "boundary"
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 3080,
+      "p": {
+        "parent": {
+          "__i": 3071
+        },
+        "source": {
+          "__i": 3078
+        },
+        "target": {
+          "__i": 3075
+        }
+      },
+      "s": {
+        "edge.color": "rgb(150,192,255)",
+        "edge.dash": true,
+        "edge.dash.color": "#1A1A56",
+        "edge.type": "boundary",
+        "label.color": null
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 3081,
+      "p": {
+        "displayName": "verticalTextBox",
+        "parent": {
+          "__i": 3071
+        },
+        "image": "symbols/ht/text/verticalTextBox.json",
+        "position": {
+          "x": 787.27018,
+          "y": 164.03517
+        },
+        "width": 23.19689,
+        "height": 119.09372
+      },
+      "a": {
+        "ht.content": "原煤收集皮带",
+        "ht.font": "12px sans-serif, Arial",
+        "ht.color": "#B6CBF5",
+        "ht.borderColor": null,
+        "ht.borderWidth": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 3082,
+      "p": {
+        "displayName": "verticalTextBox",
+        "parent": {
+          "__i": 3071
+        },
+        "image": "symbols/ht/text/verticalTextBox.json",
+        "position": {
+          "x": 787.27018,
+          "y": 293.99754
+        },
+        "width": 23.19689,
+        "height": 119.09372,
+        "tall": 20
+      },
+      "a": {
+        "ht.content": "原煤转载皮带",
+        "ht.font": "12px sans-serif, Arial",
+        "ht.color": "#B6CBF5",
+        "ht.borderColor": null,
+        "ht.borderWidth": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 3083,
+      "p": {
+        "displayName": "节点",
+        "position": {
+          "x": 1133.69973,
+          "y": 318.93306
+        },
+        "width": 17,
+        "height": 17,
+        "tall": 20
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "#839EEF",
+        "shape.border.color": "#979797"
+      }
+    },
+    {
+      "c": "ht.Data",
+      "i": 3084,
+      "p": {
+        "displayName": "混煤场"
+      },
+      "s": {
+        "editor.folder": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 3085,
+      "p": {
+        "displayName": "混煤场",
+        "parent": {
+          "__i": 3084
+        },
+        "image": "symbols/项目定制类/老石旦/监控总图/原煤仓.json",
+        "position": {
+          "x": 1065.69973,
+          "y": 25.03483
+        }
+      },
+      "a": {
+        "name": "混煤场"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 3086,
+      "p": {
+        "displayName": "节点",
+        "parent": {
+          "__i": 3084
+        },
+        "position": {
+          "x": 1065.69973,
+          "y": 267.20016
+        },
+        "width": 17,
+        "height": 17,
+        "tall": 20
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "#839EEF",
+        "shape.border.color": "#979797"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 3087,
+      "p": {
+        "displayName": "节点",
+        "parent": {
+          "__i": 3084
+        },
+        "position": {
+          "x": 1065.69973,
+          "y": 426.99754
+        },
+        "width": 17,
+        "height": 17,
+        "tall": 20
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "#839EEF",
+        "shape.border.color": "#979797"
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 3088,
+      "p": {
+        "parent": {
+          "__i": 3084
+        },
+        "source": {
+          "__i": 3087
+        },
+        "target": {
+          "__i": 3086
+        }
+      },
+      "s": {
+        "edge.color": "rgb(150,192,255)",
+        "edge.dash": true,
+        "edge.dash.color": "#1A1A56",
+        "edge.type": "boundary"
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 3089,
+      "p": {
+        "displayName": "连线",
+        "parent": {
+          "__i": 3084
+        },
+        "source": {
+          "__i": 3086
+        },
+        "target": {
+          "__i": 3085
+        }
+      },
+      "s": {
+        "edge.color": "rgb(150,192,255)",
+        "edge.dash": true,
+        "edge.dash.color": "#1A1A56",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 0.5,
+        "edge.source.anchor.y": 0,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.5,
+        "edge.target.anchor.y": 0.93139,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0,
+        "label": "中煤卸料皮带",
+        "label.color": "rgb(255,255,255)",
+        "label.position": 42
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 3090,
+      "p": {
+        "displayName": "清水池",
+        "image": "symbols/项目定制类/老石旦/监控总图/清水池.json",
+        "position": {
+          "x": 1225.184,
+          "y": 32.53517
+        }
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 3091,
+      "p": {
+        "displayName": "清水池",
+        "image": "symbols/项目定制类/老石旦/监控总图/清水池.json",
+        "position": {
+          "x": 1225.184,
+          "y": 128.03517
+        },
+        "width": 100,
+        "height": 72,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 3092,
+      "p": {
+        "displayName": "浓缩机-theme-1",
+        "image": "symbols/项目定制类/老石旦/监控总图/浓缩机-theme-1.json",
+        "position": {
+          "x": 1510.09939,
+          "y": 25.97689
+        }
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 3093,
+      "p": {
+        "displayName": "浓缩机-theme-1",
+        "image": "symbols/项目定制类/老石旦/监控总图/浓缩机-theme-1.json",
+        "position": {
+          "x": 1709.97156,
+          "y": 25.97689
+        },
+        "width": 158,
+        "height": 162,
+        "tall": 20
+      },
+      "a": {
+        "tc": "602"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 3094,
+      "p": {
+        "displayName": "清水泵房",
+        "image": "symbols/项目定制类/老石旦/监控总图/清水泵房.json",
+        "position": {
+          "x": 1344.53382,
+          "y": 80.03494
+        }
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 3095,
+      "p": {
+        "displayName": "主厂房",
+        "image": "symbols/项目定制类/老石旦/监控总图/主厂房.json",
+        "position": {
+          "x": 1628.97156,
+          "y": 343.49754
+        }
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 3096,
+      "p": {
+        "source": {
+          "__i": 3086
+        },
+        "target": {
+          "__i": 3095
+        }
+      },
+      "s": {
+        "edge.color": "rgb(150,192,255)",
+        "edge.dash": true,
+        "edge.dash.color": "#1A1A56",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 1.13795,
+        "edge.source.anchor.y": 0.51909,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": -0.03706,
+        "edge.target.anchor.y": 0.08507,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0,
+        "label": "尾煤泥出厂皮带",
+        "label.color": "#B6CBF5",
+        "label.position": 4
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 3097,
+      "p": {
+        "source": {
+          "__i": 3095
+        },
+        "target": {
+          "__i": 3083
+        }
+      },
+      "s": {
+        "edge.color": "rgb(150,192,255)",
+        "edge.dash": true,
+        "edge.dash.color": "#1A1A56",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 1.11953,
+        "edge.target.anchor.y": 0.56644,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0,
+        "edge.source.percent": 0.04875,
+        "edge.source.anchor.x": -0.03485,
+        "edge.source.anchor.y": 0.38065,
+        "label": "精煤出厂皮带",
+        "label.color": "#B6CBF5",
+        "label.position": 10
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 3098,
+      "p": {
+        "source": {
+          "__i": 3078
+        },
+        "target": {
+          "__i": 3095
+        }
+      },
+      "s": {
+        "edge.color": "rgb(150,192,255)",
+        "edge.dash": true,
+        "edge.dash.color": "#1A1A56",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 1.35266,
+        "edge.source.anchor.y": 0.58671,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0,
+        "edge.target.percent": 0.20875,
+        "edge.target.anchor.x": -0.03265,
+        "edge.target.anchor.y": 0.66175,
+        "label": "原煤入洗皮带",
+        "label.color": "#B6CBF5",
+        "label.position": 4
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 3099,
+      "p": {
+        "source": {
+          "__i": 3095
+        },
+        "target": {
+          "__i": 3087
+        }
+      },
+      "s": {
+        "edge.color": "rgb(150,192,255)",
+        "edge.dash": true,
+        "edge.dash.color": "#1A1A56",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": -0.03485,
+        "edge.source.anchor.y": 0.93892,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 1.44007,
+        "edge.target.anchor.y": 0.5,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0,
+        "label": "中煤出厂皮带",
+        "label.position": 10,
+        "label.color": "#B6CBF5"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 3100,
+      "p": {
+        "displayName": "泵房",
+        "image": "symbols/项目定制类/老石旦/监控总图/泵房.json",
+        "position": {
+          "x": 1709.97156,
+          "y": 192.03494
+        }
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 3101,
+      "p": {
+        "position": {
+          "x": 1532.59939,
+          "y": 215.53494
+        },
+        "width": 113,
+        "height": 30
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgb(38,58,171)",
+        "shape.border.color": "#979797",
+        "opacity": 1,
+        "label": "介质库",
+        "label.position": "17",
+        "label.font": "bold 24px sans-serif, Arial",
+        "label.color": "rgb(255,255,255)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 3102,
+      "p": {
+        "displayName": "svg-component",
+        "image": "symbols/html/svg-component.json",
+        "position": {
+          "x": 1691.47156,
+          "y": 822.35649
+        },
+        "width": 168,
+        "height": 350
+      },
+      "a": {
+        "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"168px\" height=\"349px\" viewBox=\"0 0 168 349\" version=\"1.1\">     <title>编组</title>     <defs>         <polygon id=\"path-1\" points=\"32 0 31.7675298 192.339011 0 210 0.231934517 17.6615017\"/>         <linearGradient x1=\"49.903569%\" y1=\"71.4298906%\" x2=\"50.2264319%\" y2=\"-0.324761426%\" id=\"linearGradient-3\">             <stop stop-color=\"#0E21A8\" offset=\"0%\"/>             <stop stop-color=\"#3880E4\" offset=\"100%\"/>         </linearGradient>         <polygon id=\"path-4\" points=\"32 17.660563 31.7695544 210 0 192.339437 0.230977764 0\"/>         <linearGradient x1=\"46.2106199%\" y1=\"30.1143293%\" x2=\"53.3271573%\" y2=\"67.4600227%\" id=\"linearGradient-6\">             <stop stop-color=\"#00BAC6\" offset=\"0%\"/>             <stop stop-color=\"#1F287C\" offset=\"100%\"/>         </linearGradient>         <polygon id=\"path-7\" points=\"30.4013244 0 0 18.0002611 30.5986756 36 61 17.9997389\"/>         <linearGradient x1=\"-7.4369123e-05%\" y1=\"49.9997238%\" x2=\"100.000053%\" y2=\"49.9997238%\" id=\"linearGradient-9\">             <stop stop-color=\"#72EFFF\" offset=\"0%\"/>             <stop stop-color=\"#3A83FF\" offset=\"100%\"/>         </linearGradient>         <polygon id=\"path-10\" points=\"32 0 31.7675649 192.339288 0 210 0.232435146 17.6612242\"/>         <linearGradient x1=\"49.9035774%\" y1=\"71.4299667%\" x2=\"50.2264354%\" y2=\"-0.324933368%\" id=\"linearGradient-12\">             <stop stop-color=\"#0E21A8\" offset=\"0%\"/>             <stop stop-color=\"#3880E4\" offset=\"100%\"/>         </linearGradient>         <polygon id=\"path-13\" points=\"32 17.6602857 31.769053 210 0 192.339714 0.230947036 0\"/>         <linearGradient x1=\"46.2105977%\" y1=\"30.1142496%\" x2=\"53.3271505%\" y2=\"67.4600709%\" id=\"linearGradient-15\">             <stop stop-color=\"#4F82F4\" offset=\"0%\"/>             <stop stop-color=\"#2421D3\" offset=\"100%\"/>         </linearGradient>         <polygon id=\"path-16\" points=\"62 17.9997389 31.1002798 36 0 18.0007833 30.8991993 0\"/>         <linearGradient x1=\"-0.000390364402%\" y1=\"50.0001189%\" x2=\"99.9998069%\" y2=\"50.0001189%\" id=\"linearGradient-18\">             <stop stop-color=\"#72EFFF\" offset=\"0%\"/>             <stop stop-color=\"#3A83FF\" offset=\"100%\"/>         </linearGradient>         <polygon id=\"path-19\" points=\"32 0 31.7675649 192.338776 0 210 0.232435146 17.6612242\"/>         <linearGradient x1=\"49.9035894%\" y1=\"71.4299089%\" x2=\"50.2264474%\" y2=\"-0.324991217%\" id=\"linearGradient-21\">             <stop stop-color=\"#0E21A8\" offset=\"0%\"/>             <stop stop-color=\"#3880E4\" offset=\"100%\"/>         </linearGradient>         <polygon id=\"path-22\" points=\"32 17.6607549 31.769053 210 0 192.339757 0.230947036 0\"/>         <linearGradient x1=\"46.2106098%\" y1=\"30.1143697%\" x2=\"53.3271626%\" y2=\"67.4600999%\" id=\"linearGradient-24\">             <stop stop-color=\"#4F82F4\" offset=\"0%\"/>             <stop stop-color=\"#2421D3\" offset=\"100%\"/>         </linearGradient>         <polygon id=\"path-25\" points=\"62 17.9997389 31.1002798 36 0 18.0002611 30.8991993 0\"/>         <linearGradient x1=\"-0.000128385021%\" y1=\"49.9998194%\" x2=\"100.000069%\" y2=\"49.9998194%\" id=\"linearGradient-27\">             <stop stop-color=\"#72EFFF\" offset=\"0%\"/>             <stop stop-color=\"#3A83FF\" offset=\"100%\"/>         </linearGradient>         <polygon id=\"path-28\" points=\"0.232435146 17.6611811 0 210 31.7670293 192.338307 32 0\"/>         <linearGradient x1=\"49.9035733%\" y1=\"71.4298427%\" x2=\"50.2264313%\" y2=\"-0.324882339%\" id=\"linearGradient-30\">             <stop stop-color=\"#0E21A8\" offset=\"0%\"/>             <stop stop-color=\"#3880E4\" offset=\"100%\"/>         </linearGradient>         <polygon id=\"path-31\" points=\"0 192.339288 31.7690568 210 32 17.6607118 0.231475323 0\"/>         <linearGradient x1=\"46.2106758%\" y1=\"30.1144006%\" x2=\"53.3271103%\" y2=\"67.4600396%\" id=\"linearGradient-33\">             <stop stop-color=\"#4F82F4\" offset=\"0%\"/>             <stop stop-color=\"#2421D3\" offset=\"100%\"/>         </linearGradient>         <polygon id=\"path-34\" points=\"62 17.9994778 31.1005394 36 0 18.0005222 30.8994606 0\"/>         <linearGradient x1=\"0.000355912551%\" y1=\"49.9997588%\" x2=\"99.999713%\" y2=\"49.9997588%\" id=\"linearGradient-36\">             <stop stop-color=\"#5BB8FD\" offset=\"0%\"/>             <stop stop-color=\"#466EFB\" offset=\"100%\"/>         </linearGradient>     </defs>     <g id=\"老石旦\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\" opacity=\"0.5390625\">         <g transform=\"translate(-1705.000000, -731.000000)\" id=\"编组-46\">             <g transform=\"translate(1705.000000, 731.000000)\" id=\"编组\">                 <g transform=\"translate(100.000000, 18.000000)\">                     <mask id=\"mask-2\" fill=\"white\">                         <use xlink:href=\"#path-1\"/>                     </mask>                     <g id=\"Clip-2\"/>                     <polygon id=\"Fill-1\" fill=\"url(#linearGradient-3)\" mask=\"url(#mask-2)\" points=\"32 0 31.7675298 192.339011 0 210 0.231934517 17.6615017\"/>                 </g>                 <g transform=\"translate(71.000000, 18.000000)\">                     <mask id=\"mask-5\" fill=\"white\">                         <use xlink:href=\"#path-4\"/>                     </mask>                     <g id=\"Clip-4\"/>                     <polygon id=\"Fill-3\" fill=\"url(#linearGradient-6)\" mask=\"url(#mask-5)\" points=\"32 17.660563 31.7695544 210 0 192.339437 0.230977764 0\"/>                 </g>                 <g transform=\"translate(71.000000, 0.000000)\">                     <mask id=\"mask-8\" fill=\"white\">                         <use xlink:href=\"#path-7\"/>                     </mask>                     <g id=\"Clip-6\"/>                     <polygon id=\"Fill-5\" fill=\"url(#linearGradient-9)\" mask=\"url(#mask-8)\" points=\"30.4013244 0 0 18.0002611 30.5986756 36 61 17.9997389\"/>                 </g>                 <g transform=\"translate(60.000000, 77.000000)\">                     <mask id=\"mask-11\" fill=\"white\">                         <use xlink:href=\"#path-10\"/>                     </mask>                     <g id=\"Clip-8\"/>                     <polygon id=\"Fill-7\" fill=\"url(#linearGradient-12)\" mask=\"url(#mask-11)\" points=\"32 0 31.7675649 192.339288 0 210 0.232435146 17.6612242\"/>                 </g>                 <g transform=\"translate(30.000000, 77.000000)\">                     <mask id=\"mask-14\" fill=\"white\">                         <use xlink:href=\"#path-13\"/>                     </mask>                     <g id=\"Clip-10\"/>                     <polygon id=\"Fill-9\" fill=\"url(#linearGradient-15)\" mask=\"url(#mask-14)\" points=\"32 17.6602857 31.769053 210 0 192.339714 0.230947036 0\"/>                 </g>                 <g transform=\"translate(30.000000, 59.000000)\">                     <mask id=\"mask-17\" fill=\"white\">                         <use xlink:href=\"#path-16\"/>                     </mask>                     <g id=\"Clip-12\"/>                     <polygon id=\"Fill-11\" fill=\"url(#linearGradient-18)\" mask=\"url(#mask-17)\" points=\"62 17.9997389 31.1002798 36 0 18.0007833 30.8991993 0\"/>                 </g>                 <polygon id=\"Fill-13\" fill=\"#0B194F\" points=\"0 348.000783 30.0975491 366 60 347.999217 29.9024509 330\"/>                 <g transform=\"translate(32.000000, 151.000000)\">                     <mask id=\"mask-20\" fill=\"white\">                         <use xlink:href=\"#path-19\"/>                     </mask>                     <g id=\"Clip-15\"/>                     <polygon id=\"Fill-14\" fill=\"url(#linearGradient-21)\" mask=\"url(#mask-20)\" points=\"32 0 31.7675649 192.338776 0 210 0.232435146 17.6612242\"/>                 </g>                 <g transform=\"translate(2.000000, 151.000000)\">                     <mask id=\"mask-23\" fill=\"white\">                         <use xlink:href=\"#path-22\"/>                     </mask>                     <g id=\"Clip-17\"/>                     <polygon id=\"Fill-16\" fill=\"url(#linearGradient-24)\" mask=\"url(#mask-23)\" points=\"32 17.6607549 31.769053 210 0 192.339757 0.230947036 0\"/>                 </g>                 <g transform=\"translate(2.000000, 133.000000)\">                     <mask id=\"mask-26\" fill=\"white\">                         <use xlink:href=\"#path-25\"/>                     </mask>                     <g id=\"Clip-19\"/>                     <polygon id=\"Fill-18\" fill=\"url(#linearGradient-27)\" mask=\"url(#mask-26)\" points=\"62 17.9997389 31.1002798 36 0 18.0002611 30.8991993 0\"/>                 </g>                 <polygon id=\"Fill-20\" fill=\"#0B194F\" points=\"14 365.001028 91.2503945 410 168 364.998972 90.7506244 320\"/>                 <g transform=\"translate(62.000000, 227.000000)\">                     <mask id=\"mask-29\" fill=\"white\">                         <use xlink:href=\"#path-28\"/>                     </mask>                     <g id=\"Clip-22\"/>                     <polygon id=\"Fill-21\" fill=\"url(#linearGradient-30)\" mask=\"url(#mask-29)\" points=\"0.374890594 18.523687 0.143497758 210 31.768074 192.417507 32 0.941704036\"/>                 </g>                 <g transform=\"translate(32.000000, 227.000000)\">                     <mask id=\"mask-32\" fill=\"white\">                         <use xlink:href=\"#path-31\"/>                     </mask>                     <g id=\"Clip-24\"/>                     <polygon id=\"Fill-23\" fill=\"url(#linearGradient-33)\" mask=\"url(#mask-32)\" points=\"0.278554471 192.418484 31.9051491 210 32.1350567 18.5232199 0.508991788 0.941704036\"/>                 </g>                 <g transform=\"translate(32.000000, 210.000000)\">                     <mask id=\"mask-35\" fill=\"white\">                         <use xlink:href=\"#path-34\"/>                     </mask>                     <g id=\"Clip-26\"/>                     <polygon id=\"Fill-25\" fill=\"url(#linearGradient-36)\" mask=\"url(#mask-35)\" points=\"62 17.9994778 31.1005394 36 0 18.0005222 30.8994606 0\"/>                 </g>             </g>         </g>     </g> </svg>",
+        "background": null
+      }
+    },
+    {
+      "c": "ht.Data",
+      "i": 3103,
+      "p": {
+        "displayName": "火车"
+      },
+      "s": {
+        "editor.folder": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 3104,
+      "p": {
+        "displayName": "轨道",
+        "parent": {
+          "__i": 3103
+        },
+        "image": "symbols/项目定制类/老石旦/监控总图/轨道.json",
+        "position": {
+          "x": 1208.77018,
+          "y": 617.62708
+        }
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 3105,
+      "p": {
+        "displayName": "轨道",
+        "parent": {
+          "__i": 3103
+        },
+        "image": "symbols/项目定制类/老石旦/监控总图/轨道.json",
+        "position": {
+          "x": 1208.77018,
+          "y": 644.35649
+        },
+        "width": 793,
+        "height": 8,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 3106,
+      "p": {
+        "parent": {
+          "__i": 3103
+        },
+        "position": {
+          "x": 845.74249,
+          "y": 617.62708
+        },
+        "width": 26.14385,
+        "height": 15.37285
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "#D8D8D8",
+        "shape.border.color": "#979797",
+        "shape.foreground": "rgb(255,255,255)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 3107,
+      "p": {
+        "parent": {
+          "__i": 3103
+        },
+        "position": {
+          "x": 878.2002,
+          "y": 617.62708
+        },
+        "width": 26.14385,
+        "height": 15.37285,
+        "tall": 20
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "#D8D8D8",
+        "shape.border.color": "#979797",
+        "shape.foreground": "rgb(255,255,255)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 3108,
+      "p": {
+        "parent": {
+          "__i": 3103
+        },
+        "position": {
+          "x": 910.6579,
+          "y": 617.62708
+        },
+        "width": 26.14385,
+        "height": 15.37285,
+        "tall": 20
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "#D8D8D8",
+        "shape.border.color": "#979797",
+        "shape.foreground": "rgb(255,255,255)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 3109,
+      "p": {
+        "parent": {
+          "__i": 3103
+        },
+        "position": {
+          "x": 943.11561,
+          "y": 617.62708
+        },
+        "width": 26.14385,
+        "height": 15.37285,
+        "tall": 20
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "#D8D8D8",
+        "shape.border.color": "#979797",
+        "shape.foreground": "rgb(255,255,255)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 3110,
+      "p": {
+        "displayName": "节点",
+        "parent": {
+          "__i": 3103
+        },
+        "position": {
+          "x": 975.57332,
+          "y": 617.62708
+        },
+        "width": 26.14385,
+        "height": 15.37285,
+        "tall": 20
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "#D8D8D8",
+        "shape.border.color": "#979797",
+        "shape.foreground": "rgb(255,255,255)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 3111,
+      "p": {
+        "parent": {
+          "__i": 3103
+        },
+        "position": {
+          "x": 1008.03103,
+          "y": 617.62708
+        },
+        "width": 26.14385,
+        "height": 15.37285,
+        "tall": 20
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "#D8D8D8",
+        "shape.border.color": "#979797",
+        "shape.foreground": "rgb(255,255,255)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 3112,
+      "p": {
+        "parent": {
+          "__i": 3103
+        },
+        "position": {
+          "x": 1040.48874,
+          "y": 617.62708
+        },
+        "width": 26.14385,
+        "height": 15.37285,
+        "tall": 20
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "#D8D8D8",
+        "shape.border.color": "#979797",
+        "shape.foreground": "rgb(255,255,255)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 3113,
+      "p": {
+        "parent": {
+          "__i": 3103
+        },
+        "position": {
+          "x": 1072.94644,
+          "y": 617.62708
+        },
+        "width": 26.14385,
+        "height": 15.37285,
+        "tall": 20
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "#D8D8D8",
+        "shape.border.color": "#979797",
+        "shape.foreground": "rgb(255,255,255)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 3114,
+      "p": {
+        "displayName": "节点",
+        "parent": {
+          "__i": 3103
+        },
+        "position": {
+          "x": 1105.40415,
+          "y": 617.62708
+        },
+        "width": 26.14385,
+        "height": 15.37285,
+        "tall": 20
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "#D8D8D8",
+        "shape.border.color": "#979797",
+        "shape.foreground": "rgb(255,255,255)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 3115,
+      "p": {
+        "parent": {
+          "__i": 3103
+        },
+        "position": {
+          "x": 1137.86186,
+          "y": 617.62708
+        },
+        "width": 26.14385,
+        "height": 15.37285,
+        "tall": 20
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "#D8D8D8",
+        "shape.border.color": "#979797",
+        "shape.foreground": "rgb(255,255,255)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 3116,
+      "p": {
+        "parent": {
+          "__i": 3103
+        },
+        "position": {
+          "x": 1170.31957,
+          "y": 617.62708
+        },
+        "width": 26.14385,
+        "height": 15.37285,
+        "tall": 20
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "#D8D8D8",
+        "shape.border.color": "#979797",
+        "shape.foreground": "rgb(255,255,255)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 3117,
+      "p": {
+        "parent": {
+          "__i": 3103
+        },
+        "position": {
+          "x": 1202.77727,
+          "y": 617.62708
+        },
+        "width": 26.14385,
+        "height": 15.37285,
+        "tall": 20
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "#D8D8D8",
+        "shape.border.color": "#979797",
+        "shape.foreground": "rgb(255,255,255)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 3118,
+      "p": {
+        "parent": {
+          "__i": 3103
+        },
+        "position": {
+          "x": 1235.23498,
+          "y": 617.62708
+        },
+        "width": 26.14385,
+        "height": 15.37285,
+        "tall": 20
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "#D8D8D8",
+        "shape.border.color": "#979797",
+        "shape.foreground": "rgb(255,255,255)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 3119,
+      "p": {
+        "parent": {
+          "__i": 3103
+        },
+        "position": {
+          "x": 1267.69269,
+          "y": 617.62708
+        },
+        "width": 26.14385,
+        "height": 15.37285,
+        "tall": 20
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "#D8D8D8",
+        "shape.border.color": "#979797",
+        "shape.foreground": "rgb(255,255,255)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 3120,
+      "p": {
+        "parent": {
+          "__i": 3103
+        },
+        "position": {
+          "x": 1297.96189,
+          "y": 617.62708
+        },
+        "width": 26.14385,
+        "height": 15.37285,
+        "tall": 20
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "#D8D8D8",
+        "shape.border.color": "#979797",
+        "shape.foreground": "#8E63FF"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 3121,
+      "p": {
+        "parent": {
+          "__i": 3103
+        },
+        "position": {
+          "x": 932.34561,
+          "y": 630.54283
+        },
+        "width": 69.51926,
+        "height": 67.68981
+      },
+      "s": {
+        "shape": "oval",
+        "shape.background": "#5E79D3",
+        "shape.border.color": "#979797"
+      }
+    },
+    {
+      "c": "ht.Data",
+      "i": 3122,
+      "p": {
+        "displayName": "双煤仓"
+      },
+      "s": {
+        "editor.folder": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 3123,
+      "p": {
+        "displayName": "煤仓",
+        "parent": {
+          "__i": 3122
+        },
+        "image": "symbols/项目定制类/老石旦/监控总图/煤仓.json",
+        "position": {
+          "x": 1053.56066,
+          "y": 875.99945
+        }
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 3124,
+      "p": {
+        "parent": {
+          "__i": 3122
+        },
+        "source": {
+          "__i": 3123
+        },
+        "target": {
+          "__i": 3121
+        }
+      },
+      "s": {
+        "edge.color": "rgb(150,192,255)",
+        "edge.dash": true,
+        "edge.dash.color": "#1A1A56",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 0.08553,
+        "edge.source.anchor.y": 0.25,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.5,
+        "edge.target.anchor.y": 1.05641,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 3125,
+      "p": {
+        "position": {
+          "x": 1420.70555,
+          "y": 856.28263
+        },
+        "width": 113,
+        "height": 70
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "#2B298B",
+        "shape.border.color": "#979797",
+        "label": "汽车仓",
+        "label.color": "rgb(255,255,255)",
+        "label.font": "28px arial, sans-serif",
+        "label.position": 17
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 3126,
+      "p": {
+        "source": {
+          "__i": 3123
+        },
+        "target": {
+          "__i": 3125
+        }
+      },
+      "s": {
+        "edge.color": "rgb(150,192,255)",
+        "edge.dash": true,
+        "edge.dash.color": "#1A1A56",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 0.92426,
+        "edge.source.anchor.y": 0.36108,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": -0.06734,
+        "edge.target.anchor.y": 0.5,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 3128,
+      "p": {
+        "source": {
+          "__i": 3083
+        },
+        "target": {
+          "__i": 3123
+        }
+      },
+      "s": {
+        "edge.color": "rgb(150,192,255)",
+        "edge.dash": true,
+        "edge.dash.color": "#1A1A56",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 0.5,
+        "edge.source.anchor.y": 1.1127,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.75,
+        "edge.target.anchor.y": 0,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 3131,
+      "p": {
+        "displayName": "verticalTextBox",
+        "image": "symbols/ht/text/verticalTextBox.json",
+        "position": {
+          "x": 1121.60751,
+          "y": 529.45561
+        },
+        "width": 22.18445,
+        "height": 134.48462
+      },
+      "s": {
+        "label.color": "#B6CBF5"
+      },
+      "a": {
+        "ht.content": "精煤转载皮带",
+        "ht.borderWidth": 0,
+        "ht.color": "#B6CBF5"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 3133,
+      "p": {
+        "displayName": "矸石仓",
+        "image": "symbols/项目定制类/老石旦/监控总图/矸石仓.json",
+        "position": {
+          "x": 1589.09939,
+          "y": 569.24055
+        }
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 3134,
+      "p": {
+        "source": {
+          "__i": 3095
+        },
+        "target": {
+          "__i": 3133
+        }
+      },
+      "s": {
+        "edge.color": "rgb(150,192,255)",
+        "edge.dash": true,
+        "edge.dash.color": "#1A1A56",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 0.41544,
+        "edge.source.anchor.y": 1.04195,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.5853,
+        "edge.target.anchor.y": -0.12787,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 3135,
+      "p": {
+        "displayName": "图表块",
+        "position": {
+          "x": 50.5371,
+          "y": 759.94065
+        },
+        "anchor": {
+          "x": 0.21838,
+          "y": 0.5
+        },
+        "width": 915.99121,
+        "height": 330
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 3136,
+      "p": {
+        "displayName": "table",
+        "parent": {
+          "__i": 3135
+        },
+        "image": "symbols/ht/ui/table.json",
+        "position": {
+          "x": 90.09759,
+          "y": 759.94065
+        },
+        "width": 345.87901,
+        "height": 330
+      },
+      "a": {
+        "ht.columns": [
+          {
+            "key": "name",
+            "displayName": "统计名称",
+            "align": "center"
+          },
+          {
+            "key": "blj",
+            "displayName": "班累积",
+            "align": "center",
+            "drawCell": "__ht__function(g, text, rect, option) {\n            var font = option.font,\n                color = '#fff',\n                x = rect.x,\n                y = rect.y,\n                height = rect.height,\n                width = rect.width,\n                texts = text.split('-'),\n                ts2 = ht.Default.getTextSize(font, '00'),\n                w1 = width/2,\n                w2 =  width/2 + ts2.width,\n                x2 = x + w1;\n                 ht.Default.drawText(g, texts[0], font, color, x , y, w1, height, 'right', 'middle');\n                 if (texts.length > 1) {\n                     ht.Default.drawText(g, texts[1], font, '#8BB9EA', x2 , y, w2, height, 'left', 'middle');\n                 }\n        }"
+          },
+          {
+            "key": "ylj",
+            "displayName": "月累积",
+            "align": "center",
+            "drawCell": "__ht__function(g, text, rect, option) {\n            var font = option.font,\n                color = '#fff',\n                x = rect.x,\n                y = rect.y,\n                height = rect.height,\n                width = rect.width,\n                texts = text.split('-'),\n                ts2 = ht.Default.getTextSize(font, '00'),\n                w1 = width/2,\n                w2 =  width/2 + ts2.width,\n                x2 = x + w1;\n                 ht.Default.drawText(g, texts[0], font, color, x , y, w1, height, 'right', 'middle');\n                 if (texts.length > 1) {\n                     ht.Default.drawText(g, texts[1], font, '#8BB9EA', x2 , y, w2, height, 'left', 'middle');\n                 }\n        }"
+          }
+        ],
+        "ht.borderColor": null,
+        "ht.columnLineColor": null,
+        "ht.rowLineColor": null,
+        "ht.headbackground": "#262568",
+        "ht.bodyBackground": "#262568",
+        "ht.headTextColor": "#fff",
+        "ht.borderWidth": 0,
+        "ht.columnLineWidth": 0,
+        "ht.dataSource": [
+          {
+            "name": "原煤入洗量: ",
+            "blj": "3,252-t",
+            "ylj": "9,227-t"
+          },
+          {
+            "name": "原煤入洗量: ",
+            "blj": "3,252-t",
+            "ylj": "9,227-t"
+          },
+          {
+            "name": "原煤入洗量: ",
+            "blj": "3,252-t",
+            "ylj": "9,227-t"
+          },
+          {
+            "name": "原煤入洗量: ",
+            "blj": "3,252-t",
+            "ylj": "9,227-t"
+          },
+          {
+            "name": "原煤入洗量: ",
+            "blj": "3,252-t",
+            "ylj": "9,227-t"
+          },
+          {
+            "name": "原煤入洗量: ",
+            "blj": "3,252-t",
+            "ylj": "9,227-t"
+          },
+          {
+            "name": "原煤入洗量: ",
+            "blj": "3,252-t",
+            "ylj": "9,227-t"
+          }
+        ],
+        "ht.rowLineWidth": 0,
+        "ht.bodyTextColor": "#8BB9EA",
+        "ht.headFont": "15px sans-serif, arial"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 3137,
+      "p": {
+        "displayName": "table",
+        "parent": {
+          "__i": 3135
+        },
+        "image": "symbols/ht/ui/table.json",
+        "position": {
+          "x": 553.34156,
+          "y": 759.94065
+        },
+        "width": 426.31391,
+        "height": 330,
+        "tall": 20
+      },
+      "a": {
+        "ht.columns": [
+          {
+            "key": "name",
+            "displayName": "编号设备",
+            "align": "center"
+          },
+          {
+            "key": "blj",
+            "displayName": "报警内容",
+            "align": "center"
+          },
+          {
+            "key": "ylj",
+            "displayName": "报警时间",
+            "align": "center"
+          }
+        ],
+        "ht.borderColor": null,
+        "ht.columnLineColor": null,
+        "ht.rowLineColor": null,
+        "ht.headbackground": "#262568",
+        "ht.bodyBackground": "#262568",
+        "ht.headTextColor": "#fff",
+        "ht.borderWidth": 0,
+        "ht.columnLineWidth": 0,
+        "ht.dataSource": [
+          {
+            "name": "702: ",
+            "blj": "欠速保护",
+            "ylj": "18:25:35"
+          },
+          {
+            "name": "702: ",
+            "blj": "欠速保护",
+            "ylj": "18:25:35"
+          },
+          {
+            "name": "702: ",
+            "blj": "欠速保护",
+            "ylj": "18:25:35"
+          },
+          {
+            "name": "702: ",
+            "blj": "欠速保护",
+            "ylj": "18:25:35"
+          },
+          {
+            "name": "702: ",
+            "blj": "欠速保护",
+            "ylj": "18:25:35"
+          },
+          {
+            "name": "702: ",
+            "blj": "欠速保护",
+            "ylj": "18:25:35"
+          },
+          {
+            "name": "702: ",
+            "blj": "欠速保护",
+            "ylj": "18:25:35"
+          },
+          {
+            "name": "702: ",
+            "blj": "欠速保护",
+            "ylj": "18:25:35"
+          }
+        ],
+        "ht.rowLineWidth": 0,
+        "ht.bodyTextColor": "#FF7495",
+        "ht.drawRow": "__ht__function(g, row, rowIndex, rect, rawIndex, data, view) {data.setAttr('ht.bodyTextColor', '#FF7495');\nconsole.log(data);}",
+        "text.color": "red",
+        "ht.headFont": "15px sans-serif, arial"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 3138,
+      "p": {
+        "parent": {
+          "__i": 3135
+        },
+        "position": {
+          "x": 306.85921,
+          "y": 759.94065
+        },
+        "width": 66.65079,
+        "height": 330
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "#262568",
+        "shape.border.color": "#979797"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 3139,
+      "p": {
+        "parent": {
+          "__i": 3135
+        },
+        "position": {
+          "x": -116.16731,
+          "y": 759.94065
+        },
+        "width": 66.65079,
+        "height": 330,
+        "tall": 20
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "#262568",
+        "shape.border.color": "#979797"
+      }
+    },
+    {
+      "c": "ht.Data",
+      "i": 3140,
+      "p": {
+        "displayName": "图表2",
+        "parent": {
+          "__i": 3135
+        }
+      },
+      "s": {
+        "editor.folder": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 3141,
+      "p": {
+        "displayName": "verticalTextBox",
+        "parent": {
+          "__i": 3140
+        },
+        "image": "symbols/素材库/ui/verticalTextBox.json",
+        "position": {
+          "x": 302.26781,
+          "y": 711.87759
+        },
+        "width": 32.6731,
+        "height": 135.04219
+      },
+      "a": {
+        "ht.content": "报警实况",
+        "ht.vAlign": "middle",
+        "ht.color": "#BFDEFF",
+        "ht.font": "23px sans-serif, Arial",
+        "ht.borderWidth": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 3142,
+      "p": {
+        "displayName": "折线",
+        "parent": {
+          "__i": 3140
+        },
+        "image": "symbols/素材库/指示/折线.json",
+        "position": {
+          "x": 302.26781,
+          "y": 621.94065
+        }
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 3143,
+      "p": {
+        "displayName": "verticalTextBox",
+        "parent": {
+          "__i": 3140
+        },
+        "image": "symbols/素材库/ui/verticalTextBox.json",
+        "position": {
+          "x": 297.29932,
+          "y": 864.2156
+        },
+        "width": 19.11978,
+        "height": 100
+      },
+      "a": {
+        "ht.content": "故障等级",
+        "ht.color": "#BFDEFF",
+        "ht.borderWidth": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 3144,
+      "p": {
+        "parent": {
+          "__i": 3140
+        },
+        "position": {
+          "x": 331.6846,
+          "y": 822.7156
+        },
+        "width": 17,
+        "height": 17
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "#8BB9EA",
+        "shape.border.color": "#979797"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 3145,
+      "p": {
+        "parent": {
+          "__i": 3140
+        },
+        "position": {
+          "x": 331.6846,
+          "y": 852.74911
+        },
+        "width": 17,
+        "height": 17,
+        "tall": 20
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "#FFD370",
+        "shape.border.color": "#979797"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 3146,
+      "p": {
+        "parent": {
+          "__i": 3140
+        },
+        "position": {
+          "x": 331.6846,
+          "y": 882.78263
+        },
+        "width": 17,
+        "height": 17,
+        "tall": 20
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "#FF7495",
+        "shape.border.color": "#979797"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 3147,
+      "p": {
+        "displayName": "verticalTextBox",
+        "parent": {
+          "__i": 3140
+        },
+        "image": "symbols/素材库/ui/verticalTextBox.json",
+        "position": {
+          "x": -116.16731,
+          "y": 711.87759
+        },
+        "width": 32.6731,
+        "height": 135.04219,
+        "tall": 20
+      },
+      "a": {
+        "ht.content": "统计实况",
+        "ht.vAlign": "middle",
+        "ht.color": "#BFDEFF",
+        "ht.font": "23px sans-serif, Arial",
+        "ht.borderWidth": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 3148,
+      "p": {
+        "displayName": "折线",
+        "parent": {
+          "__i": 3140
+        },
+        "image": "symbols/素材库/指示/折线.json",
+        "position": {
+          "x": -116.16731,
+          "y": 621.94065
+        },
+        "width": 24,
+        "height": 24,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 3149,
+      "p": {
+        "position": {
+          "x": 268.36813,
+          "y": 528.24055
+        },
+        "width": 392.216
+      },
+      "s": {
+        "text": "乌海能源老石旦煤矿洗煤厂",
+        "text.font": "32px arial, sans-serif",
+        "text.color": "#B6CBF5"
+      }
+    },
+    {
+      "c": "ht.Data",
+      "i": 166117,
+      "p": {
+        "displayName": "input 数值"
+      },
+      "s": {
+        "editor.folder": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 3127,
+      "p": {
+        "displayName": "数值",
+        "parent": {
+          "__i": 166117
+        },
+        "image": "symbols/项目定制类/老石旦/监控总图/数值.json",
+        "position": {
+          "x": 1124.06522,
+          "y": 131.32433
+        },
+        "width": 102.23756,
+        "height": 25.42168
+      },
+      "a": {
+        "s.v": "885",
+        "s.unit": "t/h"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 3129,
+      "p": {
+        "displayName": "数值",
+        "parent": {
+          "__i": 166117
+        },
+        "image": "symbols/项目定制类/老石旦/监控总图/数值.json",
+        "position": {
+          "x": 1270.06066,
+          "y": 365.03494
+        }
+      },
+      "a": {
+        "s.v": "4,885",
+        "s.unit": "t/h"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 3130,
+      "p": {
+        "displayName": "数值",
+        "parent": {
+          "__i": 166117
+        },
+        "image": "symbols/项目定制类/老石旦/监控总图/数值.json",
+        "position": {
+          "x": 1204.36186,
+          "y": 506.59542
+        }
+      },
+      "a": {
+        "s.v": "885",
+        "s.unit": "t/h"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 3132,
+      "p": {
+        "displayName": "数值",
+        "parent": {
+          "__i": 166117
+        },
+        "image": "symbols/项目定制类/老石旦/监控总图/数值.json",
+        "position": {
+          "x": 1420.70555,
+          "y": 569.24055
+        },
+        "width": 133,
+        "height": 32,
+        "tall": 20
+      },
+      "a": {
+        "s.v": "33/72",
+        "s.unit": "m/%"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 166369,
+      "p": {
+        "displayName": "数值",
+        "parent": {
+          "__i": 166117
+        },
+        "image": "symbols/项目定制类/老石旦/监控总图/数值.json",
+        "position": {
+          "x": 1006.19973,
+          "y": 930.2156
+        },
+        "width": 133,
+        "height": 32,
+        "tall": 20
+      },
+      "a": {
+        "s.v": "9/45",
+        "s.unit": "m/%"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 166370,
+      "p": {
+        "displayName": "数值",
+        "parent": {
+          "__i": 166117
+        },
+        "image": "symbols/项目定制类/老石旦/监控总图/数值.json",
+        "position": {
+          "x": 1175.184,
+          "y": 930.2156
+        },
+        "width": 133,
+        "height": 32,
+        "tall": 20
+      },
+      "a": {
+        "s.v": "11/75",
+        "s.unit": "m/%"
+      }
+    }
+  ],
+  "modified": "Wed Oct 13 2021 10:22:43 GMT+0800 (中国标准时间)",
+  "contentRect": {
+    "x": -161.9629,
+    "y": -55.02311,
+    "width": 1950.93446,
+    "height": 1052.3796
+  }
+}

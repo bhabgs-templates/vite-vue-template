@@ -1,0 +1,489 @@
+{
+  "modified": "Sat Oct 23 2021 13:02:53 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "jyj.tc",
+      "valueType": "String"
+    },
+    {
+      "attr": "jyj.mc",
+      "valueType": "String"
+    },
+    {
+      "attr": "jyj.v",
+      "valueType": "String"
+    },
+    {
+      "attr": "signal.tc",
+      "valueType": "String",
+      "group": "信号"
+    },
+    {
+      "attr": "signal.mc",
+      "valueType": "String"
+    },
+    {
+      "attr": "signal.v",
+      "valueType": "String"
+    },
+    {
+      "attr": "adjust.tc",
+      "valueType": "String",
+      "group": "调节模式"
+    },
+    {
+      "attr": "adjust.mc",
+      "valueType": "String"
+    },
+    {
+      "attr": "adjust.v",
+      "valueType": "String"
+    },
+    {
+      "attr": "auto.tc",
+      "valueType": "String",
+      "name": "自动tc",
+      "group": "控制模式"
+    },
+    {
+      "attr": "auto.mc",
+      "valueType": "String"
+    },
+    {
+      "attr": "auto.v",
+      "valueType": "String"
+    },
+    {
+      "attr": " manual.tc",
+      "valueType": "String",
+      "name": "手动tc"
+    },
+    {
+      "attr": " manual.mc",
+      "valueType": "String"
+    },
+    {
+      "attr": " manual.v",
+      "valueType": "String"
+    },
+    {
+      "attr": "controlMethod.tc",
+      "valueType": "String",
+      "group": "  控制方式  "
+    },
+    {
+      "attr": "controlMethod.mc",
+      "valueType": "String"
+    },
+    {
+      "attr": "controlMethod.v",
+      "valueType": "String"
+    },
+    {
+      "attr": "liquidH.tc",
+      "valueType": "String",
+      "name": "高液位tc",
+      "group": "储液箱液位"
+    },
+    {
+      "attr": "liquidH.mc",
+      "valueType": "String"
+    },
+    {
+      "attr": "liquidH.v",
+      "valueType": "String"
+    },
+    {
+      "attr": "liquidL.tc",
+      "valueType": "String",
+      "name": "低液位tc"
+    },
+    {
+      "attr": "liquidL.mc",
+      "valueType": "String"
+    },
+    {
+      "attr": "liquidL.v",
+      "valueType": "String"
+    },
+    {
+      "attr": "liquidLL.tc",
+      "valueType": "String",
+      "name": "超低液位tc"
+    },
+    {
+      "attr": "liquidLL.mc",
+      "valueType": "String"
+    },
+    {
+      "attr": "liquidLL.v",
+      "valueType": "String"
+    },
+    {
+      "attr": "pl.tc",
+      "valueType": "String",
+      "group": "给药器频率"
+    },
+    {
+      "attr": "pl.mc",
+      "valueType": "String"
+    },
+    {
+      "attr": "pl.v",
+      "valueType": "String"
+    },
+    {
+      "attr": "frequency1.tc",
+      "valueType": "String",
+      "group": "1#泵频率"
+    },
+    {
+      "attr": "frequency1.mc",
+      "valueType": "String"
+    },
+    {
+      "attr": "frequency1.v",
+      "valueType": "String"
+    },
+    {
+      "attr": "frequency2.tc",
+      "valueType": "String",
+      "group": "2#泵频率"
+    },
+    {
+      "attr": "frequency2.mc",
+      "valueType": "String"
+    },
+    {
+      "attr": "frequency2.v",
+      "valueType": "String"
+    },
+    {
+      "attr": "dry.tc",
+      "valueType": "String",
+      "group": "干粉箱料位"
+    },
+    {
+      "attr": "dry.mc",
+      "valueType": "String"
+    },
+    {
+      "attr": "dry.v",
+      "valueType": "String"
+    }
+  ],
+  "width": 260,
+  "height": 225,
+  "comps": [
+    {
+      "type": "image",
+      "name": {
+        "func": "__ht__function(data, view) {\nconst v = data.ca('jyj.v');\r\nconst v1 = 'symbols/素材库/设备/加药机.json'; //正常\r\nconst v2 = 'symbols/素材库/设备/加药机_g2.json'; // 故障\r\nlet color;\r\nif (v === 'false') color = v1;\r\nif (v === 'true') color = v2;\r\nreturn color;\n}",
+        "value": "symbols/素材库/设备/加药机.json"
+      },
+      "displayName": "加药机",
+      "rect": [
+        38.57299,
+        27.18297,
+        182.85403,
+        110.82062
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@tc",
+        "value": "201"
+      },
+      "align": "center",
+      "color": "rgb(0,0,0)",
+      "font": "bold 14px sans-serif, Arial",
+      "prefix": "jyj",
+      "rect": [
+        22.51569,
+        4.35892,
+        28.97669,
+        16.50721
+      ]
+    },
+    {
+      "type": "components/工厂组件/指示/信号状态.json",
+      "displayName": "信号状态",
+      "rect": [
+        18.85709,
+        3.06947,
+        52,
+        22
+      ],
+      "tc": {
+        "func": "attr@signal.tc",
+        "value": "666"
+      },
+      "mc": {
+        "func": "attr@signal.mc"
+      },
+      "xh.state": {
+        "func": "attr@signal.v",
+        "value": "1"
+      }
+    },
+    {
+      "type": "text",
+      "text": "调节模式",
+      "rect": [
+        0,
+        147.70103,
+        40.56308,
+        13.64958
+      ]
+    },
+    {
+      "type": "text",
+      "text": "给药器频率",
+      "rect": [
+        130,
+        145.74244,
+        51.49238,
+        13.64958
+      ]
+    },
+    {
+      "type": "text",
+      "text": "控制方式",
+      "rect": [
+        0,
+        189.1531,
+        40.56308,
+        13.64958
+      ]
+    },
+    {
+      "type": "text",
+      "text": "储液箱液位",
+      "rect": [
+        0,
+        209.16035,
+        40.56308,
+        13.64958
+      ]
+    },
+    {
+      "type": "text",
+      "text": "1#泵频率",
+      "rect": [
+        130,
+        169.55188,
+        40.56308,
+        13.64958
+      ]
+    },
+    {
+      "type": "text",
+      "text": "控制模式",
+      "anchorX": 0.60423,
+      "rect": [
+        0,
+        168.31948,
+        40.56308,
+        13.64958
+      ]
+    },
+    {
+      "type": "text",
+      "text": "干粉箱液位",
+      "rect": [
+        130,
+        209.09691,
+        40.56308,
+        13.64958
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nconst v = data.ca('adjust.v');\r\nconst v1 = '手动';\r\nconst v2 = '智能';\r\nlet state = \"暂无数据\";\r\nif (v === 'true') state = v2;\r\nif (v === 'false') state = v1;\r\nreturn state;\n}",
+        "value": "文本"
+      },
+      "color": {
+        "func": "__ht__function(data, view) {\nconst v = data.ca('adjust.v');\r\nconst c1 = '#f59a23'; //橙色\r\nconst c2 = '#0000ff';// 蓝色\r\nconst c3= 'red';// 灰色\r\nlet color = c3;\r\nif (v === 'false') color = c1;\r\nif (v === 'true') color = c2;\r\nreturn color;\n}",
+        "value": "#000"
+      },
+      "font": "14px arial, sans-serif",
+      "anchorX": 0.55863,
+      "rect": [
+        58.0459,
+        144.7252,
+        21.0743,
+        19.60121
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nlet v = data.ca('pl.v');\r\nv = v == undefined ? 0 : Number(v);\r\nif (v < 0) v = 0;\r\nreturn  v.toFixed(1);\n}",
+        "value": "文本"
+      },
+      "color": "#0000ff",
+      "font": "14px arial, sans-serif",
+      "rect": [
+        199.7543,
+        144.7252,
+        40.56308,
+        19.51821
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nconst v = data.ca('controlMethod.v');\r\nconst v1 = '就地'; //就地\r\nconst v2 = '集控';// 集控\r\nlet state = \"暂无数据\";\r\nif (v === 'false') state = v2;\r\nif (v === 'true') state = v1;\r\nreturn state;\n}",
+        "value": "文本"
+      },
+      "color": {
+        "func": "__ht__function(data, view) {\nconst v = data.ca('controlMethod.v');\r\nconst c1 = '#f59a23'; //橙色\r\nconst c2 = '#0000ff';// 蓝色\r\nconst c3= 'red';// 灰色\r\nlet color = c3;\r\nif (v === 'false') color = c2;\r\nif (v === 'true') color = c1;\r\nreturn color;\n}",
+        "value": ""
+      },
+      "font": "14px arial, sans-serif",
+      "anchorX": 0.55863,
+      "rect": [
+        58.0459,
+        184.96682,
+        21.0743,
+        19.60121
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nconst v0 = data.ca('liquidH.v');\r\nconst v1 = data.ca('liquidL.v');\r\nconst v2 = data.ca('liquidLL.v');\r\nconst s1 = '高液位'; \r\nconst s2 = '低液位';\r\nconst s3 = '超低液位';\r\nlet state = \"暂无数据\";\r\nif (v0 === 'true' && v1==='false' && v2==='false') state = s1;\r\nif (v0 === 'false' && v1==='true' && v2==='false') state = s2;\r\nif (v0 === 'false' && v1==='false' && v2==='true') state = s2;\r\nreturn state;\n}",
+        "value": "文本"
+      },
+      "color": {
+        "func": "__ht__function(data, view) {\nconst v0 = data.ca('liquidH.v');\r\nconst v1 = data.ca('liquidL.v');\r\nconst v2 = data.ca('liquidLL.v');\r\nconst c1 = '#0000ff';// 蓝色\r\nconst c2 = '#f59a23'; //橙色\r\nconst c3= 'red';// 灰色\r\nlet color = c3;\r\nif (v0 === 'true' && v1==='false' && v2==='false') color = c1;\r\nif (v0 === 'false' && v1==='true' && v2==='false') color = c2;\r\nif (v0 === 'false' && v1==='false' && v2==='true') color = c2;\r\nreturn color;\n}",
+        "value": "#000"
+      },
+      "font": "14px arial, sans-serif",
+      "anchorY": 0.53964,
+      "rect": [
+        70.85709,
+        206.18453,
+        36.37636,
+        19.60121
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nlet v = data.ca('frequency1.v');\r\nv = v == undefined ? 0 : Number(v);\r\nif (v < 0) v = 0;\r\nreturn  v.toFixed(0);\n}",
+        "value": "文本"
+      },
+      "color": "#0000ff",
+      "font": "14px arial, sans-serif",
+      "anchorX": 0.55863,
+      "rect": [
+        187.61039,
+        164.32642,
+        21.0743,
+        19.60121
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nconst v0 = data.ca('auto.v');\r\nconst v1 = data.ca('manual.v');\r\nconst s1 = '自动'; //正常\r\nconst s2 = '手动';// 待机\r\nlet state = \"暂无数据\";\r\nif (v0 === 'true' && v1==='false') state = s1;\r\nif (v0 === 'false' && v1==='true') state = s2;\r\nreturn state;\n}",
+        "value": "文本"
+      },
+      "color": {
+        "func": "__ht__function(data, view) {\nconst v0 = data.ca('auto.v');\r\nconst v = data.ca('manual.v');\r\nconst c1 = 'red'; //橙色\r\nconst c2 = '#0000ff';// 蓝色\r\nconst c3= 'red';// 灰色\r\nlet color = c1;\r\nif (v0 === 'true' && v==='false') color = c2;\r\nif (v0 === 'false' && v==='true') color = c1;\r\nreturn color;\n}",
+        "value": ""
+      },
+      "font": "14px arial, sans-serif",
+      "anchorX": 0.55863,
+      "rect": [
+        58.0459,
+        165.66405,
+        21.0743,
+        19.60121
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nconst v = data.ca('upload.v');\r\nconst v1 = '智能'; \r\nconst v2 = '手动';\r\nlet state = \"暂无数据\";\r\nif (v === 'false') state = v2;\r\nif (v === 'true') state = v1;\r\nreturn state;\n}",
+        "value": "文本"
+      },
+      "color": {
+        "func": "__ht__function(data, view) {\nconst v = data.ca('unload.v');\r\nconst c1 = '#f59a23'; //橙色\r\nconst c2 = '#0000ff';// 蓝色\r\nconst c3= 'red';// 灰色\r\nlet color = c3;\r\nif (v === 'false') color = c1;\r\nif (v === 'true') color = c2;\r\nreturn color;\n}",
+        "value": "#000"
+      },
+      "font": "14px arial, sans-serif",
+      "anchorX": 0.55863,
+      "rect": [
+        207.8809,
+        206.18453,
+        24.30987,
+        19.60121
+      ]
+    },
+    {
+      "type": "text",
+      "text": "2#泵频率",
+      "anchorX": 0.80805,
+      "anchorY": 0.69161,
+      "rect": [
+        130,
+        189.1531,
+        40.56308,
+        13.64958
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nlet v = data.ca('frequency2.v');\r\nv = v == undefined ? 0 : Number(v);\r\nif (v < 0) v = 0;\r\nreturn  v.toFixed(0);\n}",
+        "value": "文本"
+      },
+      "color": "#0000ff",
+      "font": "14px arial, sans-serif",
+      "anchorX": 0.55863,
+      "rect": [
+        187.61039,
+        186.17728,
+        21.0743,
+        19.60121
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Hz",
+      "anchorX": 0.55863,
+      "rect": [
+        234.91394,
+        186.58332,
+        21.0743,
+        19.60121
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Hz",
+      "anchorX": 0.55863,
+      "rect": [
+        234.91394,
+        166.57606,
+        21.0743,
+        19.60121
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Hz",
+      "anchorX": 0.55863,
+      "rect": [
+        234.91394,
+        145.74244,
+        21.0743,
+        19.60121
+      ]
+    }
+  ]
+}

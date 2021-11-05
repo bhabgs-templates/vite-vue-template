@@ -1,0 +1,155 @@
+{
+  "modified": "Thu Oct 14 2021 16:50:30 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "pdj.tc",
+      "valueType": "String",
+      "group": "皮带机数据"
+    },
+    {
+      "attr": "pdj.mc",
+      "valueType": "String",
+      "group": "皮带机数据"
+    },
+    {
+      "attr": "pdj.v",
+      "valueType": "String",
+      "group": "皮带机数据"
+    },
+    {
+      "attr": "progress.tc",
+      "valueType": "String",
+      "group": "皮带机数据",
+      "name": "瞬时带煤量.tc"
+    },
+    {
+      "attr": "progress.mc",
+      "valueType": "String",
+      "group": "皮带机数据",
+      "name": "瞬时带煤量.mc"
+    },
+    {
+      "attr": "progress.v",
+      "valueType": "String",
+      "group": "皮带机数据",
+      "name": "瞬时带煤量.v"
+    },
+    {
+      "attr": "progress2.tc",
+      "valueType": "String",
+      "group": "皮带机数据",
+      "name": "日累计带煤量.tc"
+    },
+    {
+      "attr": "progress2.mc",
+      "valueType": "String",
+      "group": "皮带机数据",
+      "name": "日累计带煤量.mc"
+    },
+    {
+      "attr": "progress2.v",
+      "valueType": "String",
+      "group": "皮带机数据",
+      "name": "日累计带煤量.v"
+    },
+    {
+      "attr": "tc.scale",
+      "valueType": "Align",
+      "name": "tc位置",
+      "group": "位置"
+    },
+    {
+      "attr": "progress.scale",
+      "valueType": "Align",
+      "group": "位置",
+      "name": "瞬时带煤量"
+    },
+    {
+      "attr": "progress2.scale",
+      "valueType": "Align",
+      "group": "位置",
+      "name": "日累计带煤量"
+    }
+  ],
+  "width": 112,
+  "height": 55,
+  "comps": [
+    {
+      "type": "image",
+      "name": {
+        "func": "__ht__function(data, view) {\nconst v = data.ca('pdj.v');\r\nconst v1 = 'symbols/素材库/设备/皮带机.json'; //正常\r\nconst v2 = 'symbols/素材库/设备/皮带机_g.json'; // 故障\r\nconst v3 = 'symbols/素材库/设备/皮带机_r.json'; // 故障\r\nlet color = v1;\r\nif (v === '2' || v === '8') color = v2;\r\nif (v === '4' || v === '20') color = v3;\r\nreturn color;\n}",
+        "value": "symbols/素材库/设备/皮带机.json"
+      },
+      "displayName": "皮带机",
+      "rect": [
+        11.65341,
+        21.29948,
+        86.69319,
+        14.44062
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@pdj.tc",
+        "value": "11"
+      },
+      "align": {
+        "func": "attr@tc.scale",
+        "value": "left"
+      },
+      "vAlign": "top",
+      "color": "rgb(0,0,0)",
+      "font": "bold 14px sans-serif, Arial",
+      "displayName": "201",
+      "rect": [
+        6.35997,
+        1.49046,
+        94.18173,
+        18.40536
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nlet v = data.ca('progress.v');\r\nv = v == undefined ? 0 : Number(v);\r\nif (v >= 100) v = 100;\r\nif (v <= 0) v = 0;\r\nreturn v === 0 ? \"\" : v.toFixed(0) + 't/h';\n}",
+        "value": "文本"
+      },
+      "align": {
+        "func": "attr@progress.scale",
+        "value": "right"
+      },
+      "vAlign": "top",
+      "color": "#70b602",
+      "font": "bold 18px sans-serif, Arial",
+      "displayName": "201",
+      "rect": [
+        -7.42843,
+        -0.80946,
+        121.52481,
+        19.86463
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nlet v = data.ca('progress2.v');\r\nv = v == undefined ? 0 : Number(v);\r\nif (v >= 100) v = 100;\r\nif (v <= 0) v = 0;\r\nreturn  v === 0 ? \"\" : v.toFixed(0) + 't';\n}",
+        "value": "文本"
+      },
+      "align": {
+        "func": "attr@progress2.scale",
+        "value": "right"
+      },
+      "vAlign": "top",
+      "color": "#70b602",
+      "font": "bold 18px sans-serif, Arial",
+      "displayName": "201",
+      "rect": [
+        -7.31157,
+        34.0769,
+        121.52481,
+        19.86463
+      ]
+    }
+  ]
+}

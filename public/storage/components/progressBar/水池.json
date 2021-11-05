@@ -1,0 +1,32 @@
+{
+  "modified": "Mon Aug 30 2021 19:14:52 GMT+0800 (中国标准时间)",
+  "width": 140,
+  "height": 110,
+  "func": "__ht__function(g, rect, comp, data, view) {\nconst {x,y,width,height} = rect;\n\nconst text = {\n    h: 31,\n    w: 50,\n    font: 'bold 24px sans-serif, Arial',\n    color: '#333',\n    x: x+10,\n    y,\n    val: comp.getValue('tc')\n}\n\n// 绘制文字\nht.Default.drawText(g, text.val,  text.font, text.color, text.x, text.y, text.w, text.h, 'center', 'middle')\n\n// 绘制图标\nrenderIcon();\nfunction renderIcon() {\n    const icon = ht.Default.getImage('symbols/新煤泥水/水池.json');\n    const {y,w,h} = { y: text.h, w: 140, h: 80}\n    ht.Default.drawImage(g, icon, x, y, w, h, data, view, '')\n}\n\n// 绘制进度条\nrenderProgress();\nfunction renderProgress() {\n    const {value, color, backgroundColor,x,y,w,h} = {\n        value: comp.getValue('progress.val'),\n        color: comp.getValue('progress.color'),\n        backgroundColor: comp.getValue('progress.backgroundColor'),\n        x: rect.x+width - 30,\n        y: rect.y + 31,\n        w: comp.getValue('progress.width'),\n        h: height - 38\n    };\n    g.beginPath();\n    g.rect(x,y,w,h);\n    g.fillStyle = backgroundColor;\n    g.fill();\n\n    // 绘制进度\n    const useval = value <= 1 ? value : 1;\n    g.beginPath();\n    g.rect(x, y+h, w, 0-h*useval);\n    g.fillStyle = color;\n    g.fill();\n}\n}",
+  "properties": {
+    "tc": {
+      "valueType": "String",
+      "defaultValue": "600"
+    },
+    "mc": {
+      "valueType": "String",
+      "defaultValue": "0"
+    },
+    "progress.val": {
+      "valueType": "Number",
+      "defaultValue": 0.3
+    },
+    "progress.color": {
+      "valueType": "Color",
+      "defaultValue": "#05D84B"
+    },
+    "progress.backgroundColor": {
+      "valueType": "Color",
+      "defaultValue": "rgb(255,255,255)"
+    },
+    "progress.width": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 10
+    }
+  }
+}

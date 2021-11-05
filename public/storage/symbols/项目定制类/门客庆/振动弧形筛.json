@@ -1,0 +1,51 @@
+{
+  "modified": "Fri Oct 15 2021 13:57:48 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "state.mc",
+      "valueType": "String"
+    },
+    {
+      "attr": "state.v",
+      "valueType": "String"
+    },
+    {
+      "attr": "state.tc",
+      "valueType": "String"
+    }
+  ],
+  "width": 57,
+  "height": 80,
+  "comps": [
+    {
+      "type": "image",
+      "name": {
+        "func": "__ht__function(data, view) {\nconst v = data.ca('state.v');\r\nconst v1 = 'symbols/素材库/设备/振动弧形筛.json'; //待机\r\nconst v2 = 'symbols/素材库/设备/振动弧形筛_g.json'; // 正常\r\nconst v3 = 'symbols/素材库/设备/振动弧形筛_r.json'; // 故障\r\nconst v4 = 'symbols/素材库/设备/振动弧形筛_y.json'; // 就绪\r\nlet color = v4;\r\nif (v ==='0') color = v1;\r\nif (v ==='1') color = v2;\r\nif (v ==='2') color = v3;\r\nif (v ==='3') color = v4;\r\nreturn color;\n}",
+        "value": "symbols/素材库/设备/振动弧形筛.json"
+      },
+      "displayName": "振动弧形筛",
+      "rect": [
+        0,
+        0,
+        57,
+        80
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@state.tc",
+        "value": "201"
+      },
+      "align": "center",
+      "color": "rgb(0,0,0)",
+      "font": "bold 14px sans-serif, Arial",
+      "rect": [
+        0,
+        0,
+        36.97931,
+        15.0936
+      ]
+    }
+  ]
+}

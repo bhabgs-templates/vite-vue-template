@@ -1,0 +1,310 @@
+{
+  "modified": "Thu Oct 21 2021 17:07:36 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "pdj.tc",
+      "valueType": "String"
+    },
+    {
+      "attr": "pdj.mc",
+      "valueType": "String"
+    },
+    {
+      "attr": "pdj.v",
+      "valueType": "String"
+    },
+    {
+      "attr": "number.tc",
+      "valueType": "String",
+      "group": "卸料台数"
+    },
+    {
+      "attr": "number.mc",
+      "valueType": "String",
+      "defaultValue": "UNLOAD_COUNT_CHO"
+    },
+    {
+      "attr": "number.v",
+      "valueType": "String"
+    },
+    {
+      "attr": "curEle..tc",
+      "valueType": "String",
+      "group": "当前电流"
+    },
+    {
+      "attr": "curEle.mc",
+      "valueType": "String",
+      "defaultValue": "CURRENT "
+    },
+    {
+      "attr": "curEle.v",
+      "valueType": "String"
+    },
+    {
+      "attr": "curPl.tc",
+      "valueType": "String",
+      "group": "当前频率"
+    },
+    {
+      "attr": "curPlmc",
+      "valueType": "String",
+      "defaultValue": "SPEED "
+    },
+    {
+      "attr": "curPl.v",
+      "valueType": "String"
+    },
+    {
+      "attr": "start.tc",
+      "valueType": "String",
+      "group": "启动模式"
+    },
+    {
+      "attr": "start.mc",
+      "valueType": "String",
+      "defaultValue": "START_BELT_M_CHO"
+    },
+    {
+      "attr": "start.v",
+      "valueType": "String"
+    },
+    {
+      "attr": "stop.tc",
+      "valueType": "String",
+      "group": "停止模式"
+    },
+    {
+      "attr": "stop.mc",
+      "valueType": "String",
+      "defaultValue": "STOP_BELT_M_CHO"
+    },
+    {
+      "attr": "stop.v",
+      "valueType": "String"
+    }
+  ],
+  "width": 215,
+  "height": 140,
+  "comps": [
+    {
+      "type": "image",
+      "name": {
+        "func": "__ht__function(data, view) {\nconst v = data.ca('pdj.v');\r\nconst v1 = 'symbols/素材库/设备/皮带机.json'; //正常\r\nconst v2 = 'symbols/素材库/设备/皮带机_g.json'; // 故障\r\nconst v3 = 'symbols/素材库/设备/皮带机_r.json'; // 故障\r\nlet color = v1;\r\nif (v === '2' || v === '8') color = v2;\r\nif (v === '4' || v === '20') color = v3;\r\nreturn color;\n}",
+        "value": "symbols/素材库/设备/皮带机.json"
+      },
+      "displayName": "皮带机",
+      "rect": [
+        96.00961,
+        17.01951,
+        117.94144,
+        21.22946
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@pdj.tc",
+        "value": "11"
+      },
+      "vAlign": "top",
+      "color": "rgb(0,0,0)",
+      "font": "bold 14px sans-serif, Arial",
+      "displayName": "201",
+      "rect": [
+        112.38141,
+        0,
+        22.20309,
+        13.96462
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgb(247,247,247)",
+      "borderColor": "#979797",
+      "rect": [
+        0,
+        40.46343,
+        128.76271,
+        105.96932
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nlet v = data.ca('display');\r\n\r\nreturn v==0 ? \"\" : \"允许卸料台数：\";\n}",
+        "value": "允许卸料台数："
+      },
+      "font": " 12px sans-serif, Arial",
+      "rect": [
+        0,
+        44.2908,
+        87.88482,
+        13.60215
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nconst v = data.ca('number.v');\r\nlet state;\r\nreturn state ===\"1\" ? \"1\":\"2\";\n}",
+        "value": "1"
+      },
+      "color": "#00f",
+      "font": " 14px sans-serif, Arial",
+      "rect": [
+        92.09689,
+        44.67871,
+        24.726,
+        13.60215
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nlet v = data.ca('display');\r\n\r\nreturn v==0 ? \"\" : \"台\";\n}",
+        "value": "台"
+      },
+      "font": " 12px sans-serif, Arial",
+      "rect": [
+        108.37961,
+        44.2908,
+        16.88656,
+        13.60215
+      ]
+    },
+    {
+      "type": "text",
+      "text": "当前电流：",
+      "rect": [
+        0,
+        61.62149,
+        51.75235,
+        17.41479
+      ]
+    },
+    {
+      "type": "text",
+      "text": "当前频率：",
+      "rect": [
+        0.33408,
+        81.87917,
+        51.75235,
+        17.41479
+      ]
+    },
+    {
+      "type": "text",
+      "text": "A",
+      "rect": [
+        110.16283,
+        62.07755,
+        13.32012,
+        17.41479
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Hz",
+      "rect": [
+        105.7693,
+        81.87917,
+        22.10718,
+        17.41479
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nlet v = data.ca('curEle.v');\r\nv = v == undefined ? 0 : Number(v);\r\nif (v < 0) v = 0;\r\nreturn  v.toFixed(1);\n}",
+        "value": "文本"
+      },
+      "color": "#0000ff",
+      "font": "14px arial, sans-serif",
+      "anchorX": 0.55863,
+      "rect": [
+        66.83492,
+        57.89295,
+        34.49371,
+        25.00818
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nlet v = data.ca('curPl.v');\r\nv = v == undefined ? 0 : Number(v);\r\nif (v < 0) v = 0;\r\nreturn  v.toFixed(1);\n}",
+        "value": "文本"
+      },
+      "color": "#0000ff",
+      "font": "14px arial, sans-serif",
+      "anchorX": 0.55863,
+      "rect": [
+        66.83492,
+        79.03628,
+        32.37916,
+        25.00818
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nlet v = data.ca('display');\r\n\r\nreturn v==0 ? \"\" : \"启动模式：\";\n}",
+        "value": "启动模式："
+      },
+      "rect": [
+        0,
+        104.04446,
+        50,
+        13.60215
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nlet v = data.ca('display');\r\n\r\nreturn v==0 ? \"\" : \"停止模式：\";\n}",
+        "value": "停止模式："
+      },
+      "rect": [
+        0,
+        124.66255,
+        50,
+        13.60215
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nconst v = data.ca('start.v');\r\nconst v1 = '智能'; //正常\r\nconst v2 = '手动';// 待机\r\nlet state = \"暂无数据\";\r\nif (v === 'false') state = v1;\r\nif (v === 'true') state = v2;\r\nreturn state;\n}",
+        "value": "文本"
+      },
+      "color": {
+        "func": "__ht__function(data, view) {\nconst v = data.ca('start.v');\r\nconst v1 = '#f59a23'; //手动\r\nconst v2 = '#0000ff';// 智能\r\nconst v3= '#999';// 未获取到数据\r\nlet color = v3;\r\nif (v === 'true') color = v1;\r\nif (v === 'false') color = v2;\r\nreturn color;\n}",
+        "value": "#000"
+      },
+      "font": "14px arial, sans-serif",
+      "rect": [
+        67.9586,
+        104.04446,
+        50,
+        13.60215
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nconst v = data.ca('stop.v');\r\nconst v1 = '智能'; //正常\r\nconst v2 = '手动';// 待机\r\nlet state = \"暂无数据\";\r\nif (v === 'false') state = v2;\r\nif (v === 'true') state = v1;\r\nreturn state;\n}",
+        "value": "文本"
+      },
+      "color": {
+        "func": "__ht__function(data, view) {\nconst v = data.ca('stop.v');\r\nconst v1 = '#f59a23'; //手动\r\nconst v2 = '#0000ff';// 智能\r\nconst v3= '#999';// 未获取到数据\r\nlet color = v3;\r\nif (v === 'true') color = v2;\r\nif (v === 'false') color = v1;\r\nreturn color;\n}",
+        "value": "#000"
+      },
+      "font": "14px arial, sans-serif",
+      "rect": [
+        67.9586,
+        124.66255,
+        50,
+        13.60215
+      ]
+    }
+  ]
+}

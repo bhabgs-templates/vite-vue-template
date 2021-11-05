@@ -1,0 +1,89 @@
+{
+  "modified": "Wed Oct 20 2021 17:33:23 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "scale",
+      "valueType": "Number"
+    },
+    {
+      "attr": "curProgress.tc",
+      "valueType": "String"
+    },
+    {
+      "attr": "curProgress.mc",
+      "valueType": "String",
+      "defaultValue": "PRE_READ"
+    },
+    {
+      "attr": "curProgress.v",
+      "valueType": "String"
+    }
+  ],
+  "width": 80,
+  "height": 60,
+  "comps": [
+    {
+      "type": "text",
+      "text": "当前开度：",
+      "font": "bold 9px sans-serif, Arial",
+      "rect": [
+        13.90142,
+        31.16879,
+        47.64258,
+        14.13984
+      ]
+    },
+    {
+      "type": "image",
+      "color": {
+        "func": "__ht__function(data, view) {\nconst open = data.ca('open.v');\r\nconst close = data.ca('close.v');\r\nconst colors = [\r\n    'rgba(4,255,0,0.80)',\r\n    'rgba(207,207,207,0.80)',\r\n    'rgba(212,0,0,0.8)'\r\n];\r\nlet state = 2; // 0 1 2 -> 开到位 关到位 其他\r\n\r\nif (open == 'false' && close == 'true') state = 1;\r\nif (open == 'true' && close == 'false') state = 0;\r\n\r\n\r\nreturn colors[state];\n}",
+        "value": "rgba(207,207,207,0.80)"
+      },
+      "stretch": "centerUniform",
+      "name": "symbols/素材库/设备/电控阀门.json",
+      "displayName": "电控阀门",
+      "rotation": {
+        "func": "attr@scale",
+        "value": 0
+      },
+      "rect": [
+        56.95925,
+        16.99715,
+        9.57932,
+        11.11885
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@curProgress.tc",
+        "value": "文本"
+      },
+      "font": "bold 14px sans-serif, Arial",
+      "rect": [
+        18.68132,
+        2.54265,
+        57.07525,
+        11.63025
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nlet v = data.ca('curProgress.v');\r\nv = v == undefined ? 0 : Number(v);\r\nreturn  v.toFixed(0) + '%';\n}",
+        "value": "1"
+      },
+      "color": {
+        "func": "__ht__function(data, view) {\nconst v = data.ca('curProgress.v');\r\nconst v1 = '#70b602'; \r\nconst v2 = 'rgba(255,0,0)';\r\nlet color = v1;\r\nif ('100' < v) color = v2;\r\nif ('0' > v) color = v2;\r\nreturn color;\n}",
+        "value": ""
+      },
+      "font": "bold 12px arial, sans-serif",
+      "rect": [
+        28.22648,
+        48.1687,
+        18.99247,
+        10.32186
+      ]
+    }
+  ]
+}

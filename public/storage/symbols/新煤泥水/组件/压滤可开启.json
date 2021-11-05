@@ -1,0 +1,68 @@
+{
+  "modified": "Mon May 10 2021 09:55:45 GMT+0800 (中国标准时间)",
+  "width": 300,
+  "height": 100,
+  "comps": [
+    {
+      "type": "roundRect",
+      "background": "#3093FF",
+      "borderColor": "#979797",
+      "gradient": "linear.south",
+      "gradientColor": "#007AFF",
+      "cornerRadius": 50,
+      "rect": [
+        -0.23997,
+        0.51341,
+        300,
+        100
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/煤泥水/灯.json",
+      "displayName": "灯",
+      "rect": [
+        41.38252,
+        16.44245,
+        36,
+        47
+      ]
+    },
+    {
+      "type": "text",
+      "text": "压滤可开启",
+      "color": "rgb(255,255,255)",
+      "font": "bold 30px sans-serif, Arial",
+      "rect": [
+        93.65153,
+        23.92057,
+        183.36147,
+        32.04375
+      ]
+    },
+    {
+      "type": "text",
+      "text": "04/14",
+      "color": "rgb(255,255,255)",
+      "font": "20px sans-serif, Arial",
+      "rect": [
+        93.65153,
+        70.65104,
+        76.99401,
+        12.90651
+      ]
+    },
+    {
+      "type": "text",
+      "text": "15:05:08",
+      "color": "rgb(255,255,255)",
+      "font": "20px sans-serif, Arial",
+      "rect": [
+        163.93185,
+        70.65104,
+        76.99401,
+        12.90651
+      ]
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "modified": "Mon Jun 21 2021 11:13:13 GMT+0800 (中国标准时间)",
+  "width": 83,
+  "height": 152,
+  "comps": [
+    {
+      "type": "shape",
+      "background": "#3C6DB5",
+      "pixelPerfect": true,
+      "points": [
+        44,
+        148,
+        4,
+        148,
+        4,
+        4,
+        44,
+        4,
+        44,
+        45,
+        69,
+        45,
+        79,
+        61,
+        79,
+        91,
+        69,
+        107,
+        44,
+        107,
+        44,
+        148
+      ],
+      "segments": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        5
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 2,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "points": [
+        43,
+        5,
+        43,
+        46,
+        68.44575,
+        46,
+        78,
+        61.2868,
+        78,
+        90.7132,
+        68.44575,
+        106,
+        43,
+        106,
+        43,
+        147,
+        5,
+        147,
+        5,
+        5,
+        43,
+        5
+      ],
+      "segments": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        5
+      ]
+    },
+    {
+      "type": "text",
+      "text": "泵房",
+      "color": "rgb(255,255,255)",
+      "font": "20px SourceHanSansCN-Medium, \"Source Han Sans CN\"",
+      "pixelPerfect": true,
+      "rect": [
+        16,
+        77,
+        0.01,
+        0.01
+      ]
+    }
+  ]
+}

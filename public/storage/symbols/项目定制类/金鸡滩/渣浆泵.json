@@ -1,0 +1,52 @@
+{
+  "modified": "Mon Oct 18 2021 17:39:04 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "state.tc",
+      "valueType": "String"
+    },
+    {
+      "attr": "state.mc",
+      "valueType": "String"
+    },
+    {
+      "attr": "state.v",
+      "valueType": "String"
+    }
+  ],
+  "width": 36,
+  "height": 67,
+  "comps": [
+    {
+      "type": "image",
+      "name": {
+        "func": "__ht__function(data, view) {\nconst v = data.ca('state.v');\nconst v1 = 'symbols/素材库/设备/渣浆泵.json'; //待机\nconst v2 = 'symbols/素材库/设备/渣浆泵_g.json'; // 正常\nconst v3 = 'symbols/素材库/设备/渣浆泵_r.json'; // 故障\nconst v4 = 'symbols/素材库/设备/渣浆泵_y.json'; // 就绪\nlet color = v1;\n\nif (v ==='8' || v ==='2') color = v2;\nif (v === '20' || v === '4') color = v3;\nreturn color;\n}",
+        "value": "symbols/素材库/设备/渣浆泵.json"
+      },
+      "displayName": "渣浆泵",
+      "scaleX": -1,
+      "rect": [
+        0,
+        17.94575,
+        36,
+        49
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@state.tc",
+        "value": "201"
+      },
+      "align": "center",
+      "color": "rgb(0,0,0)",
+      "font": "bold 14px sans-serif, Arial",
+      "rect": [
+        0,
+        2.85215,
+        36.97931,
+        15.0936
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3485 @@
+{
+  "v": "7.2.4",
+  "p": {
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "fitContent": true
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 2360,
+      "p": {
+        "displayName": "粉料箱",
+        "tag": "flx_66",
+        "image": "symbols/项目定制类/金鸡滩/粉料箱.json",
+        "position": {
+          "x": 256.06275,
+          "y": 317.86514
+        }
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 2361,
+      "p": {
+        "displayName": "第一行",
+        "position": {
+          "x": 1280.05465,
+          "y": -67.98429
+        },
+        "anchor": {
+          "x": 0.76182,
+          "y": 0.42965
+        },
+        "width": 1805.58853,
+        "height": 270.28979
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2362,
+      "p": {
+        "displayName": "加药机",
+        "parent": {
+          "__i": 2361
+        },
+        "tag": "jj_518",
+        "image": "symbols/项目定制类/金鸡滩/加药机.json",
+        "position": {
+          "x": -10.4857,
+          "y": -49.6945
+        },
+        "width": 170,
+        "height": 240
+      },
+      "a": {
+        "xh.v": "1",
+        "pl.hasyy": true,
+        "pl.tc": "516",
+        "xh.tc": "518",
+        "kzms.v": "1",
+        "tjms.v": "1",
+        "xh.mc": "LINK_INTERRUPT",
+        "tjms.tc": "518",
+        "tjms.mc": "I_CONTROL",
+        "kzms.tc": "518",
+        "dqpl.unit": "Hz",
+        "dqpl.mc": "SPEED_SET_FLOC",
+        "dqpl.tc": "518",
+        "dqpl.v": "22",
+        "kzms.mc": "RUNS_AUTO"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 2363,
+      "p": {
+        "displayName": "浓缩机501",
+        "parent": {
+          "__i": 2361
+        },
+        "position": {
+          "x": 498.1782,
+          "y": -20.82513
+        },
+        "anchor": {
+          "x": 0.36048,
+          "y": 0.5
+        },
+        "width": 208.05419,
+        "height": 190
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2364,
+      "p": {
+        "displayName": "浓缩机",
+        "parent": {
+          "__i": 2363
+        },
+        "tag": "nsj_501",
+        "image": "symbols/项目定制类/金鸡滩/浓缩机.json",
+        "position": {
+          "x": 498.1782,
+          "y": -20.82513
+        },
+        "width": 150,
+        "height": 190
+      },
+      "a": {
+        "tc": "501",
+        "dqll.mc": "FL",
+        "dqll.tc": "501.BL-1",
+        "jyfkd.tc": "501.BL-1",
+        "rlnd.tc": "501",
+        "cqcgd.tc": "501",
+        "jyfkd.mc": "PRE_READ",
+        "rlnd.mc": "CONCENTRATION",
+        "cqcgd.mc": "WATER_LEVEL"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2365,
+      "p": {
+        "displayName": "渣浆泵",
+        "parent": {
+          "__i": 2363
+        },
+        "tag": "zjb_504",
+        "image": "symbols/项目定制类/金鸡滩/渣浆泵.json",
+        "position": {
+          "x": 613.23239,
+          "y": -82.32513
+        },
+        "width": 36,
+        "height": 67
+      },
+      "a": {
+        "state.tc": "504",
+        "state.mc": "STATE",
+        "state.v": "1"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2366,
+      "p": {
+        "displayName": "渣浆泵",
+        "parent": {
+          "__i": 2363
+        },
+        "tag": "zjb_505",
+        "image": "symbols/项目定制类/金鸡滩/渣浆泵.json",
+        "position": {
+          "x": 613.23239,
+          "y": -8.74555
+        },
+        "width": 36,
+        "height": 67,
+        "tall": 20
+      },
+      "a": {
+        "state.tc": "505",
+        "state.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 2367,
+      "p": {
+        "displayName": "水桶-嘴601",
+        "parent": {
+          "__i": 2361
+        },
+        "position": {
+          "x": 814.04209,
+          "y": -48.53534
+        },
+        "anchor": {
+          "x": 0.31769,
+          "y": 0.5
+        },
+        "width": 157.38446,
+        "height": 143.42042
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2368,
+      "p": {
+        "displayName": "桶_嘴",
+        "parent": {
+          "__i": 2367
+        },
+        "tag": "tc_601",
+        "image": "symbols/项目定制类/金鸡滩/桶_嘴.json",
+        "position": {
+          "x": 814.04209,
+          "y": -48.53534
+        },
+        "width": 100,
+        "height": 110
+      },
+      "a": {
+        "st.v": 12,
+        "st.tc": "601",
+        "st.mc": "LEVELPROPORTION"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2369,
+      "p": {
+        "displayName": "渣浆泵",
+        "parent": {
+          "__i": 2367
+        },
+        "tag": "zjb_604",
+        "image": "symbols/项目定制类/金鸡滩/渣浆泵.json",
+        "position": {
+          "x": 903.42655,
+          "y": -86.74555
+        },
+        "width": 36,
+        "height": 67
+      },
+      "a": {
+        "state.tc": "604",
+        "state.v": "1",
+        "state.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2370,
+      "p": {
+        "displayName": "渣浆泵",
+        "parent": {
+          "__i": 2367
+        },
+        "image": "symbols/项目定制类/金鸡滩/渣浆泵.json",
+        "position": {
+          "x": 903.42655,
+          "y": -10.32513
+        },
+        "width": 36,
+        "height": 67,
+        "tall": 20
+      },
+      "a": {
+        "state.tc": "605",
+        "state.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 2371,
+      "p": {
+        "displayName": "压滤机",
+        "parent": {
+          "__i": 2361
+        },
+        "position": {
+          "x": 1172.07818,
+          "y": -119.11492
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.24048
+        },
+        "width": 300,
+        "height": 270.28979
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2372,
+      "p": {
+        "displayName": "压滤机",
+        "parent": {
+          "__i": 2371
+        },
+        "tag": "ylj_610",
+        "image": "symbols/项目定制类/金鸡滩/压滤机.json",
+        "position": {
+          "x": 1172.07818,
+          "y": -119.11492
+        },
+        "width": 300,
+        "height": 130
+      },
+      "a": {
+        "lb.lstate": "jd",
+        "xh.tc": "610",
+        "xh.v": "0",
+        "lb.v": "自动模式",
+        "xh.mc": "LINK_INTERRUPT",
+        "b.mc": "PLATE_CNT",
+        "b.tc": "610",
+        "lb.tc": "610",
+        "state.tc": "610",
+        "kzms.tc": "610",
+        "state.mc": "LOCAL",
+        "kzms.mc": "AUTO",
+        "kzms.v": "00",
+        "controlMode.tc": "610",
+        "controlMethod.tc": "610",
+        "loose.tc": "610",
+        "takePlate.tc": "610",
+        "pullPlate.tc": "610",
+        "press.tc": "610",
+        "holdPress.tc": "610",
+        "feeding.tc": "610",
+        "squeeze.tc": "610",
+        "emptying.tc": "610",
+        "blow.tc": "610",
+        "wait.tc": "610",
+        "wait.v": "true"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2373,
+      "p": {
+        "displayName": "压滤机",
+        "parent": {
+          "__i": 2371
+        },
+        "tag": "ylj_611",
+        "image": "symbols/项目定制类/金鸡滩/压滤机.json",
+        "position": {
+          "x": 1172.07818,
+          "y": 21.17487
+        },
+        "width": 300,
+        "height": 130,
+        "tall": 20
+      },
+      "a": {
+        "lb.lstate": "jk",
+        "xh.tc": "611",
+        "b.v": "12",
+        "lb.v": "手动模式",
+        "lb.label": "压紧",
+        "state.mc": "LOCAL",
+        "b.tc": "611",
+        "state.tc": "611",
+        "xh.mc": "LINK_INTERRUPT",
+        "b.mc": "PLATE_CNT",
+        "kzms.mc": "AUTO",
+        "kzms.tc": "611",
+        "controlMethod.tc": "611",
+        "controlMode.tc": "611",
+        "loose.tc": "611",
+        "takePlate.tc": "611",
+        "pullPlate.tc": "611",
+        "press.tc": "611",
+        "holdPress.tc": "611",
+        "feeding.tc": "611",
+        "squeeze.tc": "611",
+        "emptying.tc": "611",
+        "blow.tc": "611",
+        "wait.tc": "611"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 2374,
+      "p": {
+        "displayName": "刮板",
+        "parent": {
+          "__i": 2361
+        },
+        "position": {
+          "x": 1424.83117,
+          "y": -150.1945
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.1092
+        },
+        "width": 120,
+        "height": 178.57958
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2375,
+      "p": {
+        "displayName": "刮板",
+        "parent": {
+          "__i": 2374
+        },
+        "tag": "gb_616",
+        "image": "symbols/项目定制类/金鸡滩/刮板.json",
+        "position": {
+          "x": 1424.83117,
+          "y": -150.1945
+        },
+        "width": 120,
+        "height": 39
+      },
+      "a": {
+        "state.tc": "616",
+        "state.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2376,
+      "p": {
+        "displayName": "刮板",
+        "parent": {
+          "__i": 2374
+        },
+        "tag": "gb_617",
+        "image": "symbols/项目定制类/金鸡滩/刮板.json",
+        "position": {
+          "x": 1424.83117,
+          "y": -10.61492
+        },
+        "width": 120,
+        "height": 39,
+        "tall": 20
+      },
+      "a": {
+        "state.tc": "617",
+        "state.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 2377,
+      "p": {
+        "displayName": "破碎机",
+        "parent": {
+          "__i": 2361
+        },
+        "position": {
+          "x": 1670.10283,
+          "y": -144.1945
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.1389
+        },
+        "width": 80,
+        "height": 183.57958
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2378,
+      "p": {
+        "displayName": "破碎机",
+        "parent": {
+          "__i": 2377
+        },
+        "tag": "psj_622",
+        "image": "symbols/项目定制类/金鸡滩/破碎机.json",
+        "position": {
+          "x": 1670.10283,
+          "y": -142.97482
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.52392
+        },
+        "width": 80,
+        "height": 51
+      },
+      "a": {
+        "state.tc": "622",
+        "state.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2379,
+      "p": {
+        "displayName": "破碎机",
+        "parent": {
+          "__i": 2377
+        },
+        "tag": "psj_623",
+        "image": "symbols/项目定制类/金鸡滩/破碎机.json",
+        "position": {
+          "x": 1670.10283,
+          "y": -10.39524
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.52392
+        },
+        "width": 80,
+        "height": 51,
+        "tall": 20
+      },
+      "a": {
+        "state.tc": "623",
+        "state.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 2380,
+      "p": {
+        "displayName": "第二行",
+        "position": {
+          "x": 1280.05465,
+          "y": 267.49577
+        },
+        "anchor": {
+          "x": 0.76182,
+          "y": 0.42919
+        },
+        "width": 1805.58853,
+        "height": 270.57958
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2381,
+      "p": {
+        "displayName": "加药机",
+        "parent": {
+          "__i": 2380
+        },
+        "tag": "jj_516",
+        "image": "symbols/项目定制类/金鸡滩/加药机.json",
+        "position": {
+          "x": -10.4857,
+          "y": 285.78556
+        },
+        "width": 170,
+        "height": 240,
+        "tall": 20
+      },
+      "a": {
+        "xh.v": "0",
+        "pl.hasyy": true,
+        "pl.tc": "516",
+        "xh.tc": "516",
+        "kzms.v": "-",
+        "tjms.v": "自动运行",
+        "dqpl.v": "35.5",
+        "xh.mc": "LINK_INTERRUPT",
+        "tjms.mc": "I_CONTROL",
+        "kzms.mc": "RUNS_AUTO",
+        "dqpl.mc": "SPEED_SET_FLOC",
+        "dqpl.tc": "516",
+        "kzms.tc": "516",
+        "tjms.tc": "516"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 2382,
+      "p": {
+        "displayName": "浓缩机501",
+        "parent": {
+          "__i": 2380
+        },
+        "position": {
+          "x": 498.1782,
+          "y": 314.65493
+        },
+        "anchor": {
+          "x": 0.36048,
+          "y": 0.5
+        },
+        "width": 208.05419,
+        "height": 190
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2383,
+      "p": {
+        "displayName": "浓缩机",
+        "parent": {
+          "__i": 2382
+        },
+        "tag": "nsj_502",
+        "image": "symbols/项目定制类/金鸡滩/浓缩机.json",
+        "position": {
+          "x": 498.1782,
+          "y": 314.65493
+        },
+        "width": 150,
+        "height": 190,
+        "tall": 20
+      },
+      "a": {
+        "tc": "502",
+        "cqcgd.mc": "WATER_LEVEL",
+        "dqll.tc": "502.BL-1",
+        "jyfkd.tc": "502.BL-1",
+        "rlnd.tc": "502",
+        "cqcgd.tc": "502",
+        "rlnd.mc": "CONCENTRATION",
+        "jyfkd.mc": "PRE_READ",
+        "dqll.mc": "FL"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2384,
+      "p": {
+        "displayName": "渣浆泵",
+        "parent": {
+          "__i": 2382
+        },
+        "tag": "zjb_506",
+        "image": "symbols/项目定制类/金鸡滩/渣浆泵.json",
+        "position": {
+          "x": 613.23239,
+          "y": 253.15493
+        },
+        "width": 36,
+        "height": 67,
+        "tall": 20
+      },
+      "a": {
+        "state.tc": "506",
+        "state.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2385,
+      "p": {
+        "displayName": "渣浆泵",
+        "parent": {
+          "__i": 2382
+        },
+        "tag": "zjb_507",
+        "image": "symbols/项目定制类/金鸡滩/渣浆泵.json",
+        "position": {
+          "x": 613.23239,
+          "y": 326.73451
+        },
+        "width": 36,
+        "height": 67,
+        "tall": 20
+      },
+      "a": {
+        "state.tc": "507",
+        "state.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 2386,
+      "p": {
+        "displayName": "水桶-嘴601",
+        "parent": {
+          "__i": 2380
+        },
+        "position": {
+          "x": 814.04209,
+          "y": 286.94472
+        },
+        "anchor": {
+          "x": 0.31769,
+          "y": 0.5
+        },
+        "width": 157.38446,
+        "height": 143.42042
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2387,
+      "p": {
+        "displayName": "桶_嘴",
+        "parent": {
+          "__i": 2386
+        },
+        "tag": "st_602",
+        "image": "symbols/项目定制类/金鸡滩/桶_嘴.json",
+        "position": {
+          "x": 814.04209,
+          "y": 286.94472
+        },
+        "width": 100,
+        "height": 110,
+        "tall": 20
+      },
+      "a": {
+        "st.v": 12,
+        "st.tc": "602",
+        "st.mc": "LEVELPROPORTION"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2388,
+      "p": {
+        "displayName": "渣浆泵",
+        "parent": {
+          "__i": 2386
+        },
+        "tag": "zjb_606",
+        "image": "symbols/项目定制类/金鸡滩/渣浆泵.json",
+        "position": {
+          "x": 903.42655,
+          "y": 248.73451
+        },
+        "width": 36,
+        "height": 67,
+        "tall": 20
+      },
+      "a": {
+        "state.tc": "606",
+        "state.v": "1",
+        "state.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2389,
+      "p": {
+        "displayName": "渣浆泵",
+        "parent": {
+          "__i": 2386
+        },
+        "tag": "zjb_607",
+        "image": "symbols/项目定制类/金鸡滩/渣浆泵.json",
+        "position": {
+          "x": 903.42655,
+          "y": 325.15493
+        },
+        "width": 36,
+        "height": 67,
+        "tall": 20
+      },
+      "a": {
+        "state.tc": "607",
+        "state.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 2390,
+      "p": {
+        "displayName": "压滤机",
+        "parent": {
+          "__i": 2380
+        },
+        "position": {
+          "x": 1172.07818,
+          "y": 216.36514
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.24023
+        },
+        "width": 300,
+        "height": 270.57958
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2391,
+      "p": {
+        "displayName": "压滤机",
+        "parent": {
+          "__i": 2390
+        },
+        "tag": "ylj_612",
+        "image": "symbols/项目定制类/金鸡滩/压滤机.json",
+        "position": {
+          "x": 1172.07818,
+          "y": 216.36514
+        },
+        "width": 300,
+        "height": 130,
+        "tall": 20
+      },
+      "a": {
+        "xh.tc": "612",
+        "lb.label": "取板",
+        "lb.v": "手动模式",
+        "xh.v": "0",
+        "b.tc": "612",
+        "state.tc": "612",
+        "kzms.tc": "612",
+        "xh.mc": "LINK_INTERRUPT",
+        "b.mc": "PLATE_CNT",
+        "state.mc": "LOCAL",
+        "kzms.mc": "AUTO",
+        "controlMethod.tc": "612",
+        "controlMode.tc": "612",
+        "loose.tc": "612",
+        "takePlate.tc": "612",
+        "pullPlate.tc": "612",
+        "press.tc": "612",
+        "holdPress.tc": "612",
+        "feeding.tc": "612",
+        "squeeze.tc": "612",
+        "emptying.tc": "612",
+        "blow.tc": "612",
+        "wait.tc": "612",
+        "wait.v": "612"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2392,
+      "p": {
+        "displayName": "压滤机",
+        "parent": {
+          "__i": 2390
+        },
+        "tag": "ylj_613",
+        "image": "symbols/项目定制类/金鸡滩/压滤机.json",
+        "position": {
+          "x": 1172.07818,
+          "y": 356.94472
+        },
+        "width": 300,
+        "height": 130,
+        "tall": 20
+      },
+      "a": {
+        "xh.tc": "613",
+        "lb.label": "循环等待",
+        "lb.v": "手动模式",
+        "lb.lstate": "jk",
+        "b.tc": "613",
+        "state.tc": "613",
+        "kzms.tc": "613",
+        "xh.mc": "LINK_INTERRUPT",
+        "b.mc": "PLATE_CNT",
+        "state.mc": "LOCAL",
+        "label.v": "进料延时",
+        "kzms.mc": "AUTO",
+        "controlMethod.tc": "613",
+        "controlMode.tc": "613",
+        "loose.tc": "613",
+        "takePlate.tc": "613",
+        "pullPlate.tc": "613",
+        "press.tc": "613",
+        "holdPress.tc": "613",
+        "feeding.tc": "613",
+        "squeeze.tc": "613",
+        "emptying.tc": "613",
+        "blow.tc": "613",
+        "wait.tc": "613"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 2393,
+      "p": {
+        "displayName": "刮板",
+        "parent": {
+          "__i": 2380
+        },
+        "position": {
+          "x": 1424.83117,
+          "y": 185.28556
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.0756
+        },
+        "width": 120,
+        "height": 178.57958
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2394,
+      "p": {
+        "displayName": "刮板",
+        "parent": {
+          "__i": 2393
+        },
+        "tag": "gb_618",
+        "image": "symbols/项目定制类/金鸡滩/刮板.json",
+        "position": {
+          "x": 1424.83117,
+          "y": 191.28556
+        },
+        "width": 120,
+        "height": 39,
+        "tall": 20
+      },
+      "a": {
+        "state.tc": "618",
+        "state.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2395,
+      "p": {
+        "displayName": "刮板",
+        "parent": {
+          "__i": 2393
+        },
+        "tag": "gb_619",
+        "image": "symbols/项目定制类/金鸡滩/刮板.json",
+        "position": {
+          "x": 1424.83117,
+          "y": 330.86514
+        },
+        "width": 120,
+        "height": 39,
+        "tall": 20
+      },
+      "a": {
+        "state.tc": "619",
+        "state.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 2396,
+      "p": {
+        "displayName": "破碎机",
+        "parent": {
+          "__i": 2380
+        },
+        "position": {
+          "x": 1670.10283,
+          "y": 191.28556
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.1389
+        },
+        "width": 80,
+        "height": 183.57958
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2397,
+      "p": {
+        "displayName": "破碎机",
+        "parent": {
+          "__i": 2396
+        },
+        "tag": "psj_624",
+        "image": "symbols/项目定制类/金鸡滩/破碎机.json",
+        "position": {
+          "x": 1670.10283,
+          "y": 192.50524
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.52392
+        },
+        "width": 80,
+        "height": 51,
+        "tall": 20
+      },
+      "a": {
+        "state.tc": "624",
+        "state.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2398,
+      "p": {
+        "displayName": "破碎机",
+        "parent": {
+          "__i": 2396
+        },
+        "tag": "psj_625",
+        "image": "symbols/项目定制类/金鸡滩/破碎机.json",
+        "position": {
+          "x": 1670.10283,
+          "y": 325.08482
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.52392
+        },
+        "width": 80,
+        "height": 51,
+        "tall": 20
+      },
+      "a": {
+        "state.tc": "625",
+        "state.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 2399,
+      "p": {
+        "displayName": "第三行",
+        "position": {
+          "x": 1280.05465,
+          "y": 602.97583
+        },
+        "anchor": {
+          "x": 0.76182,
+          "y": 0.42919
+        },
+        "width": 1805.58853,
+        "height": 270.57958
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2400,
+      "p": {
+        "displayName": "加药机",
+        "parent": {
+          "__i": 2399
+        },
+        "tag": "jyj_517",
+        "image": "symbols/项目定制类/金鸡滩/加药机.json",
+        "position": {
+          "x": -10.4857,
+          "y": 621.26562
+        },
+        "width": 170,
+        "height": 240,
+        "tall": 20
+      },
+      "a": {
+        "xh.v": "1",
+        "pl.hasyy": true,
+        "pl.tc": "516",
+        "xh.tc": "517",
+        "kzms.v": "自动运行",
+        "tjms.v": "自动运行",
+        "dqpl.v": "35.5",
+        "dqpl.tc": "517",
+        "kzms.tc": "517",
+        "tjms.tc": "517",
+        "xh.mc": "LINK_INTERRUPT",
+        "tjms.mc": "I_CONTROL",
+        "kzms.mc": "RUNS_AUTO",
+        "dqpl.mc": "SPEED_SET_FLOC"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 2401,
+      "p": {
+        "displayName": "浓缩机501",
+        "parent": {
+          "__i": 2399
+        },
+        "position": {
+          "x": 498.1782,
+          "y": 650.13499
+        },
+        "anchor": {
+          "x": 0.36048,
+          "y": 0.5
+        },
+        "width": 208.05419,
+        "height": 190
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2402,
+      "p": {
+        "displayName": "浓缩机",
+        "parent": {
+          "__i": 2401
+        },
+        "tag": "nsj_503",
+        "image": "symbols/项目定制类/金鸡滩/浓缩机.json",
+        "position": {
+          "x": 498.1782,
+          "y": 650.13499
+        },
+        "width": 150,
+        "height": 190,
+        "tall": 20
+      },
+      "a": {
+        "tc": "503",
+        "dqll.v": "5.6",
+        "jyfkd.v": "30",
+        "rlnd.v": "40.2",
+        "cqcgd.v": "2.5",
+        "dqll.mc": "FL",
+        "dqll.tc": "503.BL-1",
+        "jyfkd.tc": "503.BL-1",
+        "rlnd.tc": "503",
+        "cqcgd.tc": "503",
+        "jyfkd.mc": "PRE_READ",
+        "rlnd.mc": "CONCENTRATION",
+        "cqcgd.mc": "WATER_LEVEL"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2403,
+      "p": {
+        "displayName": "渣浆泵",
+        "parent": {
+          "__i": 2401
+        },
+        "tag": "zjb_508",
+        "image": "symbols/项目定制类/金鸡滩/渣浆泵.json",
+        "position": {
+          "x": 613.23239,
+          "y": 588.63499
+        },
+        "width": 36,
+        "height": 67,
+        "tall": 20
+      },
+      "a": {
+        "state.tc": "508",
+        "state.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2404,
+      "p": {
+        "displayName": "渣浆泵",
+        "parent": {
+          "__i": 2401
+        },
+        "tag": "zjb_509",
+        "image": "symbols/项目定制类/金鸡滩/渣浆泵.json",
+        "position": {
+          "x": 613.23239,
+          "y": 662.21457
+        },
+        "width": 36,
+        "height": 67,
+        "tall": 20
+      },
+      "a": {
+        "state.tc": "509",
+        "state.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 2405,
+      "p": {
+        "displayName": "水桶-嘴601",
+        "parent": {
+          "__i": 2399
+        },
+        "position": {
+          "x": 814.04209,
+          "y": 622.42478
+        },
+        "anchor": {
+          "x": 0.31769,
+          "y": 0.5
+        },
+        "width": 157.38446,
+        "height": 143.42042
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2406,
+      "p": {
+        "displayName": "桶_嘴",
+        "parent": {
+          "__i": 2405
+        },
+        "image": "symbols/项目定制类/金鸡滩/桶_嘴.json",
+        "position": {
+          "x": 814.04209,
+          "y": 622.42478
+        },
+        "width": 100,
+        "height": 110,
+        "tall": 20
+      },
+      "a": {
+        "st.v": 12,
+        "st.tc": "603",
+        "st.mc": "LEVELPROPORTION"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2407,
+      "p": {
+        "displayName": "渣浆泵",
+        "parent": {
+          "__i": 2405
+        },
+        "image": "symbols/项目定制类/金鸡滩/渣浆泵.json",
+        "position": {
+          "x": 903.42655,
+          "y": 584.21457
+        },
+        "width": 36,
+        "height": 67,
+        "tall": 20
+      },
+      "a": {
+        "state.tc": "608",
+        "state.v": "1",
+        "state.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2408,
+      "p": {
+        "displayName": "渣浆泵",
+        "parent": {
+          "__i": 2405
+        },
+        "image": "symbols/项目定制类/金鸡滩/渣浆泵.json",
+        "position": {
+          "x": 903.42655,
+          "y": 660.63499
+        },
+        "width": 36,
+        "height": 67,
+        "tall": 20
+      },
+      "a": {
+        "state.tc": "609",
+        "state.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 2409,
+      "p": {
+        "displayName": "压滤机",
+        "parent": {
+          "__i": 2399
+        },
+        "position": {
+          "x": 1172.07818,
+          "y": 551.8452
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.24023
+        },
+        "width": 300,
+        "height": 270.57958
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2410,
+      "p": {
+        "displayName": "压滤机",
+        "parent": {
+          "__i": 2409
+        },
+        "image": "symbols/项目定制类/金鸡滩/压滤机.json",
+        "position": {
+          "x": 1172.07818,
+          "y": 551.8452
+        },
+        "width": 300,
+        "height": 130,
+        "tall": 20
+      },
+      "a": {
+        "xh.tc": "614",
+        "xh.v": "1",
+        "b.v": "20",
+        "b.tc": "614",
+        "lb.tc": "614",
+        "lb.v": "-",
+        "lb.label": "-",
+        "state.tc": "614",
+        "kzms.tc": "614",
+        "xh.mc": "LINK_INTERRUPT",
+        "b.mc": "PLATE_CNT",
+        "state.mc": "LOCAL",
+        "kzms.mc": "AUTO",
+        "state.v": "wz",
+        "kzms.v": "未知",
+        "controlMethod.tc": "614",
+        "controlMode.tc": "614",
+        "loose.tc": "614",
+        "takePlate.tc": "614",
+        "pullPlate.tc": "614",
+        "press.tc": "614",
+        "holdPress.tc": "614",
+        "feeding.tc": "614",
+        "squeeze.tc": "614",
+        "emptying.tc": "614",
+        "blow.tc": "614",
+        "wait.tc": "614"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2411,
+      "p": {
+        "displayName": "压滤机",
+        "parent": {
+          "__i": 2409
+        },
+        "image": "symbols/项目定制类/金鸡滩/压滤机.json",
+        "position": {
+          "x": 1172.07818,
+          "y": 692.42478
+        },
+        "width": 300,
+        "height": 130,
+        "tall": 20
+      },
+      "a": {
+        "xh.tc": "615",
+        "b.tc": "615",
+        "lb.tc": "615",
+        "lb.label": "吹风",
+        "lb.v": "手动模式",
+        "b.v": "0",
+        "lb.lstate": "jk",
+        "kzms.mc": "AUTO",
+        "kzms.tc": "615",
+        "state.tc": "615",
+        "state.mc": "LOCAL",
+        "b.mc": "PLATE_CNT",
+        "xh.mc": "LINK_INTERRUPT",
+        "state.v": "wz",
+        "kzms.v": "未知",
+        "controlMethod.tc": "615",
+        "controlMode.tc": "615",
+        "loose.tc": "615",
+        "takePlate.tc": "615",
+        "pullPlate.tc": "615",
+        "press.tc": "615",
+        "holdPress.tc": "615",
+        "feeding.tc": "615",
+        "squeeze.tc": "615",
+        "emptying.tc": "615",
+        "blow.tc": "615",
+        "wait.tc": "615"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 2412,
+      "p": {
+        "displayName": "刮板",
+        "parent": {
+          "__i": 2399
+        },
+        "position": {
+          "x": 1424.83117,
+          "y": 520.76562
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.10565
+        },
+        "width": 120,
+        "height": 184.57958
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2413,
+      "p": {
+        "displayName": "刮板",
+        "parent": {
+          "__i": 2412
+        },
+        "image": "symbols/项目定制类/金鸡滩/刮板.json",
+        "position": {
+          "x": 1424.83117,
+          "y": 520.76562
+        },
+        "width": 120,
+        "height": 39,
+        "tall": 20
+      },
+      "a": {
+        "state.tc": "620",
+        "state.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2414,
+      "p": {
+        "displayName": "刮板",
+        "parent": {
+          "__i": 2412
+        },
+        "image": "symbols/项目定制类/金鸡滩/刮板.json",
+        "position": {
+          "x": 1424.83117,
+          "y": 666.3452
+        },
+        "width": 120,
+        "height": 39,
+        "tall": 20
+      },
+      "a": {
+        "state.tc": "621",
+        "state.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 2415,
+      "p": {
+        "displayName": "破碎机",
+        "parent": {
+          "__i": 2399
+        },
+        "position": {
+          "x": 1670.10283,
+          "y": 526.76562
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.1389
+        },
+        "width": 80,
+        "height": 183.57958
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2416,
+      "p": {
+        "displayName": "破碎机",
+        "parent": {
+          "__i": 2415
+        },
+        "image": "symbols/项目定制类/金鸡滩/破碎机.json",
+        "position": {
+          "x": 1670.10283,
+          "y": 527.9853
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.52392
+        },
+        "width": 80,
+        "height": 51,
+        "tall": 20
+      },
+      "a": {
+        "state.tc": "626",
+        "state.v": "STATE",
+        "state.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2417,
+      "p": {
+        "displayName": "破碎机",
+        "parent": {
+          "__i": 2415
+        },
+        "image": "symbols/项目定制类/金鸡滩/破碎机.json",
+        "position": {
+          "x": 1670.10283,
+          "y": 660.56488
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.52392
+        },
+        "width": 80,
+        "height": 51,
+        "tall": 20
+      },
+      "a": {
+        "state.tc": "627",
+        "state.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2418,
+      "p": {
+        "displayName": "刮板",
+        "tag": "gb_628",
+        "image": "symbols/项目定制类/金鸡滩/刮板.json",
+        "position": {
+          "x": 1928.10967,
+          "y": 262.73451
+        }
+      },
+      "a": {
+        "state.tc": "628",
+        "state.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Data",
+      "i": 2419,
+      "p": {
+        "displayName": "line"
+      },
+      "s": {
+        "editor.folder": true,
+        "edge.dash.pattern": [
+          8,
+          8
+        ],
+        "edge.width": 3,
+        "edge.dash.color": "#1CDFC1",
+        "edge.color": "rgb(255,255,255)"
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 2420,
+      "p": {
+        "parent": {
+          "__i": 2419
+        },
+        "source": {
+          "__i": 2360
+        },
+        "target": {
+          "__i": 2361
+        }
+      },
+      "s": {
+        "edge.color": "rgb(255,255,255)",
+        "edge.width": 3,
+        "edge.dash": true,
+        "edge.dash.color": "#1CDFC1",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": [
+            {
+              "x": 375.21824,
+              "y": 272.64059
+            },
+            {
+              "x": 375.21824,
+              "y": -74.23383
+            }
+          ]
+        },
+        "edge.source.anchor.x": 0.7786,
+        "edge.source.anchor.y": 0.1985,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.27843,
+        "edge.target.anchor.y": 0.40635,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0,
+        "edge.dash.pattern": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 2421,
+      "p": {
+        "parent": {
+          "__i": 2419
+        },
+        "source": {
+          "__i": 2420
+        },
+        "target": {
+          "__i": 2380
+        }
+      },
+      "s": {
+        "edge.color": "rgb(255,255,255)",
+        "edge.width": 3,
+        "edge.dash": true,
+        "edge.dash.color": "#1CDFC1",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": [
+            {
+              "x": 373.95741,
+              "y": 272.64059
+            }
+          ]
+        },
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.27562,
+        "edge.target.anchor.y": 0.44847,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0,
+        "edge.source.percent": 0.0125,
+        "edge.dash.pattern": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 2422,
+      "p": {
+        "parent": {
+          "__i": 2419
+        },
+        "source": {
+          "__i": 2420
+        },
+        "target": {
+          "__i": 2399
+        }
+      },
+      "s": {
+        "edge.color": "rgb(255,255,255)",
+        "edge.width": 3,
+        "edge.dash": true,
+        "edge.dash.color": "#1CDFC1",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": [
+            {
+              "x": 376.48064,
+              "y": 272.64059
+            },
+            {
+              "x": 376.48064,
+              "y": 594.3318
+            }
+          ]
+        },
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.28423,
+        "edge.target.anchor.y": 0.39725,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0,
+        "edge.source.index": 0,
+        "edge.dash.pattern": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 2423,
+      "p": {
+        "parent": {
+          "__i": 2419
+        },
+        "source": {
+          "__i": 2361
+        },
+        "target": {
+          "__i": 2361
+        }
+      },
+      "s": {
+        "edge.color": "rgb(255,255,255)",
+        "edge.width": 3,
+        "edge.dash": true,
+        "edge.dash.color": "#1CDFC1",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": [
+            {
+              "x": 710.72952,
+              "y": -71.25566
+            },
+            {
+              "x": 710.72952,
+              "y": -170.83087
+            },
+            {
+              "x": 832.22955,
+              "y": -170.83087
+            }
+          ]
+        },
+        "edge.source.anchor.x": 0.40654,
+        "edge.source.anchor.y": 0.41755,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.51431,
+        "edge.target.anchor.y": 0.32291,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0,
+        "edge.dash.pattern": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 2424,
+      "p": {
+        "parent": {
+          "__i": 2419
+        },
+        "source": {
+          "__i": 2423
+        },
+        "target": {
+          "__i": 2380
+        }
+      },
+      "s": {
+        "edge.color": "rgb(255,255,255)",
+        "edge.width": 3,
+        "edge.dash": true,
+        "edge.dash.color": "#1CDFC1",
+        "edge.source.index": 0,
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": [
+            {
+              "x": 710.73363,
+              "y": -71.25566
+            },
+            {
+              "x": 710.73363,
+              "y": 169.00381
+            },
+            {
+              "x": 828.92244,
+              "y": 169.00381
+            }
+          ]
+        },
+        "edge.target.anchor.x": 0.51228,
+        "edge.target.anchor.y": 0.32178,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0,
+        "edge.dash.pattern": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 2425,
+      "p": {
+        "parent": {
+          "__i": 2419
+        },
+        "source": {
+          "__i": 2424
+        },
+        "target": {
+          "__i": 2399
+        }
+      },
+      "s": {
+        "edge.color": "rgb(255,255,255)",
+        "edge.width": 3,
+        "edge.dash": true,
+        "edge.dash.color": "#1CDFC1",
+        "edge.source.index": 0,
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": [
+            {
+              "x": 710.50423,
+              "y": -71.25566
+            },
+            {
+              "x": 711.16286,
+              "y": 488.87628
+            },
+            {
+              "x": 833.88121,
+              "y": 488.87628
+            }
+          ]
+        },
+        "edge.target.anchor.x": 0.51472,
+        "edge.target.anchor.y": 0.34082,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0,
+        "edge.dash.pattern": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 2426,
+      "p": {
+        "parent": {
+          "__i": 2419
+        },
+        "source": {
+          "__i": 2361
+        },
+        "target": {
+          "__i": 2361
+        }
+      },
+      "s": {
+        "edge.color": "rgb(255,255,255)",
+        "edge.width": 3,
+        "edge.dash": true,
+        "edge.dash.color": "#1CDFC1",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": [
+            {
+              "x": 740.2965,
+              "y": 4.48665
+            },
+            {
+              "x": 740.2965,
+              "y": -143.01182
+            },
+            {
+              "x": 814.04209,
+              "y": -143.01182
+            }
+          ]
+        },
+        "edge.source.anchor.x": 0.40667,
+        "edge.source.anchor.y": 0.69778,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.5042,
+        "edge.target.anchor.y": 0.34504,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0,
+        "edge.dash.pattern": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 2427,
+      "p": {
+        "parent": {
+          "__i": 2419
+        },
+        "source": {
+          "__i": 2426
+        },
+        "target": {
+          "__i": 2380
+        }
+      },
+      "s": {
+        "edge.color": "rgb(255,255,255)",
+        "edge.width": 3,
+        "edge.dash": true,
+        "edge.dash.color": "#1CDFC1",
+        "edge.source.index": 0,
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": [
+            {
+              "x": 740.24654,
+              "y": 5.13588
+            },
+            {
+              "x": 740.24654,
+              "y": 198.01564
+            },
+            {
+              "x": 814.04209,
+              "y": 198.01564
+            }
+          ]
+        },
+        "edge.target.anchor.x": 0.50378,
+        "edge.target.anchor.y": 0.31637,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0,
+        "edge.dash.pattern": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 2428,
+      "p": {
+        "parent": {
+          "__i": 2419
+        },
+        "source": {
+          "__i": 2380
+        },
+        "target": {
+          "__i": 2425
+        }
+      },
+      "s": {
+        "edge.color": "rgb(255,255,255)",
+        "edge.width": 3,
+        "edge.dash": true,
+        "edge.dash.color": "#1CDFC1",
+        "edge.target.percent": 0.485,
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 0.40336,
+        "edge.source.anchor.y": 0.42759,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.dash.pattern": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 2429,
+      "p": {
+        "parent": {
+          "__i": 2419
+        },
+        "source": {
+          "__i": 2380
+        },
+        "target": {
+          "__i": 2425
+        }
+      },
+      "s": {
+        "edge.color": "rgb(255,255,255)",
+        "edge.width": 3,
+        "edge.dash": true,
+        "edge.dash.color": "#1CDFC1",
+        "edge.target.percent": 0.5725,
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 0.40477,
+        "edge.source.anchor.y": 0.69831,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.dash.pattern": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 2430,
+      "p": {
+        "parent": {
+          "__i": 2419
+        },
+        "source": {
+          "__i": 2399
+        },
+        "target": {
+          "__i": 2425
+        }
+      },
+      "s": {
+        "edge.color": "rgb(255,255,255)",
+        "edge.width": 3,
+        "edge.dash": true,
+        "edge.dash.color": "#1CDFC1",
+        "edge.target.index": 2,
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": [
+            {
+              "x": 711.16286,
+              "y": 600.76285
+            }
+          ]
+        },
+        "edge.source.anchor.x": 0.40589,
+        "edge.source.anchor.y": 0.42101,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.dash.pattern": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 2431,
+      "p": {
+        "parent": {
+          "__i": 2419
+        },
+        "source": {
+          "__i": 2399
+        },
+        "target": {
+          "__i": 2399
+        }
+      },
+      "s": {
+        "edge.color": "rgb(255,255,255)",
+        "edge.width": 3,
+        "edge.dash": true,
+        "edge.dash.color": "#1CDFC1",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": [
+            {
+              "x": 743.72777,
+              "y": 675.54027
+            },
+            {
+              "x": 743.72777,
+              "y": 515.60959
+            },
+            {
+              "x": 814.41263,
+              "y": 515.60959
+            }
+          ]
+        },
+        "edge.source.anchor.x": 0.40533,
+        "edge.source.anchor.y": 0.69737,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.50393,
+        "edge.target.anchor.y": 0.34581,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0,
+        "edge.dash.pattern": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 2432,
+      "p": {
+        "parent": {
+          "__i": 2419
+        },
+        "source": {
+          "__i": 2427
+        },
+        "target": {
+          "__i": 2431
+        }
+      },
+      "s": {
+        "edge.color": "rgb(255,255,255)",
+        "edge.width": 3,
+        "edge.dash": true,
+        "edge.dash.color": "#1CDFC1",
+        "edge.source.index": 2,
+        "edge.target.index": 2,
+        "edge.dash.pattern": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 2433,
+      "p": {
+        "parent": {
+          "__i": 2419
+        },
+        "source": {
+          "__i": 2361
+        },
+        "target": {
+          "__i": 2361
+        }
+      },
+      "s": {
+        "edge.color": "rgb(255,255,255)",
+        "edge.width": 3,
+        "edge.dash": true,
+        "edge.dash.color": "#1CDFC1",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": [
+            {
+              "x": 976.321,
+              "y": -80.8829
+            },
+            {
+              "x": 976.321,
+              "y": -128.84002
+            }
+          ]
+        },
+        "edge.source.anchor.x": 0.56467,
+        "edge.source.anchor.y": 0.38193,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.62651,
+        "edge.target.anchor.y": 0.2045,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0,
+        "edge.dash.pattern": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 2434,
+      "p": {
+        "parent": {
+          "__i": 2419
+        },
+        "source": {
+          "__i": 2361
+        },
+        "target": {
+          "__i": 2361
+        }
+      },
+      "s": {
+        "edge.color": "rgb(255,255,255)",
+        "edge.width": 3,
+        "edge.dash": true,
+        "edge.dash.color": "#1CDFC1",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": [
+            {
+              "x": 981.33145,
+              "y": 1.43156
+            },
+            {
+              "x": 981.33145,
+              "y": 21.17487
+            }
+          ]
+        },
+        "edge.source.anchor.x": 0.56586,
+        "edge.source.anchor.y": 0.68647,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.62532,
+        "edge.target.anchor.y": 0.75533,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0,
+        "edge.dash.pattern": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 2435,
+      "p": {
+        "parent": {
+          "__i": 2419
+        },
+        "source": {
+          "__i": 2380
+        },
+        "target": {
+          "__i": 2380
+        }
+      },
+      "s": {
+        "edge.color": "rgb(255,255,255)",
+        "edge.width": 3,
+        "edge.dash": true,
+        "edge.dash.color": "#1CDFC1",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": [
+            {
+              "x": 983.47878,
+              "y": 259.11159
+            },
+            {
+              "x": 983.47878,
+              "y": 209.00714
+            }
+          ]
+        },
+        "edge.source.anchor.x": 0.56625,
+        "edge.source.anchor.y": 0.39821,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.62611,
+        "edge.target.anchor.y": 0.21039,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0,
+        "edge.dash.pattern": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 2436,
+      "p": {
+        "parent": {
+          "__i": 2419
+        },
+        "source": {
+          "__i": 2380
+        },
+        "target": {
+          "__i": 2380
+        }
+      },
+      "s": {
+        "edge.color": "rgb(255,255,255)",
+        "edge.width": 3,
+        "edge.dash": true,
+        "edge.dash.color": "#1CDFC1",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": [
+            {
+              "x": 986.34189,
+              "y": 335.69982
+            },
+            {
+              "x": 986.34189,
+              "y": 356.94472
+            }
+          ]
+        },
+        "edge.source.anchor.x": 0.56546,
+        "edge.source.anchor.y": 0.68126,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.61699,
+        "edge.target.anchor.y": 0.75797,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0,
+        "edge.dash.pattern": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 2437,
+      "p": {
+        "parent": {
+          "__i": 2419
+        },
+        "source": {
+          "__i": 2399
+        },
+        "target": {
+          "__i": 2399
+        }
+      },
+      "s": {
+        "edge.color": "rgb(255,255,255)",
+        "edge.width": 3,
+        "edge.dash": true,
+        "edge.dash.color": "#1CDFC1",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": [
+            {
+              "x": 983.47878,
+              "y": 595.52718
+            },
+            {
+              "x": 983.47878,
+              "y": 544.70695
+            }
+          ]
+        },
+        "edge.source.anchor.x": 0.56704,
+        "edge.source.anchor.y": 0.40166,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.62334,
+        "edge.target.anchor.y": 0.2112,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0,
+        "edge.dash.pattern": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 2438,
+      "p": {
+        "parent": {
+          "__i": 2419
+        },
+        "source": {
+          "__i": 2399
+        },
+        "target": {
+          "__i": 2399
+        }
+      },
+      "s": {
+        "edge.color": "rgb(255,255,255)",
+        "edge.width": 3,
+        "edge.dash": true,
+        "edge.dash.color": "#1CDFC1",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": [
+            {
+              "x": 987.05767,
+              "y": 674.97852
+            },
+            {
+              "x": 987.05767,
+              "y": 692.42478
+            }
+          ]
+        },
+        "edge.source.anchor.x": 0.56704,
+        "edge.source.anchor.y": 0.6953,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.62091,
+        "edge.target.anchor.y": 0.76018,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0,
+        "edge.dash.pattern": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 2439,
+      "p": {
+        "parent": {
+          "__i": 2419
+        },
+        "source": {
+          "__i": 2361
+        },
+        "target": {
+          "__i": 2361
+        }
+      },
+      "s": {
+        "edge.color": "rgb(255,255,255)",
+        "edge.width": 3,
+        "edge.dash": true,
+        "edge.dash.color": "#1CDFC1",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 0.71972,
+        "edge.source.anchor.y": 0.16406,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.79713,
+        "edge.target.anchor.y": 0.16068,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0,
+        "edge.dash.pattern": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 2440,
+      "p": {
+        "parent": {
+          "__i": 2419
+        },
+        "source": {
+          "__i": 2361
+        },
+        "target": {
+          "__i": 2361
+        }
+      },
+      "s": {
+        "edge.color": "rgb(255,255,255)",
+        "edge.width": 3,
+        "edge.dash": true,
+        "edge.dash.color": "#1CDFC1",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 0.87859,
+        "edge.source.anchor.y": 0.1573,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.95145,
+        "edge.target.anchor.y": 0.15392,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0,
+        "edge.dash.pattern": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 2441,
+      "p": {
+        "parent": {
+          "__i": 2419
+        },
+        "source": {
+          "__i": 2361
+        },
+        "target": {
+          "__i": 2418
+        }
+      },
+      "s": {
+        "edge.color": "rgb(255,255,255)",
+        "edge.width": 3,
+        "edge.dash": true,
+        "edge.dash.color": "#1CDFC1",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": [
+            {
+              "x": 1775.91027,
+              "y": -136.11658
+            },
+            {
+              "x": 1775.91027,
+              "y": 274.06023
+            }
+          ]
+        },
+        "edge.source.anchor.x": 1.00457,
+        "edge.source.anchor.y": 0.17758,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": -0.05273,
+        "edge.target.anchor.y": 0.7904,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0,
+        "edge.dash.pattern": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 2442,
+      "p": {
+        "parent": {
+          "__i": 2419
+        },
+        "source": {
+          "__i": 2361
+        },
+        "target": {
+          "__i": 2441
+        }
+      },
+      "s": {
+        "edge.color": "rgb(255,255,255)",
+        "edge.width": 3,
+        "edge.dash": true,
+        "edge.dash.color": "#1CDFC1",
+        "edge.target.percent": 0.33125,
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 1.00457,
+        "edge.source.anchor.y": 0.64062,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.dash.pattern": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 2443,
+      "p": {
+        "parent": {
+          "__i": 2419
+        },
+        "source": {
+          "__i": 2380
+        },
+        "target": {
+          "__i": 2441
+        }
+      },
+      "s": {
+        "edge.color": "rgb(255,255,255)",
+        "edge.width": 3,
+        "edge.dash": true,
+        "edge.dash.color": "#1CDFC1",
+        "edge.target.percent": 0.7075,
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 1.00227,
+        "edge.source.anchor.y": 0.17184,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.dash.pattern": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 2444,
+      "p": {
+        "parent": {
+          "__i": 2419
+        },
+        "source": {
+          "__i": 2399
+        },
+        "target": {
+          "__i": 2441
+        }
+      },
+      "s": {
+        "edge.color": "rgb(255,255,255)",
+        "edge.width": 3,
+        "edge.dash": true,
+        "edge.dash.color": "#1CDFC1",
+        "edge.target.index": 3,
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": [
+            {
+              "x": 1775.8903,
+              "y": 665.40501
+            },
+            {
+              "x": 1775.8903,
+              "y": 274.06023
+            }
+          ]
+        },
+        "edge.source.anchor.x": 1.00746,
+        "edge.source.anchor.y": 0.65992,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.dash.pattern": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 2445,
+      "p": {
+        "parent": {
+          "__i": 2419
+        },
+        "source": {
+          "__i": 2380
+        },
+        "target": {
+          "__i": 2444
+        }
+      },
+      "s": {
+        "edge.color": "rgb(255,255,255)",
+        "edge.width": 3,
+        "edge.dash": true,
+        "edge.dash.color": "#1CDFC1",
+        "edge.target.percent": 0.73625,
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 1.00397,
+        "edge.source.anchor.y": 0.65105,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.dash.pattern": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 2446,
+      "p": {
+        "parent": {
+          "__i": 2419
+        },
+        "source": {
+          "__i": 2399
+        },
+        "target": {
+          "__i": 2444
+        }
+      },
+      "s": {
+        "edge.color": "rgb(255,255,255)",
+        "edge.width": 3,
+        "edge.dash": true,
+        "edge.dash.color": "#1CDFC1",
+        "edge.target.percent": 0.35625,
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 1.00428,
+        "edge.source.anchor.y": 0.15529,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.dash.pattern": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 2447,
+      "p": {
+        "parent": {
+          "__i": 2419
+        },
+        "source": {
+          "__i": 2373
+        },
+        "target": {
+          "__i": 2361
+        }
+      },
+      "s": {
+        "edge.color": "rgb(255,255,255)",
+        "edge.width": 3,
+        "edge.dash": true,
+        "edge.dash.color": "#1CDFC1",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 0.61574,
+        "edge.source.anchor.y": 0.33712,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.79261,
+        "edge.target.anchor.y": 0.67853,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0,
+        "edge.dash.pattern": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 2448,
+      "p": {
+        "parent": {
+          "__i": 2419
+        },
+        "source": {
+          "__i": 2361
+        },
+        "target": {
+          "__i": 2361
+        }
+      },
+      "s": {
+        "edge.color": "rgb(255,255,255)",
+        "edge.width": 3,
+        "edge.dash": true,
+        "edge.dash.color": "#1CDFC1",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 0.88062,
+        "edge.source.anchor.y": 0.66529,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.95197,
+        "edge.target.anchor.y": 0.65999,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0,
+        "edge.dash.pattern": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 2449,
+      "p": {
+        "parent": {
+          "__i": 2419
+        },
+        "source": {
+          "__i": 2391
+        },
+        "target": {
+          "__i": 2380
+        }
+      },
+      "s": {
+        "edge.color": "rgb(255,255,255)",
+        "edge.width": 3,
+        "edge.dash": true,
+        "edge.dash.color": "#1CDFC1",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 0.64438,
+        "edge.source.anchor.y": 0.38283,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.79856,
+        "edge.target.anchor.y": 0.18129,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0,
+        "edge.dash.pattern": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 2450,
+      "p": {
+        "parent": {
+          "__i": 2419
+        },
+        "source": {
+          "__i": 2380
+        },
+        "target": {
+          "__i": 2380
+        }
+      },
+      "s": {
+        "edge.color": "rgb(255,255,255)",
+        "edge.width": 3,
+        "edge.dash": true,
+        "edge.dash.color": "#1CDFC1",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 0.87903,
+        "edge.source.anchor.y": 0.17864,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.94722,
+        "edge.target.anchor.y": 0.17864,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0,
+        "edge.dash.pattern": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 2451,
+      "p": {
+        "parent": {
+          "__i": 2419
+        },
+        "source": {
+          "__i": 2392
+        },
+        "target": {
+          "__i": 2380
+        }
+      },
+      "s": {
+        "edge.color": "rgb(255,255,255)",
+        "edge.width": 3,
+        "edge.dash": true,
+        "edge.dash.color": "#1CDFC1",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 0.5728,
+        "edge.source.anchor.y": 0.38063,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.80411,
+        "edge.target.anchor.y": 0.70242,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0,
+        "edge.dash.pattern": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 2452,
+      "p": {
+        "parent": {
+          "__i": 2419
+        },
+        "source": {
+          "__i": 2380
+        },
+        "target": {
+          "__i": 2380
+        }
+      },
+      "s": {
+        "edge.color": "rgb(255,255,255)",
+        "edge.width": 3,
+        "edge.dash": true,
+        "edge.dash.color": "#1CDFC1",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 0.87943,
+        "edge.source.anchor.y": 0.68919,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.95118,
+        "edge.target.anchor.y": 0.68919,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0,
+        "edge.dash.pattern": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 2453,
+      "p": {
+        "parent": {
+          "__i": 2419
+        },
+        "source": {
+          "__i": 2410
+        },
+        "target": {
+          "__i": 2399
+        }
+      },
+      "s": {
+        "edge.color": "rgb(255,255,255)",
+        "edge.width": 3,
+        "edge.dash": true,
+        "edge.dash.color": "#1CDFC1",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 0.59427,
+        "edge.source.anchor.y": 0.37902,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.80411,
+        "edge.target.anchor.y": 0.17681,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0,
+        "edge.dash.pattern": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 2454,
+      "p": {
+        "parent": {
+          "__i": 2419
+        },
+        "source": {
+          "__i": 2399
+        },
+        "target": {
+          "__i": 2399
+        }
+      },
+      "s": {
+        "edge.color": "rgb(255,255,255)",
+        "edge.width": 3,
+        "edge.dash": true,
+        "edge.dash.color": "#1CDFC1",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 0.87863,
+        "edge.source.anchor.y": 0.15565,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.95118,
+        "edge.target.anchor.y": 0.153,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0,
+        "edge.dash.pattern": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 2455,
+      "p": {
+        "parent": {
+          "__i": 2419
+        },
+        "source": {
+          "__i": 2411
+        },
+        "target": {
+          "__i": 2399
+        }
+      },
+      "s": {
+        "edge.color": "rgb(255,255,255)",
+        "edge.width": 3,
+        "edge.dash": true,
+        "edge.dash.color": "#1CDFC1",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 0.58473,
+        "edge.source.anchor.y": 0.37681,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.80648,
+        "edge.target.anchor.y": 0.69794,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0,
+        "edge.dash.pattern": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 2456,
+      "p": {
+        "parent": {
+          "__i": 2419
+        },
+        "source": {
+          "__i": 2361
+        },
+        "target": {
+          "__i": 2360
+        }
+      },
+      "s": {
+        "edge.color": "rgb(255,255,255)",
+        "edge.width": 3,
+        "edge.dash": true,
+        "edge.dash.color": "#1CDFC1",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": [
+            {
+              "x": 130.2034,
+              "y": -100.2089
+            },
+            {
+              "x": 130.2034,
+              "y": 260.4068
+            }
+          ]
+        },
+        "edge.source.anchor.x": 0.0846,
+        "edge.source.anchor.y": 0.31043,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.19451,
+        "edge.target.anchor.y": 0.12603,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0,
+        "edge.dash.pattern": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 2457,
+      "p": {
+        "parent": {
+          "__i": 2419
+        },
+        "source": {
+          "__i": 2380
+        },
+        "target": {
+          "__i": 2456
+        }
+      },
+      "s": {
+        "edge.color": "rgb(255,255,255)",
+        "edge.width": 3,
+        "edge.dash": true,
+        "edge.dash.color": "#1CDFC1",
+        "edge.target.index": 2,
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 0.07893,
+        "edge.source.anchor.y": 0.39795,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.dash.pattern": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 2458,
+      "p": {
+        "parent": {
+          "__i": 2419
+        },
+        "source": {
+          "__i": 2399
+        },
+        "target": {
+          "__i": 2457
+        }
+      },
+      "s": {
+        "edge.color": "rgb(255,255,255)",
+        "edge.width": 3,
+        "edge.dash": true,
+        "edge.dash.color": "#1CDFC1",
+        "edge.target.index": 1,
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": [
+            {
+              "x": 130.2034,
+              "y": 581.13786
+            }
+          ]
+        },
+        "edge.source.anchor.x": 0.08691,
+        "edge.source.anchor.y": 0.34848,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.dash.pattern": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 2459,
+      "p": {
+        "parent": {
+          "__i": 2419
+        },
+        "source": {
+          "__i": 2399
+        },
+        "target": {
+          "__i": 2399
+        }
+      },
+      "s": {
+        "edge.color": "rgb(255,255,255)",
+        "edge.width": 3,
+        "edge.dash": true,
+        "edge.dash.color": "#1CDFC1",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 0.87824,
+        "edge.source.anchor.y": 0.69265,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.95237,
+        "edge.target.anchor.y": 0.69001,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0,
+        "edge.dash.pattern": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2460,
+      "p": {
+        "displayName": "皮带机",
+        "tag": "pdj_628",
+        "image": "symbols/项目定制类/金鸡滩/皮带机.json",
+        "position": {
+          "x": 1928.10967,
+          "y": 470.34387
+        }
+      },
+      "a": {
+        "state.tc": "218",
+        "state.mc": "RUNS"
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 2461,
+      "p": {
+        "source": {
+          "__i": 2418
+        },
+        "target": {
+          "__i": 2460
+        }
+      },
+      "s": {
+        "edge.color": "#EFF1F4",
+        "edge.width": 3,
+        "edge.dash": true,
+        "edge.dash.color": "#1CDFC1",
+        "edge.dash.pattern": [
+          8,
+          8
+        ],
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.source.anchor.x": 0.5,
+        "edge.source.anchor.y": 1,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": 0.5,
+        "edge.target.anchor.y": 0.25,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0
+      }
+    }
+  ],
+  "modified": "Sat Oct 23 2021 12:48:55 GMT+0800 (中国标准时间)",
+  "contentRect": {
+    "x": -95.4857,
+    "y": -184.11492,
+    "width": 2083.59537,
+    "height": 941.54028
+  }
+}

@@ -1,0 +1,1837 @@
+{
+  "v": "7.2.4",
+  "p": {
+    "background": "#EFF1F4",
+    "layers": [
+      {
+        "name": "聚凝集-添加装置",
+        "visible": true,
+        "selectable": true,
+        "movable": true,
+        "editable": true
+      },
+      {
+        "name": "右侧-分料箱",
+        "visible": true,
+        "selectable": true,
+        "movable": true,
+        "editable": true
+      },
+      {
+        "name": "连线",
+        "visible": true,
+        "selectable": true,
+        "movable": true,
+        "editable": true
+      }
+    ],
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "gridEnabled": true,
+    "onPostDeserialize": "__ht__function(json, dm, view, datas) {graphView.setMovableFunc(() => false);}",
+    "fitContent": true,
+    "rectSelectable": false,
+    "pannable": false
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 1233,
+      "p": {
+        "displayName": "压滤可开启",
+        "layer": "右侧-分料箱",
+        "image": "symbols/煤泥水/压滤可开启.json",
+        "position": {
+          "x": 1113.18301,
+          "y": 367
+        }
+      },
+      "s": {
+        "shape.border.color": "#EFF1F4",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1234,
+      "p": {
+        "displayName": "视频跳转",
+        "layer": "右侧-分料箱",
+        "image": "symbols/煤泥水/视频跳转.json",
+        "position": {
+          "x": 2009.83445,
+          "y": 165.57477
+        }
+      },
+      "s": {
+        "onClick": "__ht__function(event, data, view) {\nalert(123)\n}",
+        "shape.border.color": "#EFF1F4",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 1235,
+      "p": {
+        "displayName": "皮带机-煤泥堆",
+        "layer": "右侧-分料箱",
+        "position": {
+          "x": 1073.5,
+          "y": 960.23618
+        },
+        "width": 253,
+        "height": 139.52765
+      },
+      "s": {
+        "shape.border.color": "#EFF1F4",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1236,
+      "p": {
+        "displayName": "皮带机",
+        "parent": {
+          "__i": 1235
+        },
+        "layer": "右侧-分料箱",
+        "image": "symbols/煤泥水/皮带机.json",
+        "position": {
+          "x": 1073.5,
+          "y": 904.47235
+        },
+        "width": 253,
+        "height": 28
+      },
+      "a": {
+        "state": true
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 1237,
+      "p": {
+        "displayName": "煤泥堆",
+        "parent": {
+          "__i": 1235
+        },
+        "layer": "右侧-分料箱",
+        "position": {
+          "x": 1052.98705,
+          "y": 1014.47235
+        },
+        "width": 104.41782,
+        "height": 31.0553
+      },
+      "s": {
+        "text": "煤泥堆",
+        "text.font": "bold 26px sans-serif, Arial",
+        "text.align": "center",
+        "shape.border.color": "#EFF1F4"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 1238,
+      "p": {
+        "displayName": "水桶",
+        "layer": "连线",
+        "position": {
+          "x": 1062.68006,
+          "y": 167.7389
+        },
+        "anchor": {
+          "x": 0.43372,
+          "y": 0.63869
+        },
+        "width": 261.30404,
+        "height": 200
+      },
+      "s": {
+        "onClick": "__ht__function(event, data, view) {\nalert(666)\n}",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1239,
+      "p": {
+        "displayName": "水桶",
+        "parent": {
+          "__i": 1238
+        },
+        "layer": "连线",
+        "image": "symbols/煤泥水/大组件/水桶.json",
+        "position": {
+          "x": 1049.34798,
+          "y": 140
+        },
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1240,
+      "p": {
+        "displayName": "渣浆泵1",
+        "parent": {
+          "__i": 1238
+        },
+        "layer": "连线",
+        "image": "symbols/煤泥水/渣浆泵1.json",
+        "position": {
+          "x": 1171.36722,
+          "y": 113.36
+        },
+        "width": 69.72384,
+        "height": 53.28
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1241,
+      "p": {
+        "displayName": "渣浆泵1",
+        "parent": {
+          "__i": 1238
+        },
+        "layer": "连线",
+        "image": "symbols/煤泥水/渣浆泵1.json",
+        "position": {
+          "x": 1175.7901,
+          "y": 185.3577
+        },
+        "width": 69.72384,
+        "height": 53.28
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 1242,
+      "p": {
+        "displayName": "右下角",
+        "layer": "连线",
+        "position": {
+          "x": 1475,
+          "y": 954
+        },
+        "anchor": {
+          "x": 0.20536,
+          "y": 0.7
+        },
+        "width": 560,
+        "height": 300
+      },
+      "s": {
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1243,
+      "p": {
+        "displayName": "水池- component-1-630",
+        "parent": {
+          "__i": 1242
+        },
+        "layer": "连线",
+        "image": "symbols/煤泥水/大组件/水池- component-1.json",
+        "position": {
+          "x": 1475,
+          "y": 954
+        },
+        "width": 230,
+        "height": 180
+      },
+      "a": {
+        "mc": "630",
+        "progress": 0.3,
+        "wy_1_mc": "613"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1244,
+      "p": {
+        "displayName": "水池- component-1-631",
+        "parent": {
+          "__i": 1242
+        },
+        "layer": "连线",
+        "image": "symbols/煤泥水/大组件/水池- component-1.json",
+        "position": {
+          "x": 1805,
+          "y": 954
+        },
+        "width": 230,
+        "height": 180,
+        "tall": 20
+      },
+      "a": {
+        "progress": 0.7,
+        "mc": "631",
+        "wy_1_mc": "613",
+        "wy_1_state": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1245,
+      "p": {
+        "displayName": "406",
+        "parent": {
+          "__i": 1242
+        },
+        "layer": "连线",
+        "image": "symbols/煤泥水/406.json",
+        "position": {
+          "x": 1600,
+          "y": 774
+        },
+        "width": 220,
+        "height": 60
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 1246,
+      "p": {
+        "layer": "连线",
+        "tag": "line1",
+        "position": {
+          "x": 160,
+          "y": 264.02064
+        },
+        "width": 80,
+        "height": 191.95872,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 120,
+              "y": 168.04128
+            },
+            {
+              "x": 120,
+              "y": 360
+            },
+            {
+              "x": 200,
+              "y": 360
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.width": 5,
+        "shape.dash": true,
+        "shape.dash.pattern": [
+          16,
+          16
+        ],
+        "shape.dash.3d.color": "rgb(247,247,247)",
+        "note.border.color": "rgb(61,61,61)",
+        "border.color": "#EFF1F4",
+        "shape.border.color": "grey",
+        "shape.dash.color": "#EFF1F4",
+        "border.width": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 1247,
+      "p": {
+        "layer": "连线",
+        "tag": "line2",
+        "position": {
+          "x": 160,
+          "y": 455.4775
+        },
+        "width": 80,
+        "height": 190.955,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 120,
+              "y": 550.955
+            },
+            {
+              "x": 120,
+              "y": 360
+            },
+            {
+              "x": 200,
+              "y": 360
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.width": 5,
+        "shape.dash": true,
+        "shape.dash.pattern": [
+          16,
+          16
+        ],
+        "shape.dash.3d.color": "rgb(247,247,247)",
+        "note.border.color": "rgb(61,61,61)",
+        "border.color": "#EFF1F4",
+        "shape.border.color": "grey",
+        "shape.dash.color": "#EFF1F4",
+        "border.width": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 1248,
+      "p": {
+        "layer": "连线",
+        "tag": "line3",
+        "position": {
+          "x": 440,
+          "y": 220
+        },
+        "width": 80,
+        "height": 280,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 400,
+              "y": 360
+            },
+            {
+              "x": 440,
+              "y": 360
+            },
+            {
+              "x": 440,
+              "y": 80
+            },
+            {
+              "x": 480,
+              "y": 80
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.width": 5,
+        "shape.dash": true,
+        "shape.dash.pattern": [
+          16,
+          16
+        ],
+        "shape.dash.3d.color": "rgb(247,247,247)",
+        "note.border.color": "rgb(61,61,61)",
+        "border.color": "#EFF1F4",
+        "shape.border.color": "grey",
+        "shape.dash.color": "#EFF1F4",
+        "border.width": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 1249,
+      "p": {
+        "layer": "连线",
+        "tag": "line4",
+        "position": {
+          "x": 429.55222,
+          "y": 360
+        },
+        "width": 59.10444,
+        "height": 0,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 400,
+              "y": 360
+            },
+            {
+              "x": 459.10444,
+              "y": 360
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.width": 5,
+        "shape.dash": true,
+        "shape.dash.pattern": [
+          16,
+          16
+        ],
+        "shape.dash.3d.color": "rgb(247,247,247)",
+        "note.border.color": "rgb(61,61,61)",
+        "border.color": "#EFF1F4",
+        "shape.border.color": "grey",
+        "shape.dash.color": "#EFF1F4",
+        "border.width": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 1250,
+      "p": {
+        "layer": "连线",
+        "tag": "line5",
+        "position": {
+          "x": 440,
+          "y": 500
+        },
+        "width": 80,
+        "height": 280,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 400,
+              "y": 360
+            },
+            {
+              "x": 412.9087,
+              "y": 360
+            },
+            {
+              "x": 440,
+              "y": 360
+            },
+            {
+              "x": 440,
+              "y": 640
+            },
+            {
+              "x": 480,
+              "y": 640
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.width": 5,
+        "shape.dash": true,
+        "shape.dash.pattern": [
+          16,
+          16
+        ],
+        "shape.dash.3d.color": "rgb(247,247,247)",
+        "note.border.color": "rgb(61,61,61)",
+        "border.color": "#EFF1F4",
+        "shape.border.color": "grey",
+        "shape.dash.color": "#EFF1F4",
+        "border.width": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 1251,
+      "p": {
+        "layer": "连线",
+        "tag": "line6",
+        "position": {
+          "x": 940,
+          "y": 0
+        },
+        "width": 200,
+        "height": 80,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 840,
+              "y": 40
+            },
+            {
+              "x": 920,
+              "y": 40
+            },
+            {
+              "x": 920,
+              "y": -40
+            },
+            {
+              "x": 1040,
+              "y": -40
+            },
+            {
+              "x": 1040,
+              "y": 16.4906
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.width": 5,
+        "shape.dash": true,
+        "shape.dash.pattern": [
+          16,
+          16
+        ],
+        "shape.dash.3d.color": "rgb(247,247,247)",
+        "note.border.color": "rgb(61,61,61)",
+        "border.color": "#EFF1F4",
+        "shape.border.color": "grey",
+        "shape.dash.color": "#EFF1F4",
+        "border.width": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 1252,
+      "p": {
+        "layer": "连线",
+        "tag": "line7",
+        "position": {
+          "x": 940,
+          "y": 60
+        },
+        "width": 200,
+        "height": 200,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 840,
+              "y": 160
+            },
+            {
+              "x": 887.87171,
+              "y": 160
+            },
+            {
+              "x": 920,
+              "y": 160
+            },
+            {
+              "x": 920,
+              "y": -40
+            },
+            {
+              "x": 1040,
+              "y": -40
+            },
+            {
+              "x": 1040,
+              "y": 17.21046
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.width": 5,
+        "shape.dash": true,
+        "shape.dash.pattern": [
+          16,
+          16
+        ],
+        "shape.dash.3d.color": "rgb(247,247,247)",
+        "note.border.color": "rgb(61,61,61)",
+        "border.color": "#EFF1F4",
+        "shape.border.color": "grey",
+        "shape.dash.color": "#EFF1F4",
+        "border.width": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 1253,
+      "p": {
+        "layer": "连线",
+        "tag": "line8",
+        "position": {
+          "x": 940,
+          "y": 140
+        },
+        "width": 200,
+        "height": 360,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 840,
+              "y": 320
+            },
+            {
+              "x": 920,
+              "y": 320
+            },
+            {
+              "x": 920,
+              "y": -40
+            },
+            {
+              "x": 1040,
+              "y": -40
+            },
+            {
+              "x": 1040,
+              "y": 16.4906
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.width": 5,
+        "shape.dash": true,
+        "shape.dash.pattern": [
+          16,
+          16
+        ],
+        "shape.dash.3d.color": "rgb(247,247,247)",
+        "note.border.color": "rgb(61,61,61)",
+        "border.color": "#EFF1F4",
+        "shape.border.color": "grey",
+        "shape.dash.color": "#EFF1F4",
+        "border.width": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 1254,
+      "p": {
+        "layer": "连线",
+        "tag": "line9",
+        "position": {
+          "x": 940,
+          "y": 200
+        },
+        "width": 200,
+        "height": 480,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 840,
+              "y": 440
+            },
+            {
+              "x": 920,
+              "y": 440
+            },
+            {
+              "x": 920,
+              "y": -40
+            },
+            {
+              "x": 1040,
+              "y": -40
+            },
+            {
+              "x": 1040,
+              "y": 0
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.width": 5,
+        "shape.dash": true,
+        "shape.dash.pattern": [
+          16,
+          16
+        ],
+        "shape.dash.3d.color": "rgb(247,247,247)",
+        "note.border.color": "rgb(61,61,61)",
+        "border.color": "#EFF1F4",
+        "shape.border.color": "grey",
+        "shape.dash.color": "#EFF1F4",
+        "border.width": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 1255,
+      "p": {
+        "layer": "连线",
+        "tag": "line10",
+        "position": {
+          "x": 940,
+          "y": 280
+        },
+        "width": 200,
+        "height": 640,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 840,
+              "y": 600
+            },
+            {
+              "x": 920,
+              "y": 600
+            },
+            {
+              "x": 920,
+              "y": -40
+            },
+            {
+              "x": 1040,
+              "y": -40
+            },
+            {
+              "x": 1040,
+              "y": 0
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.width": 5,
+        "shape.dash": true,
+        "shape.dash.pattern": [
+          16,
+          16
+        ],
+        "shape.dash.3d.color": "rgb(247,247,247)",
+        "note.border.color": "rgb(61,61,61)",
+        "border.color": "#EFF1F4",
+        "shape.border.color": "grey",
+        "shape.dash.color": "#EFF1F4",
+        "border.width": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 1256,
+      "p": {
+        "layer": "连线",
+        "tag": "line11",
+        "position": {
+          "x": 940,
+          "y": 328.7762
+        },
+        "width": 200,
+        "height": 737.5524,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 840,
+              "y": 697.5524
+            },
+            {
+              "x": 920,
+              "y": 697.5524
+            },
+            {
+              "x": 920,
+              "y": -40
+            },
+            {
+              "x": 1040,
+              "y": -40
+            },
+            {
+              "x": 1040,
+              "y": 18.13966
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.width": 5,
+        "shape.dash": true,
+        "shape.dash.pattern": [
+          16,
+          16
+        ],
+        "shape.dash.3d.color": "rgb(247,247,247)",
+        "note.border.color": "rgb(61,61,61)",
+        "border.color": "#EFF1F4",
+        "shape.border.color": "grey",
+        "shape.dash.color": "#EFF1F4",
+        "border.width": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 1257,
+      "p": {
+        "layer": "连线",
+        "tag": "line12",
+        "position": {
+          "x": 1460,
+          "y": 20
+        },
+        "width": 600,
+        "height": 120,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 1160,
+              "y": 80
+            },
+            {
+              "x": 1160,
+              "y": -40
+            },
+            {
+              "x": 1760,
+              "y": -40
+            },
+            {
+              "x": 1760,
+              "y": 18.13966
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.width": 5,
+        "shape.dash": true,
+        "shape.dash.pattern": [
+          16,
+          16
+        ],
+        "shape.dash.3d.color": "rgb(247,247,247)",
+        "note.border.color": "rgb(61,61,61)",
+        "border.color": "#EFF1F4",
+        "shape.border.color": "grey",
+        "shape.dash.color": "#EFF1F4",
+        "border.width": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 1258,
+      "p": {
+        "layer": "连线",
+        "tag": "line13",
+        "position": {
+          "x": 1209.94094,
+          "y": 160.78335
+        },
+        "width": 99.88187,
+        "height": 31.33214,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 1160,
+              "y": 176.44942
+            },
+            {
+              "x": 1160,
+              "y": 145.11728
+            },
+            {
+              "x": 1259.88187,
+              "y": 145.11728
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.width": 5,
+        "shape.dash": true,
+        "shape.dash.pattern": [
+          16,
+          16
+        ],
+        "shape.dash.3d.color": "rgb(247,247,247)",
+        "note.border.color": "rgb(61,61,61)",
+        "border.color": "#EFF1F4",
+        "shape.border.color": "grey",
+        "shape.dash.color": "#EFF1F4",
+        "border.width": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 1259,
+      "p": {
+        "layer": "连线",
+        "tag": "line14",
+        "position": {
+          "x": 1500,
+          "y": 687.95353
+        },
+        "width": 200,
+        "height": 95.90707,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 1400,
+              "y": 640
+            },
+            {
+              "x": 1400,
+              "y": 680
+            },
+            {
+              "x": 1523.4344,
+              "y": 680
+            },
+            {
+              "x": 1600,
+              "y": 680
+            },
+            {
+              "x": 1600,
+              "y": 735.90707
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.width": 5,
+        "shape.dash": true,
+        "shape.dash.pattern": [
+          16,
+          16
+        ],
+        "shape.dash.3d.color": "rgb(247,247,247)",
+        "note.border.color": "rgb(61,61,61)",
+        "border.color": "#EFF1F4",
+        "shape.border.color": "grey",
+        "shape.dash.color": "#EFF1F4",
+        "border.width": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 1260,
+      "p": {
+        "layer": "连线",
+        "tag": "line16",
+        "position": {
+          "x": 1269.44629,
+          "y": 819.13339
+        },
+        "width": 421.10742,
+        "height": 67.73341,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 1480,
+              "y": 785.26669
+            },
+            {
+              "x": 1058.89258,
+              "y": 785.26669
+            },
+            {
+              "x": 1058.89258,
+              "y": 853.0001
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.width": 5,
+        "shape.dash": true,
+        "shape.dash.pattern": [
+          16,
+          16
+        ],
+        "shape.dash.3d.color": "rgb(247,247,247)",
+        "note.border.color": "rgb(61,61,61)",
+        "border.color": "#EFF1F4",
+        "shape.border.color": "grey",
+        "shape.dash.color": "#EFF1F4",
+        "border.width": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 1261,
+      "p": {
+        "layer": "连线",
+        "tag": "line17",
+        "position": {
+          "x": 1055.99672,
+          "y": 958.1411
+        },
+        "width": 0,
+        "height": 43.60812,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 1055.99672,
+              "y": 936.33704
+            },
+            {
+              "x": 1055.99672,
+              "y": 979.94516
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.width": 5,
+        "shape.dash": true,
+        "shape.dash.pattern": [
+          16,
+          16
+        ],
+        "shape.dash.3d.color": "rgb(247,247,247)",
+        "note.border.color": "rgb(61,61,61)",
+        "border.color": "#EFF1F4",
+        "shape.border.color": "grey",
+        "shape.dash.color": "#EFF1F4",
+        "border.width": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 1262,
+      "p": {
+        "layer": "连线",
+        "tag": "line15",
+        "position": {
+          "x": 1680,
+          "y": 686.45779
+        },
+        "width": 160,
+        "height": 92.91557,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 1760,
+              "y": 640
+            },
+            {
+              "x": 1760,
+              "y": 680
+            },
+            {
+              "x": 1600,
+              "y": 680
+            },
+            {
+              "x": 1600,
+              "y": 732.91557
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.width": 5,
+        "shape.dash": true,
+        "shape.dash.pattern": [
+          16,
+          16
+        ],
+        "shape.dash.3d.color": "rgb(247,247,247)",
+        "note.border.color": "rgb(61,61,61)",
+        "border.color": "#EFF1F4",
+        "shape.border.color": "grey",
+        "shape.dash.color": "#EFF1F4",
+        "border.width": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1263,
+      "p": {
+        "displayName": "三角形",
+        "layer": "连线",
+        "tag": "arrow1",
+        "image": "symbols/煤泥水/三角形.json",
+        "rotation": 1.5708,
+        "position": {
+          "x": 221.99997,
+          "y": 360
+        }
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1264,
+      "p": {
+        "displayName": "三角形",
+        "layer": "连线",
+        "tag": "arrow4",
+        "image": "symbols/煤泥水/三角形.json",
+        "rotation": 1.5708,
+        "position": {
+          "x": 488.00003,
+          "y": 360
+        }
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1265,
+      "p": {
+        "displayName": "三角形",
+        "layer": "连线",
+        "tag": "arrow3",
+        "image": "symbols/煤泥水/三角形.json",
+        "rotation": 1.5708,
+        "position": {
+          "x": 490,
+          "y": 80.00319
+        }
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1266,
+      "p": {
+        "displayName": "三角形",
+        "layer": "连线",
+        "tag": "arrow5",
+        "image": "symbols/煤泥水/三角形.json",
+        "rotation": 1.5708,
+        "position": {
+          "x": 490,
+          "y": 640
+        }
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1267,
+      "p": {
+        "displayName": "arrow6",
+        "layer": "连线",
+        "tag": "arrow6",
+        "image": "symbols/煤泥水/三角形.json",
+        "rotation": 3.14159,
+        "position": {
+          "x": 1041.34796,
+          "y": 31.22032
+        }
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1268,
+      "p": {
+        "displayName": "三角形",
+        "layer": "连线",
+        "tag": "arrow12",
+        "image": "symbols/煤泥水/三角形.json",
+        "rotation": 3.14159,
+        "position": {
+          "x": 1760,
+          "y": 28.00002
+        }
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1269,
+      "p": {
+        "displayName": "三角形",
+        "layer": "连线",
+        "tag": "arrow13",
+        "image": "symbols/煤泥水/三角形.json",
+        "rotation": 1.5708,
+        "position": {
+          "x": 1277.44632,
+          "y": 145.11728
+        }
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1270,
+      "p": {
+        "displayName": "三角形",
+        "layer": "连线",
+        "tag": "arrow14",
+        "image": "symbols/煤泥水/三角形.json",
+        "rotation": 3.14159,
+        "position": {
+          "x": 1600,
+          "y": 752.00002
+        }
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1271,
+      "p": {
+        "displayName": "三角形",
+        "layer": "连线",
+        "tag": "arrow16",
+        "image": "symbols/煤泥水/三角形.json",
+        "rotation": 3.14159,
+        "position": {
+          "x": 1058.89258,
+          "y": 869
+        }
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1272,
+      "p": {
+        "displayName": "三角形",
+        "layer": "连线",
+        "tag": "arrow17",
+        "image": "symbols/煤泥水/三角形.json",
+        "rotation": 3.14159,
+        "position": {
+          "x": 1056.87125,
+          "y": 993.69751
+        }
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1273,
+      "p": {
+        "displayName": "background",
+        "layer": "连线",
+        "image": "symbols/煤泥水/background.json",
+        "position": {
+          "x": 1113.18301,
+          "y": 515.0042
+        },
+        "width": 270.19596,
+        "height": 150
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1274,
+      "p": {
+        "displayName": "alert",
+        "layer": "连线",
+        "tag": "label1",
+        "image": "symbols/煤泥水/alert.json",
+        "position": {
+          "x": 1105,
+          "y": 473
+        },
+        "width": 270,
+        "height": 51.98701
+      },
+      "a": {
+        "label": "加药机低料位"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1275,
+      "p": {
+        "displayName": "alert",
+        "layer": "连线",
+        "tag": "label2",
+        "image": "symbols/煤泥水/alert.json",
+        "position": {
+          "x": 1105,
+          "y": 522.52487
+        },
+        "width": 270,
+        "height": 51.98701,
+        "tall": 20
+      },
+      "a": {
+        "label": "403拉板小车故障"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1276,
+      "p": {
+        "displayName": "絮凝剂-添加装置-619",
+        "layer": "连线",
+        "image": "symbols/煤泥水/大组件/絮凝剂-添加装置.json",
+        "position": {
+          "x": 135,
+          "y": 72.00319
+        },
+        "width": 190,
+        "height": 136
+      },
+      "a": {
+        "mc": "619",
+        "state": false,
+        "tc": "619"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1277,
+      "p": {
+        "displayName": "聚凝剂-添加装置-620",
+        "layer": "连线",
+        "image": "symbols/煤泥水/大组件/聚凝剂-添加装置.json",
+        "position": {
+          "x": 179.76806,
+          "y": 727.50002
+        },
+        "width": 280,
+        "height": 299
+      },
+      "a": {
+        "dqpl_val": "35",
+        "show_fx": true,
+        "state": true,
+        "mc": "620",
+        "tc": "620"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1278,
+      "p": {
+        "displayName": "分料箱",
+        "layer": "连线",
+        "image": "symbols/煤泥水/大组件/分料箱.json",
+        "position": {
+          "x": 302.76806,
+          "y": 395
+        },
+        "width": 246,
+        "height": 156
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1279,
+      "p": {
+        "displayName": "浓缩机-component-601",
+        "layer": "连线",
+        "image": "symbols/煤泥水/大组件/浓缩机-component.json",
+        "position": {
+          "x": 655,
+          "y": 142
+        },
+        "width": 370,
+        "height": 284
+      },
+      "s": {
+        "interactive": true
+      },
+      "a": {
+        "mc": "601",
+        "state": true,
+        "zjb_1_mc": "609",
+        "zjb_1_state": false,
+        "zjb_2_mc": "610",
+        "shou_fx": true,
+        "nj_val": "0.36",
+        "cqcgd_val": "0.5",
+        "dlnd_val": "268",
+        "tc": "601"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1280,
+      "p": {
+        "displayName": "浓缩机-component-602",
+        "layer": "连线",
+        "image": "symbols/煤泥水/大组件/浓缩机-component.json",
+        "position": {
+          "x": 655,
+          "y": 440.77964
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.58021
+        },
+        "width": 370,
+        "height": 284,
+        "tall": 20
+      },
+      "a": {
+        "mc": "602",
+        "state": true,
+        "zjb_1_mc": "611",
+        "zjb_1_state": false,
+        "zjb_2_mc": "612",
+        "shou_fx": false,
+        "nj_val": "0.36",
+        "cqcgd_val": "0.5",
+        "dlnd_val": "268",
+        "zjb_2_state": false,
+        "tc": "602"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1281,
+      "p": {
+        "displayName": "浓缩机-component-602-2",
+        "layer": "连线",
+        "image": "symbols/煤泥水/大组件/浓缩机-component.json",
+        "position": {
+          "x": 655,
+          "y": 698
+        },
+        "width": 370,
+        "height": 284,
+        "tall": 20
+      },
+      "a": {
+        "mc": "602",
+        "state": false,
+        "zjb_1_mc": "613",
+        "zjb_1_state": false,
+        "zjb_2_mc": "614",
+        "shou_fx": true,
+        "nj_val": "0.36",
+        "cqcgd_val": "0.5",
+        "dlnd_val": "268",
+        "zjb_2_state": false,
+        "tc": "603"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1282,
+      "p": {
+        "displayName": "水池-component-600",
+        "layer": "连线",
+        "image": "symbols/煤泥水/大组件/水池-component.json",
+        "position": {
+          "x": 637,
+          "y": 940
+        },
+        "width": 310,
+        "height": 180
+      },
+      "a": {
+        "progress": 0.7,
+        "mc": "600",
+        "width": 0,
+        "wy_1_mc": "604",
+        "wy_2_mc": "605",
+        "wy_3_mc": "606",
+        "wy_4_mc": "607",
+        "wy_2_state": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1283,
+      "p": {
+        "displayName": "压滤机-404",
+        "layer": "连线",
+        "image": "symbols/煤泥水/大组件/压滤机.json",
+        "position": {
+          "x": 1422.5,
+          "y": 331.22032
+        },
+        "width": 285,
+        "height": 600
+      },
+      "a": {
+        "mc": "404",
+        "state": true,
+        "ylj_dqjs": "1258",
+        "ylj_xlcs": "1",
+        "ylj_lyll": "7.5",
+        "ylj_ylbs": "5",
+        "tc": "404"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1284,
+      "p": {
+        "displayName": "压滤机-405",
+        "layer": "连线",
+        "image": "symbols/煤泥水/大组件/压滤机.json",
+        "position": {
+          "x": 1760,
+          "y": 331.22032
+        },
+        "width": 285,
+        "height": 600
+      },
+      "a": {
+        "mc": "405",
+        "state": false,
+        "ylj_dqjs": "1258",
+        "ylj_xlcs": "22",
+        "ylj_lyll": "7.5",
+        "ylj_ylbs": "5",
+        "tc": "405"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1285,
+      "p": {
+        "displayName": "三角形",
+        "layer": "连线",
+        "tag": "arrow2",
+        "image": "symbols/煤泥水/三角形.json",
+        "rotation": 1.5708,
+        "position": {
+          "x": 225.00658,
+          "y": 387.1136
+        },
+        "anchor": {
+          "x": 2.1946,
+          "y": 0.31208
+        },
+        "width": 16,
+        "height": 16,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1286,
+      "p": {
+        "displayName": "三角形",
+        "layer": "连线",
+        "tag": "arrow15",
+        "image": "symbols/煤泥水/三角形.json",
+        "rotation": 3.14159,
+        "position": {
+          "x": 1600,
+          "y": 752.00002
+        },
+        "width": 16,
+        "height": 16,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1287,
+      "p": {
+        "displayName": "arrow7",
+        "layer": "连线",
+        "tag": "arrow7",
+        "image": "symbols/煤泥水/三角形.json",
+        "rotation": 3.14159,
+        "position": {
+          "x": 1041.34796,
+          "y": 31.22032
+        },
+        "width": 16,
+        "height": 16,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1288,
+      "p": {
+        "displayName": "arrow8",
+        "layer": "连线",
+        "tag": "arrow8",
+        "image": "symbols/煤泥水/三角形.json",
+        "rotation": 3.14159,
+        "position": {
+          "x": 1041.34796,
+          "y": 31.22032
+        },
+        "width": 16,
+        "height": 16,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1289,
+      "p": {
+        "displayName": "arrow9",
+        "layer": "连线",
+        "tag": "arrow9",
+        "image": "symbols/煤泥水/三角形.json",
+        "rotation": 3.14159,
+        "position": {
+          "x": 1041.34796,
+          "y": 31.22032
+        },
+        "width": 16,
+        "height": 16,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1290,
+      "p": {
+        "displayName": "arrow10",
+        "layer": "连线",
+        "tag": "arrow10",
+        "image": "symbols/煤泥水/三角形.json",
+        "rotation": 3.14159,
+        "position": {
+          "x": 1041.34796,
+          "y": 31.22032
+        },
+        "width": 16,
+        "height": 16,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1291,
+      "p": {
+        "displayName": "arrow11",
+        "layer": "连线",
+        "tag": "arrow11",
+        "image": "symbols/煤泥水/三角形.json",
+        "rotation": 3.14159,
+        "position": {
+          "x": 1041.34796,
+          "y": 31.22032
+        },
+        "width": 16,
+        "height": 16,
+        "tall": 20
+      }
+    }
+  ],
+  "modified": "Thu Sep 23 2021 13:51:45 GMT+0800 (中国标准时间)",
+  "contentRect": {
+    "x": 39.76806,
+    "y": -43.5,
+    "width": 2005.06639,
+    "height": 1087.5
+  }
+}

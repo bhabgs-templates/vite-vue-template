@@ -1,0 +1,118 @@
+{
+  "modified": "Mon May 17 2021 10:31:30 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "progress",
+      "valueType": "Number",
+      "name": "PBValue",
+      "defaultValue": 0.5
+    },
+    {
+      "attr": "mc",
+      "valueType": "String"
+    },
+    {
+      "attr": "width",
+      "valueType": "PositiveNumber"
+    },
+    {
+      "attr": "height",
+      "valueType": "String"
+    }
+  ],
+  "width": 200,
+  "height": 200,
+  "comps": [
+    {
+      "type": "image",
+      "name": "symbols/煤泥水/水桶.json",
+      "displayName": "水桶",
+      "rect": [
+        29.89839,
+        0,
+        100,
+        150
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/煤泥水/background.json",
+      "displayName": "background",
+      "rect": [
+        0,
+        144.98875,
+        179.80095,
+        48.34061
+      ]
+    },
+    {
+      "type": "roundRect",
+      "background": "rgb(255,255,255)",
+      "borderWidth": 1,
+      "borderColor": "#ccc",
+      "cornerRadius": 3,
+      "rect": [
+        71.41207,
+        151.15904,
+        94.0429,
+        35.54637
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(0,0,0)",
+      "borderWidth": 1,
+      "borderColor": "#979797",
+      "closePath": true,
+      "points": [
+        135.9655,
+        154.33687,
+        135.9655,
+        168.44221,
+        135.9655,
+        183.98122
+      ]
+    },
+    {
+      "type": "text",
+      "text": "%",
+      "align": "center",
+      "color": "#666",
+      "font": "bold 22px sans-serif, Arial",
+      "rect": [
+        135.9655,
+        154.33687,
+        29.48947,
+        29.64435
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@progress",
+        "value": ""
+      },
+      "align": "center",
+      "color": "#007AFF",
+      "font": "bold 28px sans-serif, Arial",
+      "rect": [
+        76.58662,
+        154.8647,
+        59.37888,
+        28.13505
+      ]
+    },
+    {
+      "type": "text",
+      "text": "液位",
+      "align": "right",
+      "font": "24px sans-serif",
+      "rect": [
+        -23.57075,
+        151.15904,
+        83.59292,
+        36
+      ]
+    }
+  ]
+}

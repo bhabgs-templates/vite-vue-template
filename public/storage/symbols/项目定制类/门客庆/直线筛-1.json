@@ -1,0 +1,52 @@
+{
+  "modified": "Fri Oct 15 2021 15:13:04 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "state.tc",
+      "valueType": "String"
+    },
+    {
+      "attr": "state.mc",
+      "valueType": "String"
+    },
+    {
+      "attr": "state.v",
+      "valueType": "String"
+    }
+  ],
+  "width": 80,
+  "height": 53,
+  "comps": [
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@state.tc",
+        "value": "201"
+      },
+      "align": "right",
+      "color": "rgb(0,0,0)",
+      "font": "bold 14px sans-serif, Arial",
+      "rect": [
+        52.88197,
+        2.91735,
+        30.24376,
+        15.0936
+      ]
+    },
+    {
+      "type": "image",
+      "name": {
+        "func": "__ht__function(data, view) {\nconst v = data.ca('state.v');\r\nconst v1 = 'symbols/素材库/设备/直线筛.json'; //待机\r\nconst v2 = 'symbols/素材库/设备/直线筛_g.json'; // 正常\r\nconst v3 = 'symbols/素材库/设备/直线筛_r.json'; // 故障\r\nconst v4 = 'symbols/素材库/设备/直线筛_y.json'; // 就绪\r\nlet color = v4;\r\nif (v ==='0') color = v1;\r\nif (v ==='1') color = v2;\r\nif (v ==='2') color = v3;\r\nif (v ==='3') color = v4;\r\nreturn color;\n}",
+        "value": "symbols/素材库/设备/直线筛.json"
+      },
+      "displayName": "直线筛",
+      "scaleX": -1,
+      "rect": [
+        0,
+        0,
+        80,
+        53
+      ]
+    }
+  ]
+}

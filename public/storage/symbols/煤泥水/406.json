@@ -1,0 +1,57 @@
+{
+  "modified": "Thu Aug 12 2021 09:58:57 GMT+0800 (中國標準時間)",
+  "dataBindings": [
+    {
+      "attr": "state",
+      "valueType": "Boolean"
+    }
+  ],
+  "width": 220,
+  "height": 60,
+  "comps": [
+    {
+      "type": "image",
+      "name": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMjIwcHgiIGhlaWdodD0iMzBweCIgdmlld0JveD0iMCAwIDIyMCAzMCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4KICAgIDx0aXRsZT5pY29uPC90aXRsZT4KICAgIDxkZWZzPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCB4MT0iNTAlIiB5MT0iMCUiIHgyPSI1MCUiIHkyPSIxMDAlIiBpZD0ibGluZWFyR3JhZGllbnQtMSI+CiAgICAgICAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiM3MzczNzMiIG9mZnNldD0iMCUiPjwvc3RvcD4KICAgICAgICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iIzRENEQ0RCIgb2Zmc2V0PSIxMDAlIj48L3N0b3A+CiAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgICA8bGluZWFyR3JhZGllbnQgeDE9IjUwJSIgeTE9Ii01ODguODg4ODg5JSIgeDI9IjUwJSIgeTI9Ii01ODguODg4ODg5JSIgaWQ9ImxpbmVhckdyYWRpZW50LTIiPgogICAgICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjNzM3MzczIiBvZmZzZXQ9IjAlIj48L3N0b3A+CiAgICAgICAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiM0RDRENEQiIG9mZnNldD0iMTAwJSI+PC9zdG9wPgogICAgICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICAgICAgPGxpbmVhckdyYWRpZW50IHgxPSI1MCUiIHkxPSIxMDAlIiB4Mj0iNTAlIiB5Mj0iMCUiIGlkPSJsaW5lYXJHcmFkaWVudC0zIj4KICAgICAgICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iIzc4Nzg3OCIgb2Zmc2V0PSIwJSI+PC9zdG9wPgogICAgICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjNTk1OTU5IiBvZmZzZXQ9IjEwMCUiPjwvc3RvcD4KICAgICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPC9kZWZzPgogICAgPGcgaWQ9Imljb24iIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxnIGlkPSI0OV/liK7mnb/mnLotMuWAjeWkh+S7vSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMS4wMDAwMDAsIDEuMDAwMDAwKSIgZmlsbC1ydWxlPSJub256ZXJvIj4KICAgICAgICAgICAgPHBvbHlnb24gaWQ9Iui3r+W+hCIgZmlsbD0idXJsKCNsaW5lYXJHcmFkaWVudC0xKSIgcG9pbnRzPSIyMi4wOCAyOC4wOCAwIDI4LjA4IDAgMTcuMjggMy42NDA4IDE3LjI4IDMuNTk1MiAyNCAyMi4wOCAyNCI+PC9wb2x5Z29uPgogICAgICAgICAgICA8cG9seWdvbiBpZD0i6Lev5b6EIiBmaWxsPSJ1cmwoI2xpbmVhckdyYWRpZW50LTIpIiBwb2ludHM9IjE5Ni4zMiAyOC4wOCAyMTguNCAyOC4wOCAyMTguNCAxNy4yOCAyMTQuNzU5MiAxNy4yOCAyMTQuODA0OCAyNCAxOTYuMzIgMjQiPjwvcG9seWdvbj4KICAgICAgICAgICAgPHJlY3QgaWQ9IuefqeW9oiIgZmlsbD0idXJsKCNsaW5lYXJHcmFkaWVudC0zKSIgeD0iNC41NiIgeT0iMC4yMTYiIHdpZHRoPSIyMDkuMjgiIGhlaWdodD0iMjIuODYiPjwvcmVjdD4KICAgICAgICAgICAgPHJlY3QgaWQ9IuefqeW9oiIgZmlsbD0iIzk5OTk5OSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTA5LjMyMDM0NSwgMTEuNjM1NDk2KSByb3RhdGUoLTg5Ljg0MDAwMCkgdHJhbnNsYXRlKC0xMDkuMzIwMzQ1LCAtMTEuNjM1NDk2KSAiIHg9IjEwNC40MDE1NDUiIHk9Ii03Ny43NjMzMDM5IiB3aWR0aD0iOS44Mzc2IiBoZWlnaHQ9IjE3OC43OTc2Ij48L3JlY3Q+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik0yMC40MTIsNi45NiBMMTk4LjI0LDcuNDQgTDE5OC4yMTYsMTYuMzIgTDIwLjQsMTUuODQgTDIwLjQyNCw2Ljk2IE0xOS40NjQsNiBMMTkuNDM1MiwxNi44IEwxOTkuMTk1MiwxNy4yOTkyIEwxOTkuMjI0LDYuNDk5MiBMMTkuNDY0LDUuOTk3NiBMMTkuNDY0LDYgWiIgaWQ9IuW9oueKtiIgZmlsbD0iI0U2RTZFNiI+PC9wYXRoPgogICAgICAgICAgICA8cmVjdCBpZD0i55+p5b2iIiBmaWxsPSIjOTk5OTk5IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxOS4zNzkxNDUsIDExLjYzNDY4NSkgcm90YXRlKC00NS4wMDAwMDApIHRyYW5zbGF0ZSgtMTkuMzc5MTQ1LCAtMTEuNjM0Njg1KSAiIHg9IjE1Ljk2MDM0NDgiIHk9IjguMzAxMDg1MDQiIHdpZHRoPSI2LjgzNzYiIGhlaWdodD0iNi42NjcyIj48L3JlY3Q+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik0xOS40NCw3LjU0MDggTDIzLjQ3NDQsMTEuNTc1MiBMMTkuMzIsMTUuNzMyIEwxNS4yODU2LDExLjY5NTIgTDE5LjQ0LDcuNTQwOCBNMTkuNDQsNi4xODI0IEwxMy45MiwxMS43MDI0IEwxOS4zMiwxNy4wODggTDI0Ljg0LDExLjU2OCBMMTkuNDQsNi4xODI0IFoiIGlkPSLlvaLnirYiIGZpbGw9IiNFNkU2RTYiPjwvcGF0aD4KICAgICAgICAgICAgPHJlY3QgaWQ9IuefqeW9oiIgZmlsbD0iIzk5OTk5OSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTk5LjE0MjI2MCwgMTEuNjM2MzcwKSByb3RhdGUoLTQ1LjAwMDAwMCkgdHJhbnNsYXRlKC0xOTkuMTQyMjYwLCAtMTEuNjM2MzcwKSAiIHg9IjE5NS43MjM0NiIgeT0iOC4zMDI3NzAwNSIgd2lkdGg9IjYuODM3NiIgaGVpZ2h0PSI2LjY2NzIiPjwvcmVjdD4KICAgICAgICAgICAgPHBhdGggZD0iTTE5OS4yLDcuNTQwOCBMMjAzLjIzNDQsMTEuNTc1MiBMMTk5LjA4LDE1LjczMiBMMTk1LjA0NTYsMTEuNjk1MiBMMTk5LjIsNy41NDA4IE0xOTkuMiw2LjE4MjQgTDE5My42OCwxMS43MDI0IEwxOTkuMDgsMTcuMDg4IEwyMDQuNiwxMS41NjggTDE5OS4yLDYuMTgyNCBaIiBpZD0i5b2i54q2IiBmaWxsPSIjRTZFNkU2Ij48L3BhdGg+CiAgICAgICAgPC9nPgogICAgPC9nPgo8L3N2Zz4=",
+      "displayName": "icon",
+      "rect": [
+        0,
+        30,
+        220,
+        30
+      ]
+    },
+    {
+      "type": "roundRect",
+      "background": {
+        "func": "__ht__function(data, view) {\nconst state = data.a('state');\n\nif (state) {\n    return '#05D84B';\n}\nreturn '#999';\n}",
+        "value": "#999999"
+      },
+      "borderColor": "#999999",
+      "cornerRadius": 3,
+      "displayName": "圆角矩形",
+      "rect": [
+        5.99078,
+        0,
+        50,
+        28
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@mc",
+        "value": "201"
+      },
+      "align": "center",
+      "color": "rgb(255,255,255)",
+      "font": "bold 22px sans-serif, Arial",
+      "clipDirection": "left",
+      "rect": [
+        5.99078,
+        2,
+        50,
+        28
+      ]
+    }
+  ]
+}

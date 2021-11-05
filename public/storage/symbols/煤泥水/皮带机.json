@@ -1,0 +1,61 @@
+{
+  "modified": "Wed Aug 25 2021 16:12:14 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "state",
+      "valueType": "Boolean",
+      "defaultValue": true
+    }
+  ],
+  "width": 253,
+  "height": 28,
+  "comps": [
+    {
+      "type": "image",
+      "name": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMjU0cHgiIGhlaWdodD0iMjhweCIgdmlld0JveD0iMCAwIDI1NCAyOCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4KICAgIDx0aXRsZT5pY29uMjwvdGl0bGU+CiAgICA8ZGVmcz4KICAgICAgICA8bGluZWFyR3JhZGllbnQgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSIgaWQ9ImxpbmVhckdyYWRpZW50LTEiPgogICAgICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjREREREREIiBvZmZzZXQ9IjAlIj48L3N0b3A+CiAgICAgICAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiM5MjkyOTIiIG9mZnNldD0iMTAwJSI+PC9zdG9wPgogICAgICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICAgICAgPGxpbmVhckdyYWRpZW50IHgxPSI1MCUiIHkxPSIwJSIgeDI9IjUwJSIgeTI9IjEwMCUiIGlkPSJsaW5lYXJHcmFkaWVudC0yIj4KICAgICAgICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iIzg1ODU4NSIgb2Zmc2V0PSIwJSI+PC9zdG9wPgogICAgICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjNTk1OTU5IiBvZmZzZXQ9IjEwMCUiPjwvc3RvcD4KICAgICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPC9kZWZzPgogICAgPGcgaWQ9Imljb24yIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBpZD0iMl/nmq7luKbmnLo0LeWJr+acrOWkh+S7vSIgZmlsbC1ydWxlPSJub256ZXJvIj4KICAgICAgICAgICAgPHBhdGggZD0iTTE0LjE4OTI1NSwyNi43NTcxMiBDNy4xMjQ3MDczOSwyNi43NTcxMiAxLjM5Nzc2LDIxLjAzNTUzNCAxLjM5Nzc2LDEzLjk3NzYgQzEuMzk3NzYsNi45MTk2NjU5OSA3LjEyNDcwNzM5LDEuMTk4MDggMTQuMTg5MjU1LDEuMTk4MDggTDIzOS4xNjYyNjUsMS4xOTgwOCBDMjQ2LjIzMDgxMywxLjE5ODA4IDI1MS45NTc3Niw2LjkxOTY2NTk5IDI1MS45NTc3NiwxMy45Nzc2IEMyNTEuOTU3NzYsMjEuMDM1NTM0IDI0Ni4yMzA4MTMsMjYuNzU3MTIgMjM5LjE2NjI2NSwyNi43NTcxMiBMMTQuMTg5MjU1LDI2Ljc1NzEyIFoiIGlkPSLot6/lvoQiIGZpbGw9InVybCgjbGluZWFyR3JhZGllbnQtMSkiPjwvcGF0aD4KICAgICAgICAgICAgPHBhdGggZD0iTTI1MC4wODM4NCwxMy45Nzc2IEMyNTAuMDgzODQsMjAuMzczODUyNyAyNDQuODk4NjUzLDI1LjU1OTA0IDIzOC41MDI0LDI1LjU1OTA0IEwxNC4xNzcyOCwyNS41NTkwNCBDNy43ODEwMjczMSwyNS41NTkwNCAyLjU5NTg0LDIwLjM3Mzg1MjcgMi41OTU4NCwxMy45Nzc2IEMyLjU5NTg0LDcuNTgxMzQ3MzEgNy43ODEwMjczMSwyLjM5NjE2IDE0LjE3NzI4LDIuMzk2MTYgTDIzOC41MDI0LDIuMzk2MTYgQzI0NC44OTg2NTMsMi4zOTYxNiAyNTAuMDgzODQsNy41ODEzNDczMSAyNTAuMDgzODQsMTMuOTc3NiBaIE0yMzguNTAyNCwwIEwxNC4xNzcyOCwwIEM2LjQ1NzY2NDY4LDAgMC4xOTk2OCw2LjI1Nzk4NDY4IDAuMTk5NjgsMTMuOTc3NiBDMC4xOTk2OCwyMS42OTcyMTUzIDYuNDU3NjY0NjgsMjcuOTU1MiAxNC4xNzcyOCwyNy45NTUyIEwyMzguNTAyNCwyNy45NTUyIEMyNDYuMjIyMDE1LDI3Ljk1NTIgMjUyLjQ4LDIxLjY5NzIxNTMgMjUyLjQ4LDEzLjk3NzYgQzI1Mi40OCw2LjI1Nzk4NDY4IDI0Ni4yMjIwMTUsMCAyMzguNTAyNCwwIFoiIGlkPSLlvaLnirYiIGZpbGw9IiM3Nzc3NzciPjwvcGF0aD4KICAgICAgICAgICAgPGNpcmNsZSBpZD0i5qSt5ZyG5b2iIiBmaWxsPSJ1cmwoI2xpbmVhckdyYWRpZW50LTIpIiBjeD0iMjM3LjQ1NzkyIiBjeT0iMTMuNzc3OTIiIHI9IjcuNzg3NTIiPjwvY2lyY2xlPgogICAgICAgICAgICA8Y2lyY2xlIGlkPSLmpK3lnIblvaIiIGZpbGw9InVybCgjbGluZWFyR3JhZGllbnQtMikiIGN4PSIxNS42MjExMiIgY3k9IjEzLjc3NzkyIiByPSI3Ljc4NzUyIj48L2NpcmNsZT4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg==",
+      "displayName": "icon2",
+      "rect": [
+        -1,
+        0,
+        254,
+        28
+      ]
+    },
+    {
+      "type": "oval",
+      "background": {
+        "func": "__ht__function(data, view) {\nconst state = data.a('state');\nif (state) return 'gray';\nreturn 'green';\n}",
+        "value": "#D8D8D8"
+      },
+      "borderColor": "#979797",
+      "opacity": {
+        "func": "__ht__function(data, view) {\nconst state = data.a('state');\nif (state) return 0;\nreturn 1;\n}",
+        "value": 1
+      },
+      "rect": [
+        6.30402,
+        4.52245,
+        19.18616,
+        18.9551
+      ]
+    },
+    {
+      "type": "oval",
+      "background": {
+        "func": "__ht__function(data, view) {\nconst state = data.a('state');\nif (state) return '#05D84B';\nreturn 'gray';\n}",
+        "value": "#D8D8D8"
+      },
+      "borderColor": "#979797",
+      "opacity": {
+        "func": "__ht__function(data, view) {\nconst state = data.a('state');\nif (state) return 1;\nreturn 0;\n}",
+        "value": 1
+      },
+      "rect": [
+        228.58934,
+        4.52245,
+        19.18616,
+        18.9551
+      ]
+    }
+  ]
+}

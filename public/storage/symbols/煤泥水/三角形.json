@@ -1,0 +1,34 @@
+{
+  "modified": "Tue Sep 28 2021 16:21:02 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "background",
+      "valueType": "String",
+      "defaultValue": "grey"
+    }
+  ],
+  "width": 16,
+  "height": 16,
+  "comps": [
+    {
+      "type": "shape",
+      "background": {
+        "func": "attr@background",
+        "value": "#05D84B"
+      },
+      "borderColor": "#979797",
+      "rotation": 1.5708,
+      "closePath": true,
+      "points": [
+        8.17344,
+        0,
+        0,
+        16,
+        8.17344,
+        11.98922,
+        16,
+        16
+      ]
+    }
+  ]
+}

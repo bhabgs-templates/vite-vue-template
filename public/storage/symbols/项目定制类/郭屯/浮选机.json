@@ -1,0 +1,51 @@
+{
+  "modified": "Thu Oct 21 2021 10:53:26 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "fxj.tc",
+      "valueType": "String"
+    },
+    {
+      "attr": "fxj.mc",
+      "valueType": "String"
+    },
+    {
+      "attr": "fxj.v",
+      "valueType": "String"
+    }
+  ],
+  "width": 145,
+  "height": 80,
+  "comps": [
+    {
+      "type": "image",
+      "name": {
+        "func": "__ht__function(data, view) {\nconst v = data.ca('fxj.v');\r\nconst v1 = 'symbols/素材库/设备/浮选机.json'; //正常\r\nconst v2 = 'symbols/素材库/设备/浮选机_g.json'; // 故障\r\nconst v3 = 'symbols/素材库/设备/浮选机_r.json'; // 故障\r\nlet color = v1;\r\nif (v === '2' || v === '8') color = v2;\r\nif (v === '4' || v === '20') color = v3;\r\nreturn color;\n}",
+        "value": "symbols/素材库/设备/浮选机.json"
+      },
+      "displayName": "浮选机",
+      "rect": [
+        -0.07612,
+        13.95814,
+        120.07612,
+        66.04186
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@tc",
+        "value": "201"
+      },
+      "color": "rgb(0,0,0)",
+      "font": "bold 14px sans-serif, Arial",
+      "prefix": "fxj",
+      "rect": [
+        120,
+        4.88063,
+        26.4222,
+        13.31853
+      ]
+    }
+  ]
+}

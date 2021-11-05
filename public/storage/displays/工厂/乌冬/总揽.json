@@ -1,0 +1,1959 @@
+{
+  "v": "7.2.4",
+  "p": {
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "fitContent": true
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 1379,
+      "p": {
+        "displayName": "火车撞车皮带机栈桥",
+        "image": "symbols/工厂设备/皮带栈桥.json",
+        "rotation": 4.71239,
+        "position": {
+          "x": 152.24325,
+          "y": 236.26052
+        }
+      },
+      "a": {
+        "height": 30,
+        "width": 260,
+        "title": "火车撞车皮带机栈桥",
+        "jd": 8,
+        "jl": 15,
+        "bk.tc": "741",
+        "bk.mc": "STATE",
+        "bk.v": "2"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1380,
+      "p": {
+        "displayName": "皮带栈桥",
+        "tag": "kmscpd",
+        "image": "symbols/工厂设备/皮带栈桥.json",
+        "rotation": 4.71239,
+        "position": {
+          "x": 949.24632,
+          "y": 339.0859
+        }
+      },
+      "a": {
+        "height": 50,
+        "jd": 8,
+        "jl": 12,
+        "width": 150,
+        "title": "块煤上仓皮带机栈桥",
+        "bk.v": "2"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 1381,
+      "p": {
+        "displayName": "火车轨道",
+        "position": {
+          "x": 304.5,
+          "y": 75.5
+        },
+        "anchor": {
+          "x": 0.40839,
+          "y": 0.44302
+        },
+        "width": 781.48791,
+        "height": 70
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 1382,
+      "p": {
+        "parent": {
+          "__i": 1381
+        },
+        "position": {
+          "x": 376.08925,
+          "y": 75.5
+        },
+        "width": 781.48791,
+        "height": 0,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -14.6547,
+              "y": 75.5
+            },
+            {
+              "x": 766.83321,
+              "y": 75.5
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.width": 5,
+        "shape.dash": true,
+        "shape.dash.pattern": [
+          16,
+          16
+        ],
+        "shape.dash.3d.color": "rgb(247,247,247)",
+        "note.border.color": "rgb(61,61,61)",
+        "border.color": "#7E5B39",
+        "shape.border.color": "#7E5B39",
+        "shape.dash.color": "#EFF1F4",
+        "border.width": 1
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 1383,
+      "p": {
+        "parent": {
+          "__i": 1381
+        },
+        "position": {
+          "x": 376.08925,
+          "y": 96.43996
+        },
+        "width": 781.48791,
+        "height": 0.55963,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -14.6547,
+              "y": 96.16014
+            },
+            {
+              "x": 766.83321,
+              "y": 96.71977
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.width": 5,
+        "shape.dash": true,
+        "shape.dash.pattern": [
+          16,
+          16
+        ],
+        "shape.dash.3d.color": "rgb(247,247,247)",
+        "note.border.color": "rgb(61,61,61)",
+        "border.color": "#7E5B39",
+        "shape.border.color": "#7E5B39",
+        "shape.dash.color": "#EFF1F4",
+        "border.width": 1
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1384,
+      "p": {
+        "displayName": "列车",
+        "parent": {
+          "__i": 1381
+        },
+        "image": "symbols/工厂设备/列车.json",
+        "position": {
+          "x": 325.83871,
+          "y": 75.5
+        },
+        "width": 592,
+        "height": 40
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1385,
+      "p": {
+        "displayName": "装车站",
+        "parent": {
+          "__i": 1381
+        },
+        "image": "symbols/工厂设备/装车站.json",
+        "position": {
+          "x": 146.60111,
+          "y": 79.48826
+        },
+        "width": 70,
+        "height": 70
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 1386,
+      "p": {
+        "displayName": "混煤仓",
+        "position": {
+          "x": 148.12303,
+          "y": 404.0859
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.23907
+        },
+        "width": 135.05231,
+        "height": 282.45266
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1387,
+      "p": {
+        "parent": {
+          "__i": 1386
+        },
+        "position": {
+          "x": 148.12303,
+          "y": 606.66436
+        },
+        "width": 61.74022,
+        "height": 24.69609
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "#D8D8D8",
+        "shape.border.color": "#979797",
+        "shape.foreground": "#9699A4"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1388,
+      "p": {
+        "displayName": "煤仓",
+        "parent": {
+          "__i": 1386
+        },
+        "image": "symbols/工厂设备/煤仓.json",
+        "position": {
+          "x": 148.12303,
+          "y": 404.0859
+        },
+        "width": 135.05231,
+        "height": 135.05231
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1389,
+      "p": {
+        "displayName": "煤仓",
+        "parent": {
+          "__i": 1386
+        },
+        "image": "symbols/工厂设备/煤仓.json",
+        "position": {
+          "x": 148.12303,
+          "y": 539.13821
+        },
+        "width": 135.05231,
+        "height": 135.05231,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1390,
+      "p": {
+        "parent": {
+          "__i": 1386
+        },
+        "position": {
+          "x": 148.12303,
+          "y": 468.42216
+        },
+        "width": 56.13129,
+        "height": 216.87088
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "#A0A5AE",
+        "shape.border.color": "#979797",
+        "shadow2": true,
+        "shadow2.color": "rgb(125,125,125)"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 1391,
+      "p": {
+        "parent": {
+          "__i": 1386
+        },
+        "position": {
+          "x": 152.92479,
+          "y": 404.0859
+        },
+        "width": 32.63693,
+        "height": 25
+      },
+      "s": {
+        "text": "2#",
+        "text.font": "22px sans-serif, Arial",
+        "text.color": "rgb(36,36,36)"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 1392,
+      "p": {
+        "parent": {
+          "__i": 1386
+        },
+        "position": {
+          "x": 152.92479,
+          "y": 539.13821
+        },
+        "width": 32.63693,
+        "height": 25,
+        "tall": 20
+      },
+      "s": {
+        "text": "1#",
+        "text.font": "22px sans-serif, Arial",
+        "text.color": "rgb(36,36,36)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1393,
+      "p": {
+        "displayName": "煤仓",
+        "image": "symbols/工厂设备/煤仓.json",
+        "position": {
+          "x": 1561.62383,
+          "y": 236.55974
+        }
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1394,
+      "p": {
+        "displayName": "皮带栈桥",
+        "image": "symbols/工厂设备/皮带栈桥.json",
+        "position": {
+          "x": 1244.57116,
+          "y": 234.99578
+        }
+      },
+      "a": {
+        "width": 530,
+        "height": 30,
+        "jd": 8,
+        "jl": 15,
+        "title": "地销混煤皮带机栈桥",
+        "bk.tc": "751",
+        "bk.mc": "STATE",
+        "bk.v": "2"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 1395,
+      "p": {
+        "displayName": "块煤仓",
+        "position": {
+          "x": 945.67673,
+          "y": 114.46631
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.25
+        },
+        "width": 110.52947,
+        "height": 221.05895
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1396,
+      "p": {
+        "displayName": "煤仓",
+        "parent": {
+          "__i": 1395
+        },
+        "image": "symbols/工厂设备/煤仓.json",
+        "position": {
+          "x": 945.67673,
+          "y": 114.46631
+        },
+        "width": 110.52947,
+        "height": 110.52947,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1397,
+      "p": {
+        "displayName": "煤仓",
+        "parent": {
+          "__i": 1395
+        },
+        "image": "symbols/工厂设备/煤仓.json",
+        "position": {
+          "x": 945.67673,
+          "y": 224.99578
+        },
+        "width": 110.52947,
+        "height": 110.52947,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1398,
+      "p": {
+        "parent": {
+          "__i": 1395
+        },
+        "position": {
+          "x": 945.67673,
+          "y": 167.12036
+        },
+        "width": 45.93895,
+        "height": 177.49141,
+        "tall": 20
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "#A0A5AE",
+        "shape.border.color": "#979797",
+        "shadow2": true,
+        "shadow2.color": "rgb(125,125,125)"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 1399,
+      "p": {
+        "parent": {
+          "__i": 1395
+        },
+        "position": {
+          "x": 949.60658,
+          "y": 114.46631
+        },
+        "width": 26.71071,
+        "height": 20.46049,
+        "tall": 20
+      },
+      "s": {
+        "text": "2#",
+        "text.font": "22px sans-serif, Arial",
+        "text.color": "rgb(36,36,36)"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 1400,
+      "p": {
+        "parent": {
+          "__i": 1395
+        },
+        "position": {
+          "x": 949.60658,
+          "y": 224.99578
+        },
+        "width": 26.71071,
+        "height": 20.46049,
+        "tall": 20
+      },
+      "s": {
+        "text": "1#",
+        "text.font": "22px sans-serif, Arial",
+        "text.color": "rgb(36,36,36)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1401,
+      "p": {
+        "displayName": "压滤车间",
+        "tag": "ylcj",
+        "image": "symbols/工厂设备/总览/压滤车间.json",
+        "position": {
+          "x": 883.72654,
+          "y": 438.5859
+        }
+      },
+      "a": {
+        "state": "0"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1402,
+      "p": {
+        "displayName": "皮带栈桥",
+        "image": "symbols/工厂设备/皮带栈桥.json",
+        "position": {
+          "x": 516.18867,
+          "y": 543.55722
+        }
+      },
+      "a": {
+        "width": 680,
+        "height": 40,
+        "jd": 10,
+        "jl": 8,
+        "a_direction": false,
+        "title": "混煤上仓皮带机栈桥",
+        "bk.tc": "721",
+        "bk.mc": "STATE",
+        "bk.v": "2"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1403,
+      "p": {
+        "displayName": "皮带栈桥",
+        "tag": "chanpizhanqiao",
+        "image": "symbols/工厂设备/皮带栈桥.json",
+        "rotation": 4.71239,
+        "position": {
+          "x": 875.72654,
+          "y": 694.0177
+        }
+      },
+      "a": {
+        "height": 50,
+        "jd": 8,
+        "jl": 15,
+        "width": 300,
+        "title": "产品皮带机栈桥",
+        "bk.v": "2"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1404,
+      "p": {
+        "displayName": "筛分车间",
+        "image": "symbols/工厂设备/总览/筛分车间.json",
+        "position": {
+          "x": 900.72654,
+          "y": 529.8576
+        }
+      },
+      "a": {
+        "tc": "201",
+        "mc": "STATE",
+        "state": "1"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1405,
+      "p": {
+        "displayName": "分享",
+        "image": "symbols/工厂设备/分享.json",
+        "position": {
+          "x": 992.27886,
+          "y": 406.54721
+        }
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1406,
+      "p": {
+        "position": {
+          "x": 1561.62383,
+          "y": 232.26052
+        },
+        "width": 104.03958,
+        "height": 62.83579
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "#A0A5AE",
+        "shape.border.color": "#979797",
+        "shadow2.color": "rgb(43,43,43)",
+        "shadow2": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1407,
+      "p": {
+        "displayName": "货车",
+        "image": "symbols/工厂设备/货车.json",
+        "position": {
+          "x": 1391.43703,
+          "y": 284.91457
+        }
+      },
+      "a": {
+        "state": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1408,
+      "p": {
+        "displayName": "货车",
+        "image": "symbols/工厂设备/货车.json",
+        "position": {
+          "x": 1707.69092,
+          "y": 276.26052
+        },
+        "width": 114,
+        "height": 48,
+        "tall": 20
+      },
+      "a": {
+        "state": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1409,
+      "p": {
+        "displayName": "配电室",
+        "image": "symbols/工厂设备/配电室.json",
+        "position": {
+          "x": 1307.94146,
+          "y": 961.74011
+        }
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1410,
+      "p": {
+        "displayName": "电工班",
+        "image": "symbols/工厂设备/电工班.json",
+        "position": {
+          "x": 1299.94146,
+          "y": 739.39714
+        }
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1411,
+      "p": {
+        "displayName": "介质库",
+        "image": "symbols/工厂设备/介质库.json",
+        "position": {
+          "x": 1299.94146,
+          "y": 837.56862
+        }
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1412,
+      "p": {
+        "displayName": "主厂房",
+        "image": "symbols/工厂设备/主厂房.json",
+        "position": {
+          "x": 917.72654,
+          "y": 934.39714
+        }
+      },
+      "a": {
+        "state": false,
+        "astate": "1",
+        "zcfa.tc": "321",
+        "zcfa.mc": "STATE",
+        "bstate": "1",
+        "zcfb.mc": "STATE",
+        "zcfb.tc": "322"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1413,
+      "p": {
+        "displayName": "603浓缩机",
+        "image": "symbols/工厂设备/浓缩机.json",
+        "position": {
+          "x": 567.2396,
+          "y": 649.39714
+        }
+      },
+      "a": {
+        "state": "2",
+        "text": "603浓缩机",
+        "nsj.v": "2",
+        "nsj.tc": "603",
+        "nsj.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1414,
+      "p": {
+        "displayName": "602浓缩机",
+        "image": "symbols/工厂设备/浓缩机.json",
+        "position": {
+          "x": 567.2396,
+          "y": 806.39714
+        },
+        "width": 154,
+        "height": 154,
+        "tall": 20
+      },
+      "a": {
+        "state": "20",
+        "text": "602浓缩机"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1415,
+      "p": {
+        "displayName": "601浓缩机",
+        "image": "symbols/工厂设备/浓缩机.json",
+        "position": {
+          "x": 567.2396,
+          "y": 963.39714
+        },
+        "width": 154,
+        "height": 154,
+        "tall": 20
+      },
+      "a": {
+        "state": "8",
+        "text": "601浓缩机",
+        "nsj.v": "2",
+        "nsj.tc": "601",
+        "nsj.mc": "STATE"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1416,
+      "p": {
+        "displayName": "泵房",
+        "image": "symbols/工厂设备/泵房.json",
+        "position": {
+          "x": 448.7396,
+          "y": 885.74011
+        }
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1417,
+      "p": {
+        "displayName": "泵房_1",
+        "image": "symbols/工厂设备/泵房_1.json",
+        "position": {
+          "x": 431.2396,
+          "y": 686.39714
+        }
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1418,
+      "p": {
+        "displayName": "煤泥棚",
+        "image": "symbols/工厂设备/煤泥棚.json",
+        "position": {
+          "x": 1268.43703,
+          "y": 450.54721
+        }
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1419,
+      "p": {
+        "displayName": "table",
+        "tag": "table1",
+        "dataBindings": {
+          "a": {}
+        },
+        "image": "symbols/ht/ui/table.json",
+        "position": {
+          "x": 423.4179,
+          "y": 197.46616
+        },
+        "width": 441.6434,
+        "height": 133.23947,
+        "tall": 20
+      },
+      "a": {
+        "ht.headHeight": 32,
+        "ht.rowHeight": 50,
+        "ht.cellPadding": 0,
+        "ht.showHead": true,
+        "ht.dataSource": [
+          {
+            "blj": "965-t",
+            "ylj": "19872-t",
+            "name": "装车总量"
+          },
+          {
+            "blj": "6-列",
+            "ylj": "115-列",
+            "name": "装车列数"
+          }
+        ],
+        "ht.columns": [
+          {
+            "key": "name",
+            "displayName": "统计名称",
+            "align": "center",
+            "width": "120"
+          },
+          {
+            "key": "blj",
+            "displayName": "班累计",
+            "align": "center",
+            "width": "0.1",
+            "drawCell": "__ht__function(g, text, rect, option) {\n            var font = option.font,\n                color = '#0960FE',\n                x = rect.x,\n                y = rect.y,\n                height = rect.height,\n                width = rect.width,\n                ts2 = ht.Default.getTextSize(font, '00'),\n                texts = text.split('-');\n                 ht.Default.drawText(g, texts[0], font, color, x , y, width/2, height, 'right', 'middle');\n                 if (texts.length > 1) {\n                     ht.Default.drawText(g, texts[1], font, 'rgb(0,0,0)', x + width/2 , y, width/2 + ts2.width, height, 'left', 'middle');\n                 }\n        }"
+          },
+          {
+            "key": "ylj",
+            "displayName": "月累计",
+            "align": "center",
+            "width": "0.1",
+            "drawCell": "__ht__function(g, text, rect, option) {\n            var font = option.font,\n                color = '#0960FE',\n                x = rect.x,\n                y = rect.y,\n                height = rect.height,\n                width = rect.width,\n                ts2 = ht.Default.getTextSize(font, '00'),\n                texts = text.split('-');\n                 ht.Default.drawText(g, texts[0], font, color, x , y, width/2, height, 'right', 'middle');\n                 if (texts.length > 1) {\n                     ht.Default.drawText(g, texts[1], font, 'rgb(0,0,0)', x + width/2 , y, width/2 + ts2.width, height, 'left', 'middle');\n                 }\n        }"
+          }
+        ],
+        "ht.hoverBackground": "rgba(255,255,255,0.31)",
+        "ht.borderWidth": 0,
+        "ht.translateY": 0,
+        "ht.rowLineWidth": 0,
+        "ht.scrollBarWidth": 7,
+        "ht.translateX": 0,
+        "ht.showScrollBar": true,
+        "ht.scrollBarColor": "#FEB64D",
+        "ht.onClick": "__ht__function(row, data, view){\nconsole.log(row)\n}",
+        "ht.onSelectRow": "__ht__function(row, data, view) {console.log(row)}",
+        "ht.drawRow": "__ht__function(g, row, rowIndex, rect, rawIndex, data, view) {if (rawIndex % 2 === 1) {\n    g.fillStyle = '#EBECEC'\n    g.fillRect(rect.x, rect.y, rect.width, rect.height);\n}}",
+        "ht.autoHideScrollBar": false,
+        "ht.columnLineWidth": 0,
+        "ht.scrollable": true,
+        "ht.multiple": false,
+        "ht.bodyTextColor": "rgb(0,0,0)",
+        "ht.bodyBackground": "rgb(255,255,255)",
+        "ht.headbackground": "#0960FE",
+        "ht.headTextColor": "rgb(255,255,255)",
+        "ht.bodyFont": "22px sans-serif, Arial",
+        "ht.headFont": "22px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 1420,
+      "p": {
+        "displayName": "左下角卡片-table",
+        "position": {
+          "x": 177.83711,
+          "y": 835.3861
+        },
+        "anchor": {
+          "x": 0.41537,
+          "y": 0.52191
+        },
+        "width": 377.4009,
+        "height": 333.04212
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1421,
+      "p": {
+        "parent": {
+          "__i": 1420
+        },
+        "position": {
+          "x": 209.57473,
+          "y": 707.48575
+        },
+        "width": 376.99964,
+        "height": 91.83841
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "#EBECEC",
+        "shape.border.color": "#979797"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1422,
+      "p": {
+        "displayName": "蒙版",
+        "parent": {
+          "__i": 1420
+        },
+        "image": "data:image/png;base64,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",
+        "position": {
+          "x": 85.48585,
+          "y": 709.40495
+        },
+        "width": 88,
+        "height": 88
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1423,
+      "p": {
+        "displayName": "table",
+        "parent": {
+          "__i": 1420
+        },
+        "tag": "tableleft",
+        "dataBindings": {
+          "a": {}
+        },
+        "image": "symbols/ht/ui/table.json",
+        "position": {
+          "x": 209.77536,
+          "y": 874.00681
+        },
+        "width": 377.40089,
+        "height": 241.20372,
+        "tall": 20
+      },
+      "a": {
+        "ht.headHeight": 32,
+        "ht.rowHeight": 50,
+        "ht.cellPadding": 0,
+        "ht.showHead": true,
+        "ht.dataSource": [
+          {
+            "blj": "965-t",
+            "ylj": "19872-t",
+            "name": "矿井提煤量"
+          },
+          {
+            "blj": "965-t",
+            "ylj": "19872-t",
+            "name": "原煤入洗量"
+          },
+          {
+            "blj": "76-%",
+            "ylj": "15-%",
+            "name": "产品产率"
+          },
+          {
+            "blj": "6-板",
+            "ylj": "115-板",
+            "name": "煤泥板数"
+          }
+        ],
+        "ht.columns": [
+          {
+            "key": "name",
+            "displayName": "统计名称",
+            "align": "center",
+            "width": "120"
+          },
+          {
+            "key": "blj",
+            "displayName": "班累计",
+            "align": "center",
+            "width": "0.1",
+            "drawCell": "__ht__function(g, text, rect, option) {\n            var font = option.font,\n                color = '#0960FE',\n                x = rect.x,\n                y = rect.y,\n                height = rect.height,\n                width = rect.width,\n                ts2 = ht.Default.getTextSize(font, '00'),\n                texts = text.split('-');\n                 ht.Default.drawText(g, texts[0], font, color, x , y, width/2, height, 'right', 'middle');\n                 if (texts.length > 1) {\n                     ht.Default.drawText(g, texts[1], font, 'rgb(0,0,0)', x + width/2 , y, width/2 + ts2.width, height, 'left', 'middle');\n                 }\n        }"
+          },
+          {
+            "key": "ylj",
+            "displayName": "月累计",
+            "align": "center",
+            "width": "0.1",
+            "drawCell": "__ht__function(g, text, rect, option) {\n            var font = option.font,\n                color = '#0960FE',\n                x = rect.x,\n                y = rect.y,\n                height = rect.height,\n                width = rect.width,\n                ts2 = ht.Default.getTextSize(font, '00'),\n                texts = text.split('-');\n                 ht.Default.drawText(g, texts[0], font, color, x , y, width/2, height, 'right', 'middle');\n                 if (texts.length > 1) {\n                     ht.Default.drawText(g, texts[1], font, 'rgb(0,0,0)', x + width/2 , y, width/2 + ts2.width, height, 'left', 'middle');\n                 }\n        }"
+          }
+        ],
+        "ht.hoverBackground": "rgba(255,255,255,0.31)",
+        "ht.borderWidth": 0,
+        "ht.translateY": 0,
+        "ht.rowLineWidth": 0,
+        "ht.scrollBarWidth": 7,
+        "ht.translateX": 0,
+        "ht.showScrollBar": true,
+        "ht.scrollBarColor": "#FEB64D",
+        "ht.onClick": "__ht__function(row, data, view){\nconsole.log(row)\n}",
+        "ht.onSelectRow": "__ht__function(row, data, view) {console.log(row)}",
+        "ht.drawRow": "__ht__function(g, row, rowIndex, rect, rawIndex, data, view) {if (rawIndex % 2 === 1) {\n    g.fillStyle = '#EBECEC'\n    g.fillRect(rect.x, rect.y, rect.width, rect.height);\n}}",
+        "ht.autoHideScrollBar": false,
+        "ht.columnLineWidth": 0,
+        "ht.scrollable": true,
+        "ht.multiple": false,
+        "ht.bodyTextColor": "rgb(0,0,0)",
+        "ht.bodyBackground": "rgb(255,255,255)",
+        "ht.headbackground": "#0960FE",
+        "ht.headTextColor": "rgb(255,255,255)",
+        "ht.headFont": "22px sans-serif, Arial",
+        "ht.bodyFont": "23px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1424,
+      "p": {
+        "displayName": "皮带栈桥",
+        "image": "symbols/工厂设备/皮带栈桥.json",
+        "rotation": 4.71239,
+        "position": {
+          "x": 977.57115,
+          "y": 702.39714
+        }
+      },
+      "a": {
+        "height": 34,
+        "jd": 8,
+        "jl": 15,
+        "width": 260,
+        "title": "入洗块煤皮带机栈桥",
+        "bk.tc": "301",
+        "bk.mc": "STATE",
+        "bk.v": "2"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1425,
+      "p": {
+        "displayName": "皮带栈桥",
+        "tag": "mnpdjzhqiao",
+        "image": "symbols/工厂设备/皮带栈桥.json",
+        "position": {
+          "x": 1109.27886,
+          "y": 455.5859
+        }
+      },
+      "a": {
+        "height": 34,
+        "jd": 8,
+        "jl": 15,
+        "width": 205,
+        "title": "煤泥皮带机栈桥",
+        "bk.tc": "415",
+        "bk.mc": "COAL_CAP",
+        "bk.v": "2"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1426,
+      "p": {
+        "displayName": "皮带栈桥",
+        "tag": "ympdjzq",
+        "image": "symbols/工厂设备/皮带栈桥.json",
+        "position": {
+          "x": 1291.77886,
+          "y": 534.63821
+        }
+      },
+      "a": {
+        "jd": 8,
+        "jl": 15,
+        "width": 570,
+        "height": 34,
+        "title": "原煤皮带机栈桥",
+        "a_direction": false,
+        "bk.tc": "201",
+        "bk.mc": "STATE",
+        "bk.v": "2"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 1427,
+      "p": {
+        "displayName": "原煤仓",
+        "rotation": 1.5708,
+        "position": {
+          "x": 1727.41804,
+          "y": 529.8576
+        },
+        "anchor": {
+          "x": 0.12071,
+          "y": 0.17714
+        },
+        "width": 457.81732,
+        "height": 311.97736
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1428,
+      "p": {
+        "displayName": "煤仓",
+        "parent": {
+          "__i": 1427
+        },
+        "image": "symbols/工厂设备/煤仓.json",
+        "rotation": 1.5708,
+        "position": {
+          "x": 1727.41804,
+          "y": 529.8576
+        },
+        "width": 110.52947,
+        "height": 110.52947,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1429,
+      "p": {
+        "displayName": "煤仓",
+        "parent": {
+          "__i": 1427
+        },
+        "image": "symbols/工厂设备/煤仓.json",
+        "rotation": 1.5708,
+        "position": {
+          "x": 1616.88857,
+          "y": 529.8576
+        },
+        "width": 110.52947,
+        "height": 110.52947,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1430,
+      "p": {
+        "displayName": "皮带栈桥",
+        "parent": {
+          "__i": 1427
+        },
+        "image": "symbols/工厂设备/皮带栈桥.json",
+        "rotation": 5.0579,
+        "position": {
+          "x": 1557.63287,
+          "y": 725.03505
+        },
+        "width": 430,
+        "height": 30
+      },
+      "a": {
+        "height": 30,
+        "jd": 8,
+        "jl": 15,
+        "width": 430,
+        "title": "矿井原煤皮带机栈桥",
+        "bk.tc": "135",
+        "bk.mc": "STATE",
+        "bk.v": "2"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1431,
+      "p": {
+        "parent": {
+          "__i": 1427
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 1674.76399,
+          "y": 529.8576
+        },
+        "width": 45.93895,
+        "height": 177.49141,
+        "tall": 20
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "#A0A5AE",
+        "shape.border.color": "#979797",
+        "shadow2": true,
+        "shadow2.color": "rgb(125,125,125)"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 1432,
+      "p": {
+        "parent": {
+          "__i": 1427
+        },
+        "position": {
+          "x": 1727.41804,
+          "y": 533.78746
+        },
+        "width": 26.71071,
+        "height": 20.46049,
+        "tall": 20
+      },
+      "s": {
+        "text": "2#",
+        "text.font": "22px sans-serif, Arial",
+        "text.color": "rgb(255,255,255)"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 1433,
+      "p": {
+        "parent": {
+          "__i": 1427
+        },
+        "position": {
+          "x": 1616.88857,
+          "y": 533.78746
+        },
+        "width": 26.71071,
+        "height": 20.46049,
+        "tall": 20
+      },
+      "s": {
+        "text": "1#",
+        "text.font": "22px sans-serif, Arial",
+        "text.color": "rgb(255,255,255)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1434,
+      "p": {
+        "displayName": "矿井",
+        "image": "symbols/工厂设备/矿井.json",
+        "position": {
+          "x": 1503.01829,
+          "y": 950.60867
+        }
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 1435,
+      "p": {
+        "displayName": "连线"
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1436,
+      "p": {
+        "parent": {
+          "__i": 1435
+        },
+        "source": {
+          "__i": 1413
+        },
+        "target": {
+          "__i": 1412
+        }
+      },
+      "s": {
+        "edge.color": "#767980",
+        "edge.width": 5,
+        "edge.dash.color": "#05D84B",
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": [
+            {
+              "x": 675.01149,
+              "y": 649.1529
+            }
+          ]
+        },
+        "edge.source.anchor.x": 1,
+        "edge.source.anchor.y": 0.5,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.target.anchor.x": -0.87245,
+        "edge.target.anchor.y": 0.3854,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0,
+        "edge.3d": true
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1437,
+      "p": {
+        "parent": {
+          "__i": 1435
+        },
+        "source": {
+          "__i": 1415
+        },
+        "target": {
+          "__i": 1436
+        }
+      },
+      "s": {
+        "edge.color": "#767980",
+        "edge.width": 5,
+        "edge.dash.color": "#05D84B",
+        "edge.target.index": 2,
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": [
+            {
+              "x": 676.1753,
+              "y": 963.39714
+            }
+          ]
+        },
+        "edge.source.anchor.x": 1,
+        "edge.source.anchor.y": 0.5,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.3d": true
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1438,
+      "p": {
+        "parent": {
+          "__i": 1435
+        },
+        "source": {
+          "__i": 1414
+        },
+        "target": {
+          "__i": 1436
+        }
+      },
+      "s": {
+        "edge.color": "#767980",
+        "edge.width": 5,
+        "edge.dash.color": "#05D84B",
+        "edge.target.index": 2,
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": [
+            {
+              "x": 676.1753,
+              "y": 806.39714
+            }
+          ]
+        },
+        "edge.source.anchor.x": 1,
+        "edge.source.anchor.y": 0.5,
+        "edge.source.anchor.elevation": 0.5,
+        "edge.source.offset.elevation": 0,
+        "edge.3d": true
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1439,
+      "p": {
+        "parent": {
+          "__i": 1435
+        },
+        "source": {
+          "__i": 1438
+        },
+        "target": {
+          "__i": 1412
+        }
+      },
+      "s": {
+        "edge.color": "#767980",
+        "edge.width": 5,
+        "edge.dash.color": "#05D84B",
+        "edge.source.index": 2,
+        "edge.type": "points",
+        "edge.segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "edge.points": {
+          "__a": []
+        },
+        "edge.target.anchor.x": 0,
+        "edge.target.anchor.y": 0.3854,
+        "edge.target.anchor.elevation": 0.5,
+        "edge.target.offset.elevation": 0,
+        "edge.3d": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1440,
+      "p": {
+        "displayName": "分享",
+        "image": "symbols/工厂设备/分享.json",
+        "position": {
+          "x": 620.2396,
+          "y": 600.8576
+        }
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1441,
+      "p": {
+        "displayName": "分享",
+        "image": "symbols/工厂设备/分享.json",
+        "position": {
+          "x": 620.2396,
+          "y": 909.74011
+        },
+        "width": 48,
+        "height": 48,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1442,
+      "p": {
+        "displayName": "分享",
+        "image": "symbols/工厂设备/分享.json",
+        "position": {
+          "x": 974.24632,
+          "y": 856.39714
+        },
+        "width": 48,
+        "height": 48,
+        "tall": 20
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 1443,
+      "p": {
+        "displayName": "所有input",
+        "position": {
+          "x": 300.56511,
+          "y": 400.54721
+        },
+        "anchor": {
+          "x": 0.0414,
+          "y": 0.31869
+        },
+        "width": 1570.20828,
+        "height": 922.04356
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1444,
+      "p": {
+        "displayName": "input1",
+        "parent": {
+          "__i": 1443
+        },
+        "tag": "hmc2",
+        "image": "symbols/工厂设备/总览/input1.json",
+        "position": {
+          "x": 300.56511,
+          "y": 400.54721
+        },
+        "width": 130,
+        "height": 36
+      },
+      "a": {
+        "val1": "29",
+        "unit1": "m",
+        "val2": "81",
+        "cangwei.tc": "700B",
+        "cangwei.mc": "LE",
+        "unit2": "%",
+        "cangwei.v": "9"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1445,
+      "p": {
+        "displayName": "input1",
+        "parent": {
+          "__i": 1443
+        },
+        "tag": "hmc1",
+        "image": "symbols/工厂设备/总览/input1.json",
+        "position": {
+          "x": 300.56511,
+          "y": 482.8576
+        },
+        "width": 130,
+        "height": 36,
+        "tall": 20
+      },
+      "a": {
+        "val1": "11",
+        "val2": "45",
+        "cangwei.tc": "700A",
+        "cangwei.mc": "LE"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1446,
+      "p": {
+        "displayName": "input1",
+        "parent": {
+          "__i": 1443
+        },
+        "tag": "kmc2",
+        "image": "symbols/工厂设备/总览/input1.json",
+        "position": {
+          "x": 791.18867,
+          "y": 124.69655
+        },
+        "width": 130,
+        "height": 36,
+        "tall": 20
+      },
+      "a": {
+        "val1": "11",
+        "val2": "75",
+        "cangwei.tc": "700C",
+        "cangwei.mc": "LE"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1447,
+      "p": {
+        "displayName": "input1",
+        "parent": {
+          "__i": 1443
+        },
+        "tag": "kmc1",
+        "image": "symbols/工厂设备/总览/input1.json",
+        "position": {
+          "x": 790.72654,
+          "y": 219.99578
+        },
+        "width": 130,
+        "height": 36,
+        "tall": 20
+      },
+      "a": {
+        "val2": "45",
+        "cangwei.tc": "700D",
+        "cangwei.mc": "LE"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1448,
+      "p": {
+        "displayName": "input2",
+        "parent": {
+          "__i": 1443
+        },
+        "tag": "nsj3",
+        "image": "symbols/工厂设备/总览/input2.json",
+        "position": {
+          "x": 431.2396,
+          "y": 595.8576
+        },
+        "width": 100,
+        "height": 36
+      },
+      "a": {
+        "val1": "1.5",
+        "input.tc": "603",
+        "input.mc": "WATER_LEVEL"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1449,
+      "p": {
+        "displayName": "input2",
+        "parent": {
+          "__i": 1443
+        },
+        "tag": "cppdjzq1",
+        "image": "symbols/工厂设备/总览/input2.json",
+        "position": {
+          "x": 773.99045,
+          "y": 590.39712
+        },
+        "width": 100,
+        "height": 36
+      },
+      "a": {
+        "val1": "185",
+        "unit1": "t/h",
+        "input.mc": "COAL_CAP",
+        "input.tc": "701"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1450,
+      "p": {
+        "displayName": "input2",
+        "parent": {
+          "__i": 1443
+        },
+        "tag": "cppdjzq2",
+        "image": "symbols/工厂设备/总览/input2.json",
+        "position": {
+          "x": 773.99045,
+          "y": 636.6708
+        },
+        "width": 100,
+        "height": 36
+      },
+      "a": {
+        "val1": "2222",
+        "unit1": "t/h",
+        "input.tc": "702",
+        "input.mc": "COAL_CAP"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1451,
+      "p": {
+        "displayName": "input2",
+        "parent": {
+          "__i": 1443
+        },
+        "tag": "cppdjzq3",
+        "image": "symbols/工厂设备/总览/input2.json",
+        "position": {
+          "x": 773.99045,
+          "y": 682.94447
+        },
+        "width": 100,
+        "height": 36
+      },
+      "a": {
+        "val1": "64",
+        "unit1": "t/h",
+        "input.mc": "COAL_CAP",
+        "input.tc": "703"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1452,
+      "p": {
+        "displayName": "input2",
+        "parent": {
+          "__i": 1443
+        },
+        "tag": "rlnd",
+        "image": "symbols/工厂设备/总览/input2.json",
+        "position": {
+          "x": 773.57183,
+          "y": 878.06641
+        },
+        "width": 100,
+        "height": 36
+      },
+      "a": {
+        "val1": "63",
+        "unit1": "g/l",
+        "input.tc": "601",
+        "input.mc": "CONCENTRATION"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1453,
+      "p": {
+        "displayName": "input2",
+        "parent": {
+          "__i": 1443
+        },
+        "tag": "zcfa",
+        "image": "symbols/工厂设备/总览/input2.json",
+        "position": {
+          "x": 1083.93633,
+          "y": 906.60867
+        },
+        "width": 100,
+        "height": 36,
+        "tall": 20
+      },
+      "a": {
+        "val1": "--",
+        "unit1": "g/l",
+        "input.tc": "305",
+        "input.mc": "MD"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1454,
+      "p": {
+        "displayName": "input2",
+        "parent": {
+          "__i": 1443
+        },
+        "tag": "zcfb",
+        "image": "symbols/工厂设备/总览/input2.json",
+        "position": {
+          "x": 1083.93633,
+          "y": 994.60931
+        },
+        "width": 100,
+        "height": 36,
+        "tall": 20
+      },
+      "a": {
+        "val1": "1.545",
+        "input.tc": "306",
+        "input.mc": "MD",
+        "unit1": "g/l"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1455,
+      "p": {
+        "displayName": "input2",
+        "parent": {
+          "__i": 1443
+        },
+        "tag": "rxkmpdj",
+        "image": "symbols/工厂设备/总览/input2.json",
+        "position": {
+          "x": 1066.27886,
+          "y": 672.6708
+        },
+        "width": 100,
+        "height": 36,
+        "tall": 20
+      },
+      "a": {
+        "val1": "2222",
+        "unit1": "t/h",
+        "input.mc": "COAL_CAP",
+        "input.tc": "301"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1456,
+      "p": {
+        "displayName": "input2",
+        "parent": {
+          "__i": 1443
+        },
+        "tag": "ympdjzq",
+        "image": "symbols/工厂设备/总览/input2.json",
+        "position": {
+          "x": 1284.43703,
+          "y": 576.8576
+        },
+        "width": 100,
+        "height": 36,
+        "tall": 20
+      },
+      "a": {
+        "val1": "1001",
+        "unit1": "t/h",
+        "input.mc": "COAL_CAP",
+        "input.tc": "201"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1457,
+      "p": {
+        "displayName": "input2",
+        "parent": {
+          "__i": 1443
+        },
+        "tag": "nsj601",
+        "image": "symbols/工厂设备/总览/input2.json",
+        "position": {
+          "x": 448.07455,
+          "y": 1010.74011
+        },
+        "width": 100,
+        "height": 36,
+        "tall": 20
+      },
+      "a": {
+        "val1": "2.7",
+        "input.tc": "601",
+        "input.mc": "WATER_LEVEL"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1458,
+      "p": {
+        "displayName": "input2",
+        "parent": {
+          "__i": 1443
+        },
+        "tag": "kjympdj",
+        "image": "symbols/工厂设备/总览/input2.json",
+        "position": {
+          "x": 1626.77886,
+          "y": 767.56862
+        },
+        "width": 100,
+        "height": 36,
+        "tall": 20
+      },
+      "a": {
+        "val1": "498",
+        "unit1": "t/h",
+        "input.tc": "135",
+        "input.mc": "COAL_CAP"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1459,
+      "p": {
+        "displayName": "input2",
+        "parent": {
+          "__i": 1443
+        },
+        "tag": "hmscpdj",
+        "image": "symbols/工厂设备/总览/input2.json",
+        "position": {
+          "x": 431.2396,
+          "y": 495.78627
+        },
+        "width": 100,
+        "height": 36,
+        "tall": 20
+      },
+      "a": {
+        "val1": "545",
+        "unit1": "t/h",
+        "input.tc": "721",
+        "input.mc": "COAL_CAP"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1460,
+      "p": {
+        "displayName": "input1",
+        "parent": {
+          "__i": 1443
+        },
+        "tag": "ymc1",
+        "image": "symbols/工厂设备/总览/input1.json",
+        "position": {
+          "x": 1603.53322,
+          "y": 434.5859
+        },
+        "width": 130,
+        "height": 36
+      },
+      "a": {
+        "val1": "25",
+        "val2": "72",
+        "cangwei.tc": "1000A",
+        "cangwei.mc": "LE",
+        "unit2": "%",
+        "cangwei.v": "78",
+        "unit1": "m"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1461,
+      "p": {
+        "displayName": "input1",
+        "parent": {
+          "__i": 1443
+        },
+        "tag": "ymc2",
+        "image": "symbols/工厂设备/总览/input1.json",
+        "position": {
+          "x": 1740.77339,
+          "y": 434.5859
+        },
+        "width": 130,
+        "height": 36,
+        "tall": 20
+      },
+      "a": {
+        "val1": "8",
+        "val2": "24",
+        "cangwei.mc": "LE",
+        "cangwei.tc": "1000B",
+        "cangwei.v": "34",
+        "unit1": "m"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1462,
+      "p": {
+        "displayName": "input1",
+        "parent": {
+          "__i": 1443
+        },
+        "tag": "dxhmc",
+        "image": "symbols/工厂设备/总览/input1.json",
+        "position": {
+          "x": 1733.53322,
+          "y": 214.26052
+        },
+        "width": 130,
+        "height": 36,
+        "tall": 20
+      },
+      "a": {
+        "val1": "33",
+        "val2": "72",
+        "cangwei.mc": "LE",
+        "cangwei.tc": "700E",
+        "cangwei.v": "65",
+        "unit1": "m"
+      }
+    }
+  ],
+  "modified": "Wed Sep 22 2021 14:39:38 GMT+0800 (中国标准时间)",
+  "contentRect": {
+    "x": -19.15471,
+    "y": -15,
+    "width": 1824.9281,
+    "height": 1055.39714
+  }
+}

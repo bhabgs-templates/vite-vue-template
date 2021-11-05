@@ -1,0 +1,139 @@
+{
+  "modified": "Mon Oct 11 2021 11:55:37 GMT+0800 (中国标准时间)",
+  "width": 660,
+  "height": 380,
+  "comps": [
+    {
+      "type": "rect",
+      "borderWidth": 1,
+      "borderColor": "#4D6EFF ",
+      "selectable": false,
+      "movable": false,
+      "editable": false,
+      "rect": [
+        0,
+        0,
+        660,
+        380
+      ]
+    },
+    {
+      "type": "roundRect",
+      "background": "#1C6FFF",
+      "borderColor": "#979797",
+      "selectable": false,
+      "movable": false,
+      "editable": false,
+      "rect": [
+        629.26114,
+        -2.7389,
+        30.81257,
+        5.47779
+      ]
+    },
+    {
+      "type": "roundRect",
+      "background": "#1C6FFF",
+      "borderColor": "#979797",
+      "selectable": false,
+      "movable": false,
+      "editable": false,
+      "rotation": 1.5708,
+      "rect": [
+        644.66742,
+        9.92849,
+        30.81257,
+        5.47779
+      ]
+    },
+    {
+      "type": "roundRect",
+      "background": "#1C6FFF",
+      "borderColor": "#979797",
+      "selectable": false,
+      "movable": false,
+      "editable": false,
+      "rotation": 1.5708,
+      "rect": [
+        644.66742,
+        362.54191,
+        30.81257,
+        5.47779
+      ]
+    },
+    {
+      "type": "roundRect",
+      "background": "#1C6FFF",
+      "borderColor": "#979797",
+      "selectable": false,
+      "movable": false,
+      "editable": false,
+      "rotation": -3.14159,
+      "rect": [
+        632.00003,
+        377.9482,
+        30.81257,
+        5.47779
+      ]
+    },
+    {
+      "type": "roundRect",
+      "background": "#1C6FFF",
+      "borderColor": "#979797",
+      "selectable": false,
+      "movable": false,
+      "editable": false,
+      "rotation": -3.14159,
+      "rect": [
+        0,
+        377.9482,
+        30.81257,
+        5.47779
+      ]
+    },
+    {
+      "type": "roundRect",
+      "background": "#1C6FFF",
+      "borderColor": "#979797",
+      "selectable": false,
+      "movable": false,
+      "editable": false,
+      "rotation": -1.5708,
+      "rect": [
+        -15.40628,
+        365.28081,
+        30.81257,
+        5.47779
+      ]
+    },
+    {
+      "type": "roundRect",
+      "background": "#1C6FFF",
+      "borderColor": "#979797",
+      "selectable": false,
+      "movable": false,
+      "editable": false,
+      "rotation": -1.5708,
+      "rect": [
+        -15.40628,
+        12.29794,
+        30.81257,
+        5.47779
+      ]
+    },
+    {
+      "type": "roundRect",
+      "background": "#1C6FFF",
+      "borderColor": "#979797",
+      "selectable": false,
+      "movable": false,
+      "editable": false,
+      "rect": [
+        -2.7389,
+        -3.10834,
+        30.81257,
+        5.47779
+      ]
+    }
+  ]
+}

@@ -1,0 +1,407 @@
+{
+  "modified": "Fri May 14 2021 15:28:45 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "mc",
+      "valueType": "String"
+    },
+    {
+      "attr": "state",
+      "valueType": "Boolean",
+      "defaultValue": true
+    },
+    {
+      "attr": "zjb_1_state",
+      "valueType": "Boolean",
+      "defaultValue": true
+    },
+    {
+      "attr": "zjb_1_mc",
+      "valueType": "String"
+    },
+    {
+      "attr": "zjb_2_mc",
+      "valueType": "String"
+    },
+    {
+      "attr": "zjb_2_state",
+      "valueType": "Boolean",
+      "defaultValue": true
+    },
+    {
+      "attr": "shou_fx",
+      "valueType": "Boolean"
+    },
+    {
+      "attr": "width",
+      "valueType": "PositiveNumber"
+    },
+    {
+      "attr": "height",
+      "valueType": "String"
+    },
+    {
+      "attr": "nj_val",
+      "valueType": "String"
+    },
+    {
+      "attr": "cqcgd_val",
+      "valueType": "String"
+    },
+    {
+      "attr": "dlnd_val",
+      "valueType": "String"
+    },
+    {
+      "attr": "tc",
+      "valueType": "String"
+    }
+  ],
+  "width": 370,
+  "height": 284,
+  "comps": [
+    {
+      "type": "image",
+      "name": "symbols/煤泥水/浓缩机.json",
+      "pixelPerfect": true,
+      "displayName": "浓缩机",
+      "rect": [
+        38.70487,
+        34.87391,
+        250,
+        100
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/煤泥水/跳转.json",
+      "visible": {
+        "func": "attr@shou_fx",
+        "value": true
+      },
+      "pixelPerfect": true,
+      "displayName": "跳转",
+      "rect": [
+        38.70487,
+        84.87391,
+        50,
+        50
+      ],
+      "onClick": "__ht__function(event, data, view, point, width, height) {\nalert(5656);\n}"
+    },
+    {
+      "type": "image",
+      "name": "symbols/煤泥水/信号+设备编号.json",
+      "pixelPerfect": true,
+      "displayName": "信号+设备编号",
+      "rect": [
+        23.70487,
+        24.87391,
+        110,
+        28
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/煤泥水/渣浆泵-component.json",
+      "displayName": "渣浆泵-component",
+      "rect": [
+        327.61556,
+        34.87391,
+        34,
+        46
+      ]
+    },
+    {
+      "type": "roundRect",
+      "background": {
+        "func": "__ht__function(data, view) {\nconst state = data.a('zjb_1_state');\n\nif (state) {\n    return '#05D84B';\n}\nreturn '#999';\n}",
+        "value": "#999999"
+      },
+      "borderColor": "#999999",
+      "cornerRadius": 3,
+      "rect": [
+        319.80778,
+        0,
+        50,
+        28
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@zjb_1_mc",
+        "value": "201"
+      },
+      "align": "center",
+      "color": "rgb(255,255,255)",
+      "font": "bold 22px sans-serif, Arial",
+      "rect": [
+        319.61556,
+        0,
+        50,
+        28
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/煤泥水/渣浆泵-component.json",
+      "displayName": "渣浆泵-component",
+      "rect": [
+        327.80778,
+        129.31087,
+        34,
+        46
+      ]
+    },
+    {
+      "type": "roundRect",
+      "background": {
+        "func": "__ht__function(data, view) {\nconst state = data.a('zjb_2_state');\n\nif (state) {\n    return '#05D84B';\n}\nreturn '#999';\n}",
+        "value": "#999999"
+      },
+      "borderColor": "#999999",
+      "cornerRadius": 3,
+      "rect": [
+        320,
+        94.43696,
+        50,
+        28
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@zjb_2_mc",
+        "value": "201"
+      },
+      "align": "center",
+      "color": "rgb(255,255,255)",
+      "font": "bold 22px sans-serif, Arial",
+      "rect": [
+        319.80778,
+        94.43696,
+        50,
+        28
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/煤泥水/background.json",
+      "displayName": "background",
+      "rect": [
+        4.23615,
+        142,
+        300.76385,
+        142
+      ]
+    },
+    {
+      "type": "roundRect",
+      "background": "rgb(255,255,255)",
+      "borderWidth": 1,
+      "borderColor": "#ccc",
+      "cornerRadius": 3,
+      "rect": [
+        136.3521,
+        146.80469,
+        143.57981,
+        36
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(0,0,0)",
+      "borderWidth": 1,
+      "borderColor": "#979797",
+      "closePath": true,
+      "points": [
+        220.95298,
+        150.43615,
+        220.95298,
+        164.54149,
+        220.95298,
+        180.0805
+      ]
+    },
+    {
+      "type": "text",
+      "text": "nm",
+      "align": "center",
+      "color": "#666",
+      "font": "bold 22px sans-serif, Arial",
+      "rect": [
+        220.95298,
+        150.43615,
+        58.97893,
+        29.64435
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@nj_val",
+        "value": "0"
+      },
+      "align": "center",
+      "color": "#007AFF",
+      "font": "bold 28px sans-serif, Arial",
+      "rect": [
+        140.34645,
+        150.73716,
+        72.39759,
+        28.13505
+      ]
+    },
+    {
+      "type": "text",
+      "text": "扭矩",
+      "align": "right",
+      "font": "24px sans-serif",
+      "rect": [
+        47.47782,
+        147.25832,
+        83.59292,
+        36
+      ]
+    },
+    {
+      "type": "roundRect",
+      "background": "rgb(255,255,255)",
+      "borderWidth": 1,
+      "borderColor": "#ccc",
+      "cornerRadius": 3,
+      "rect": [
+        136.99967,
+        194.77319,
+        143.57981,
+        36
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(0,0,0)",
+      "borderWidth": 1,
+      "borderColor": "#979797",
+      "closePath": true,
+      "points": [
+        221.60055,
+        198.40465,
+        221.60055,
+        212.50999,
+        221.60055,
+        228.049
+      ]
+    },
+    {
+      "type": "text",
+      "text": "m",
+      "align": "center",
+      "color": "#666",
+      "font": "bold 22px sans-serif, Arial",
+      "rect": [
+        221.60055,
+        198.40465,
+        58.97893,
+        29.64435
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@cqcgd_val",
+        "value": "0"
+      },
+      "align": "center",
+      "color": "#007AFF",
+      "font": "bold 28px sans-serif, Arial",
+      "rect": [
+        140.99402,
+        198.70566,
+        72.39759,
+        28.13505
+      ]
+    },
+    {
+      "type": "text",
+      "text": "澄清层高度",
+      "align": "right",
+      "font": "24px sans-serif",
+      "rect": [
+        48.12539,
+        195.22682,
+        83.59292,
+        36
+      ]
+    },
+    {
+      "type": "roundRect",
+      "background": "rgb(255,255,255)",
+      "borderWidth": 1,
+      "borderColor": "#ccc",
+      "cornerRadius": 3,
+      "rect": [
+        136.3521,
+        241.60335,
+        143.57981,
+        36
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(0,0,0)",
+      "borderWidth": 1,
+      "borderColor": "#979797",
+      "closePath": true,
+      "points": [
+        220.95298,
+        245.23481,
+        220.95298,
+        259.34015,
+        220.95298,
+        274.87916
+      ]
+    },
+    {
+      "type": "text",
+      "text": "g/l",
+      "align": "center",
+      "color": "#666",
+      "font": "bold 22px sans-serif, Arial",
+      "rect": [
+        220.95298,
+        245.23481,
+        58.97893,
+        29.64435
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@dlnd_val",
+        "value": "0"
+      },
+      "align": "center",
+      "color": "#007AFF",
+      "font": "bold 28px sans-serif, Arial",
+      "rect": [
+        140.34645,
+        245.53582,
+        72.39759,
+        28.13505
+      ]
+    },
+    {
+      "type": "text",
+      "text": "底流浓度",
+      "align": "right",
+      "font": "24px sans-serif",
+      "rect": [
+        47.47782,
+        242.05698,
+        83.59292,
+        36
+      ]
+    }
+  ]
+}

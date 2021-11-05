@@ -1,0 +1,34 @@
+{
+  "modified": "Fri Aug 20 2021 11:09:54 GMT+0800 (中国标准时间)",
+  "width": 192,
+  "height": 38,
+  "func": "__ht__function(g, rect, comp, data, view) {\nvar x = rect.x;\nvar y = rect.y;\nvar width = rect.width;\nvar height = rect.height;\nvar label = comp.getColor('label');\nvar labelFont = comp.getColor('labelFont');\nvar labelColor = comp.getColor('labelColor');\nvar labelWidth = 50;\nvar value = comp.getColor('value');\n\nvar borderWidth = width-55;\nvar borderColor =  '#ccc';\nvar borderX = x+55;\n\n\n// border\nfunction renderBorder() {\n    g.fillStyle = 'rgba(255,255,255,0)';\n    g.strokeStyle = borderColor;\n    g.beginPath();\n    ht.Default.drawRoundRect(g, borderX, y, borderWidth, height, 5);\n    g.closePath();\n    g.fill();\n    g.stroke();\n}\nrenderBorder();\n// unit\nvar unit = comp.getColor('unit');\nvar unitColor = '#666';\nvar unitFont = labelFont;\n\nht.Default.drawText(g, unit, unitFont, unitColor, borderX+borderWidth/2+10, y, labelWidth, height, 'center', 'middle');\n\n// label\nht.Default.drawText(g, label, labelFont, labelColor, x, y, labelWidth, height, 'right', 'middle');\n\n// value\nht.Default.drawText(g, value, '24px arial', '#007AFF', borderX, y, borderWidth/2, height, 'center', 'middle');\n\nfunction renderLine() {\n    var lineWidth = 0.5;\n    g.beginPath();\n    g.moveTo(borderX+borderWidth/2, y+3);\n    g.lineTo(borderX+borderWidth/2, y+35);\n    g.closePath();\n    g.lineWidth = lineWidth;\n    g.strokeStyle = '#797979';\n    g.stroke();\n}\nrenderLine();\n}",
+  "properties": {
+    "label": {
+      "valueType": "String",
+      "defaultValue": "扭矩"
+    },
+    "unit": {
+      "valueType": "String",
+      "defaultValue": "%"
+    },
+    "labelFont": {
+      "valueType": "String",
+      "defaultValue": "24px arial"
+    },
+    "labelColor": {
+      "valueType": "Color",
+      "defaultValue": "#333"
+    },
+    "value": {
+      "valueType": "String",
+      "defaultValue": 0
+    },
+    "tc": {
+      "valueType": "String"
+    },
+    "mc": {
+      "valueType": "String"
+    }
+  }
+}

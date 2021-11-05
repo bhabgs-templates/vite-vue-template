@@ -1,0 +1,70 @@
+{
+  "modified": "Thu Oct 14 2021 11:10:03 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "l.tc",
+      "valueType": "String"
+    },
+    {
+      "attr": "l.mc",
+      "valueType": "String"
+    },
+    {
+      "attr": "progress",
+      "valueType": "String"
+    },
+    {
+      "attr": "l.v",
+      "valueType": "Number",
+      "name": "PBValue"
+    }
+  ],
+  "width": 110,
+  "height": 100,
+  "comps": [
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@l.tc",
+        "value": "201"
+      },
+      "align": "center",
+      "color": "rgb(0,0,0)",
+      "font": "bold 14px sans-serif, Arial",
+      "rect": [
+        0,
+        8.73023,
+        33.62741,
+        23.84054
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nlet v = data.ca('l.v');\r\nv = v == undefined ? 0 : Number(v);\r\nif (v >= 100) v = 100;\r\nif (v <= 0) v = 0;\r\nreturn v.toFixed(1) + 'm';\n}",
+        "value": "文本"
+      },
+      "color": "#70b602",
+      "font": "bold 14px sans-serif, Arial",
+      "anchorX": 0.37583,
+      "anchorY": 0.57839,
+      "rect": [
+        70.04372,
+        2.73508,
+        38.07679,
+        23.04751
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/素材库/设备/煤仓-b.json",
+      "displayName": "煤仓-b",
+      "rect": [
+        21.82274,
+        27.22756,
+        67.25938,
+        72.77244
+      ]
+    }
+  ]
+}
